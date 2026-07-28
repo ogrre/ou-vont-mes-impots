@@ -1,29 +1,29 @@
-# Security Policy
+# Politique de sécurité
 
-## Supported versions
+## Versions prises en charge
 
-This project is in early development. Only the latest revision of the `main`
-branch is supported with security updates. No released version support policy
-exists yet.
+Le projet est encore en développement. Seule la dernière révision de la branche
+`main` bénéficie de correctifs de sécurité. Il n’existe pas encore de politique
+de prise en charge des versions publiées.
 
-## Reporting a vulnerability
+## Signaler une vulnérabilité
 
-Do not disclose suspected security vulnerabilities in a public GitHub issue,
-discussion, pull request, or other public channel.
+Ne divulguez pas de vulnérabilité présumée dans une issue, discussion, pull
+request ou autre canal public.
 
-Report them privately to:
+Signalez-la en privé à : jbloup@hotmail.fr
 
-`[TODO: add a private security contact or enable GitHub private vulnerability reporting]`
+`[TODO: ajouter un contact de sécurité privé ou activer le signalement privé des vulnérabilités GitHub]`
 
-Include a description of the issue, affected component, reproduction steps,
-potential impact, and any suggested mitigation. Remove credentials and
-personal or otherwise sensitive data from the report. Please allow the
-maintainer time to investigate before publishing details.
+Décrivez le problème, le composant concerné, les étapes de reproduction,
+l’impact potentiel et toute mesure corrective suggérée. Retirez les
+identifiants et données personnelles ou sensibles. Laissez au mainteneur le
+temps d’enquêter avant de publier des détails.
 
-## Data-quality reports
+## Problèmes de qualité des données
 
-An incorrect public-finance value, classification, source citation, reporting
-period, or accounting scope is generally a **data-quality issue**, not a
-security vulnerability. Report it through the project's public issue tracker
-with authoritative source evidence, unless the error results from or exposes a
-security weakness such as unauthorised modification, injection, or disclosure.
+Une valeur, classification, citation de source, période ou un périmètre
+comptable incorrect relève généralement de la **qualité des données**, et non
+de la sécurité. Signalez-le dans l’issue tracker public avec des preuves issues
+de sources faisant autorité, sauf si l’erreur résulte d’une faille ou en révèle
+une, comme une modification non autorisée, une injection ou une divulgation.

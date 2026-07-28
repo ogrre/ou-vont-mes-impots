@@ -1,58 +1,58 @@
-# Contributing
+# Contribuer
 
-Thank you for helping make French public-finance data easier to understand and
-verify. Contributions should remain factual, neutral, reproducible, and
-traceable to authoritative sources.
+Merci de contribuer à rendre les finances publiques françaises plus
+compréhensibles et vérifiables. Les contributions doivent rester factuelles,
+neutres, reproductibles et traçables jusqu’à des sources faisant autorité.
 
-This project is at an early stage: its domain schema, imports, and REST API are
-still under development.
+Le projet en est à ses débuts : le modèle métier, les imports et l’API REST sont
+encore en cours de développement.
 
-## Reporting a data-quality problem
+## Signaler un problème de qualité des données
 
-Open a GitHub issue and describe:
+Ouvrez une issue GitHub en indiquant :
 
-- the affected figure, endpoint, dataset, or file;
-- the expected and observed values;
-- the official source URL and, where possible, the relevant table or page;
-- the reporting period, unit, accounting scope, and institution;
-- whether the issue appears to concern extraction, transformation,
-  classification, rounding, source metadata, or a source revision;
-- enough steps or evidence to reproduce the discrepancy.
+- le chiffre, endpoint, jeu de données ou fichier concerné ;
+- la valeur attendue et la valeur observée ;
+- l’URL de la source officielle et, si possible, la page ou le tableau précis ;
+- la période, l’unité, le périmètre comptable et l’institution ;
+- si le problème semble venir de l’extraction, de la transformation, de la
+  classification, de l’arrondi, des métadonnées ou d’une révision ;
+- les étapes ou preuves permettant de reproduire l’écart.
 
-Do not report an ordinary incorrect figure as a security vulnerability. Use
-the security process only if the problem results from or reveals a security
-weakness.
+Un chiffre simplement incorrect n’est pas une vulnérabilité. Utilisez la
+procédure de sécurité uniquement si le problème résulte d’une faille ou en
+révèle une.
 
-## Proposing a new official data source
+## Proposer une nouvelle source officielle
 
-Open an issue before implementing a substantial new importer. Include:
+Ouvrez une issue avant d’implémenter un import conséquent. Précisez :
 
-- the publisher and responsible public institution;
-- the canonical source and download URLs;
-- the dataset or publication title;
-- publication and retrieval dates;
-- licence or reuse terms;
-- covered reporting periods;
-- accounting scope and perimeter;
-- units, classifications, and update frequency;
-- available formats and known quality limitations;
-- how the source complements or differs from existing sources.
+- l’éditeur et l’institution publique responsable ;
+- les URL canoniques de présentation et de téléchargement ;
+- le titre du jeu de données ou de la publication ;
+- les dates de publication et de récupération ;
+- la licence ou les conditions de réutilisation ;
+- les périodes couvertes ;
+- le périmètre comptable et institutionnel ;
+- les unités, classifications et la fréquence de mise à jour ;
+- les formats disponibles et limites connues ;
+- la complémentarité ou les différences avec les sources existantes.
 
-A source proposal should also explain how it can be imported repeatably and
-how revisions or replaced files can be detected.
+Expliquez également comment automatiser l’import et détecter les révisions ou
+les fichiers remplacés.
 
-## Reporting a bug
+## Signaler un bug
 
-Search existing issues first. A useful report includes the expected behaviour,
-actual behaviour, reproduction steps, relevant route or command, environment
-details, and a minimal error excerpt with secrets removed.
+Recherchez d’abord les issues existantes. Indiquez le comportement attendu, le
+comportement observé, les étapes de reproduction, la route ou commande
+concernée, l’environnement et un extrait minimal de l’erreur sans secret.
 
-Do not post credentials, private environment files, access tokens, or
-unredacted sensitive logs.
+Ne publiez jamais d’identifiants, de fichier d’environnement privé, de jeton
+d’accès ou de journal sensible non expurgé.
 
-## Development setup
+## Environnement de développement
 
-The recommended setup uses Docker Compose:
+L’installation recommandée utilise Docker Compose :
 
 ```bash
 cp .env.example .env
@@ -62,114 +62,114 @@ docker compose -f docker-compose-dev.yml exec app php artisan key:generate
 docker compose -f docker-compose-dev.yml exec app php artisan migrate
 ```
 
-The application is then available at `http://localhost:8080`; check it with:
+L’application est ensuite disponible sur `http://localhost:8080` :
 
 ```bash
 curl http://localhost:8080/up
 ```
 
-The PHP container does not include Node.js. If a change affects the existing
-Vite assets, install and build them on a host with Node.js and npm:
+Le conteneur PHP n’inclut pas Node.js. Pour modifier les ressources Vite,
+utilisez une machine hôte équipée de Node.js et npm :
 
 ```bash
 npm install
 npm run build
 ```
 
-## Coding standards
+## Conventions de code
 
-- Follow the existing Laravel conventions and PSR-4 namespace layout.
-- Use Laravel Pint for PHP formatting.
-- Keep controllers focused and put source-specific parsing and normalisation in
-  appropriately tested classes when those layers are introduced.
-- Prefer explicit types, clear names, and small deterministic transformations.
-- Keep public-finance descriptions neutral and distinguish source facts from
-  project transformations.
-- Update documentation whenever routes, commands, configuration, schema, or
-  operational steps change.
+- Respectez les conventions Laravel et l’organisation PSR-4 existante.
+- Utilisez Laravel Pint pour formater le code PHP.
+- Gardez les contrôleurs ciblés et placez l’analyse des sources et la
+  normalisation dans des classes dédiées et testées lorsqu’elles seront créées.
+- Préférez des types explicites, des noms clairs et de petites transformations
+  déterministes.
+- Restez neutre et distinguez les faits sources des transformations du projet.
+- Mettez la documentation à jour lorsque les routes, commandes, variables,
+  schémas ou procédures changent.
 
-Check PHP formatting with:
+Vérifiez le formatage :
 
 ```bash
 docker compose -f docker-compose-dev.yml exec app ./vendor/bin/pint --test
 ```
 
-Apply formatting with:
+Appliquez-le :
 
 ```bash
 docker compose -f docker-compose-dev.yml exec app ./vendor/bin/pint
 ```
 
-No static-analysis or Markdown-linting tool is currently configured.
+Aucun outil d’analyse statique ou de lint Markdown n’est configuré.
 
-## Data import requirements
+## Exigences relatives aux imports
 
-Every newly imported dataset must document:
+Chaque nouveau jeu de données importé doit documenter :
 
-- origin and responsible institution;
-- canonical page URL and direct download URL, where available;
-- publication date and retrieval date;
-- accounting scope and institutional perimeter;
-- reporting period;
-- unit and scale;
-- source format and relevant sheet, table, or page;
-- all extraction, mapping, filtering, conversion, aggregation, sign, rounding,
-  and normalisation rules;
-- revision behaviour and known limitations.
+- son origine et l’institution responsable ;
+- l’URL de présentation et l’URL de téléchargement direct, si disponible ;
+- les dates de publication et de récupération ;
+- le périmètre comptable et institutionnel ;
+- la période de référence ;
+- l’unité et l’échelle ;
+- le format et la feuille, le tableau ou la page concernés ;
+- toutes les règles d’extraction, correspondance, filtrage, conversion,
+  agrégation, signe, arrondi et normalisation ;
+- les règles de révision et les limites connues.
 
-Preserve the raw imported representation or sufficient acquisition evidence to
-audit normalised records. Every published value should remain linked to its
-source, dataset, import run, reporting period, and applicable institution.
+Conservez les données brutes ou assez d’éléments d’acquisition pour auditer les
+données normalisées. Chaque valeur publiée doit rester reliée à sa source, son
+jeu de données, son import, sa période et l’institution concernée.
 
-Do not make undocumented manual corrections to financial data. Corrections
-must be reproducible in code or a reviewed, versioned mapping with a documented
-rationale and supporting source.
+N’effectuez aucune correction manuelle non documentée. Toute correction doit
+être reproductible dans le code ou dans une table de correspondance versionnée
+et relue, avec sa justification et sa source.
 
-Never compare or combine figures across the French State budget, local
-authorities, social-security administrations, or all public administrations
-without explicitly validating compatibility of their accounting perimeters.
+Ne comparez ou ne combinez jamais des chiffres relevant du budget de l’État,
+des collectivités territoriales, des administrations de sécurité sociale ou de
+l’ensemble des administrations publiques sans vérifier explicitement la
+compatibilité de leurs périmètres.
 
-## Testing requirements
+## Exigences de test
 
-Run the current test suite:
+Exécutez la suite actuelle :
 
 ```bash
 docker compose -f docker-compose-dev.yml exec app composer test
 ```
 
-New behaviour should include focused tests. Import work should test parsing,
-units, transformations, validation failures, idempotency, and provenance.
-API work should test response contracts, filters, error cases, and protection
-against accidental writes. Add regression fixtures that are as small as
-possible and whose redistribution terms allow inclusion.
+Tout nouveau comportement doit être testé. Les imports doivent couvrir
+l’analyse, les unités, transformations, erreurs de validation, l’idempotence et
+la provenance. L’API doit tester ses contrats de réponse, filtres, erreurs et la
+protection contre les écritures accidentelles. Utilisez les fixtures les plus
+petites possible et vérifiez leurs droits de redistribution.
 
-The existing tests are only Laravel examples; contributors should not treat
-their passing as domain-data validation.
+Les tests existants ne sont que les exemples Laravel : leur réussite ne valide
+pas les données métier.
 
-## Pull-request expectations
+## Attentes pour les pull requests
 
-- Keep each pull request focused and explain why the change is needed.
-- Link related issues and identify any migration, configuration, or
-  compatibility impact.
-- Summarise tests and formatting checks performed.
-- Update the README and other documentation for user-visible or operational
-  changes.
-- For data work, include the required source metadata and transformation rules,
-  plus reconciliation or validation evidence.
-- Do not commit `.env`, credentials, generated secrets, dependency directories,
-  or unrelated source files.
-- Clearly label incomplete work and follow-up tasks.
+- Limitez chaque pull request à un objectif clair et expliquez sa nécessité.
+- Liez les issues associées et signalez tout impact de migration,
+  configuration ou compatibilité.
+- Résumez les tests et contrôles de formatage effectués.
+- Mettez à jour la documentation pour tout changement visible ou opérationnel.
+- Pour les données, joignez les métadonnées, règles de transformation et
+  preuves de validation ou de rapprochement.
+- Ne versionnez pas `.env`, des secrets, dépendances générées ou fichiers
+  sources sans rapport avec le changement.
+- Identifiez clairement le travail incomplet et les suites nécessaires.
 
-Maintainers may request smaller fixtures or removal of source files whose
-licence or provenance is unclear.
+Les mainteneurs peuvent demander des fixtures plus petites ou le retrait de
+fichiers dont la licence ou la provenance n’est pas claire.
 
-## Security
+## Sécurité
 
-Report vulnerabilities privately according to
-[`.github/SECURITY.md`](.github/SECURITY.md), not through a public issue.
+Signalez les vulnérabilités en privé selon
+[`.github/SECURITY.md`](.github/SECURITY.md), jamais dans une issue publique.
 
 ## Licence
 
-By contributing, you agree that your contribution may be distributed under
-the project's [MIT License](LICENSE). Data files remain subject to their
-applicable source licences and reuse conditions.
+En contribuant, vous acceptez que votre contribution soit distribuée sous la
+[licence MIT](LICENSE) du projet. Les données restent soumises aux licences et
+conditions de leurs sources.
