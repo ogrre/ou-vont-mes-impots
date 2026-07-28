@@ -1,138 +1,139 @@
 # Mais où vont mes impôts ? — API
 
-[![PHP requirement](https://img.shields.io/badge/PHP-%5E8.3-777bb4.svg)](composer.json)
-[![Laravel requirement](https://img.shields.io/badge/Laravel-%5E13.0-ff2d20.svg)](composer.json)
+[![Version de PHP](https://img.shields.io/badge/PHP-%5E8.3-777bb4.svg)](composer.json)
+[![Version de Laravel](https://img.shields.io/badge/Laravel-%5E13.0-ff2d20.svg)](composer.json)
 
-The Laravel API for **“Mais où vont mes impôts ?”**, an open-source educational
-project that aims to make French public revenue and expenditure easier to
-understand through neutral, accessible, and traceable official data.
+L’API Laravel de **« Mais où vont mes impôts ? »**, un projet pédagogique
+open source qui vise à rendre les recettes et les dépenses publiques françaises
+plus compréhensibles à partir de données officielles, neutres et traçables.
 
-This repository contains the backend only. The frontend is maintained
-separately.
+Ce dépôt contient uniquement le backend. Le frontend est maintenu séparément.
 
-> **Development status:** this repository is currently an early Laravel
-> skeleton. The public-finance schema, source importers, and REST API endpoints
-> described as planned below have not yet been implemented. The only
-> application route is the default welcome page at `GET /`; Laravel also
-> exposes its health route at `GET /up`.
+> **État du développement :** ce dépôt est actuellement un squelette Laravel.
+> Le modèle de données financières, les imports et les endpoints REST décrits
+> comme prévus ci-dessous ne sont pas encore implémentés. La seule route
+> applicative est la page d’accueil Laravel sur `GET /` ; Laravel expose
+> également une route de santé sur `GET /up`.
 
-## Project goals
+## Objectifs du projet
 
-- Explain where French public money comes from and how revenue is collected.
-- Show how expenditure is distributed across healthcare, education, defence,
-  social protection, immigration-related policies, public debt, and other
-  public services.
-- Make changes over time understandable without hiding changes in accounting
-  scope, definitions, or methodology.
-- Link every published figure to enough provenance information for it to be
-  checked against its original official source.
-- Present public-finance information without political opinion or
-  interpretation.
+- Expliquer l’origine de l’argent public français et la collecte des recettes.
+- Montrer la répartition des dépenses entre santé, éducation, défense,
+  protection sociale, politiques liées à l’immigration, dette et autres
+  services publics.
+- Présenter les évolutions dans le temps sans masquer les changements de
+  périmètre comptable, de définition ou de méthode.
+- Relier chaque chiffre publié à suffisamment d’informations pour le vérifier
+  dans sa source officielle.
+- Présenter les finances publiques sans opinion ni interprétation politique.
 
-## Key features
+## Fonctionnalités principales
 
-The following capabilities are planned and under development:
+Les fonctionnalités suivantes sont prévues et en cours de conception :
 
-- A public, read-only REST API with no visitor accounts or authentication.
-- Imports from official CSV, Excel, PDF-derived datasets, and open-data
-  portals.
-- Normalisation of heterogeneous source data into a consistent relational
-  model.
-- Historical series and expenditure/revenue breakdowns.
-- Source, institution, reporting-period, and import-level traceability.
+- une API REST publique en lecture seule, sans compte ni authentification pour
+  les visiteurs ;
+- des imports depuis des fichiers CSV, Excel, des données extraites de PDF et
+  des portails open data officiels ;
+- la normalisation de sources hétérogènes dans un modèle relationnel cohérent ;
+- des séries historiques et des ventilations des recettes et dépenses ;
+- une traçabilité par source, institution, période et import.
 
-At present, none of these domain features is exposed by the application.
+Aucune de ces fonctionnalités métier n’est actuellement exposée.
 
-## Architecture overview
+## Vue d’ensemble de l’architecture
 
-The current codebase is a Laravel 13 application backed by PostgreSQL in the
-development environment. Docker Compose defines three services:
+Le projet est une application Laravel 13 utilisant PostgreSQL en développement.
+Docker Compose définit trois services :
 
-- `app`: PHP-FPM 8.4 with the PostgreSQL, Redis, Xdebug, and other PHP
-  extensions required by the development image;
-- `web`: Nginx, published on port `8080` by default;
-- `pgsql`: PostgreSQL 16 with a persistent Docker volume.
+- `app` : PHP-FPM 8.4 avec les extensions PostgreSQL, Redis, Xdebug et autres
+  extensions nécessaires à l’image de développement ;
+- `web` : Nginx, publié par défaut sur le port `8080` ;
+- `pgsql` : PostgreSQL 16 avec un volume Docker persistant.
 
-Laravel is configured with database-backed queues, cache, and sessions by
-default. These are framework defaults at this stage, not evidence of an
-implemented asynchronous import pipeline or visitor session feature.
+Laravel utilise par défaut la base de données pour les files d’attente, le cache
+et les sessions. Il s’agit à ce stade de réglages du framework, et non de la
+preuve qu’un pipeline d’import asynchrone ou des sessions visiteurs existent.
 
-The repository still includes Laravel's default `User` model and user-related
-migration. No authentication routes or visitor account functionality are
-registered.
+Le dépôt contient encore le modèle `User` et les migrations utilisateur fournis
+par Laravel. Aucune route d’authentification ou fonctionnalité de compte
+visiteur n’est enregistrée.
 
-## Data model and data-normalisation approach
+## Modèle de données et normalisation
 
-The domain data model is not implemented yet. The intended approach is to keep
-two conceptually separate layers:
+Le modèle métier n’est pas encore implémenté. L’approche prévue sépare deux
+couches :
 
-1. **Raw imported data** preserves source records or extracted payloads as
-   faithfully as practical, together with import diagnostics and acquisition
-   metadata.
-2. **Normalised application data** represents institutions, datasets,
-   reporting periods, accounting scopes, classifications, units, and financial
-   observations in relational form suitable for consistent API queries.
+1. **Données brutes importées** : elles conservent aussi fidèlement que
+   possible les enregistrements sources ou les données extraites, avec les
+   métadonnées d’acquisition et les diagnostics d’import.
+2. **Données applicatives normalisées** : elles représentent sous forme
+   relationnelle les institutions, jeux de données, périodes, périmètres
+   comptables, classifications, unités et observations financières.
 
-PostgreSQL will store the normalised relational data. JSONB may be used for
-source-specific metadata or raw imported payloads where their shape varies, but
-it should not replace well-defined relational fields used for filtering,
-linking, or validation.
+PostgreSQL stockera les données relationnelles normalisées. JSONB pourra être
+utilisé pour des métadonnées propres à une source ou des données brutes dont la
+structure varie, mais ne devra pas remplacer les champs relationnels utilisés
+pour le filtrage, les relations ou la validation.
 
-Transformation rules should be deterministic, documented, and tested. Units,
-sign conventions, classifications, revisions, missing values, and rounding
-must be handled explicitly. Raw values should remain available so a normalised
-figure can be audited without relying on an undocumented manual correction.
+Les transformations devront être déterministes, documentées et testées. Les
+unités, conventions de signe, classifications, révisions, valeurs manquantes et
+arrondis devront être traités explicitement. Les valeurs brutes devront rester
+accessibles afin d’auditer un chiffre normalisé sans correction manuelle non
+documentée.
 
-## Data provenance and traceability
+## Provenance et traçabilité
 
-Every published figure should remain linked to:
+Chaque chiffre publié devra rester relié :
 
-- its official source and source URL;
-- the specific dataset or publication;
-- the import run that acquired or produced it;
-- its reporting period and publication date;
-- the applicable public institution;
-- its accounting scope, classification, and unit;
-- the transformations applied between raw and normalised values.
+- à sa source officielle et à son URL ;
+- au jeu de données ou à la publication précise ;
+- à l’exécution d’import qui l’a acquis ou produit ;
+- à sa période de référence et à sa date de publication ;
+- à l’institution publique concernée ;
+- à son périmètre comptable, sa classification et son unité ;
+- aux transformations appliquées entre valeur brute et valeur normalisée.
 
-Imports should record source versions, retrieval times, and integrity
-information where available. If a PDF table is converted into a structured
-dataset, the extraction method and the location of the original table should
-also be documented.
+Les imports devront enregistrer la version de la source, la date de récupération
+et, si possible, des informations d’intégrité. Lorsqu’un tableau PDF est
+converti en données structurées, la méthode d’extraction et l’emplacement du
+tableau d’origine devront également être documentés.
 
-This provenance model is planned; the current migrations contain only the
-default Laravel users, password-reset, sessions, cache, and queue tables.
+Ce modèle de provenance est prévu mais pas encore implémenté. Les migrations
+actuelles ne contiennent que les tables Laravel par défaut pour les
+utilisateurs, réinitialisations de mot de passe, sessions, caches et files
+d’attente.
 
-## Technology stack
+## Technologies
 
 - PHP `^8.3`
 - Laravel `^13.0`
-- PostgreSQL 16 in Docker Compose
-- Nginx 1.27 and PHP-FPM 8.4 in the development containers
+- PostgreSQL 16 avec Docker Compose
+- Nginx 1.27 et PHP-FPM 8.4 dans les conteneurs de développement
 - PHPUnit `^12.5`
 - Laravel Pint `^1.27`
-- Vite 8 and Tailwind CSS 4 for the current Laravel welcome-page assets
+- Vite 8 et Tailwind CSS 4 pour les ressources de la page d’accueil actuelle
 
-## Requirements
+## Prérequis
 
-For the recommended container-based setup:
+Pour l’installation recommandée avec conteneurs :
 
-- Docker with Docker Compose
-- Git
+- Docker avec Docker Compose ;
+- Git.
 
-For a native setup:
+Pour une installation native :
 
-- PHP 8.3 or later with the extensions required by Laravel and PostgreSQL
-- Composer 2
-- PostgreSQL
-- Node.js and npm only if building the current Vite assets
+- PHP 8.3 ou ultérieur avec les extensions requises par Laravel et PostgreSQL ;
+- Composer 2 ;
+- PostgreSQL ;
+- Node.js et npm uniquement pour compiler les ressources Vite actuelles.
 
-## Local installation
+## Installation locale
 
-Clone the repository, then prepare the environment:
+Clonez le dépôt puis préparez l’environnement :
 
 ```bash
-git clone [TODO: add the repository URL]
+git clone [TODO: ajouter l’URL du dépôt]
 cd ou-vont-mes-impots
 cp .env.example .env
 docker compose -f docker-compose-dev.yml up -d --build
@@ -140,205 +141,210 @@ docker compose -f docker-compose-dev.yml exec app composer install
 docker compose -f docker-compose-dev.yml exec app php artisan key:generate
 ```
 
-The checked-in PHP image includes Composer. It does not include Node.js, so run
-`npm install` and `npm run build` on the host if you need to rebuild the
-welcome-page assets.
+L’image PHP inclut Composer, mais pas Node.js. Exécutez `npm install` et
+`npm run build` sur la machine hôte si vous devez recompiler les ressources de
+la page d’accueil.
 
-## Environment configuration
+## Configuration de l’environnement
 
-`.env.example` contains the development defaults. The main variables are:
+`.env.example` contient les valeurs de développement :
 
-| Variable | Purpose | Development default |
+| Variable | Rôle | Valeur par défaut |
 | --- | --- | --- |
-| `APP_URL` | Base application URL | `http://localhost:8080` |
-| `APP_DEBUG` | Detailed local error output | `true` |
-| `DB_CONNECTION` | Laravel database driver | `pgsql` |
-| `DB_HOST` | Database host inside Compose | `pgsql` |
-| `DB_PORT` | Database port inside Compose | `5432` |
-| `DB_DATABASE` | PostgreSQL database name | `ovmi` |
-| `DB_USERNAME` | PostgreSQL user | `ovmi` |
-| `DB_PASSWORD` | Local PostgreSQL password | `ovmi` |
-| `DOCKER_WEB_PORT` | Host port for Nginx | `8080` |
-| `DOCKER_DB_PORT` | Host-bound PostgreSQL port | `5432` |
+| `APP_URL` | URL de base de l’application | `http://localhost:8080` |
+| `APP_DEBUG` | Affichage détaillé des erreurs locales | `true` |
+| `DB_CONNECTION` | Pilote de base de données Laravel | `pgsql` |
+| `DB_HOST` | Hôte PostgreSQL dans Compose | `pgsql` |
+| `DB_PORT` | Port PostgreSQL dans Compose | `5432` |
+| `DB_DATABASE` | Nom de la base | `ovmi` |
+| `DB_USERNAME` | Utilisateur PostgreSQL | `ovmi` |
+| `DB_PASSWORD` | Mot de passe PostgreSQL local | `ovmi` |
+| `DOCKER_WEB_PORT` | Port hôte de Nginx | `8080` |
+| `DOCKER_DB_PORT` | Port PostgreSQL exposé sur l’hôte | `5432` |
 
-The example credentials are for local development only. Never commit a real
-`.env` file or production credentials.
+Ces identifiants sont réservés au développement local. Ne versionnez jamais un
+fichier `.env` réel ni des secrets de production.
 
-## Database setup
-
-Start the containers and run the existing migrations:
+## Initialisation de la base de données
 
 ```bash
 docker compose -f docker-compose-dev.yml up -d
 docker compose -f docker-compose-dev.yml exec app php artisan migrate
 ```
 
-The migrations currently create only Laravel's default framework tables. No
-public-finance tables or seed data are implemented. `DatabaseSeeder` creates a
-sample user if explicitly run; it is not needed to start the application.
+Les migrations actuelles créent uniquement les tables Laravel par défaut.
+Aucune table de finances publiques ni donnée d’exemple métier n’est
+implémentée. `DatabaseSeeder` crée un utilisateur fictif lorsqu’il est lancé
+explicitement ; il n’est pas nécessaire au démarrage.
 
-## Running data imports
+## Exécution des imports
 
-**Under development.** No custom import command or import service exists yet.
-Do not treat files in `data/` as imported or validated merely because they are
-present in the repository.
+**En cours de développement.** Il n’existe actuellement aucune commande ou
+service d’import personnalisé. La présence de fichiers dans `data/` ne signifie
+pas qu’ils ont été importés ou validés.
 
-When import commands are added, document their exact syntax, expected source
-files, idempotency behaviour, validation rules, and generated provenance
-records here.
+Lorsque des commandes d’import seront ajoutées, leur syntaxe exacte, les
+fichiers attendus, leur idempotence, leurs validations et les enregistrements de
+provenance produits devront être documentés ici.
 
-## Running the API locally
+## Lancement local de l’API
 
-With Docker Compose:
+Avec Docker Compose :
 
 ```bash
 docker compose -f docker-compose-dev.yml up -d
 curl http://localhost:8080/up
 ```
 
-For a native PHP environment with dependencies and `.env` configured:
+Dans un environnement PHP natif configuré :
 
 ```bash
 php artisan serve
 ```
 
-The native server defaults to `http://127.0.0.1:8000`.
+Le serveur natif utilise par défaut `http://127.0.0.1:8000`.
 
-## API documentation and endpoint overview
+## Documentation et endpoints de l’API
 
-The REST API is **not implemented yet**. There is no `routes/api.php` file.
-Current application routes are:
+L’API REST n’est **pas encore implémentée** et aucun fichier `routes/api.php`
+n’existe. Les routes actuelles sont :
 
-| Method | Path | Purpose |
+| Méthode | Chemin | Rôle |
 | --- | --- | --- |
-| `GET` | `/` | Default Laravel welcome page |
-| `GET` | `/up` | Laravel health check |
+| `GET` | `/` | Page d’accueil Laravel par défaut |
+| `GET` | `/up` | Contrôle de santé Laravel |
 
-`/up` is framework infrastructure rather than a public-finance endpoint.
+`/up` relève de l’infrastructure du framework et non des finances publiques.
 
-Planned API documentation should define response schemas, filters, pagination,
-units, accounting scopes, reporting periods, provenance links, errors, and
-versioning. [TODO: add the production API URL when available]
+La future documentation devra préciser les schémas de réponse, filtres,
+pagination, unités, périmètres comptables, périodes, liens de provenance,
+erreurs et règles de versionnage.
 
-## Running tests
+`[TODO: ajouter l’URL de production de l’API lorsqu’elle sera disponible]`
 
-The PHPUnit configuration uses an in-memory SQLite database for tests:
+## Exécution des tests
+
+La configuration PHPUnit utilise SQLite en mémoire :
 
 ```bash
 docker compose -f docker-compose-dev.yml exec app composer test
 ```
 
-For a native installation:
+Pour une installation native :
 
 ```bash
 composer test
 ```
 
-The current suite contains only Laravel's example unit and feature tests.
-Domain, import, provenance, and API contract tests remain to be written.
+La suite actuelle ne contient que les exemples unitaires et fonctionnels de
+Laravel. Les tests métier, d’import, de provenance et de contrat d’API restent
+à écrire.
 
-## Code quality tools
+## Qualité du code
 
-Laravel Pint is installed for PHP formatting:
+Laravel Pint est installé pour le formatage PHP :
 
 ```bash
 docker compose -f docker-compose-dev.yml exec app ./vendor/bin/pint --test
 docker compose -f docker-compose-dev.yml exec app ./vendor/bin/pint
 ```
 
-The first command checks formatting without changing files; the second applies
-formatting. No static analyser, coverage service, or Markdown linter is
-currently configured.
+La première commande vérifie le formatage ; la seconde l’applique. Aucun outil
+d’analyse statique, service de couverture ou linter Markdown n’est configuré.
 
-## Project structure
+## Structure du projet
 
 ```text
-app/                 Laravel application code (currently framework skeleton)
-bootstrap/           Laravel application bootstrap
-config/              Application and service configuration
-data/                Candidate source files; not yet imported or validated
-database/            Migrations, factories, and seeders
-docker/              PHP-FPM image and Nginx configuration
-public/              HTTP entry point and public assets
-resources/           Current welcome-page CSS, JavaScript, and Blade view
-routes/              Web and console routes; no API routes yet
-tests/               PHPUnit unit and feature tests
+app/                 Code Laravel (actuellement un squelette)
+bootstrap/           Initialisation de Laravel
+config/              Configuration de l’application et des services
+data/                Sources candidates, pas encore importées ni validées
+database/            Migrations, fabriques et seeders
+docker/              Image PHP-FPM et configuration Nginx
+public/              Point d’entrée HTTP et ressources publiques
+resources/           CSS, JavaScript et vue Blade de la page actuelle
+routes/              Routes web et console ; aucune route API
+tests/               Tests unitaires et fonctionnels PHPUnit
 docker-compose-dev.yml
 ```
 
-## Data sources
+## Sources de données
 
-The `data/` directory currently contains candidate CSV, XLS, XLSX, and PDF
-files. The repository does not yet include a source catalogue, machine-readable
-provenance, import implementation, or enough documentation to verify each
-file's publisher and acquisition URL.
+Le dossier `data/` contient actuellement des fichiers candidats aux formats
+CSV, XLS, XLSX et PDF. Le dépôt ne fournit pas encore de catalogue des sources,
+de provenance exploitable par machine, d’import ni assez de documentation pour
+vérifier l’éditeur et l’URL d’acquisition de chaque fichier.
 
-[TODO: document each approved official source, publisher, canonical URL,
-publication date, licence/reuse terms, accounting scope, reporting period, and
-retrieval date]
+`[TODO: documenter chaque source officielle approuvée, son éditeur, son URL
+canonique, sa date de publication, ses conditions de réutilisation, son
+périmètre comptable, sa période de référence et sa date de récupération]`
 
-Only official or otherwise clearly authoritative data should support published
-figures. Adding a file to `data/` does not by itself approve it as a source.
+Seules des données officielles ou clairement reconnues comme faisant autorité
+devront étayer les chiffres publiés. Ajouter un fichier à `data/` ne suffit pas
+à l’approuver comme source.
 
-## Data accuracy and limitations
+## Exactitude et limites des données
 
-Public-finance figures are sensitive to definitions and accounting perimeter.
-Figures from different public accounting scopes must not be compared without
-first checking that their perimeter, period, unit, classification, and
-methodology are compatible.
+Les chiffres de finances publiques dépendent fortement des définitions et du
+périmètre comptable. Des chiffres issus de périmètres différents ne doivent pas
+être comparés sans vérifier la compatibilité de leur périmètre, période, unité,
+classification et méthode.
 
-“Public expenditure” may refer to the French State budget, local authorities,
-social-security administrations, or all public administrations. These scopes
-are not interchangeable. Sources may also report commitments, payments,
-appropriations, consolidated expenditure, national-accounts measures, or
-revised estimates.
+La « dépense publique » peut désigner le budget de l’État, les collectivités
+territoriales, les administrations de sécurité sociale ou l’ensemble des
+administrations publiques. Ces périmètres ne sont pas interchangeables. Les
+sources peuvent aussi présenter des engagements, paiements, crédits,
+dépenses consolidées, mesures de comptabilité nationale ou estimations
+révisées.
 
-The API should expose these qualifications alongside values. Imported data may
-contain source errors, revisions, extraction errors, gaps, or rounding
-differences. Users should verify consequential uses against the cited original
-publication.
+L’API devra exposer ces précisions avec les valeurs. Les données importées
+peuvent comporter des erreurs sources, révisions, erreurs d’extraction, lacunes
+ou écarts d’arrondi. Pour tout usage important, consultez la publication
+d’origine citée.
 
-## Contributing
+## Contribution
 
-Contributions are welcome, especially improvements to source traceability,
-normalisation rules, tests, and documentation. Read
-[`CONTRIBUTING.md`](CONTRIBUTING.md) before opening an issue or pull request.
-Data contributions must identify their official origin and document every
-transformation; undocumented manual corrections are not accepted.
+Les contributions sont bienvenues, notamment sur la traçabilité, les règles de
+normalisation, les tests et la documentation. Consultez
+[`CONTRIBUTING.md`](CONTRIBUTING.md) avant d’ouvrir une issue ou une pull
+request. Toute contribution de données doit identifier sa source officielle et
+documenter chaque transformation ; les corrections manuelles non documentées
+ne sont pas acceptées.
 
-## Security
+## Sécurité
 
-Do not disclose vulnerabilities in a public issue. Follow the private reporting
-instructions in [`.github/SECURITY.md`](.github/SECURITY.md).
+Ne divulguez pas de vulnérabilité dans une issue publique. Suivez les
+instructions de [`.github/SECURITY.md`](.github/SECURITY.md).
 
-Incorrect figures, classifications, or source metadata are normally
-data-quality issues rather than security vulnerabilities, unless they result
-from or expose a security weakness.
+Un chiffre, une classification ou une métadonnée incorrecte relève normalement
+de la qualité des données, sauf si le problème résulte d’une faille de sécurité
+ou en révèle une.
 
-## Roadmap
+## Feuille de route
 
-- Define the public-finance domain schema and provenance constraints.
-- Catalogue and license-check the candidate official sources.
-- Implement repeatable, validated imports for supported formats.
-- Add domain and import tests, including reconciliation checks.
-- Design and implement the versioned, read-only REST API.
-- Publish an API specification and connect the separate frontend.
-- Add continuous integration and automated quality checks.
+- Définir le modèle métier et les contraintes de provenance.
+- Cataloguer les sources candidates et vérifier leurs licences.
+- Implémenter des imports reproductibles et validés.
+- Ajouter des tests métier, d’import et de rapprochement.
+- Concevoir et implémenter l’API REST versionnée en lecture seule.
+- Publier une spécification d’API et connecter le frontend séparé.
+- Ajouter l’intégration continue et des contrôles de qualité automatisés.
 
-These items are planned, not completed commitments or release dates.
+Ces éléments sont prévus, mais ne constituent ni des fonctionnalités terminées
+ni des dates de livraison.
 
 ## Licence
 
-This project is licensed under the **MIT License**. See [`LICENSE`](LICENSE).
-Source datasets and publications may have their own licences or reuse
-conditions; the MIT License does not override them.
+Ce projet est distribué sous **licence MIT**. Consultez [`LICENSE`](LICENSE).
+Les jeux de données et publications peuvent avoir leurs propres licences ou
+conditions de réutilisation, que la licence MIT ne remplace pas.
 
-## Disclaimer
+## Avertissement
 
-> **This independent project is not affiliated with, endorsed by, or operated
-> by the French government or any public administration.**
+> **Ce projet indépendant n’est ni affilié, ni approuvé, ni exploité par le
+> gouvernement français ou une administration publique.**
 
-It is an educational aid, not an official accounting publication, legal
-advice, financial advice, or a substitute for consulting the original sources.
-The project aims for neutrality and traceability but cannot guarantee that all
-figures are complete, current, or free from error.
+Il s’agit d’un outil pédagogique, et non d’une publication comptable
+officielle, d’un conseil juridique ou financier, ni d’un substitut aux sources
+d’origine. Le projet vise la neutralité et la traçabilité, mais ne peut garantir
+que tous les chiffres sont complets, à jour et exempts d’erreur.
