@@ -133,7 +133,7 @@ Pour une installation native :
 Clonez le dépôt puis préparez l’environnement :
 
 ```bash
-git clone [TODO: ajouter l’URL du dépôt]
+git clone https://github.com/ogrre/ou-vont-mes-impots
 cd ou-vont-mes-impots
 cp .env.example .env
 docker compose -f docker-compose-dev.yml up -d --build
