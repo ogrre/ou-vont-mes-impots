@@ -4,6 +4,20 @@ L’API est publique, sans authentification et strictement en lecture seule. Son
 
 Les réponses peuvent indiquer `publication_ready: false` tant que certaines métadonnées officielles restent manquantes. Cela permet l’intégration du frontend en développement sans présenter le jeu comme prêt pour la production.
 
+## Version de l’API
+
+```http
+GET /api/v1/version
+```
+
+```json
+{
+  "name": "Mais où vont mes impôts ? API",
+  "version": "0.1.0",
+  "api_version": "v1"
+}
+```
+
 ## Dépenses exécutées de l’État
 
 ```http

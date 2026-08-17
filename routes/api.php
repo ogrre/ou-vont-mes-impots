@@ -2,9 +2,12 @@
 
 use App\Http\Controllers\Api\V1\StateExpenditureController;
 use App\Http\Controllers\Api\V1\StateRevenueController;
+use App\Http\Controllers\Api\V1\VersionController;
 use Illuminate\Support\Facades\Route;
 
 Route::prefix('v1')->group(function (): void {
+    Route::get('version', VersionController::class)
+        ->name('api.v1.version');
     Route::get('state-expenditure', StateExpenditureController::class)
         ->name('api.v1.state-expenditure.index');
     Route::get('state-revenue', StateRevenueController::class)

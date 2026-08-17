@@ -7,7 +7,7 @@
     "license": "MIT",
     "require": {
         "ext-bcmath": "*",
-        "php": "^8.5",
+        "php": "~8.4.0",
         "laravel/framework": "^13.0",
         "laravel/tinker": "^3.0",
         "openspout/openspout": "^5.10.2"

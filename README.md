@@ -1,6 +1,6 @@
 # Mais où vont mes impôts ? — API
 
-[![Version de PHP](https://img.shields.io/badge/PHP-%5E8.5-777bb4.svg)](composer.json)
+[![Version de PHP](https://img.shields.io/badge/PHP-~8.4.0-777bb4.svg)](composer.json)
 [![Version de Laravel](https://img.shields.io/badge/Laravel-%5E13.0-ff2d20.svg)](composer.json)
 
 L’API Laravel de **« Mais où vont mes impôts ? »**, un projet pédagogique
@@ -45,7 +45,7 @@ Fonctionnalités encore prévues :
 Le projet est une application Laravel 13 utilisant PostgreSQL en développement.
 Docker Compose définit trois services :
 
-- `app` : PHP-FPM 8.5 avec les extensions PostgreSQL, Redis, Xdebug et autres
+- `app` : PHP-FPM 8.4 avec les extensions PostgreSQL, Redis, Xdebug et autres
   extensions nécessaires à l’image de développement ;
 - `web` : Nginx, publié par défaut sur le port `8080` ;
 - `pgsql` : PostgreSQL 16 avec un volume Docker persistant.
@@ -103,10 +103,10 @@ reste bloquée tant que les métadonnées critiques recensées dans
 
 ## Technologies
 
-- PHP `^8.5`
+- PHP `~8.4.0`
 - Laravel `^13.0`
 - PostgreSQL 16 avec Docker Compose
-- Nginx 1.27 et PHP-FPM 8.5 dans les conteneurs de développement
+- Nginx 1.27 et PHP-FPM 8.4 dans les conteneurs de développement
 - PHPUnit `^12.5`
 - Laravel Pint `^1.27`
 - OpenSpout `^5.10` pour la lecture XLSX en streaming
@@ -121,7 +121,7 @@ Pour l’installation recommandée avec conteneurs :
 
 Pour une installation native :
 
-- PHP 8.5 ou ultérieur avec les extensions requises par Laravel et PostgreSQL ;
+- PHP 8.4 avec les extensions requises par Laravel et PostgreSQL ;
 - Composer 2 ;
 - PostgreSQL ;
 - Node.js et npm uniquement pour compiler les ressources Vite actuelles.
