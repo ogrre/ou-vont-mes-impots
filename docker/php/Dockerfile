@@ -1,4 +1,4 @@
-FROM php:8.4-fpm-alpine
+FROM php:8.5-fpm-alpine
 
 RUN apk add --no-cache \
     bash \
@@ -6,8 +6,6 @@ RUN apk add --no-cache \
     git \
     unzip \
     icu-dev \
-    oniguruma-dev \
-    libxml2-dev \
     libzip-dev \
     freetype-dev \
     libjpeg-turbo-dev \
@@ -21,22 +19,14 @@ RUN apk add --no-cache \
         --with-jpeg \
         --with-webp \
     && docker-php-ext-install -j$(nproc) \
-        pdo \
         pdo_pgsql \
         bcmath \
-        dom \
         exif \
         gd \
         intl \
-        mbstring \
         pcntl \
-        simplexml \
         sockets \
-        xml \
-        xmlreader \
-        xmlwriter \
         zip \
-        opcache \
     && pecl install redis \
     && pecl install xdebug \
     && docker-php-ext-enable redis \
@@ -47,7 +37,7 @@ RUN apk add --no-cache \
         echo "xdebug.discover_client_host=1"; \
         echo "xdebug.client_port=9003"; \
         echo "xdebug.log_level=0"; \
-      } > /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini \
+      } > /usr/local/etc/php/conf.d/docker-php-ext-xdebug-settings.ini \
     && apk del $PHPIZE_DEPS
 
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer

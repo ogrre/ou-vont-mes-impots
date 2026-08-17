@@ -1,6 +1,6 @@
 # Mais où vont mes impôts ? — API
 
-[![Version de PHP](https://img.shields.io/badge/PHP-%5E8.3-777bb4.svg)](composer.json)
+[![Version de PHP](https://img.shields.io/badge/PHP-%5E8.5-777bb4.svg)](composer.json)
 [![Version de Laravel](https://img.shields.io/badge/Laravel-%5E13.0-ff2d20.svg)](composer.json)
 
 L’API Laravel de **« Mais où vont mes impôts ? »**, un projet pédagogique
@@ -9,11 +9,9 @@ plus compréhensibles à partir de données officielles, neutres et traçables.
 
 Ce dépôt contient uniquement le backend. Le frontend est maintenu séparément.
 
-> **État du développement :** ce dépôt est actuellement un squelette Laravel.
-> Le modèle de données financières, les imports et les endpoints REST décrits
-> comme prévus ci-dessous ne sont pas encore implémentés. La seule route
-> applicative est la page d’accueil Laravel sur `GET /` ; Laravel expose
-> également une route de santé sur `GET /up`.
+> **État du développement :** la couche de données du MVP « Budget de l’État
+> français — exécution 2025 », ses imports et les premiers endpoints REST en
+> lecture seule sont implémentés.
 
 ## Objectifs du projet
 
@@ -29,24 +27,25 @@ Ce dépôt contient uniquement le backend. Le frontend est maintenu séparément
 
 ## Fonctionnalités principales
 
-Les fonctionnalités suivantes sont prévues et en cours de conception :
+Fonctionnalités disponibles :
 
-- une API REST publique en lecture seule, sans compte ni authentification pour
-  les visiteurs ;
-- des imports depuis des fichiers CSV, Excel, des données extraites de PDF et
-  des portails open data officiels ;
-- la normalisation de sources hétérogènes dans un modèle relationnel cohérent ;
+- import CSV en streaming des six vues PLRG 2025 par mission, ministère et
+  nature, en AE et CP ;
+- import XLSX dédié des estimations de recettes du budget général ;
+- normalisation en EUR, checksum SHA-256, ligne source et lot d’import ;
+- rejet des doublons et réconciliation des totaux PLRG.
+
+Fonctionnalités encore prévues :
+
 - des séries historiques et des ventilations des recettes et dépenses ;
-- une traçabilité par source, institution, période et import.
-
-Aucune de ces fonctionnalités métier n’est actuellement exposée.
+- des imports supplémentaires depuis les portails open data officiels.
 
 ## Vue d’ensemble de l’architecture
 
 Le projet est une application Laravel 13 utilisant PostgreSQL en développement.
 Docker Compose définit trois services :
 
-- `app` : PHP-FPM 8.4 avec les extensions PostgreSQL, Redis, Xdebug et autres
+- `app` : PHP-FPM 8.5 avec les extensions PostgreSQL, Redis, Xdebug et autres
   extensions nécessaires à l’image de développement ;
 - `web` : Nginx, publié par défaut sur le port `8080` ;
 - `pgsql` : PostgreSQL 16 avec un volume Docker persistant.
@@ -61,12 +60,10 @@ visiteur n’est enregistrée.
 
 ## Modèle de données et normalisation
 
-Le modèle métier n’est pas encore implémenté. L’approche prévue sépare deux
-couches :
+Le modèle métier sépare deux couches :
 
-1. **Données brutes importées** : elles conservent aussi fidèlement que
-   possible les enregistrements sources ou les données extraites, avec les
-   métadonnées d’acquisition et les diagnostics d’import.
+1. **Données sources** : le fichier original reste la référence brute ; son
+   checksum, son descripteur, le lot et la ligne source sont conservés.
 2. **Données applicatives normalisées** : elles représentent sous forme
    relationnelle les institutions, jeux de données, périodes, périmètres
    comptables, classifications, unités et observations financières.
@@ -76,7 +73,7 @@ utilisé pour des métadonnées propres à une source ou des données brutes don
 structure varie, mais ne devra pas remplacer les champs relationnels utilisés
 pour le filtrage, les relations ou la validation.
 
-Les transformations devront être déterministes, documentées et testées. Les
+Les transformations sont déterministes, documentées et testées. Les
 unités, conventions de signe, classifications, révisions, valeurs manquantes et
 arrondis devront être traités explicitement. Les valeurs brutes devront rester
 accessibles afin d’auditer un chiffre normalisé sans correction manuelle non
@@ -99,19 +96,20 @@ et, si possible, des informations d’intégrité. Lorsqu’un tableau PDF est
 converti en données structurées, la méthode d’extraction et l’emplacement du
 tableau d’origine devront également être documentés.
 
-Ce modèle de provenance est prévu mais pas encore implémenté. Les migrations
-actuelles ne contiennent que les tables Laravel par défaut pour les
-utilisateurs, réinitialisations de mot de passe, sessions, caches et files
-d’attente.
+La chaîne de provenance est implémentée par `sources`, `datasets`,
+`dataset_files`, `import_batches` et `financial_observations`. La publication
+reste bloquée tant que les métadonnées critiques recensées dans
+[`docs/datasets.md`](docs/datasets.md) ne sont pas complétées.
 
 ## Technologies
 
-- PHP `^8.3`
+- PHP `^8.5`
 - Laravel `^13.0`
 - PostgreSQL 16 avec Docker Compose
-- Nginx 1.27 et PHP-FPM 8.4 dans les conteneurs de développement
+- Nginx 1.27 et PHP-FPM 8.5 dans les conteneurs de développement
 - PHPUnit `^12.5`
 - Laravel Pint `^1.27`
+- OpenSpout `^5.10` pour la lecture XLSX en streaming
 - Vite 8 et Tailwind CSS 4 pour les ressources de la page d’accueil actuelle
 
 ## Prérequis
@@ -123,7 +121,7 @@ Pour l’installation recommandée avec conteneurs :
 
 Pour une installation native :
 
-- PHP 8.3 ou ultérieur avec les extensions requises par Laravel et PostgreSQL ;
+- PHP 8.5 ou ultérieur avec les extensions requises par Laravel et PostgreSQL ;
 - Composer 2 ;
 - PostgreSQL ;
 - Node.js et npm uniquement pour compiler les ressources Vite actuelles.
@@ -169,23 +167,30 @@ fichier `.env` réel ni des secrets de production.
 
 ```bash
 docker compose -f docker-compose-dev.yml up -d
-docker compose -f docker-compose-dev.yml exec app php artisan migrate
+docker compose -f docker-compose-dev.yml exec app php artisan migrate --seed
 ```
 
-Les migrations actuelles créent uniquement les tables Laravel par défaut.
-Aucune table de finances publiques ni donnée d’exemple métier n’est
-implémentée. `DatabaseSeeder` crée un utilisateur fictif lorsqu’il est lancé
-explicitement ; il n’est pas nécessaire au démarrage.
+Les seeders créent uniquement les référentiels et les descripteurs d’import.
+Ils ne contiennent aucun montant officiel.
 
 ## Exécution des imports
 
-**En cours de développement.** Il n’existe actuellement aucune commande ou
-service d’import personnalisé. La présence de fichiers dans `data/` ne signifie
-pas qu’ils ont été importés ou validés.
+Après `php artisan migrate --seed` :
 
-Lorsque des commandes d’import seront ajoutées, leur syntaxe exacte, les
-fichiers attendus, leur idempotence, leurs validations et les enregistrements de
-provenance produits devront être documentés ici.
+```bash
+php artisan dataset:import state-expenditure-2025-mission-ae data/depenses-par-mission-plrg-ae-2025.csv
+php artisan dataset:import state-expenditure-2025-mission-cp data/depenses-par-mission-plrg-cp-2025.csv
+php artisan dataset:import state-expenditure-2025-ministry-ae data/depenses-par-ministeres-plrg-ae-2025.csv
+php artisan dataset:import state-expenditure-2025-ministry-cp data/depenses-par-ministeres-plrg-cp-2025.csv
+php artisan dataset:import state-expenditure-2025-nature-ae data/depenses-par-nature-plrg-ae-2025.csv
+php artisan dataset:import state-expenditure-2025-nature-cp data/depenses-par-nature-plrg-cp-2025.csv
+php artisan data:validate state-expenditure-2025
+php artisan dataset:import state-general-budget-revenue-2025-2026 data/econ-fin-pub-recettes-budget.xlsx
+```
+
+Dans Docker, préfixez chaque commande par
+`docker compose -f docker-compose-dev.yml exec app`. Un même checksum est rejeté
+pour un même descripteur.
 
 ## Lancement local de l’API
 
@@ -206,19 +211,25 @@ Le serveur natif utilise par défaut `http://127.0.0.1:8000`.
 
 ## Documentation et endpoints de l’API
 
-L’API REST n’est **pas encore implémentée** et aucun fichier `routes/api.php`
-n’existe. Les routes actuelles sont :
+L’API v1 est publique, sans authentification et en lecture seule :
 
 | Méthode | Chemin | Rôle |
 | --- | --- | --- |
 | `GET` | `/` | Page d’accueil Laravel par défaut |
 | `GET` | `/up` | Contrôle de santé Laravel |
+| `GET` | `/api/v1/state-expenditure` | Dépenses exécutées du budget de l’État |
+| `GET` | `/api/v1/state-revenue` | Estimations de recettes du budget général |
 
-`/up` relève de l’infrastructure du framework et non des finances publiques.
+Exemples :
 
-La future documentation devra préciser les schémas de réponse, filtres,
-pagination, unités, périmètres comptables, périodes, liens de provenance,
-erreurs et règles de versionnage.
+```bash
+curl 'http://localhost:8080/api/v1/state-expenditure?year=2025&classification=mission&measure=cp'
+curl 'http://localhost:8080/api/v1/state-revenue?year=2025&status=revised_estimate'
+```
+
+Les filtres, valeurs autorisées et contrats de réponse sont décrits dans
+[`docs/api.md`](docs/api.md). Les montants sont sérialisés sous forme de chaînes
+décimales en EUR afin de préserver leur précision côté JavaScript.
 
 `[TODO: ajouter l’URL de production de l’API lorsqu’elle sera disponible]`
 
@@ -236,9 +247,8 @@ Pour une installation native :
 composer test
 ```
 
-La suite actuelle ne contient que les exemples unitaires et fonctionnels de
-Laravel. Les tests métier, d’import, de provenance et de contrat d’API restent
-à écrire.
+La suite couvre les imports, leurs erreurs, l’idempotence, la provenance, les
+sémantiques comptables, la réconciliation et les contrats HTTP.
 
 ## Qualité du code
 
@@ -250,30 +260,43 @@ docker compose -f docker-compose-dev.yml exec app ./vendor/bin/pint
 ```
 
 La première commande vérifie le formatage ; la seconde l’applique. Aucun outil
-d’analyse statique, service de couverture ou linter Markdown n’est configuré.
+d’analyse statique ou linter Markdown n’est configuré.
+
+La couverture PHPUnit et les tests de mutation Infection utilisent Xdebug dans
+le conteneur :
+
+```bash
+docker compose -f docker-compose-dev.yml exec app composer test:coverage
+docker compose -f docker-compose-dev.yml exec app composer test:mutation
+```
+
+Infection impose un MSI global et couvert minimal de 70 %.
 
 ## Structure du projet
 
 ```text
-app/                 Code Laravel (actuellement un squelette)
+app/Enums/           Vocabulaires financiers fermés
+app/Models/          Modèles Eloquent et relations de provenance
+app/Services/        Import et réconciliation
+app/Console/Commands Commandes d’import et de validation
 bootstrap/           Initialisation de Laravel
 config/              Configuration de l’application et des services
-data/                Sources candidates, pas encore importées ni validées
-database/            Migrations, fabriques et seeders
+data/                Fichiers sources locaux ; tous ne sont pas validés
+database/            Migrations et seeders de référentiels/descripteurs
+docs/                Architecture, catalogue et jeux en attente
 docker/              Image PHP-FPM et configuration Nginx
 public/              Point d’entrée HTTP et ressources publiques
 resources/           CSS, JavaScript et vue Blade de la page actuelle
-routes/              Routes web et console ; aucune route API
+routes/              Routes web, API et console
 tests/               Tests unitaires et fonctionnels PHPUnit
 docker-compose-dev.yml
 ```
 
 ## Sources de données
 
-Le dossier `data/` contient actuellement des fichiers candidats aux formats
-CSV, XLS, XLSX et PDF. Le dépôt ne fournit pas encore de catalogue des sources,
-de provenance exploitable par machine, d’import ni assez de documentation pour
-vérifier l’éditeur et l’URL d’acquisition de chaque fichier.
+Le catalogue et les lacunes de provenance sont détaillés dans
+[`docs/datasets.md`](docs/datasets.md) et
+[`docs/pending-datasets.md`](docs/pending-datasets.md).
 
 `[TODO: documenter chaque source officielle approuvée, son éditeur, son URL
 canonique, sa date de publication, ses conditions de réutilisation, son
@@ -322,11 +345,9 @@ ou en révèle une.
 
 ## Feuille de route
 
-- Définir le modèle métier et les contraintes de provenance.
-- Cataloguer les sources candidates et vérifier leurs licences.
-- Implémenter des imports reproductibles et validés.
-- Ajouter des tests métier, d’import et de rapprochement.
-- Concevoir et implémenter l’API REST versionnée en lecture seule.
+- Compléter et vérifier la provenance et les licences des sources présentes.
+- Étendre l’API REST avec les futures séries historiques validées.
+- Ajouter les calculs de pourcentage avec un dénominateur explicite.
 - Publier une spécification d’API et connecter le frontend séparé.
 - Ajouter l’intégration continue et des contrôles de qualité automatisés.
 

@@ -4,8 +4,7 @@ Merci de contribuer à rendre les finances publiques françaises plus
 compréhensibles et vérifiables. Les contributions doivent rester factuelles,
 neutres, reproductibles et traçables jusqu’à des sources faisant autorité.
 
-Le projet en est à ses débuts : le modèle métier, les imports et l’API REST sont
-encore en cours de développement.
+La couche d’import et les premiers endpoints REST du MVP sont disponibles.
 
 ## Signaler un problème de qualité des données
 
@@ -60,6 +59,7 @@ docker compose -f docker-compose-dev.yml up -d --build
 docker compose -f docker-compose-dev.yml exec app composer install
 docker compose -f docker-compose-dev.yml exec app php artisan key:generate
 docker compose -f docker-compose-dev.yml exec app php artisan migrate
+docker compose -f docker-compose-dev.yml exec app php artisan db:seed
 ```
 
 L’application est ensuite disponible sur `http://localhost:8080` :
@@ -81,7 +81,7 @@ npm run build
 - Respectez les conventions Laravel et l’organisation PSR-4 existante.
 - Utilisez Laravel Pint pour formater le code PHP.
 - Gardez les contrôleurs ciblés et placez l’analyse des sources et la
-  normalisation dans des classes dédiées et testées lorsqu’elles seront créées.
+  normalisation dans les services d’import dédiés.
 - Préférez des types explicites, des noms clairs et de petites transformations
   déterministes.
 - Restez neutre et distinguez les faits sources des transformations du projet.
@@ -144,8 +144,21 @@ la provenance. L’API doit tester ses contrats de réponse, filtres, erreurs et
 protection contre les écritures accidentelles. Utilisez les fixtures les plus
 petites possible et vérifiez leurs droits de redistribution.
 
-Les tests existants ne sont que les exemples Laravel : leur réussite ne valide
-pas les données métier.
+La réussite des tests ne remplace pas la vérification comptable et documentaire
+des sources réelles.
+
+Avant une pull request modifiant la logique métier, mesurez aussi la couverture
+et exécutez Infection :
+
+```bash
+docker compose -f docker-compose-dev.yml exec app composer test:coverage
+docker compose -f docker-compose-dev.yml exec app composer test:mutation
+```
+
+Le score de mutation ne doit pas descendre sous les seuils définis dans
+`infection.json5`. Une mutation survivante significative doit conduire à un
+test plus précis ; une mutation équivalente doit être documentée plutôt que
+masquée arbitrairement.
 
 ## Attentes pour les pull requests
 
