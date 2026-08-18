@@ -9,7 +9,26 @@ class StateRevenueQuery
 {
     public function __construct(private readonly DatasetProvenancePresenter $provenance) {}
 
-    /** @return array<string, mixed> */
+    /**
+     * @return array{
+     *     period: int,
+     *     scope: array{code: string, label: string, budget_component: string},
+     *     status: string,
+     *     flow_type: 'revenue',
+     *     classification: 'revenue',
+     *     currency: 'EUR',
+     *     aggregation_warning: string,
+     *     items: list<array{
+     *         slug: string,
+     *         label: string,
+     *         amount: string,
+     *         is_aggregate: bool,
+     *         is_deduction: bool,
+     *         source_row_number: int|null
+     *     }>,
+     *     source: array<string, mixed>
+     * }
+     */
     public function get(int $year, string $status): array
     {
         $observations = FinancialObservation::query()
