@@ -351,6 +351,12 @@ d’origine citée.
 
 ## Contribution
 
+Le développement suit un flux à deux environnements : les branches de travail
+sont proposées par pull request vers `dev`, qui alimente le staging. La
+production est alimentée par `main`, uniquement après une pull request de
+promotion `dev` vers `main`. Les pushes directs sont interdits sur ces deux
+branches.
+
 Les contributions sont bienvenues, notamment sur la traçabilité, les règles de
 normalisation, les tests et la documentation. Consultez
 [`CONTRIBUTING.md`](CONTRIBUTING.md) avant d’ouvrir une issue ou une pull
