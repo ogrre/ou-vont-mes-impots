@@ -17,4 +17,8 @@ if [ "${RUN_MIGRATIONS:-false}" = "true" ]; then
     fi
 fi
 
+if [ "${RUN_DATA_IMPORTS:-false}" = "true" ]; then
+    php artisan dataset:import-known "${DATA_IMPORT_PATH:-data}"
+fi
+
 exec "$@"
