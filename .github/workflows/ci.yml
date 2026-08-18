@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   tests:
-    name: Tests
+    name: Tests and static analysis
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
@@ -44,12 +44,13 @@ jobs:
         run: composer audit --locked
       - name: Check code style
         run: vendor/bin/pint --test
+      - name: Run static analysis
+        run: composer analyse
       - name: Run test suite
         run: php artisan test
 
   mutation-testing:
     name: Mutation testing
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     needs: tests
     runs-on: ubuntu-latest
     timeout-minutes: 30
@@ -76,3 +77,15 @@ jobs:
         env:
           XDEBUG_MODE: coverage
         run: vendor/bin/infection --no-progress --threads=max
+
+  production-image:
+    name: Production image
+    needs: tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Build production image
+        run: docker build --tag ou-vont-mes-impots-api:ci .

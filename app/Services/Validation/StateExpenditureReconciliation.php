@@ -2,15 +2,16 @@
 
 namespace App\Services\Validation;
 
-use App\Models\FinancialObservation;
 use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\DB;
+use stdClass;
 
 class StateExpenditureReconciliation
 {
     /** @return array{valid: bool, comparisons: array<int, array<string, mixed>>, discrepancies: array<int, array<string, mixed>>} */
     public function validate(int $year = 2025): array
     {
-        $totals = FinancialObservation::query()
+        $totals = DB::table('financial_observations')
             ->join('classification_items', 'classification_items.id', '=', 'financial_observations.classification_item_id')
             ->join('classifications', 'classifications.id', '=', 'classification_items.classification_id')
             ->join('budget_components', 'budget_components.id', '=', 'financial_observations.budget_component_id')
@@ -24,7 +25,7 @@ class StateExpenditureReconciliation
         $comparisons = [];
         $discrepancies = [];
 
-        foreach ($totals->groupBy(fn ($row) => $row->measure->value.'|'.$row->component) as $key => $group) {
+        foreach ($totals->groupBy(fn (stdClass $row) => $row->measure.'|'.$row->component) as $key => $group) {
             [$measure, $component] = explode('|', $key, 2);
             $values = $this->classificationValues($group);
             $comparison = compact('measure', 'component', 'values');
@@ -42,7 +43,10 @@ class StateExpenditureReconciliation
         ];
     }
 
-    /** @return array<string, string> */
+    /**
+     * @param  Collection<int, stdClass>  $group
+     * @return array<string, string>
+     */
     private function classificationValues(Collection $group): array
     {
         return $group->mapWithKeys(function ($row): array {

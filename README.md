@@ -43,12 +43,16 @@ Fonctionnalités encore prévues :
 ## Vue d’ensemble de l’architecture
 
 Le projet est une application Laravel 13 utilisant PostgreSQL en développement.
-Docker Compose définit trois services :
+Docker Compose définit trois services de développement :
 
 - `app` : PHP-FPM 8.4 avec les extensions PostgreSQL, Redis, Xdebug et autres
   extensions nécessaires à l’image de développement ;
 - `web` : Nginx, publié par défaut sur le port `8080` ;
 - `pgsql` : PostgreSQL 16 avec un volume Docker persistant.
+
+En production, le [`Dockerfile`](Dockerfile) construit un conteneur autonome
+PHP-FPM 8.4 + Nginx, destiné à Dokploy. PostgreSQL reste un service Dokploy
+distinct sur le même réseau privé.
 
 Laravel utilise par défaut la base de données pour les files d’attente, le cache
 et les sessions. Il s’agit à ce stade de réglages du framework, et non de la
@@ -110,7 +114,7 @@ reste bloquée tant que les métadonnées critiques recensées dans
 - PHPUnit `^12.5`
 - Laravel Pint `^1.27`
 - OpenSpout `^5.10` pour la lecture XLSX en streaming
-- Vite 8 et Tailwind CSS 4 pour les ressources de la page d’accueil actuelle
+- Docker et Dokploy pour l’image et l’orchestration de production
 
 ## Prérequis
 
@@ -162,6 +166,9 @@ la page d’accueil.
 
 Ces identifiants sont réservés au développement local. Ne versionnez jamais un
 fichier `.env` réel ni des secrets de production.
+
+Les variables de production et leur gestion dans Dokploy sont documentées dans
+[`docs/deployment-dokploy.md`](docs/deployment-dokploy.md).
 
 ## Initialisation de la base de données
 
@@ -215,8 +222,8 @@ L’API v1 est publique, sans authentification et en lecture seule :
 
 | Méthode | Chemin | Rôle |
 | --- | --- | --- |
-| `GET` | `/` | Page d’accueil Laravel par défaut |
 | `GET` | `/up` | Contrôle de santé Laravel |
+| `GET` | `/api/v1/version` | Versions de l’application et de l’API |
 | `GET` | `/api/v1/state-expenditure` | Dépenses exécutées du budget de l’État |
 | `GET` | `/api/v1/state-revenue` | Estimations de recettes du budget général |
 
@@ -232,6 +239,17 @@ Les filtres, valeurs autorisées et contrats de réponse sont décrits dans
 décimales en EUR afin de préserver leur précision côté JavaScript.
 
 `[TODO: ajouter l’URL de production de l’API lorsqu’elle sera disponible]`
+
+## Déploiement avec Dokploy
+
+La branche `main` est la source de production. Dokploy construit le Dockerfile,
+expose le port `8080`, contrôle `/up` et connecte l’application à un PostgreSQL
+privé doté d’un volume persistant. Le déploiement automatique ne se déclenche
+qu’après fusion d’une pull request validée par la CI.
+
+Consultez [`docs/deployment-dokploy.md`](docs/deployment-dokploy.md) pour la
+création des services, les variables, les migrations, les sauvegardes et les
+tests après déploiement.
 
 ## Exécution des tests
 
@@ -259,8 +277,14 @@ docker compose -f docker-compose-dev.yml exec app ./vendor/bin/pint --test
 docker compose -f docker-compose-dev.yml exec app ./vendor/bin/pint
 ```
 
-La première commande vérifie le formatage ; la seconde l’applique. Aucun outil
-d’analyse statique ou linter Markdown n’est configuré.
+La première commande vérifie le formatage ; la seconde l’applique. Larastan
+exécute PHPStan au niveau 6 :
+
+```bash
+docker compose -f docker-compose-dev.yml exec app composer analyse
+```
+
+Aucun linter Markdown n’est configuré.
 
 La couverture PHPUnit et les tests de mutation Infection utilisent Xdebug dans
 le conteneur :
@@ -284,12 +308,12 @@ config/              Configuration de l’application et des services
 data/                Fichiers sources locaux ; tous ne sont pas validés
 database/            Migrations et seeders de référentiels/descripteurs
 docs/                Architecture, catalogue et jeux en attente
-docker/              Image PHP-FPM et configuration Nginx
+docker/              Configurations des conteneurs de développement/production
 public/              Point d’entrée HTTP et ressources publiques
-resources/           CSS, JavaScript et vue Blade de la page actuelle
 routes/              Routes web, API et console
 tests/               Tests unitaires et fonctionnels PHPUnit
-docker-compose-dev.yml
+Dockerfile           Image de production PHP 8.4 pour Dokploy
+docker-compose-dev.yml Environnement local
 ```
 
 ## Sources de données
@@ -349,7 +373,7 @@ ou en révèle une.
 - Étendre l’API REST avec les futures séries historiques validées.
 - Ajouter les calculs de pourcentage avec un dénominateur explicite.
 - Publier une spécification d’API et connecter le frontend séparé.
-- Ajouter l’intégration continue et des contrôles de qualité automatisés.
+- Déployer le MVP sur Dokploy et compléter les sauvegardes PostgreSQL.
 
 Ces éléments sont prévus, mais ne constituent ni des fonctionnalités terminées
 ni des dates de livraison.
