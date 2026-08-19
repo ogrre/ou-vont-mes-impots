@@ -19,7 +19,28 @@ class StateExpenditureQuery
 
     public function __construct(private readonly DatasetProvenancePresenter $provenance) {}
 
-    /** @return array<string, mixed> */
+    /**
+     * @return array{
+     *     period: int,
+     *     scope: array{code: string, label: string},
+     *     status: 'executed',
+     *     flow_type: 'expenditure',
+     *     measure: array{code: string, official_label: string},
+     *     classification: string,
+     *     currency: 'EUR',
+     *     total: string,
+     *     percentage_denominator: array{amount: string, description: string},
+     *     items: list<array{
+     *         code: string|null,
+     *         slug: string,
+     *         label: string,
+     *         amount: string,
+     *         percentage: string|null,
+     *         components: list<array{code: string, label: string, amount: string}>
+     *     }>,
+     *     source: array<string, mixed>
+     * }
+     */
     public function get(int $year, string $classification, string $measureInput): array
     {
         $measure = self::MEASURES[$measureInput];
@@ -78,8 +99,16 @@ class StateExpenditureQuery
         ];
     }
 
-    /** @param Collection<int, FinancialObservation> $observations
-     * @return array<string, mixed>
+    /**
+     * @param  Collection<int, FinancialObservation>  $observations
+     * @return array{
+     *     code: string|null,
+     *     slug: string,
+     *     label: string,
+     *     amount: string,
+     *     percentage: string|null,
+     *     components: list<array{code: string, label: string, amount: string}>
+     * }
      */
     private function item(Collection $observations, string $total): array
     {
