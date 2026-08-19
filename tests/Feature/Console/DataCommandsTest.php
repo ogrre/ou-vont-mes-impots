@@ -6,6 +6,7 @@ use App\Models\DatasetFile;
 use App\Services\Imports\StateExpenditurePlrgImporter;
 use Database\Seeders\DatabaseSeeder;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Support\Facades\File;
 use Tests\TestCase;
 
 class DataCommandsTest extends TestCase
@@ -65,6 +66,31 @@ class DataCommandsTest extends TestCase
         $this->artisan('dataset:import', ['descriptor' => $file->slug, 'path' => 'missing.csv'])
             ->expectsOutputToContain('introuvable ou illisible')
             ->assertFailed();
+    }
+
+    public function test_the_known_datasets_command_imports_only_new_file_contents(): void
+    {
+        $directory = storage_path('framework/testing/known-datasets');
+        File::ensureDirectoryExists($directory);
+        File::copy(
+            base_path('tests/Fixtures/plrg/valid.csv'),
+            $directory.'/depenses-par-mission-plrg-cp-2025.csv',
+        );
+
+        try {
+            $this->artisan('dataset:import-known', ['path' => $directory])
+                ->expectsOutputToContain('1 nouveau(x)')
+                ->assertSuccessful();
+
+            $this->artisan('dataset:import-known', ['path' => $directory])
+                ->expectsOutputToContain('contenu déjà importé, ignoré')
+                ->expectsOutputToContain('0 nouveau(x), 1 déjà présent(s)')
+                ->assertSuccessful();
+
+            $this->assertDatabaseCount('import_batches', 1);
+        } finally {
+            File::deleteDirectory($directory);
+        }
     }
 
     public function test_the_validation_command_handles_unsupported_empty_valid_and_invalid_data(): void
