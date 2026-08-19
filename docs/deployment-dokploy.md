@@ -108,6 +108,10 @@ existantes provoque une erreur explicite plutôt qu’un écrasement silencieux.
 Les formats différés ou insuffisamment documentés présents dans `data` ne sont
 pas importés.
 
+L’image de production embarque uniquement les six CSV PLRG et le classeur de
+recettes pris en charge. Les sources différées, notamment le PDF, le RAP,
+`donnée.csv` et CCAS/CIAS, restent exclues du contexte de construction Docker.
+
 La même opération peut être lancée manuellement :
 
 ```bash
