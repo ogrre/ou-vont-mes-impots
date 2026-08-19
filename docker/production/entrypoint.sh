@@ -10,10 +10,12 @@ php artisan route:cache
 php artisan event:cache
 
 if [ "${RUN_MIGRATIONS:-false}" = "true" ]; then
-    if [ "${RUN_SEEDERS:-false}" = "true" ]; then
-        php artisan migrate --force --seed
-    else
-        php artisan migrate --force
+    php artisan migrate --force
+fi
+
+if [ "${RUN_SEEDERS:-false}" = "true" ]; then
+    if ! php artisan db:seed --force; then
+        echo "Reference seeding failed; the API will start with the existing reference data." >&2
     fi
 fi
 
