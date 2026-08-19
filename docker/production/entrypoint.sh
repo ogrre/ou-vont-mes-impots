@@ -18,7 +18,9 @@ if [ "${RUN_MIGRATIONS:-false}" = "true" ]; then
 fi
 
 if [ "${RUN_DATA_IMPORTS:-false}" = "true" ]; then
-    php artisan dataset:import-known "${DATA_IMPORT_PATH:-data}"
+    if ! php artisan dataset:import-known "${DATA_IMPORT_PATH:-data}"; then
+        echo "Data import failed; the API will start without replacing the last successfully imported data." >&2
+    fi
 fi
 
 exec "$@"
