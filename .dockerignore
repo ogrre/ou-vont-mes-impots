@@ -7,7 +7,17 @@
 node_modules
 vendor
 tests
-data
+# Production imports: include only the seven structured datasets supported by
+# the application. Large, deferred, or semantically unresolved sources remain
+# outside the Docker build context.
+data/*
+!data/depenses-par-mission-plrg-ae-2025.csv
+!data/depenses-par-mission-plrg-cp-2025.csv
+!data/depenses-par-ministeres-plrg-ae-2025.csv
+!data/depenses-par-ministeres-plrg-cp-2025.csv
+!data/depenses-par-nature-plrg-ae-2025.csv
+!data/depenses-par-nature-plrg-cp-2025.csv
+!data/econ-fin-pub-recettes-budget.xlsx
 database/database.sqlite
 .phpunit.cache
 .phpunit.result.cache
