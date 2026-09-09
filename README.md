@@ -185,14 +185,14 @@ Ils ne contiennent aucun montant officiel.
 Après `php artisan migrate --seed` :
 
 ```bash
-php artisan dataset:import state-expenditure-2025-mission-ae data/depenses-par-mission-plrg-ae-2025.csv
-php artisan dataset:import state-expenditure-2025-mission-cp data/depenses-par-mission-plrg-cp-2025.csv
-php artisan dataset:import state-expenditure-2025-ministry-ae data/depenses-par-ministeres-plrg-ae-2025.csv
-php artisan dataset:import state-expenditure-2025-ministry-cp data/depenses-par-ministeres-plrg-cp-2025.csv
-php artisan dataset:import state-expenditure-2025-nature-ae data/depenses-par-nature-plrg-ae-2025.csv
-php artisan dataset:import state-expenditure-2025-nature-cp data/depenses-par-nature-plrg-cp-2025.csv
+php artisan dataset:import state-expenditure-2025-mission-ae data/2025/budget-etat/depenses-par-mission-plrg-ae-2025.csv
+php artisan dataset:import state-expenditure-2025-mission-cp data/2025/budget-etat/depenses-par-mission-plrg-cp-2025.csv
+php artisan dataset:import state-expenditure-2025-ministry-ae data/2025/budget-etat/depenses-par-ministeres-plrg-ae-2025.csv
+php artisan dataset:import state-expenditure-2025-ministry-cp data/2025/budget-etat/depenses-par-ministeres-plrg-cp-2025.csv
+php artisan dataset:import state-expenditure-2025-nature-ae data/2025/budget-etat/depenses-par-nature-plrg-ae-2025.csv
+php artisan dataset:import state-expenditure-2025-nature-cp data/2025/budget-etat/depenses-par-nature-plrg-cp-2025.csv
 php artisan data:validate state-expenditure-2025
-php artisan dataset:import state-general-budget-revenue-2025-2026 data/econ-fin-pub-recettes-budget.xlsx
+php artisan dataset:import state-general-budget-revenue-2025-2026 data/2025/budget-etat/econ-fin-pub-recettes-budget.xlsx
 ```
 
 Dans Docker, préfixez chaque commande par
