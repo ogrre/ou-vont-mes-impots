@@ -1,0 +1,372 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "166",
+        "name": "Justice judiciaire"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Traitement et jugement des",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1234944217,
+                54862730,
+                1289806947,
+                1289806947,
+                1231154308,
+                56856062,
+                1288010370
+            ],
+            "amount_rows": [
+                [
+                    1234944217,
+                    54862730,
+                    1289806947,
+                    1289806947
+                ],
+                [
+                    1231154308,
+                    56856062,
+                    1288010370
+                ]
+            ],
+            "extracted_lines": [
+                "1 234 944 217        54 862 730                                                 1 289 806 947     1 289 806 947",
+                "1 231 154 308        56 856 062                                                 1 288 010 370"
+            ],
+            "ae_lfi": 1289806947,
+            "ae_consumed": 1288010370,
+            "cp_lfi": 1289806947,
+            "cp_consumed": 1287637126,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1234944217,
+                54862730,
+                1289806947,
+                1289806947,
+                1231154308,
+                56482818,
+                1287637126
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Conduite de la politique pénale et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                906631430,
+                621662620,
+                1528294050,
+                1528327050,
+                879687243,
+                628127876,
+                29111118,
+                1536926237
+            ],
+            "amount_rows": [
+                [
+                    906631430,
+                    621662620,
+                    1528294050,
+                    1528327050
+                ],
+                [
+                    879687243,
+                    628127876,
+                    29111118,
+                    1536926237
+                ]
+            ],
+            "extracted_lines": [
+                "906 631 430       621 662 620                                                  1 528 294 050     1 528 327 050",
+                "879 687 243       628 127 876                                   29 111 118     1 536 926 237"
+            ],
+            "ae_lfi": 1528327050,
+            "ae_consumed": 1536926237,
+            "cp_lfi": 1528327050,
+            "cp_consumed": 1538472683,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                906631430,
+                621662620,
+                1528294050,
+                1528327050,
+                879687243,
+                624288129,
+                34497311,
+                1538472683
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Cassation",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                78589688,
+                78589688,
+                78589688,
+                76889650,
+                270,
+                76889920
+            ],
+            "amount_rows": [
+                [
+                    78589688,
+                    78589688,
+                    78589688
+                ],
+                [
+                    76889650,
+                    270,
+                    76889920
+                ]
+            ],
+            "extracted_lines": [
+                "78 589 688                                                                      78 589 688        78 589 688",
+                "76 889 650               270                                                    76 889 920"
+            ],
+            "ae_lfi": 78589688,
+            "ae_consumed": 76889920,
+            "cp_lfi": 78589688,
+            "cp_consumed": 76889920,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                78589688,
+                78589688,
+                78589688,
+                76889650,
+                270,
+                76889920
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Enregistrement des décisions",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                13002766,
+                13002766,
+                13002766,
+                12282526,
+                12282526
+            ],
+            "amount_rows": [
+                [
+                    13002766,
+                    13002766,
+                    13002766
+                ],
+                [
+                    12282526,
+                    12282526
+                ]
+            ],
+            "extracted_lines": [
+                "13 002 766                                                                      13 002 766        13 002 766",
+                "12 282 526                                                                      12 282 526"
+            ],
+            "ae_lfi": 13002766,
+            "ae_consumed": 12282526,
+            "cp_lfi": 13002766,
+            "cp_consumed": 12282526,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                13002766,
+                13002766,
+                13002766,
+                12282526,
+                12282526
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Soutien",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                599133173,
+                572847969,
+                456307104,
+                3720300,
+                1632008546,
+                1636724546,
+                585107768,
+                430583099,
+                409166678,
+                7161998,
+                1432019543
+            ],
+            "amount_rows": [
+                [
+                    599133173,
+                    572847969,
+                    456307104,
+                    3720300,
+                    1632008546,
+                    1636724546
+                ],
+                [
+                    585107768,
+                    430583099,
+                    409166678,
+                    7161998,
+                    1432019543
+                ]
+            ],
+            "extracted_lines": [
+                "599 133 173       572 847 969            456 307 104              3 720 300    1 632 008 546     1 636 724 546",
+                "585 107 768       430 583 099            409 166 678              7 161 998    1 432 019 543"
+            ],
+            "ae_lfi": 1636724546,
+            "ae_consumed": 1432019543,
+            "cp_lfi": 1426786172,
+            "cp_consumed": 1247341534,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                599133173,
+                457328340,
+                361888359,
+                3720300,
+                1422070172,
+                1426786172,
+                585107768,
+                462793047,
+                190462323,
+                8978398,
+                1247341534
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Formation",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                138452926,
+                57888759,
+                196341685,
+                196341685,
+                142148043,
+                56836798,
+                112018,
+                199096858
+            ],
+            "amount_rows": [
+                [
+                    138452926,
+                    57888759,
+                    196341685,
+                    196341685
+                ],
+                [
+                    142148043,
+                    56836798,
+                    112018,
+                    199096858
+                ]
+            ],
+            "extracted_lines": [
+                "138 452 926         57 888 759                                                  196 341 685        196 341 685",
+                "142 148 043         56 836 798                                      112 018     199 096 858"
+            ],
+            "ae_lfi": 196341685,
+            "ae_consumed": 199096858,
+            "cp_lfi": 196341685,
+            "cp_consumed": 198825003,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                138452926,
+                57888759,
+                196341685,
+                196341685,
+                142148043,
+                56564943,
+                112018,
+                198825003
+            ]
+        },
+        {
+            "code": "08",
+            "label": "Support à l'accès au droit et à la",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                15902937,
+                15902937,
+                15902937,
+                13426291,
+                13426291
+            ],
+            "amount_rows": [
+                [
+                    15902937,
+                    15902937,
+                    15902937
+                ],
+                [
+                    13426291,
+                    13426291
+                ]
+            ],
+            "extracted_lines": [
+                "15 902 937                                                                      15 902 937        15 902 937",
+                "13 426 291                                                                      13 426 291"
+            ],
+            "ae_lfi": 15902937,
+            "ae_consumed": 13426291,
+            "cp_lfi": 15902937,
+            "cp_consumed": 13426291,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                15902937,
+                15902937,
+                15902937,
+                13426291,
+                13426291
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 4758695619,
+            "ae_consumed": 4558651746,
+            "cp_lfi": 4548757245,
+            "cp_consumed": 4374875084
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 7,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29684",
+    "pdf_sha256": "55610bfe3b1ad43647c2efa1812e995d087c4740e7b5e79c20f65d08da9e2568",
+    "mission": "Justice"
+}

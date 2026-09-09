@@ -1,0 +1,75 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "754",
+        "name": "Contribution à l'équipement des collectivités territoriales pour l'amélioration des transports en commun, de la sécurité et de la circulation routières"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Contribution à l'équipement des collectivités territoriales pour l'amélioration des",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                666844266,
+                666844266,
+                666844266,
+                737115830,
+                737115830
+            ],
+            "amount_rows": [
+                [
+                    666844266,
+                    666844266,
+                    666844266
+                ],
+                [
+                    737115830,
+                    737115830
+                ]
+            ],
+            "extracted_lines": [
+                "666 844 266       666 844 266         666 844 266",
+                "737 115 830        737 115 830"
+            ],
+            "ae_lfi": 666844266,
+            "ae_consumed": 737115830,
+            "cp_lfi": 666844266,
+            "cp_consumed": 735665422,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                666844266,
+                666844266,
+                666844266,
+                735665422,
+                735665422
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 666844266,
+            "ae_consumed": 737115830,
+            "cp_lfi": 666844266,
+            "cp_consumed": 735665422
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30008",
+    "pdf_sha256": "bcf4af441704f20b935f252606efa337652cca563d91c2d66b1910a7664abfd7",
+    "mission": null
+}

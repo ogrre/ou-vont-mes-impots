@@ -1,0 +1,381 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "201",
+        "name": "Remboursements et dégrèvements d'impôts locaux (crédits évaluatifs)"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Contribution économique territoriale et autres impôts économiques",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1612000000,
+                1612000000,
+                1612000000,
+                3005277,
+                1096576098,
+                1099581375
+            ],
+            "amount_rows": [
+                [
+                    1612000000,
+                    1612000000,
+                    1612000000
+                ],
+                [
+                    3005277,
+                    1096576098,
+                    1099581375
+                ]
+            ],
+            "extracted_lines": [
+                "1 612 000 000    1 612 000 000      1 612 000 000",
+                "3 005 277       1 096 576 098    1 099 581 375"
+            ],
+            "ae_lfi": 1612000000,
+            "ae_consumed": 1099581375,
+            "cp_lfi": 1612000000,
+            "cp_consumed": 1099596444,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1612000000,
+                1612000000,
+                1612000000,
+                3005277,
+                1096591167,
+                1099596444
+            ]
+        },
+        {
+            "code": "01.01",
+            "label": "Taxe professionnelle et contribution économique territoriale et autres",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "01",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1612000000,
+                1612000000,
+                1612000000,
+                3005277,
+                1096576098,
+                1099581375
+            ],
+            "amount_rows": [
+                [
+                    1612000000,
+                    1612000000,
+                    1612000000
+                ],
+                [
+                    3005277,
+                    1096576098,
+                    1099581375
+                ]
+            ],
+            "extracted_lines": [
+                "1 612 000 000    1 612 000 000      1 612 000 000",
+                "3 005 277       1 096 576 098    1 099 581 375"
+            ],
+            "ae_lfi": 1612000000,
+            "ae_consumed": 1099581375,
+            "cp_lfi": 1612000000,
+            "cp_consumed": 1099596444,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1612000000,
+                1612000000,
+                1612000000,
+                3005277,
+                1096591167,
+                1099596444
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Taxes foncières",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1925000000,
+                1925000000,
+                1925000000,
+                50549850,
+                2060080575,
+                2110630425
+            ],
+            "amount_rows": [
+                [
+                    1925000000,
+                    1925000000,
+                    1925000000
+                ],
+                [
+                    50549850,
+                    2060080575,
+                    2110630425
+                ]
+            ],
+            "extracted_lines": [
+                "1 925 000 000    1 925 000 000      1 925 000 000",
+                "50 549 850       2 060 080 575    2 110 630 425"
+            ],
+            "ae_lfi": 1925000000,
+            "ae_consumed": 2110630425,
+            "cp_lfi": 1925000000,
+            "cp_consumed": 2110638205,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1925000000,
+                1925000000,
+                1925000000,
+                50549850,
+                2060088355,
+                2110638205
+            ]
+        },
+        {
+            "code": "02.01",
+            "label": "Taxes foncières",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "02",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1925000000,
+                1925000000,
+                1925000000,
+                50549850,
+                2060080575,
+                2110630425
+            ],
+            "amount_rows": [
+                [
+                    1925000000,
+                    1925000000,
+                    1925000000
+                ],
+                [
+                    50549850,
+                    2060080575,
+                    2110630425
+                ]
+            ],
+            "extracted_lines": [
+                "1 925 000 000    1 925 000 000      1 925 000 000",
+                "50 549 850       2 060 080 575    2 110 630 425"
+            ],
+            "ae_lfi": 1925000000,
+            "ae_consumed": 2110630425,
+            "cp_lfi": 1925000000,
+            "cp_consumed": 2110638205,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1925000000,
+                1925000000,
+                1925000000,
+                50549850,
+                2060088355,
+                2110638205
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Taxe d'habitation",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                311000000,
+                311000000,
+                311000000,
+                1255440452,
+                1255440452
+            ],
+            "amount_rows": [
+                [
+                    311000000,
+                    311000000,
+                    311000000
+                ],
+                [
+                    1255440452,
+                    1255440452
+                ]
+            ],
+            "extracted_lines": [
+                "311 000 000     311 000 000         311 000 000",
+                "1 255 440 452   1 255 440 452"
+            ],
+            "ae_lfi": 311000000,
+            "ae_consumed": 1255440452,
+            "cp_lfi": 311000000,
+            "cp_consumed": 1255423744,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                311000000,
+                311000000,
+                311000000,
+                1255423744,
+                1255423744
+            ]
+        },
+        {
+            "code": "03.01",
+            "label": "Taxe d'habitation",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "03",
+            "contributes_to_program_total": false,
+            "amounts": [
+                311000000,
+                311000000,
+                311000000,
+                1255440452,
+                1255440452
+            ],
+            "amount_rows": [
+                [
+                    311000000,
+                    311000000,
+                    311000000
+                ],
+                [
+                    1255440452,
+                    1255440452
+                ]
+            ],
+            "extracted_lines": [
+                "311 000 000     311 000 000         311 000 000",
+                "1 255 440 452   1 255 440 452"
+            ],
+            "ae_lfi": 311000000,
+            "ae_consumed": 1255440452,
+            "cp_lfi": 311000000,
+            "cp_consumed": 1255423744,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                311000000,
+                311000000,
+                311000000,
+                1255423744,
+                1255423744
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Admission en non valeur d'impôts locaux",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                443000000,
+                443000000,
+                443000000,
+                489507017,
+                489507017
+            ],
+            "amount_rows": [
+                [
+                    443000000,
+                    443000000,
+                    443000000
+                ],
+                [
+                    489507017,
+                    489507017
+                ]
+            ],
+            "extracted_lines": [
+                "443 000 000     443 000 000         443 000 000",
+                "489 507 017      489 507 017"
+            ],
+            "ae_lfi": 443000000,
+            "ae_consumed": 489507017,
+            "cp_lfi": 443000000,
+            "cp_consumed": 489507017,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                443000000,
+                443000000,
+                443000000,
+                489507017,
+                489507017
+            ]
+        },
+        {
+            "code": "04.01",
+            "label": "Admission en non valeur d'impôts locaux",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "04",
+            "contributes_to_program_total": false,
+            "amounts": [
+                443000000,
+                443000000,
+                443000000,
+                489507017,
+                489507017
+            ],
+            "amount_rows": [
+                [
+                    443000000,
+                    443000000,
+                    443000000
+                ],
+                [
+                    489507017,
+                    489507017
+                ]
+            ],
+            "extracted_lines": [
+                "443 000 000     443 000 000         443 000 000",
+                "489 507 017      489 507 017"
+            ],
+            "ae_lfi": 443000000,
+            "ae_consumed": 489507017,
+            "cp_lfi": 443000000,
+            "cp_consumed": 489507017,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                443000000,
+                443000000,
+                443000000,
+                489507017,
+                489507017
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 4291000000,
+            "ae_consumed": 4955159269,
+            "cp_lfi": 4291000000,
+            "cp_consumed": 4955165410
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 8,
+        "sub_actions": 4
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29747",
+    "pdf_sha256": "d672438f0a5c6b401953ff5e96738b086765caf94dd8d579e6da9f756b010cbe",
+    "mission": "Remboursements et dégrèvements"
+}

@@ -1,0 +1,405 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "123",
+        "name": "Conditions de vie outre-mer"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Logement",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                291870100,
+                291870100,
+                291870100,
+                4554755,
+                234069545,
+                238624300
+            ],
+            "amount_rows": [
+                [
+                    291870100,
+                    291870100,
+                    291870100
+                ],
+                [
+                    4554755,
+                    234069545,
+                    238624300
+                ]
+            ],
+            "extracted_lines": [
+                "291 870 100      291 870 100       291 870 100",
+                "4 554 755                                  234 069 545      238 624 300"
+            ],
+            "ae_lfi": 291870100,
+            "ae_consumed": 238624300,
+            "cp_lfi": 193829728,
+            "cp_consumed": 171943822,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                193829728,
+                193829728,
+                193829728,
+                3326229,
+                168617593,
+                171943822
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Aménagement du territoire",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1107484,
+                232103998,
+                233211482,
+                233542982,
+                4908462,
+                606020,
+                190951731,
+                196466213
+            ],
+            "amount_rows": [
+                [
+                    1107484,
+                    232103998,
+                    233211482,
+                    233542982
+                ],
+                [
+                    4908462,
+                    606020,
+                    190951731,
+                    196466213
+                ]
+            ],
+            "extracted_lines": [
+                "1 107 484                                  232 103 998      233 211 482       233 542 982",
+                "4 908 462                  606 020          190 951 731      196 466 213"
+            ],
+            "ae_lfi": 233542982,
+            "ae_consumed": 196466213,
+            "cp_lfi": 174765501,
+            "cp_consumed": 176401870,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1107484,
+                173326517,
+                174434001,
+                174765501,
+                6331695,
+                2215890,
+                167854285,
+                176401870
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Continuité territoriale",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                76296485,
+                76296485,
+                76296485,
+                372259,
+                77477535,
+                77849794
+            ],
+            "amount_rows": [
+                [
+                    76296485,
+                    76296485,
+                    76296485
+                ],
+                [
+                    372259,
+                    77477535,
+                    77849794
+                ]
+            ],
+            "extracted_lines": [
+                "76 296 485       76 296 485         76 296 485",
+                "372 259                                   77 477 535       77 849 794"
+            ],
+            "ae_lfi": 76296485,
+            "ae_consumed": 77849794,
+            "cp_lfi": 76191512,
+            "cp_consumed": 77486555,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                76191512,
+                76191512,
+                76191512,
+                226945,
+                77259609,
+                77486555
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Sanitaire, social, culture, jeunesse et sports",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1000000,
+                20000000,
+                21000000,
+                21000000,
+                830351,
+                21034896,
+                21865247
+            ],
+            "amount_rows": [
+                [
+                    1000000,
+                    20000000,
+                    21000000,
+                    21000000
+                ],
+                [
+                    830351,
+                    21034896,
+                    21865247
+                ]
+            ],
+            "extracted_lines": [
+                "1 000 000                                   20 000 000       21 000 000         21 000 000",
+                "830 351                                    21 034 896       21 865 247"
+            ],
+            "ae_lfi": 21000000,
+            "ae_consumed": 21865247,
+            "cp_lfi": 21000000,
+            "cp_consumed": 19488000,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1000000,
+                20000000,
+                21000000,
+                21000000,
+                665160,
+                18822840,
+                19488000
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Collectivités territoriales",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1199101,
+                427730846,
+                428929947,
+                428929947,
+                11746451,
+                1123098,
+                369112721,
+                381982271
+            ],
+            "amount_rows": [
+                [
+                    1199101,
+                    427730846,
+                    428929947,
+                    428929947
+                ],
+                [
+                    11746451,
+                    1123098,
+                    369112721,
+                    381982271
+                ]
+            ],
+            "extracted_lines": [
+                "1 199 101                                 427 730 846      428 929 947       428 929 947",
+                "11 746 451               1 123 098          369 112 721      381 982 271"
+            ],
+            "ae_lfi": 428929947,
+            "ae_consumed": 381982271,
+            "cp_lfi": 328358336,
+            "cp_consumed": 351714209,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1199101,
+                327159235,
+                328358336,
+                328358336,
+                21157587,
+                374523,
+                330182100,
+                351714209
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Insertion économique et coopération régionales",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                80000,
+                889500,
+                969500,
+                969500,
+                163310,
+                252779,
+                416089
+            ],
+            "amount_rows": [
+                [
+                    80000,
+                    889500,
+                    969500,
+                    969500
+                ],
+                [
+                    163310,
+                    252779,
+                    416089
+                ]
+            ],
+            "extracted_lines": [
+                "80 000                                       889 500         969 500           969 500",
+                "163 310                                       252 779         416 089"
+            ],
+            "ae_lfi": 969500,
+            "ae_consumed": 416089,
+            "cp_lfi": 969500,
+            "cp_consumed": 654973,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                80000,
+                889500,
+                969500,
+                969500,
+                194691,
+                460282,
+                654973
+            ]
+        },
+        {
+            "code": "08",
+            "label": "Fonds exceptionnel d'investissement",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                160000000,
+                160000000,
+                160000000,
+                98773439,
+                98773439
+            ],
+            "amount_rows": [
+                [
+                    160000000,
+                    160000000,
+                    160000000
+                ],
+                [
+                    98773439,
+                    98773439
+                ]
+            ],
+            "extracted_lines": [
+                "160 000 000      160 000 000       160 000 000",
+                "98 773 439       98 773 439"
+            ],
+            "ae_lfi": 160000000,
+            "ae_consumed": 98773439,
+            "cp_lfi": 87264356,
+            "cp_consumed": 56118610,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                87264356,
+                87264356,
+                87264356,
+                56118610,
+                56118610
+            ]
+        },
+        {
+            "code": "09",
+            "label": "Appui à l'accès aux financements bancaires",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                69346329,
+                69346329,
+                69346329,
+                103239511,
+                103239511
+            ],
+            "amount_rows": [
+                [
+                    69346329,
+                    69346329,
+                    69346329
+                ],
+                [
+                    103239511,
+                    103239511
+                ]
+            ],
+            "extracted_lines": [
+                "69 346 329       69 346 329         69 346 329",
+                "103 239 511      103 239 511"
+            ],
+            "ae_lfi": 69346329,
+            "ae_consumed": 103239511,
+            "cp_lfi": 37726539,
+            "cp_consumed": 83801759,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                37726539,
+                37726539,
+                37726539,
+                83801759,
+                83801759
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 1281955343,
+            "ae_consumed": 1119216864,
+            "cp_lfi": 920105472,
+            "cp_consumed": 937609798
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 8,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29579",
+    "pdf_sha256": "29e63843bd21d3e648491cd21d83d9be8ab987fc45057574f8e3ecc12891ba8d",
+    "mission": "Outre-Mer"
+}

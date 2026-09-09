@@ -1,0 +1,645 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "217",
+        "name": "Conduite et pilotage des politiques de l'écologie, du développement et de la mobilité durables"
+    },
+    "actions": [
+        {
+            "code": "07",
+            "label": "Pilotage, support, audit et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                638569744,
+                183157960,
+                75319023,
+                7498536,
+                904545263,
+                905645263
+            ],
+            "amount_rows": [
+                [
+                    638569744,
+                    183157960,
+                    75319023,
+                    7498536,
+                    904545263,
+                    905645263
+                ]
+            ],
+            "extracted_lines": [
+                "638 569 744     183 157 960         75 319 023         7 498 536                        904 545 263       905 645 263",
+                "635 737 259      440 168 399      -268 082 669        10 117 687       6 846 900         824 787 576"
+            ],
+            "ae_lfi": 905645263,
+            "ae_consumed": null,
+            "cp_lfi": 895202384,
+            "cp_consumed": 875409404,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                638569744,
+                195533433,
+                52500671,
+                7498536,
+                894102384,
+                895202384,
+                635737259,
+                198760408,
+                30652783,
+                10258955,
+                875409404
+            ]
+        },
+        {
+            "code": "08",
+            "label": "Personnels œuvrant pour les",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                591826782,
+                591826782,
+                591826782,
+                588412715,
+                588412715
+            ],
+            "amount_rows": [
+                [
+                    591826782,
+                    591826782,
+                    591826782
+                ],
+                [
+                    588412715,
+                    588412715
+                ]
+            ],
+            "extracted_lines": [
+                "591 826 782                                                                             591 826 782       591 826 782",
+                "588 412 715                                                                              588 412 715"
+            ],
+            "ae_lfi": 591826782,
+            "ae_consumed": 588412715,
+            "cp_lfi": 591826782,
+            "cp_consumed": 588412715,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                591826782,
+                591826782,
+                591826782,
+                588412715,
+                588412715
+            ]
+        },
+        {
+            "code": "09",
+            "label": "Personnels oeuvrant pour les",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "11",
+            "label": "Personnels oeuvrant pour les",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                222714416,
+                222714416,
+                222714416,
+                218382813,
+                218382813
+            ],
+            "amount_rows": [
+                [
+                    222714416,
+                    222714416,
+                    222714416
+                ],
+                [
+                    218382813,
+                    218382813
+                ]
+            ],
+            "extracted_lines": [
+                "222 714 416                                                                             222 714 416       222 714 416",
+                "218 382 813                                                                              218 382 813"
+            ],
+            "ae_lfi": 222714416,
+            "ae_consumed": 218382813,
+            "cp_lfi": 222714416,
+            "cp_consumed": 218382813,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                222714416,
+                222714416,
+                222714416,
+                218382813,
+                218382813
+            ]
+        },
+        {
+            "code": "13",
+            "label": "Personnels œuvrant pour la",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                266205446,
+                266205446,
+                266205446,
+                259205499,
+                259205499
+            ],
+            "amount_rows": [
+                [
+                    266205446,
+                    266205446,
+                    266205446
+                ],
+                [
+                    259205499,
+                    259205499
+                ]
+            ],
+            "extracted_lines": [
+                "266 205 446                                                                             266 205 446       266 205 446",
+                "259 205 499                                                                              259 205 499"
+            ],
+            "ae_lfi": 266205446,
+            "ae_consumed": 259205499,
+            "cp_lfi": 266205446,
+            "cp_consumed": 259205499,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                266205446,
+                266205446,
+                266205446,
+                259205499,
+                259205499
+            ]
+        },
+        {
+            "code": "15",
+            "label": "Personnels œuvrant pour les",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                677073578,
+                677073578,
+                677073578,
+                658012992,
+                658012992
+            ],
+            "amount_rows": [
+                [
+                    677073578,
+                    677073578,
+                    677073578
+                ],
+                [
+                    658012992,
+                    658012992
+                ]
+            ],
+            "extracted_lines": [
+                "677 073 578                                                                             677 073 578       677 073 578",
+                "658 012 992                                                                              658 012 992"
+            ],
+            "ae_lfi": 677073578,
+            "ae_consumed": 658012992,
+            "cp_lfi": 677073578,
+            "cp_consumed": 658012992,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                677073578,
+                677073578,
+                677073578,
+                658012992,
+                658012992
+            ]
+        },
+        {
+            "code": "16",
+            "label": "Personnels œuvrant pour la",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                279606389,
+                279606389,
+                279606389,
+                288213114,
+                288213114
+            ],
+            "amount_rows": [
+                [
+                    279606389,
+                    279606389,
+                    279606389
+                ],
+                [
+                    288213114,
+                    288213114
+                ]
+            ],
+            "extracted_lines": [
+                "279 606 389                                                                             279 606 389       279 606 389",
+                "288 213 114                                                                              288 213 114"
+            ],
+            "ae_lfi": 279606389,
+            "ae_consumed": 288213114,
+            "cp_lfi": 279606389,
+            "cp_consumed": 288213114,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                279606389,
+                279606389,
+                279606389,
+                288213114,
+                288213114
+            ]
+        },
+        {
+            "code": "18",
+            "label": "Personnels relevant de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                3254351,
+                3254351
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    3254351,
+                    3254351
+                ]
+            ],
+            "extracted_lines": [
+                "0                 0",
+                "3 254 351                                                                               3 254 351"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 3254351,
+            "cp_lfi": 0,
+            "cp_consumed": 3254351,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                3254351,
+                3254351
+            ]
+        },
+        {
+            "code": "22",
+            "label": "Personnels transférés aux",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                9792775,
+                9792775,
+                18792775,
+                15306680,
+                15306680
+            ],
+            "amount_rows": [
+                [
+                    9792775,
+                    9792775,
+                    18792775
+                ],
+                [
+                    15306680,
+                    15306680
+                ]
+            ],
+            "extracted_lines": [
+                "9 792 775                                                                              9 792 775        18 792 775",
+                "15 306 680                                                                              15 306 680"
+            ],
+            "ae_lfi": 18792775,
+            "ae_consumed": 15306680,
+            "cp_lfi": 18792775,
+            "cp_consumed": 15306680,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                9792775,
+                9792775,
+                18792775,
+                15306680,
+                15306680
+            ]
+        },
+        {
+            "code": "23",
+            "label": "Personnels œuvrant pour les",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                70243597,
+                70243597,
+                70243597,
+                84984854,
+                84984854
+            ],
+            "amount_rows": [
+                [
+                    70243597,
+                    70243597,
+                    70243597
+                ],
+                [
+                    84984854,
+                    84984854
+                ]
+            ],
+            "extracted_lines": [
+                "70 243 597                                                                              70 243 597        70 243 597",
+                "84 984 854                                                                               84 984 854"
+            ],
+            "ae_lfi": 70243597,
+            "ae_consumed": 84984854,
+            "cp_lfi": 70243597,
+            "cp_consumed": 84984854,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                70243597,
+                70243597,
+                70243597,
+                84984854,
+                84984854
+            ]
+        },
+        {
+            "code": "25",
+            "label": "Commission nationale du",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                3103000,
+                964149,
+                4067149,
+                11567149,
+                3278511,
+                5254437,
+                8532948
+            ],
+            "amount_rows": [
+                [
+                    3103000,
+                    964149,
+                    4067149,
+                    11567149
+                ],
+                [
+                    3278511,
+                    5254437,
+                    8532948
+                ]
+            ],
+            "extracted_lines": [
+                "3 103 000          964 149                                                              4 067 149        11 567 149",
+                "3 278 511         5 254 437                                                              8 532 948"
+            ],
+            "ae_lfi": 11567149,
+            "ae_consumed": 8532948,
+            "cp_lfi": 11567149,
+            "cp_consumed": 7245512,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                3103000,
+                964149,
+                4067149,
+                11567149,
+                3278511,
+                3967001,
+                7245512
+            ]
+        },
+        {
+            "code": "26",
+            "label": "Autorité de contrôle des",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1501728,
+                509158,
+                2010886,
+                2010886,
+                1349012,
+                534680,
+                1883692
+            ],
+            "amount_rows": [
+                [
+                    1501728,
+                    509158,
+                    2010886,
+                    2010886
+                ],
+                [
+                    1349012,
+                    534680,
+                    1883692
+                ]
+            ],
+            "extracted_lines": [
+                "1 501 728          509 158                                                              2 010 886         2 010 886",
+                "1 349 012          534 680                                                               1 883 692"
+            ],
+            "ae_lfi": 2010886,
+            "ae_consumed": 1883692,
+            "cp_lfi": 2010886,
+            "cp_consumed": 1959831,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1501728,
+                509158,
+                2010886,
+                2010886,
+                1349012,
+                610819,
+                1959831
+            ]
+        },
+        {
+            "code": "27",
+            "label": "Commission de régulation de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                16977551,
+                4968545,
+                21946096,
+                21946096,
+                16756526,
+                4217074,
+                125314,
+                21098913
+            ],
+            "amount_rows": [
+                [
+                    16977551,
+                    4968545,
+                    21946096,
+                    21946096
+                ],
+                [
+                    16756526,
+                    4217074,
+                    125314,
+                    21098913
+                ]
+            ],
+            "extracted_lines": [
+                "16 977 551        4 968 545                                                             21 946 096        21 946 096",
+                "16 756 526         4 217 074                             125 314                         21 098 913"
+            ],
+            "ae_lfi": 21946096,
+            "ae_consumed": 21098913,
+            "cp_lfi": 24506766,
+            "cp_consumed": 25258903,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                16977551,
+                7529215,
+                24506766,
+                24506766,
+                16756526,
+                8394618,
+                107760,
+                25258903
+            ]
+        },
+        {
+            "code": "28",
+            "label": "Personnels œuvrant dans le",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                53485173,
+                53485173,
+                53485173,
+                56250892,
+                56250892
+            ],
+            "amount_rows": [
+                [
+                    53485173,
+                    53485173,
+                    53485173
+                ],
+                [
+                    56250892,
+                    56250892
+                ]
+            ],
+            "extracted_lines": [
+                "53 485 173                                                                              53 485 173        53 485 173",
+                "56 250 892                                                                               56 250 892"
+            ],
+            "ae_lfi": 53485173,
+            "ae_consumed": 56250892,
+            "cp_lfi": 53485173,
+            "cp_consumed": 56250892,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                53485173,
+                53485173,
+                53485173,
+                56250892,
+                56250892
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 3121117550,
+            "ae_consumed": 3028327039,
+            "cp_lfi": 3113235341,
+            "cp_consumed": 3081897561
+        },
+        "differences": {
+            "ae_consumed": {
+                "actions_sum": 2203539463,
+                "programme_total": 3028327039,
+                "difference": -824787576
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 14,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29780",
+    "pdf_sha256": "f4894d1b5a9cf5f7011b90634792816bef2678d85429682015993f696532aa77",
+    "mission": "Écologie, développement et mobilité durables"
+}

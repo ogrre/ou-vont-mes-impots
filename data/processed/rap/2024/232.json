@@ -1,0 +1,186 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "232",
+        "name": "Vie politique"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Financement des partis",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                68670672,
+                68670672,
+                68670672,
+                66240520,
+                66240520
+            ],
+            "amount_rows": [
+                [
+                    68670672,
+                    68670672,
+                    68670672
+                ],
+                [
+                    66240520,
+                    66240520
+                ]
+            ],
+            "extracted_lines": [
+                "68 670 672     68 670 672        68 670 672",
+                "66 240 520     66 240 520"
+            ],
+            "ae_lfi": 68670672,
+            "ae_consumed": 66240520,
+            "cp_lfi": 68670672,
+            "cp_consumed": 66328469,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                68670672,
+                68670672,
+                68670672,
+                66328469,
+                66328469
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Organisation des élections",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                18524604,
+                154883372,
+                8385000,
+                181792976,
+                181792976,
+                20174403,
+                237719200,
+                4039325,
+                23499097,
+                285432025
+            ],
+            "amount_rows": [
+                [
+                    18524604,
+                    154883372,
+                    8385000,
+                    181792976,
+                    181792976
+                ],
+                [
+                    20174403,
+                    237719200,
+                    4039325,
+                    23499097,
+                    285432025
+                ]
+            ],
+            "extracted_lines": [
+                "18 524 604       154 883 372                                  8 385 000    181 792 976       181 792 976",
+                "20 174 403       237 719 200            4 039 325            23 499 097    285 432 025"
+            ],
+            "ae_lfi": 181792976,
+            "ae_consumed": 285432025,
+            "cp_lfi": 180225122,
+            "cp_consumed": 281265356,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                18524604,
+                153315518,
+                8385000,
+                180225122,
+                180225122,
+                20174403,
+                233632896,
+                3926734,
+                23531323,
+                281265356
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Commission nationale des comptes",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                5320000,
+                1750336,
+                191268,
+                7261604,
+                7261604,
+                4648795,
+                1537399,
+                172518,
+                6358712
+            ],
+            "amount_rows": [
+                [
+                    5320000,
+                    1750336,
+                    191268,
+                    7261604,
+                    7261604
+                ],
+                [
+                    4648795,
+                    1537399,
+                    172518,
+                    6358712
+                ]
+            ],
+            "extracted_lines": [
+                "5 320 000         1 750 336             191 268                            7 261 604          7 261 604",
+                "4 648 795         1 537 399            172 518                             6 358 712"
+            ],
+            "ae_lfi": 7261604,
+            "ae_consumed": 6358712,
+            "cp_lfi": 8725955,
+            "cp_consumed": 7532056,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                5320000,
+                3094778,
+                311177,
+                8725955,
+                8725955,
+                4648795,
+                2736136,
+                147126,
+                7532056
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 257725252,
+            "ae_consumed": 358031258,
+            "cp_lfi": 257621749,
+            "cp_consumed": 355125882
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 3,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29801",
+    "pdf_sha256": "d9b644cb47bdc8faab886123de1c0751dfea1c00689bba3e2b4e9e81e2f43b21",
+    "mission": "Administration générale et territoriale de l'État"
+}

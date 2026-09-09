@@ -1,0 +1,396 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "204",
+        "name": "Prévention, sécurité sanitaire et offre de soins"
+    },
+    "actions": [
+        {
+            "code": "11",
+            "label": "Pilotage de la politique de santé publique",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                37108817,
+                33379273,
+                70488090,
+                70488090,
+                24937504,
+                37011383,
+                61948887
+            ],
+            "amount_rows": [
+                [
+                    37108817,
+                    33379273,
+                    70488090,
+                    70488090
+                ],
+                [
+                    24937504,
+                    37011383,
+                    61948887
+                ]
+            ],
+            "extracted_lines": [
+                "37 108 817         33 379 273      70 488 090          70 488 090",
+                "24 937 504          37 011 383      61 948 887"
+            ],
+            "ae_lfi": 70488090,
+            "ae_consumed": 61948887,
+            "cp_lfi": 72488090,
+            "cp_consumed": 66179054,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                39108817,
+                33379273,
+                72488090,
+                72488090,
+                27280732,
+                38898323,
+                66179054
+            ]
+        },
+        {
+            "code": "12",
+            "label": "Santé des populations",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1010000,
+                1010000,
+                1010000,
+                25082,
+                1172400,
+                1197482
+            ],
+            "amount_rows": [
+                [
+                    1010000,
+                    1010000,
+                    1010000
+                ],
+                [
+                    25082,
+                    1172400,
+                    1197482
+                ]
+            ],
+            "extracted_lines": [
+                "1 010 000      1 010 000           1 010 000",
+                "25 082           1 172 400      1 197 482"
+            ],
+            "ae_lfi": 1010000,
+            "ae_consumed": 1197482,
+            "cp_lfi": 1010000,
+            "cp_consumed": 1262482,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1010000,
+                1010000,
+                1010000,
+                90082,
+                1172400,
+                1262482
+            ]
+        },
+        {
+            "code": "14",
+            "label": "Prévention des maladies chroniques et qualité de vie",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                46988567,
+                46988567,
+                46988567,
+                32915133,
+                10224084,
+                43139218
+            ],
+            "amount_rows": [
+                [
+                    46988567,
+                    46988567,
+                    46988567
+                ],
+                [
+                    32915133,
+                    10224084,
+                    43139218
+                ]
+            ],
+            "extracted_lines": [
+                "46 988 567                         46 988 567          46 988 567",
+                "32 915 133          10 224 084      43 139 218"
+            ],
+            "ae_lfi": 46988567,
+            "ae_consumed": 43139218,
+            "cp_lfi": 46988567,
+            "cp_consumed": 43717836,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                46988567,
+                46988567,
+                46988567,
+                33047656,
+                10670180,
+                43717836
+            ]
+        },
+        {
+            "code": "15",
+            "label": "Prévention des risques liés à l'environnement et à",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                30454046,
+                30454046,
+                30454046,
+                26586735,
+                1846825,
+                28433560
+            ],
+            "amount_rows": [
+                [
+                    30454046,
+                    30454046,
+                    30454046
+                ],
+                [
+                    26586735,
+                    1846825,
+                    28433560
+                ]
+            ],
+            "extracted_lines": [
+                "30 454 046                         30 454 046          30 454 046",
+                "26 586 735            1 846 825     28 433 560"
+            ],
+            "ae_lfi": 30454046,
+            "ae_consumed": 28433560,
+            "cp_lfi": 30454046,
+            "cp_consumed": 28694247,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                30454046,
+                30454046,
+                30454046,
+                26430857,
+                2263390,
+                28694247
+            ]
+        },
+        {
+            "code": "16",
+            "label": "Veille et sécurité sanitaire",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                57010000,
+                57010000,
+                57010000,
+                133203733,
+                93393539,
+                226597272
+            ],
+            "amount_rows": [
+                [
+                    57010000,
+                    57010000,
+                    57010000
+                ],
+                [
+                    133203733,
+                    93393539,
+                    226597272
+                ]
+            ],
+            "extracted_lines": [
+                "57 010 000                         57 010 000          57 010 000",
+                "133 203 733          93 393 539     226 597 272"
+            ],
+            "ae_lfi": 57010000,
+            "ae_consumed": 226597272,
+            "cp_lfi": 57010000,
+            "cp_consumed": 178184034,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                57010000,
+                57010000,
+                57010000,
+                103825495,
+                74358539,
+                178184034
+            ]
+        },
+        {
+            "code": "17",
+            "label": "Politique des produits de santé et de la qualité des",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                4379000,
+                4379000,
+                4379000,
+                43771,
+                1695533,
+                1739304
+            ],
+            "amount_rows": [
+                [
+                    4379000,
+                    4379000,
+                    4379000
+                ],
+                [
+                    43771,
+                    1695533,
+                    1739304
+                ]
+            ],
+            "extracted_lines": [
+                "4 379 000      4 379 000           4 379 000",
+                "43 771           1 695 533      1 739 304"
+            ],
+            "ae_lfi": 4379000,
+            "ae_consumed": 1739304,
+            "cp_lfi": 4379000,
+            "cp_consumed": 2341444,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                4379000,
+                4379000,
+                4379000,
+                651310,
+                1690134,
+                2341444
+            ]
+        },
+        {
+            "code": "18",
+            "label": "Projets régionaux de santé",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                -608
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    -608
+                ]
+            ],
+            "extracted_lines": [
+                "0                 0",
+                "-608"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": -608,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "19",
+            "label": "Modernisation de l'offre de soins",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1300000,
+                6051565,
+                49600000,
+                56951565,
+                56951565,
+                1176500,
+                4168811,
+                58468321,
+                63813632
+            ],
+            "amount_rows": [
+                [
+                    1300000,
+                    6051565,
+                    49600000,
+                    56951565,
+                    56951565
+                ],
+                [
+                    1176500,
+                    4168811,
+                    58468321,
+                    63813632
+                ]
+            ],
+            "extracted_lines": [
+                "1 300 000         6 051 565         49 600 000      56 951 565          56 951 565",
+                "1 176 500         4 168 811          58 468 321      63 813 632"
+            ],
+            "ae_lfi": 56951565,
+            "ae_consumed": 63813632,
+            "cp_lfi": 58251565,
+            "cp_consumed": 66751999,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1300000,
+                6051565,
+                50900000,
+                58251565,
+                58251565,
+                1176500,
+                5692510,
+                59882989,
+                66751999
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 267281268,
+            "ae_consumed": 426868747,
+            "cp_lfi": 270581268,
+            "cp_consumed": 387131096
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 8,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29753",
+    "pdf_sha256": "42f60cee1ab4e7d4f3588524194f88f78524791a36d91b7482b59e13ed6dfdf1",
+    "mission": "Santé"
+}

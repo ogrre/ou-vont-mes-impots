@@ -1,0 +1,572 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "172",
+        "name": "Recherches scientifiques et technologiques pluridisciplinaires"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Pilotage et animation",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                212813395,
+                56172903,
+                194689207,
+                463675505,
+                463675505,
+                138855055,
+                25071765,
+                118590578,
+                2497372,
+                285014771
+            ],
+            "amount_rows": [
+                [
+                    212813395,
+                    56172903,
+                    194689207,
+                    463675505,
+                    463675505
+                ],
+                [
+                    138855055,
+                    25071765,
+                    118590578,
+                    2497372,
+                    285014771
+                ]
+            ],
+            "extracted_lines": [
+                "212 813 395          56 172 903        194 689 207                          463 675 505        463 675 505",
+                "138 855 055          25 071 765        118 590 578          2 497 372       285 014 771"
+            ],
+            "ae_lfi": 463675505,
+            "ae_consumed": 285014771,
+            "cp_lfi": 346077634,
+            "cp_consumed": 281904486,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                208142475,
+                39755881,
+                98179278,
+                346077634,
+                346077634,
+                137890520,
+                24274998,
+                116618027,
+                3120940,
+                281904486
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Agence nationale de la recherche",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                40000000,
+                1309700000,
+                1349700000,
+                1349700000,
+                38938000,
+                1194425622,
+                1233363622
+            ],
+            "amount_rows": [
+                [
+                    40000000,
+                    1309700000,
+                    1349700000,
+                    1349700000
+                ],
+                [
+                    38938000,
+                    1194425622,
+                    1233363622
+                ]
+            ],
+            "extracted_lines": [
+                "40 000 000                         1 309 700 000                         1 349 700 000     1 349 700 000",
+                "38 938 000                         1 194 425 622                         1 233 363 622"
+            ],
+            "ae_lfi": 1349700000,
+            "ae_consumed": 1233363622,
+            "cp_lfi": 1086000000,
+            "cp_consumed": 25,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                40000000,
+                1046000000,
+                1086000000,
+                1086000000,
+                25,
+                38938000,
+                925265622,
+                964203622
+            ]
+        },
+        {
+            "code": "11",
+            "label": "Recherches interdisciplinaires et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                82765740,
+                82765740,
+                82765740,
+                80709767,
+                80709767
+            ],
+            "amount_rows": [
+                [
+                    82765740,
+                    82765740,
+                    82765740
+                ],
+                [
+                    80709767,
+                    80709767
+                ]
+            ],
+            "extracted_lines": [
+                "82 765 740                                                                  82 765 740        82 765 740",
+                "80 709 767                                                                  80 709 767"
+            ],
+            "ae_lfi": 82765740,
+            "ae_consumed": 80709767,
+            "cp_lfi": 82765740,
+            "cp_consumed": 80709767,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                82765740,
+                82765740,
+                82765740,
+                80709767,
+                80709767
+            ]
+        },
+        {
+            "code": "12",
+            "label": "Diffusion, valorisation et transfert",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                171520900,
+                171520900,
+                171520900,
+                167818260,
+                167818260
+            ],
+            "amount_rows": [
+                [
+                    171520900,
+                    171520900,
+                    171520900
+                ],
+                [
+                    167818260,
+                    167818260
+                ]
+            ],
+            "extracted_lines": [
+                "171 520 900                                                                 171 520 900        171 520 900",
+                "167 818 260                                                                 167 818 260"
+            ],
+            "ae_lfi": 171520900,
+            "ae_consumed": 167818260,
+            "cp_lfi": 171520900,
+            "cp_consumed": 167818260,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                171520900,
+                171520900,
+                171520900,
+                167818260,
+                167818260
+            ]
+        },
+        {
+            "code": "13",
+            "label": "Grandes infrastructures de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                241780000,
+                120000000,
+                15925000,
+                377705000,
+                377705000,
+                236334662,
+                38840000,
+                15049125,
+                79000000,
+                369223787
+            ],
+            "amount_rows": [
+                [
+                    241780000,
+                    120000000,
+                    15925000,
+                    377705000,
+                    377705000
+                ],
+                [
+                    236334662,
+                    38840000,
+                    15049125,
+                    79000000,
+                    369223787
+                ]
+            ],
+            "extracted_lines": [
+                "241 780 000        120 000 000          15 925 000                          377 705 000        377 705 000",
+                "236 334 662         38 840 000          15 049 125        79 000 000        369 223 787"
+            ],
+            "ae_lfi": 377705000,
+            "ae_consumed": 369223787,
+            "cp_lfi": 317705000,
+            "cp_consumed": 310073787,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                241780000,
+                40000000,
+                15925000,
+                20000000,
+                317705000,
+                317705000,
+                236334662,
+                38840000,
+                15049125,
+                19850000,
+                310073787
+            ]
+        },
+        {
+            "code": "14",
+            "label": "Moyens généraux et d'appui à la",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1140064180,
+                1140064180,
+                1140064180,
+                1105168700,
+                1500000,
+                1106668700
+            ],
+            "amount_rows": [
+                [
+                    1140064180,
+                    1140064180,
+                    1140064180
+                ],
+                [
+                    1105168700,
+                    1500000,
+                    1106668700
+                ]
+            ],
+            "extracted_lines": [
+                "1 140 064 180                                                                1 140 064 180     1 140 064 180",
+                "1 105 168 700           1 500 000                                            1 106 668 700"
+            ],
+            "ae_lfi": 1140064180,
+            "ae_consumed": 1106668700,
+            "cp_lfi": 1140064180,
+            "cp_consumed": 1106668700,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1140064180,
+                1140064180,
+                1140064180,
+                1105168700,
+                1500000,
+                1106668700
+            ]
+        },
+        {
+            "code": "15",
+            "label": "Recherches scientifiques et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1253622000,
+                111093106,
+                1364715106,
+                1364715106,
+                1216958388,
+                108890360,
+                1325848748
+            ],
+            "amount_rows": [
+                [
+                    1253622000,
+                    111093106,
+                    1364715106,
+                    1364715106
+                ],
+                [
+                    1216958388,
+                    108890360,
+                    1325848748
+                ]
+            ],
+            "extracted_lines": [
+                "1 253 622 000                            111 093 106                         1 364 715 106     1 364 715 106",
+                "1 216 958 388                            108 890 360                         1 325 848 748"
+            ],
+            "ae_lfi": 1364715106,
+            "ae_consumed": 1325848748,
+            "cp_lfi": 1364715106,
+            "cp_consumed": 1325848748,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1253622000,
+                111093106,
+                1364715106,
+                1364715106,
+                1216958388,
+                108890360,
+                1325848748
+            ]
+        },
+        {
+            "code": "16",
+            "label": "Recherches scientifiques et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1102940400,
+                626000,
+                1103566400,
+                1103566400,
+                1076941185,
+                601000,
+                1077542185
+            ],
+            "amount_rows": [
+                [
+                    1102940400,
+                    626000,
+                    1103566400,
+                    1103566400
+                ],
+                [
+                    1076941185,
+                    601000,
+                    1077542185
+                ]
+            ],
+            "extracted_lines": [
+                "1 102 940 400                                 626 000                        1 103 566 400     1 103 566 400",
+                "1 076 941 185                                601 000                         1 077 542 185"
+            ],
+            "ae_lfi": 1103566400,
+            "ae_consumed": 1077542185,
+            "cp_lfi": 1103566400,
+            "cp_consumed": 1077542185,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1102940400,
+                626000,
+                1103566400,
+                1103566400,
+                1076941185,
+                601000,
+                1077542185
+            ]
+        },
+        {
+            "code": "17",
+            "label": "Recherches scientifiques et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                420550400,
+                479006926,
+                899557326,
+                899557326,
+                410066264,
+                365082854,
+                775149118
+            ],
+            "amount_rows": [
+                [
+                    420550400,
+                    479006926,
+                    899557326,
+                    899557326
+                ],
+                [
+                    410066264,
+                    365082854,
+                    775149118
+                ]
+            ],
+            "extracted_lines": [
+                "420 550 400                            479 006 926                          899 557 326        899 557 326",
+                "410 066 264                            365 082 854                          775 149 118"
+            ],
+            "ae_lfi": 899557326,
+            "ae_consumed": 775149118,
+            "cp_lfi": 899557326,
+            "cp_consumed": 775149118,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                420550400,
+                479006926,
+                899557326,
+                899557326,
+                410066264,
+                365082854,
+                775149118
+            ]
+        },
+        {
+            "code": "18",
+            "label": "Recherches scientifiques et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1169058160,
+                69389968,
+                1238448128,
+                1238448128,
+                1140925724,
+                67848920,
+                1208774644
+            ],
+            "amount_rows": [
+                [
+                    1169058160,
+                    69389968,
+                    1238448128,
+                    1238448128
+                ],
+                [
+                    1140925724,
+                    67848920,
+                    1208774644
+                ]
+            ],
+            "extracted_lines": [
+                "1 169 058 160                             69 389 968                         1 238 448 128     1 238 448 128",
+                "1 140 925 724                             67 848 920                         1 208 774 644"
+            ],
+            "ae_lfi": 1238448128,
+            "ae_consumed": 1208774644,
+            "cp_lfi": 1238448128,
+            "cp_consumed": 1208774644,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1169058160,
+                69389968,
+                1238448128,
+                1238448128,
+                1140925724,
+                67848920,
+                1208774644
+            ]
+        },
+        {
+            "code": "19",
+            "label": "Recherches scientifiques et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                449760220,
+                1221000,
+                450981220,
+                450981220,
+                436835070,
+                1106229,
+                437941299
+            ],
+            "amount_rows": [
+                [
+                    449760220,
+                    1221000,
+                    450981220,
+                    450981220
+                ],
+                [
+                    436835070,
+                    1106229,
+                    437941299
+                ]
+            ],
+            "extracted_lines": [
+                "449 760 220                               1 221 000                         450 981 220        450 981 220",
+                "436 835 070                               1 106 229                         437 941 299"
+            ],
+            "ae_lfi": 450981220,
+            "ae_consumed": 437941299,
+            "cp_lfi": 450981220,
+            "cp_consumed": 438007070,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                449760220,
+                1221000,
+                450981220,
+                450981220,
+                436835070,
+                1172000,
+                438007070
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 8642699505,
+            "ae_consumed": 8068054900,
+            "cp_lfi": 8201401634,
+            "cp_consumed": 7736700386
+        },
+        "differences": {
+            "cp_consumed": {
+                "actions_sum": 6772496790,
+                "programme_total": 7736700386,
+                "difference": -964203596
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 11,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29690",
+    "pdf_sha256": "6268b8c3c99b086c9fcec74083fd3091a27349cf1c0e71e96dee6e4fea118a71",
+    "mission": "Recherche et enseignement supérieur"
+}

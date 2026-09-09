@@ -1,0 +1,3298 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "212",
+        "name": "Soutien de la politique de la défense"
+    },
+    "actions": [
+        {
+            "code": "04",
+            "label": "Politique immobilière",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                99540060,
+                537899215,
+                637439275,
+                637439275
+            ],
+            "amount_rows": [
+                [
+                    99540060,
+                    537899215,
+                    637439275,
+                    637439275
+                ]
+            ],
+            "extracted_lines": [
+                "99 540 060       537 899 215                                       637 439 275      637 439 275",
+                "1 281 752 918      291 160 832      -1 005 155 217                   567 759 176"
+            ],
+            "ae_lfi": 637439275,
+            "ae_consumed": null,
+            "cp_lfi": 611538995,
+            "cp_consumed": 729267746,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                69038947,
+                542500048,
+                611538995,
+                611538995,
+                642,
+                389921151,
+                335513456,
+                3832497,
+                729267746
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Systèmes d'information,",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                130508001,
+                55931999,
+                186440000,
+                186440000,
+                126513518,
+                39084189,
+                20000,
+                165617708
+            ],
+            "amount_rows": [
+                [
+                    130508001,
+                    55931999,
+                    186440000,
+                    186440000
+                ],
+                [
+                    126513518,
+                    39084189,
+                    20000,
+                    165617708
+                ]
+            ],
+            "extracted_lines": [
+                "130 508 001        55 931 999                                      186 440 000      186 440 000",
+                "126 513 518       39 084 189              20 000                  165 617 708"
+            ],
+            "ae_lfi": 186440000,
+            "ae_consumed": 165617708,
+            "cp_lfi": 150478695,
+            "cp_consumed": 147415453,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                105335089,
+                45143606,
+                150478695,
+                150478695,
+                113456709,
+                33938744,
+                20000,
+                147415453
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Politiques des ressources",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                207464579,
+                40000,
+                207504579,
+                207504579,
+                195177497,
+                114458,
+                5883459,
+                201175414
+            ],
+            "amount_rows": [
+                [
+                    207464579,
+                    40000,
+                    207504579,
+                    207504579
+                ],
+                [
+                    195177497,
+                    114458,
+                    5883459,
+                    201175414
+                ]
+            ],
+            "extracted_lines": [
+                "207 464 579                               40 000                   207 504 579      207 504 579",
+                "195 177 497           114 458         5 883 459                   201 175 414"
+            ],
+            "ae_lfi": 207504579,
+            "ae_consumed": 201175414,
+            "cp_lfi": 198444194,
+            "cp_consumed": 185051899,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                198404194,
+                40000,
+                198444194,
+                198444194,
+                179096265,
+                64575,
+                5891059,
+                185051899
+            ]
+        },
+        {
+            "code": "06.03",
+            "label": "Reconversion",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "06",
+            "contributes_to_program_total": false,
+            "amounts": [
+                39106735,
+                40000,
+                39146735,
+                39146735,
+                27391364,
+                114458,
+                27505822
+            ],
+            "amount_rows": [
+                [
+                    39106735,
+                    40000,
+                    39146735,
+                    39146735
+                ],
+                [
+                    27391364,
+                    114458,
+                    27505822
+                ]
+            ],
+            "extracted_lines": [
+                "39 106 735                               40 000                    39 146 735       39 146 735",
+                "27 391 364           114 458                                      27 505 822"
+            ],
+            "ae_lfi": 39146735,
+            "ae_consumed": 27505822,
+            "cp_lfi": 37354321,
+            "cp_consumed": 28842699,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                37314321,
+                40000,
+                37354321,
+                37354321,
+                28778124,
+                64575,
+                28842699
+            ]
+        },
+        {
+            "code": "06.04",
+            "label": "Action sociale et inclusion",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "06",
+            "contributes_to_program_total": false,
+            "amounts": [
+                134668957,
+                134668957,
+                134668957,
+                143000097,
+                5883459,
+                148883556
+            ],
+            "amount_rows": [
+                [
+                    134668957,
+                    134668957,
+                    134668957
+                ],
+                [
+                    143000097,
+                    5883459,
+                    148883556
+                ]
+            ],
+            "extracted_lines": [
+                "134 668 957                                                        134 668 957      134 668 957",
+                "143 000 097                           5 883 459                   148 883 556"
+            ],
+            "ae_lfi": 134668957,
+            "ae_consumed": 148883556,
+            "cp_lfi": 134895041,
+            "cp_consumed": 133049523,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                134895041,
+                134895041,
+                134895041,
+                127166064,
+                5883459,
+                133049523
+            ]
+        },
+        {
+            "code": "06.05",
+            "label": "Ressources humaines",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "06",
+            "contributes_to_program_total": false,
+            "amounts": [
+                33688887,
+                33688887,
+                33688887,
+                24786036,
+                24786036
+            ],
+            "amount_rows": [
+                [
+                    33688887,
+                    33688887,
+                    33688887
+                ],
+                [
+                    24786036,
+                    24786036
+                ]
+            ],
+            "extracted_lines": [
+                "33 688 887                                                         33 688 887       33 688 887",
+                "24 786 036                                                        24 786 036"
+            ],
+            "ae_lfi": 33688887,
+            "ae_consumed": 24786036,
+            "cp_lfi": 26194832,
+            "cp_consumed": 23159677,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                26194832,
+                26194832,
+                26194832,
+                23152077,
+                7600,
+                23159677
+            ]
+        },
+        {
+            "code": "08",
+            "label": "Politique culturelle et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                41711768,
+                29380558,
+                1060000,
+                72152326,
+                72152326,
+                38110599,
+                700000,
+                1117511,
+                3341387,
+                43269497
+            ],
+            "amount_rows": [
+                [
+                    41711768,
+                    29380558,
+                    1060000,
+                    72152326,
+                    72152326
+                ],
+                [
+                    38110599,
+                    700000,
+                    1117511,
+                    3341387,
+                    43269497
+                ]
+            ],
+            "extracted_lines": [
+                "41 711 768        29 380 558         1 060 000                     72 152 326       72 152 326",
+                "38 110 599          700 000          1 117 511       3 341 387    43 269 497"
+            ],
+            "ae_lfi": 72152326,
+            "ae_consumed": 43269497,
+            "cp_lfi": 78844066,
+            "cp_consumed": 50220119,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                42361013,
+                35423053,
+                1060000,
+                78844066,
+                78844066,
+                38791790,
+                129781,
+                1006939,
+                10291609,
+                50220119
+            ]
+        },
+        {
+            "code": "08.01",
+            "label": "Actions culturelles et mise",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "08",
+            "contributes_to_program_total": false,
+            "amounts": [
+                36721013,
+                29380558,
+                1060000,
+                67161571,
+                67161571,
+                33133889,
+                1117511,
+                3341387,
+                37592787
+            ],
+            "amount_rows": [
+                [
+                    36721013,
+                    29380558,
+                    1060000,
+                    67161571,
+                    67161571
+                ],
+                [
+                    33133889,
+                    1117511,
+                    3341387,
+                    37592787
+                ]
+            ],
+            "extracted_lines": [
+                "36 721 013        29 380 558         1 060 000                     67 161 571       67 161 571",
+                "33 133 889                           1 117 511       3 341 387    37 592 787"
+            ],
+            "ae_lfi": 67161571,
+            "ae_consumed": 37592787,
+            "cp_lfi": 73204066,
+            "cp_consumed": 44526408,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                36721013,
+                35423053,
+                1060000,
+                73204066,
+                73204066,
+                33227861,
+                1006939,
+                10291609,
+                44526408
+            ]
+        },
+        {
+            "code": "08.02",
+            "label": "Gestion et communication",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "08",
+            "contributes_to_program_total": false,
+            "amounts": [
+                4990755,
+                4990755,
+                4990755,
+                4976710,
+                700000,
+                5676710
+            ],
+            "amount_rows": [
+                [
+                    4990755,
+                    4990755,
+                    4990755
+                ],
+                [
+                    4976710,
+                    700000,
+                    5676710
+                ]
+            ],
+            "extracted_lines": [
+                "4 990 755                                                          4 990 755        4 990 755",
+                "4 976 710           700 000                                       5 676 710"
+            ],
+            "ae_lfi": 4990755,
+            "ae_consumed": 5676710,
+            "cp_lfi": 5640000,
+            "cp_consumed": 5693710,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                5640000,
+                5640000,
+                5640000,
+                5563930,
+                129781,
+                5693710
+            ]
+        },
+        {
+            "code": "10",
+            "label": "Restructurations",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                801655,
+                4700000,
+                5387163,
+                10888818,
+                10888818,
+                5260748,
+                1156035,
+                5437614,
+                11854397
+            ],
+            "amount_rows": [
+                [
+                    801655,
+                    4700000,
+                    5387163,
+                    10888818,
+                    10888818
+                ],
+                [
+                    5260748,
+                    1156035,
+                    5437614,
+                    11854397
+                ]
+            ],
+            "extracted_lines": [
+                "801 655         4 700 000         5 387 163                     10 888 818       10 888 818",
+                "5 260 748        1 156 035          5 437 614                    11 854 397"
+            ],
+            "ae_lfi": 10888818,
+            "ae_consumed": 11854397,
+            "cp_lfi": 10797469,
+            "cp_consumed": 12370662,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                801655,
+                4848807,
+                5147007,
+                10797469,
+                10797469,
+                4086244,
+                4246952,
+                4037465,
+                12370662
+            ]
+        },
+        {
+            "code": "11",
+            "label": "Pilotage, soutien et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                339805630,
+                20720001,
+                360525631,
+                360525631,
+                337125066,
+                4039819,
+                359802,
+                3309995,
+                344834682
+            ],
+            "amount_rows": [
+                [
+                    339805630,
+                    20720001,
+                    360525631,
+                    360525631
+                ],
+                [
+                    337125066,
+                    4039819,
+                    359802,
+                    3309995,
+                    344834682
+                ]
+            ],
+            "extracted_lines": [
+                "339 805 630        20 720 001                                      360 525 631      360 525 631",
+                "337 125 066        4 039 819            359 802       3 309 995   344 834 682"
+            ],
+            "ae_lfi": 360525631,
+            "ae_consumed": 344834682,
+            "cp_lfi": 378785039,
+            "cp_consumed": 363486497,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                344373303,
+                34411736,
+                378785039,
+                378785039,
+                328469265,
+                33341792,
+                91550,
+                1583890,
+                363486497
+            ]
+        },
+        {
+            "code": "50",
+            "label": "Recherche et exploitation du",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                709227618,
+                709227618,
+                709227618,
+                725751748,
+                725751748
+            ],
+            "amount_rows": [
+                [
+                    709227618,
+                    709227618,
+                    709227618
+                ],
+                [
+                    725751748,
+                    725751748
+                ]
+            ],
+            "extracted_lines": [
+                "709 227 618                                                                         709 227 618      709 227 618",
+                "725 751 748                                                                        725 751 748"
+            ],
+            "ae_lfi": 709227618,
+            "ae_consumed": 725751748,
+            "cp_lfi": 709227618,
+            "cp_consumed": 725751748,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                709227618,
+                709227618,
+                709227618,
+                725751748,
+                725751748
+            ]
+        },
+        {
+            "code": "50.01",
+            "label": "Renseignement extérieur",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "50",
+            "contributes_to_program_total": false,
+            "amounts": [
+                562749082,
+                562749082,
+                562749082,
+                583303986,
+                583303986
+            ],
+            "amount_rows": [
+                [
+                    562749082,
+                    562749082,
+                    562749082
+                ],
+                [
+                    583303986,
+                    583303986
+                ]
+            ],
+            "extracted_lines": [
+                "562 749 082                                                                         562 749 082      562 749 082",
+                "583 303 986                                                                        583 303 986"
+            ],
+            "ae_lfi": 562749082,
+            "ae_consumed": 583303986,
+            "cp_lfi": 562749082,
+            "cp_consumed": 583303986,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                562749082,
+                562749082,
+                562749082,
+                583303986,
+                583303986
+            ]
+        },
+        {
+            "code": "50.02",
+            "label": "Renseignement de",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "50",
+            "contributes_to_program_total": false,
+            "amounts": [
+                146478536,
+                146478536,
+                146478536,
+                142447763,
+                142447763
+            ],
+            "amount_rows": [
+                [
+                    146478536,
+                    146478536,
+                    146478536
+                ],
+                [
+                    142447763,
+                    142447763
+                ]
+            ],
+            "extracted_lines": [
+                "146 478 536                                                                         146 478 536      146 478 536",
+                "142 447 763                                                                        142 447 763"
+            ],
+            "ae_lfi": 146478536,
+            "ae_consumed": 142447763,
+            "cp_lfi": 146478536,
+            "cp_consumed": 142447763,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                146478536,
+                146478536,
+                146478536,
+                142447763,
+                142447763
+            ]
+        },
+        {
+            "code": "51",
+            "label": "Prospective de défense -",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                26131873,
+                26131873,
+                26131873,
+                26416465,
+                26416465
+            ],
+            "amount_rows": [
+                [
+                    26131873,
+                    26131873,
+                    26131873
+                ],
+                [
+                    26416465,
+                    26416465
+                ]
+            ],
+            "extracted_lines": [
+                "26 131 873                                                                          26 131 873       26 131 873",
+                "26 416 465                                                                         26 416 465"
+            ],
+            "ae_lfi": 26131873,
+            "ae_consumed": 26416465,
+            "cp_lfi": 26131873,
+            "cp_consumed": 26416465,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                26131873,
+                26131873,
+                26131873,
+                26416465,
+                26416465
+            ]
+        },
+        {
+            "code": "51.01",
+            "label": "DGRIS \/ Administration",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "51",
+            "contributes_to_program_total": false,
+            "amounts": [
+                26131873,
+                26131873,
+                26131873,
+                26416465,
+                26416465
+            ],
+            "amount_rows": [
+                [
+                    26131873,
+                    26131873,
+                    26131873
+                ],
+                [
+                    26416465,
+                    26416465
+                ]
+            ],
+            "extracted_lines": [
+                "26 131 873                                                                          26 131 873       26 131 873",
+                "26 416 465                                                                         26 416 465"
+            ],
+            "ae_lfi": 26131873,
+            "ae_consumed": 26416465,
+            "cp_lfi": 26131873,
+            "cp_consumed": 26416465,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                26131873,
+                26131873,
+                26131873,
+                26416465,
+                26416465
+            ]
+        },
+        {
+            "code": "52",
+            "label": "Relations internationales",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                73896249,
+                73896249,
+                73896249,
+                96349633,
+                96349633
+            ],
+            "amount_rows": [
+                [
+                    73896249,
+                    73896249,
+                    73896249
+                ],
+                [
+                    96349633,
+                    96349633
+                ]
+            ],
+            "extracted_lines": [
+                "73 896 249                                                                          73 896 249       73 896 249",
+                "96 349 633                                                                         96 349 633"
+            ],
+            "ae_lfi": 73896249,
+            "ae_consumed": 96349633,
+            "cp_lfi": 73896249,
+            "cp_consumed": 96349633,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                73896249,
+                73896249,
+                73896249,
+                96349633,
+                96349633
+            ]
+        },
+        {
+            "code": "52.01",
+            "label": "DGA \/ Soutien aux",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "52",
+            "contributes_to_program_total": false,
+            "amounts": [
+                5993170,
+                5993170,
+                5993170,
+                17624226,
+                17624226
+            ],
+            "amount_rows": [
+                [
+                    5993170,
+                    5993170,
+                    5993170
+                ],
+                [
+                    17624226,
+                    17624226
+                ]
+            ],
+            "extracted_lines": [
+                "5 993 170                                                                            5 993 170        5 993 170",
+                "17 624 226                                                                          17 624 226"
+            ],
+            "ae_lfi": 5993170,
+            "ae_consumed": 17624226,
+            "cp_lfi": 5993170,
+            "cp_consumed": 17624226,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                5993170,
+                5993170,
+                5993170,
+                17624226,
+                17624226
+            ]
+        },
+        {
+            "code": "52.02",
+            "label": "DGRIS \/ Diplomatie de",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "52",
+            "contributes_to_program_total": false,
+            "amounts": [
+                67903079,
+                67903079,
+                67903079,
+                17,
+                78725407,
+                78725407
+            ],
+            "amount_rows": [
+                [
+                    67903079,
+                    67903079,
+                    67903079
+                ],
+                [
+                    17
+                ],
+                [
+                    78725407,
+                    78725407
+                ]
+            ],
+            "extracted_lines": [
+                "67 903 079                                                                          67 903 079       67 903 079",
+                "17",
+                "78 725 407                                                                           78 725 407"
+            ],
+            "ae_lfi": 67903079,
+            "ae_consumed": 17,
+            "cp_lfi": 67903079,
+            "cp_consumed": 78725407,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                67903079,
+                67903079,
+                67903079,
+                78725407,
+                78725407
+            ]
+        },
+        {
+            "code": "53",
+            "label": "Préparation et conduite des",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                2413571628,
+                2413571628,
+                2413571628,
+                2313134121,
+                2313134121
+            ],
+            "amount_rows": [
+                [
+                    2413571628,
+                    2413571628,
+                    2413571628
+                ],
+                [
+                    2313134121,
+                    2313134121
+                ]
+            ],
+            "extracted_lines": [
+                "2 413 571 628                                                                        2 413 571 628     2 413 571 628",
+                "2 313 134 121                                                                        2 313 134 121"
+            ],
+            "ae_lfi": 2413571628,
+            "ae_consumed": 2313134121,
+            "cp_lfi": 2413571628,
+            "cp_consumed": 2313134121,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                2413571628,
+                2413571628,
+                2413571628,
+                2313134121,
+                2313134121
+            ]
+        },
+        {
+            "code": "53.01",
+            "label": "Soutien aux opérations",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "53",
+            "contributes_to_program_total": false,
+            "amounts": [
+                2413571628,
+                2413571628,
+                2413571628,
+                2313134121,
+                2313134121
+            ],
+            "amount_rows": [
+                [
+                    2413571628,
+                    2413571628,
+                    2413571628
+                ],
+                [
+                    2313134121,
+                    2313134121
+                ]
+            ],
+            "extracted_lines": [
+                "2 413 571 628                                                                        2 413 571 628     2 413 571 628",
+                "2 313 134 121                                                                        2 313 134 121"
+            ],
+            "ae_lfi": 2413571628,
+            "ae_consumed": 2313134121,
+            "cp_lfi": 2413571628,
+            "cp_consumed": 2313134121,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                2413571628,
+                2413571628,
+                2413571628,
+                2313134121,
+                2313134121
+            ]
+        },
+        {
+            "code": "54",
+            "label": "Planification des moyens et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1529260516,
+                1529260516,
+                1529260516,
+                1403702891,
+                1403702891
+            ],
+            "amount_rows": [
+                [
+                    1529260516,
+                    1529260516,
+                    1529260516
+                ],
+                [
+                    1403702891,
+                    1403702891
+                ]
+            ],
+            "extracted_lines": [
+                "1 529 260 516                                                                        1 529 260 516     1 529 260 516",
+                "1 403 702 891                                                                        1 403 702 891"
+            ],
+            "ae_lfi": 1529260516,
+            "ae_consumed": 1403702891,
+            "cp_lfi": 1529260516,
+            "cp_consumed": 1403702891,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1529260516,
+                1529260516,
+                1529260516,
+                1403702891,
+                1403702891
+            ]
+        },
+        {
+            "code": "54.01",
+            "label": "Commandement des",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "54",
+            "contributes_to_program_total": false,
+            "amounts": [
+                207673960,
+                207673960,
+                207673960,
+                195792819,
+                195792819
+            ],
+            "amount_rows": [
+                [
+                    207673960,
+                    207673960,
+                    207673960
+                ],
+                [
+                    195792819,
+                    195792819
+                ]
+            ],
+            "extracted_lines": [
+                "207 673 960                                                                          207 673 960        207 673 960",
+                "195 792 819                                                                         195 792 819"
+            ],
+            "ae_lfi": 207673960,
+            "ae_consumed": 195792819,
+            "cp_lfi": 207673960,
+            "cp_consumed": 195792819,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                207673960,
+                207673960,
+                207673960,
+                195792819,
+                195792819
+            ]
+        },
+        {
+            "code": "54.02",
+            "label": "Organismes interarmées",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "54",
+            "contributes_to_program_total": false,
+            "amounts": [
+                271234537,
+                271234537,
+                271234537,
+                252186659,
+                252186659
+            ],
+            "amount_rows": [
+                [
+                    271234537,
+                    271234537,
+                    271234537
+                ],
+                [
+                    252186659,
+                    252186659
+                ]
+            ],
+            "extracted_lines": [
+                "271 234 537                                                                          271 234 537        271 234 537",
+                "252 186 659                                                                         252 186 659"
+            ],
+            "ae_lfi": 271234537,
+            "ae_consumed": 252186659,
+            "cp_lfi": 271234537,
+            "cp_consumed": 252186659,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                271234537,
+                271234537,
+                271234537,
+                252186659,
+                252186659,
+                21
+            ]
+        },
+        {
+            "code": "54.03",
+            "label": "Organismes interarmées",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "54",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                453296,
+                453296
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    453296,
+                    453296
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "453 296                                                                              453 296"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 453296,
+            "cp_lfi": 0,
+            "cp_consumed": 453296,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                453296,
+                453296
+            ]
+        },
+        {
+            "code": "54.04",
+            "label": "EMA\/Organismes",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "54",
+            "contributes_to_program_total": false,
+            "amounts": [
+                141891742,
+                141891742,
+                141891742,
+                123943528,
+                123943528
+            ],
+            "amount_rows": [
+                [
+                    141891742,
+                    141891742,
+                    141891742
+                ],
+                [
+                    123943528,
+                    123943528
+                ]
+            ],
+            "extracted_lines": [
+                "141 891 742                                                                          141 891 742        141 891 742",
+                "123 943 528                                                                         123 943 528"
+            ],
+            "ae_lfi": 141891742,
+            "ae_consumed": 123943528,
+            "cp_lfi": 141891742,
+            "cp_consumed": 123943528,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                141891742,
+                141891742,
+                141891742,
+                123943528,
+                123943528
+            ]
+        },
+        {
+            "code": "54.05",
+            "label": "EMA \/ Relations",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "54",
+            "contributes_to_program_total": false,
+            "amounts": [
+                164242974,
+                164242974,
+                164242974,
+                159044941,
+                159044941
+            ],
+            "amount_rows": [
+                [
+                    164242974,
+                    164242974,
+                    164242974
+                ],
+                [
+                    159044941,
+                    159044941
+                ]
+            ],
+            "extracted_lines": [
+                "164 242 974                                                                          164 242 974        164 242 974",
+                "159 044 941                                                                         159 044 941"
+            ],
+            "ae_lfi": 164242974,
+            "ae_consumed": 159044941,
+            "cp_lfi": 164242974,
+            "cp_consumed": 159044941,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                164242974,
+                164242974,
+                164242974,
+                159044941,
+                159044941
+            ]
+        },
+        {
+            "code": "54.06",
+            "label": "Renseignement d'intérêt",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "54",
+            "contributes_to_program_total": false,
+            "amounts": [
+                194237613,
+                194237613,
+                194237613,
+                170134707,
+                170134707
+            ],
+            "amount_rows": [
+                [
+                    194237613,
+                    194237613,
+                    194237613
+                ],
+                [
+                    170134707,
+                    170134707
+                ]
+            ],
+            "extracted_lines": [
+                "194 237 613                                                                          194 237 613        194 237 613",
+                "170 134 707                                                                         170 134 707"
+            ],
+            "ae_lfi": 194237613,
+            "ae_consumed": 170134707,
+            "cp_lfi": 194237613,
+            "cp_consumed": 170134707,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                194237613,
+                194237613,
+                194237613,
+                170134707,
+                170134707
+            ]
+        },
+        {
+            "code": "54.07",
+            "label": "Systèmes d'information et",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "54",
+            "contributes_to_program_total": false,
+            "amounts": [
+                549979690,
+                549979690,
+                549979690,
+                502146942,
+                502146942
+            ],
+            "amount_rows": [
+                [
+                    549979690,
+                    549979690,
+                    549979690
+                ],
+                [
+                    502146942,
+                    502146942
+                ]
+            ],
+            "extracted_lines": [
+                "549 979 690                                                                          549 979 690        549 979 690",
+                "502 146 942                                                                         502 146 942"
+            ],
+            "ae_lfi": 549979690,
+            "ae_consumed": 502146942,
+            "cp_lfi": 549979690,
+            "cp_consumed": 502146942,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                549979690,
+                549979690,
+                549979690,
+                502146942,
+                502146942
+            ]
+        },
+        {
+            "code": "55",
+            "label": "Préparation des forces",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                8077490503,
+                8077490503,
+                8078410503,
+                8042705596,
+                8042705596
+            ],
+            "amount_rows": [
+                [
+                    8077490503,
+                    8077490503,
+                    8078410503
+                ],
+                [
+                    8042705596,
+                    8042705596
+                ]
+            ],
+            "extracted_lines": [
+                "8 077 490 503                                                                        8 077 490 503     8 078 410 503",
+                "8 042 705 596                                                                        8 042 705 596"
+            ],
+            "ae_lfi": 8078410503,
+            "ae_consumed": 8042705596,
+            "cp_lfi": 8078410503,
+            "cp_consumed": 8042705596,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                8077490503,
+                8077490503,
+                8078410503,
+                8042705596,
+                8042705596
+            ]
+        },
+        {
+            "code": "55.01",
+            "label": "Ressources humaines",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "55",
+            "contributes_to_program_total": false,
+            "amounts": [
+                8077490503,
+                8077490503,
+                8078410503,
+                8042705596,
+                8042705596
+            ],
+            "amount_rows": [
+                [
+                    8077490503,
+                    8077490503,
+                    8078410503
+                ],
+                [
+                    8042705596,
+                    8042705596
+                ]
+            ],
+            "extracted_lines": [
+                "8 077 490 503                                                                        8 077 490 503     8 078 410 503",
+                "8 042 705 596                                                                        8 042 705 596"
+            ],
+            "ae_lfi": 8078410503,
+            "ae_consumed": 8042705596,
+            "cp_lfi": 8078410503,
+            "cp_consumed": 8042705596,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                8077490503,
+                8077490503,
+                8078410503,
+                8042705596,
+                8042705596
+            ]
+        },
+        {
+            "code": "56",
+            "label": "Préparation des forces",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                2877625045,
+                2877625045,
+                2877625045,
+                2895874089,
+                2895874089
+            ],
+            "amount_rows": [
+                [
+                    2877625045,
+                    2877625045,
+                    2877625045
+                ],
+                [
+                    2895874089,
+                    2895874089
+                ]
+            ],
+            "extracted_lines": [
+                "2 877 625 045                                                                        2 877 625 045     2 877 625 045",
+                "2 895 874 089                                                                        2 895 874 089"
+            ],
+            "ae_lfi": 2877625045,
+            "ae_consumed": 2895874089,
+            "cp_lfi": 2877625045,
+            "cp_consumed": 2895874089,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                2877625045,
+                2877625045,
+                2877625045,
+                2895874089,
+                2895874089
+            ]
+        },
+        {
+            "code": "56.01",
+            "label": "Ressources humaines",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "56",
+            "contributes_to_program_total": false,
+            "amounts": [
+                2877625045,
+                2877625045,
+                2877625045,
+                2898070852,
+                2898070852
+            ],
+            "amount_rows": [
+                [
+                    2877625045,
+                    2877625045,
+                    2877625045
+                ],
+                [
+                    2898070852,
+                    2898070852
+                ]
+            ],
+            "extracted_lines": [
+                "2 877 625 045                                                                        2 877 625 045     2 877 625 045",
+                "2 898 070 852                                                                        2 898 070 852"
+            ],
+            "ae_lfi": 2877625045,
+            "ae_consumed": 2898070852,
+            "cp_lfi": 2877625045,
+            "cp_consumed": 2898070852,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                2877625045,
+                2877625045,
+                2877625045,
+                2898070852,
+                2898070852
+            ]
+        },
+        {
+            "code": "56.02",
+            "label": "Rémunérations des",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "56",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                 0",
+                "-2 196 763                                                                           -2 196 763"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": null,
+            "cp_lfi": 0,
+            "cp_consumed": null,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0
+            ]
+        },
+        {
+            "code": "57",
+            "label": "Préparation des forces",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                2896156878,
+                2896156878,
+                2896156878,
+                2755014206,
+                2755014206
+            ],
+            "amount_rows": [
+                [
+                    2896156878,
+                    2896156878,
+                    2896156878
+                ],
+                [
+                    2755014206,
+                    2755014206
+                ]
+            ],
+            "extracted_lines": [
+                "2 896 156 878                                                                        2 896 156 878     2 896 156 878",
+                "2 755 014 206                                                                        2 755 014 206"
+            ],
+            "ae_lfi": 2896156878,
+            "ae_consumed": 2755014206,
+            "cp_lfi": 2896156878,
+            "cp_consumed": 2755014206,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                2896156878,
+                2896156878,
+                2896156878,
+                2755014206,
+                2755014206
+            ]
+        },
+        {
+            "code": "57.01",
+            "label": "Ressources humaines",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "57",
+            "contributes_to_program_total": false,
+            "amounts": [
+                2896156878,
+                2896156878,
+                2896156878,
+                2771963252,
+                2771963252
+            ],
+            "amount_rows": [
+                [
+                    2896156878,
+                    2896156878,
+                    2896156878
+                ],
+                [
+                    2771963252,
+                    2771963252
+                ]
+            ],
+            "extracted_lines": [
+                "2 896 156 878                                                                        2 896 156 878     2 896 156 878",
+                "2 771 963 252                                                                        2 771 963 252"
+            ],
+            "ae_lfi": 2896156878,
+            "ae_consumed": 2771963252,
+            "cp_lfi": 2896156878,
+            "cp_consumed": 2771963252,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                2896156878,
+                2896156878,
+                2896156878,
+                2771963252,
+                2771963252
+            ]
+        },
+        {
+            "code": "57.02",
+            "label": "Service industriel",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "57",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "-16 949 047                                                                          -16 949 047"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": null,
+            "cp_lfi": 0,
+            "cp_consumed": null,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0
+            ]
+        },
+        {
+            "code": "58",
+            "label": "Logistique et soutien",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                2859760825,
+                2859760825,
+                3123198435,
+                3076605165,
+                3076605165
+            ],
+            "amount_rows": [
+                [
+                    2859760825,
+                    2859760825,
+                    3123198435
+                ],
+                [
+                    3076605165,
+                    3076605165
+                ]
+            ],
+            "extracted_lines": [
+                "2 859 760 825                                                                        2 859 760 825     3 123 198 435",
+                "3 076 605 165                                                                        3 076 605 165"
+            ],
+            "ae_lfi": 3123198435,
+            "ae_consumed": 3076605165,
+            "cp_lfi": 3123198435,
+            "cp_consumed": 3076605165,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                2859760825,
+                2859760825,
+                3123198435,
+                3076605165,
+                3076605165
+            ]
+        },
+        {
+            "code": "58.01",
+            "label": "Fonction pétrolière et",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "58",
+            "contributes_to_program_total": false,
+            "amounts": [
+                146294721,
+                146294721,
+                146294721,
+                141413862,
+                141413862
+            ],
+            "amount_rows": [
+                [
+                    146294721,
+                    146294721,
+                    146294721
+                ],
+                [
+                    141413862,
+                    141413862
+                ]
+            ],
+            "extracted_lines": [
+                "146 294 721                                                                          146 294 721        146 294 721",
+                "141 413 862                                                                         141 413 862"
+            ],
+            "ae_lfi": 146294721,
+            "ae_consumed": 141413862,
+            "cp_lfi": 146294721,
+            "cp_consumed": 141413862,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                146294721,
+                146294721,
+                146294721,
+                141413862,
+                141413862
+            ]
+        },
+        {
+            "code": "58.02",
+            "label": "Logistique et soutien",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "58",
+            "contributes_to_program_total": false,
+            "amounts": [
+                98948706,
+                98948706,
+                98948706,
+                66618631,
+                66618631
+            ],
+            "amount_rows": [
+                [
+                    98948706,
+                    98948706,
+                    98948706
+                ],
+                [
+                    66618631,
+                    66618631
+                ]
+            ],
+            "extracted_lines": [
+                "98 948 706                                                                           98 948 706        98 948 706",
+                "66 618 631                                                                          66 618 631"
+            ],
+            "ae_lfi": 98948706,
+            "ae_consumed": 66618631,
+            "cp_lfi": 98948706,
+            "cp_consumed": 66618631,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                98948706,
+                98948706,
+                98948706,
+                66618631,
+                66618631
+            ]
+        },
+        {
+            "code": "58.03",
+            "label": "Soutiens",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "58",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                1123733,
+                1123733
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    1123733,
+                    1123733
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "1 123 733                                                                            1 123 733"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 1123733,
+            "cp_lfi": 0,
+            "cp_consumed": 1123733,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                1123733,
+                1123733
+            ]
+        },
+        {
+            "code": "58.04",
+            "label": "Service interarmées des",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "58",
+            "contributes_to_program_total": false,
+            "amounts": [
+                101093969,
+                101093969,
+                101093969,
+                93914376,
+                93914376
+            ],
+            "amount_rows": [
+                [
+                    101093969,
+                    101093969,
+                    101093969
+                ],
+                [
+                    93914376,
+                    93914376
+                ]
+            ],
+            "extracted_lines": [
+                "101 093 969                                                                          101 093 969        101 093 969",
+                "93 914 376                                                                          93 914 376"
+            ],
+            "ae_lfi": 101093969,
+            "ae_consumed": 93914376,
+            "cp_lfi": 101093969,
+            "cp_consumed": 93914376,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                101093969,
+                101093969,
+                101093969,
+                93914376,
+                93914376
+            ]
+        },
+        {
+            "code": "58.05",
+            "label": "Service du commissariat",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "58",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1534206858,
+                1534206858,
+                1534206858,
+                1476673525,
+                1476673525
+            ],
+            "amount_rows": [
+                [
+                    1534206858,
+                    1534206858,
+                    1534206858
+                ],
+                [
+                    1476673525,
+                    1476673525
+                ]
+            ],
+            "extracted_lines": [
+                "1 534 206 858                                                                        1 534 206 858     1 534 206 858",
+                "1 476 673 525                                                                        1 476 673 525"
+            ],
+            "ae_lfi": 1534206858,
+            "ae_consumed": 1476673525,
+            "cp_lfi": 1534206858,
+            "cp_consumed": 1476673525,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1534206858,
+                1534206858,
+                1534206858,
+                1476673525,
+                1476673525
+            ]
+        },
+        {
+            "code": "58.06",
+            "label": "Fonction santé",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "58",
+            "contributes_to_program_total": false,
+            "amounts": [
+                979216571,
+                979216571,
+                1242654181,
+                1296861037,
+                1296861037
+            ],
+            "amount_rows": [
+                [
+                    979216571,
+                    979216571,
+                    1242654181
+                ],
+                [
+                    1296861037,
+                    1296861037
+                ]
+            ],
+            "extracted_lines": [
+                "979 216 571                                                                          979 216 571      1 242 654 181",
+                "1 296 861 037                                                                        1 296 861 037"
+            ],
+            "ae_lfi": 1242654181,
+            "ae_consumed": 1296861037,
+            "cp_lfi": 1242654181,
+            "cp_consumed": 1296861037,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                979216571,
+                979216571,
+                1242654181,
+                1296861037,
+                1296861037
+            ]
+        },
+        {
+            "code": "59",
+            "label": "Surcoûts liés aux opérations",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                200000000,
+                200000000,
+                200000000,
+                253564931,
+                253564931
+            ],
+            "amount_rows": [
+                [
+                    200000000,
+                    200000000,
+                    200000000
+                ],
+                [
+                    253564931,
+                    253564931
+                ]
+            ],
+            "extracted_lines": [
+                "200 000 000                                                                          200 000 000        200 000 000",
+                "253 564 931                                                                         253 564 931"
+            ],
+            "ae_lfi": 200000000,
+            "ae_consumed": 253564931,
+            "cp_lfi": 200000000,
+            "cp_consumed": 253564931,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                200000000,
+                200000000,
+                200000000,
+                253564931,
+                253564931
+            ]
+        },
+        {
+            "code": "59.01",
+            "label": "Surcoûts liés aux",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "59",
+            "contributes_to_program_total": false,
+            "amounts": [
+                100000000,
+                100000000,
+                100000000,
+                152460258,
+                152460258
+            ],
+            "amount_rows": [
+                [
+                    100000000,
+                    100000000,
+                    100000000
+                ],
+                [
+                    152460258,
+                    152460258
+                ]
+            ],
+            "extracted_lines": [
+                "100 000 000                                                                          100 000 000        100 000 000",
+                "152 460 258                                                                         152 460 258"
+            ],
+            "ae_lfi": 100000000,
+            "ae_consumed": 152460258,
+            "cp_lfi": 100000000,
+            "cp_consumed": 152460258,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                100000000,
+                100000000,
+                100000000,
+                152460258,
+                152460258
+            ]
+        },
+        {
+            "code": "59.02",
+            "label": "Surcoûts liés aux",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "59",
+            "contributes_to_program_total": false,
+            "amounts": [
+                100000000,
+                100000000,
+                100000000,
+                101104672,
+                101104672
+            ],
+            "amount_rows": [
+                [
+                    100000000,
+                    100000000,
+                    100000000
+                ],
+                [
+                    101104672,
+                    101104672
+                ]
+            ],
+            "extracted_lines": [
+                "100 000 000                                                                          100 000 000        100 000 000",
+                "101 104 672                                                                         101 104 672"
+            ],
+            "ae_lfi": 100000000,
+            "ae_consumed": 101104672,
+            "cp_lfi": 100000000,
+            "cp_consumed": 101104672,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                100000000,
+                100000000,
+                100000000,
+                101104672,
+                101104672
+            ]
+        },
+        {
+            "code": "60",
+            "label": "Politique immobilière -",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                509055342,
+                509055342,
+                509055342,
+                492921856,
+                492921856
+            ],
+            "amount_rows": [
+                [
+                    509055342,
+                    509055342,
+                    509055342
+                ],
+                [
+                    492921856,
+                    492921856
+                ]
+            ],
+            "extracted_lines": [
+                "509 055 342                                                                          509 055 342        509 055 342",
+                "492 921 856                                                                         492 921 856"
+            ],
+            "ae_lfi": 509055342,
+            "ae_consumed": 492921856,
+            "cp_lfi": 509055342,
+            "cp_consumed": 492921856,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                509055342,
+                509055342,
+                509055342,
+                492921856,
+                492921856
+            ]
+        },
+        {
+            "code": "61",
+            "label": "Action sociale, chômage et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                282769332,
+                282769332,
+                282769332,
+                295536993,
+                295536993
+            ],
+            "amount_rows": [
+                [
+                    282769332,
+                    282769332,
+                    282769332
+                ],
+                [
+                    295536993,
+                    295536993
+                ]
+            ],
+            "extracted_lines": [
+                "282 769 332                                                                          282 769 332        282 769 332",
+                "295 536 993                                                                         295 536 993"
+            ],
+            "ae_lfi": 282769332,
+            "ae_consumed": 295536993,
+            "cp_lfi": 282769332,
+            "cp_consumed": 295536993,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                282769332,
+                282769332,
+                282769332,
+                295536993,
+                295536993
+            ]
+        },
+        {
+            "code": "61.01",
+            "label": "Actions sociales et autres",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "61",
+            "contributes_to_program_total": false,
+            "amounts": [
+                151656366,
+                151656366,
+                151656366,
+                162258453,
+                162258453
+            ],
+            "amount_rows": [
+                [
+                    151656366,
+                    151656366,
+                    151656366
+                ],
+                [
+                    162258453,
+                    162258453
+                ]
+            ],
+            "extracted_lines": [
+                "151 656 366                                                                          151 656 366        151 656 366",
+                "162 258 453                                                                         162 258 453"
+            ],
+            "ae_lfi": 151656366,
+            "ae_consumed": 162258453,
+            "cp_lfi": 151656366,
+            "cp_consumed": 162258453,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                151656366,
+                151656366,
+                151656366,
+                162258453,
+                162258453
+            ]
+        },
+        {
+            "code": "61.02",
+            "label": "Reconversion des",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "61",
+            "contributes_to_program_total": false,
+            "amounts": [
+                120250985,
+                120250985,
+                120250985,
+                122711442,
+                122711442
+            ],
+            "amount_rows": [
+                [
+                    120250985,
+                    120250985,
+                    120250985
+                ],
+                [
+                    122711442,
+                    122711442
+                ]
+            ],
+            "extracted_lines": [
+                "120 250 985                                                                          120 250 985        120 250 985",
+                "122 711 442                                                                         122 711 442"
+            ],
+            "ae_lfi": 120250985,
+            "ae_consumed": 122711442,
+            "cp_lfi": 120250985,
+            "cp_consumed": 122711442,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                120250985,
+                120250985,
+                120250985,
+                122711442,
+                122711442
+            ]
+        },
+        {
+            "code": "61.03",
+            "label": "Reconversion des",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "61",
+            "contributes_to_program_total": false,
+            "amounts": [
+                10861981,
+                10861981,
+                10861981,
+                10567098,
+                10567098
+            ],
+            "amount_rows": [
+                [
+                    10861981,
+                    10861981,
+                    10861981
+                ],
+                [
+                    10567098,
+                    10567098
+                ]
+            ],
+            "extracted_lines": [
+                "10 861 981                                                                           10 861 981        10 861 981",
+                "10 567 098                                                                          10 567 098"
+            ],
+            "ae_lfi": 10861981,
+            "ae_consumed": 10567098,
+            "cp_lfi": 10861981,
+            "cp_consumed": 10567098,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                10861981,
+                10861981,
+                10861981,
+                10567098,
+                10567098
+            ]
+        },
+        {
+            "code": "62",
+            "label": "Politique culturelle et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                43583449,
+                43583449,
+                43583449,
+                38747442,
+                38747442
+            ],
+            "amount_rows": [
+                [
+                    43583449,
+                    43583449,
+                    43583449
+                ],
+                [
+                    38747442,
+                    38747442
+                ]
+            ],
+            "extracted_lines": [
+                "43 583 449                                                                           43 583 449        43 583 449",
+                "38 747 442                                                                          38 747 442"
+            ],
+            "ae_lfi": 43583449,
+            "ae_consumed": 38747442,
+            "cp_lfi": 43583449,
+            "cp_consumed": 38747442,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                43583449,
+                43583449,
+                43583449,
+                38747442,
+                38747442
+            ]
+        },
+        {
+            "code": "63",
+            "label": "Restructurations - RH",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                52523568,
+                52523568,
+                52523568,
+                24888473,
+                24888473
+            ],
+            "amount_rows": [
+                [
+                    52523568,
+                    52523568,
+                    52523568
+                ],
+                [
+                    24888473,
+                    24888473
+                ]
+            ],
+            "extracted_lines": [
+                "52 523 568                                                                           52 523 568        52 523 568",
+                "24 888 473                                                                          24 888 473"
+            ],
+            "ae_lfi": 52523568,
+            "ae_consumed": 24888473,
+            "cp_lfi": 52523568,
+            "cp_consumed": 24888473,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                52523568,
+                52523568,
+                52523568,
+                24888473,
+                24888473
+            ]
+        },
+        {
+            "code": "63.01",
+            "label": "Restructurations",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "63",
+            "contributes_to_program_total": false,
+            "amounts": [
+                24393568,
+                24393568,
+                24393568,
+                8427146,
+                8427146
+            ],
+            "amount_rows": [
+                [
+                    24393568,
+                    24393568,
+                    24393568
+                ],
+                [
+                    8427146,
+                    8427146
+                ]
+            ],
+            "extracted_lines": [
+                "24 393 568                                                                           24 393 568        24 393 568",
+                "8 427 146                                                                           8 427 146"
+            ],
+            "ae_lfi": 24393568,
+            "ae_consumed": 8427146,
+            "cp_lfi": 24393568,
+            "cp_consumed": 8427146,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                24393568,
+                24393568,
+                24393568,
+                8427146,
+                8427146
+            ]
+        },
+        {
+            "code": "63.02",
+            "label": "Restructurations",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "63",
+            "contributes_to_program_total": false,
+            "amounts": [
+                28130000,
+                28130000,
+                28130000,
+                16461327,
+                16461327
+            ],
+            "amount_rows": [
+                [
+                    28130000,
+                    28130000,
+                    28130000
+                ],
+                [
+                    16461327,
+                    16461327
+                ]
+            ],
+            "extracted_lines": [
+                "28 130 000                                                                           28 130 000        28 130 000",
+                "16 461 327                                                                          16 461 327"
+            ],
+            "ae_lfi": 28130000,
+            "ae_consumed": 16461327,
+            "cp_lfi": 28130000,
+            "cp_consumed": 16461327,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                28130000,
+                28130000,
+                28130000,
+                16461327,
+                16461327
+            ]
+        },
+        {
+            "code": "64",
+            "label": "Pilotage, soutien - Personnel",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                396900004,
+                396900004,
+                396900004,
+                415784520,
+                415784520
+            ],
+            "amount_rows": [
+                [
+                    396900004,
+                    396900004,
+                    396900004
+                ],
+                [
+                    415784520,
+                    415784520
+                ]
+            ],
+            "extracted_lines": [
+                "396 900 004                                                                          396 900 004        396 900 004",
+                "415 784 520                                                                         415 784 520"
+            ],
+            "ae_lfi": 396900004,
+            "ae_consumed": 415784520,
+            "cp_lfi": 396900004,
+            "cp_consumed": 415784520,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                396900004,
+                396900004,
+                396900004,
+                415784520,
+                415784520
+            ]
+        },
+        {
+            "code": "64.01",
+            "label": "Personnel du SGA",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "64",
+            "contributes_to_program_total": false,
+            "amounts": [
+                281239664,
+                281239664,
+                281239664,
+                302251620,
+                302251620
+            ],
+            "amount_rows": [
+                [
+                    281239664,
+                    281239664,
+                    281239664
+                ],
+                [
+                    302251620,
+                    302251620
+                ]
+            ],
+            "extracted_lines": [
+                "281 239 664                                                                          281 239 664        281 239 664",
+                "302 251 620                                                                         302 251 620"
+            ],
+            "ae_lfi": 281239664,
+            "ae_consumed": 302251620,
+            "cp_lfi": 281239664,
+            "cp_consumed": 302251620,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                281239664,
+                281239664,
+                281239664,
+                302251620,
+                302251620
+            ]
+        },
+        {
+            "code": "64.07",
+            "label": "Personnel de l'action",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "64",
+            "contributes_to_program_total": false,
+            "amounts": [
+                66963160,
+                66963160,
+                66963160,
+                65264652,
+                65264652
+            ],
+            "amount_rows": [
+                [
+                    66963160,
+                    66963160,
+                    66963160
+                ],
+                [
+                    65264652,
+                    65264652
+                ]
+            ],
+            "extracted_lines": [
+                "66 963 160                                                                           66 963 160        66 963 160",
+                "65 264 652                                                                          65 264 652"
+            ],
+            "ae_lfi": 66963160,
+            "ae_consumed": 65264652,
+            "cp_lfi": 66963160,
+            "cp_consumed": 65264652,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                66963160,
+                66963160,
+                66963160,
+                65264652,
+                65264652
+            ]
+        },
+        {
+            "code": "64.08",
+            "label": "Personnel de l'agence de",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "64",
+            "contributes_to_program_total": false,
+            "amounts": [
+                48697180,
+                48697180,
+                48697180,
+                48268247,
+                48268247
+            ],
+            "amount_rows": [
+                [
+                    48697180,
+                    48697180,
+                    48697180
+                ],
+                [
+                    48268247,
+                    48268247
+                ]
+            ],
+            "extracted_lines": [
+                "48 697 180                                                                           48 697 180        48 697 180",
+                "48 268 247                                                                          48 268 247"
+            ],
+            "ae_lfi": 48697180,
+            "ae_consumed": 48268247,
+            "cp_lfi": 48697180,
+            "cp_consumed": 48268247,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                48697180,
+                48697180,
+                48697180,
+                48268247,
+                48268247
+            ]
+        },
+        {
+            "code": "65",
+            "label": "Journée défense et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                128875258,
+                128875258,
+                128875258,
+                120524802,
+                120524802
+            ],
+            "amount_rows": [
+                [
+                    128875258,
+                    128875258,
+                    128875258
+                ],
+                [
+                    120524802,
+                    120524802
+                ]
+            ],
+            "extracted_lines": [
+                "128 875 258                                                                          128 875 258        128 875 258",
+                "120 524 802                                                                         120 524 802"
+            ],
+            "ae_lfi": 128875258,
+            "ae_consumed": 120524802,
+            "cp_lfi": 128875258,
+            "cp_consumed": 120524802,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                128875258,
+                128875258,
+                128875258,
+                120524802,
+                120524802
+            ]
+        },
+        {
+            "code": "66",
+            "label": "Rayonnement et contribution",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                42701347,
+                42701347,
+                42701347,
+                106209402,
+                106209402
+            ],
+            "amount_rows": [
+                [
+                    42701347,
+                    42701347,
+                    42701347
+                ],
+                [
+                    106209402,
+                    106209402
+                ]
+            ],
+            "extracted_lines": [
+                "42 701 347                                                                            42 701 347        42 701 347",
+                "106 209 402                                                                          106 209 402"
+            ],
+            "ae_lfi": 42701347,
+            "ae_consumed": 106209402,
+            "cp_lfi": 42701347,
+            "cp_consumed": 106209402,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                42701347,
+                42701347,
+                42701347,
+                106209402,
+                106209402
+            ]
+        },
+        {
+            "code": "66.01",
+            "label": "Pilotage, soutien et",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "66",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                3210010,
+                3210010,
+                19
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    3210010,
+                    3210010
+                ],
+                [
+                    19
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "3 210 010                                                                            3 210 010",
+                "19"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 3210010,
+            "cp_lfi": 0,
+            "cp_consumed": 3210010,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                3210010,
+                3210010
+            ]
+        },
+        {
+            "code": "66.02",
+            "label": "Pilotage, soutien et",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "66",
+            "contributes_to_program_total": false,
+            "amounts": [
+                13739221,
+                13739221,
+                13739221,
+                23371251,
+                23371251
+            ],
+            "amount_rows": [
+                [
+                    13739221,
+                    13739221,
+                    13739221
+                ],
+                [
+                    23371251,
+                    23371251
+                ]
+            ],
+            "extracted_lines": [
+                "13 739 221                                                                               13 739 221        13 739 221",
+                "23 371 251                                                                              23 371 251"
+            ],
+            "ae_lfi": 13739221,
+            "ae_consumed": 23371251,
+            "cp_lfi": 13739221,
+            "cp_consumed": 23371251,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                13739221,
+                13739221,
+                13739221,
+                23371251,
+                23371251
+            ]
+        },
+        {
+            "code": "66.03",
+            "label": "Pilotage, soutien et",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "66",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                55743168,
+                55743168
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    55743168,
+                    55743168
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "55 743 168                                                                              55 743 168"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 55743168,
+            "cp_lfi": 0,
+            "cp_consumed": 55743168,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                55743168,
+                55743168
+            ]
+        },
+        {
+            "code": "66.04",
+            "label": "Pilotage, soutien et",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "66",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                1157600,
+                1157600
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    1157600,
+                    1157600
+                ]
+            ],
+            "extracted_lines": [
+                "0                 0",
+                "1 157 600                                                                                1 157 600"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 1157600,
+            "cp_lfi": 0,
+            "cp_consumed": 1157600,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                1157600,
+                1157600
+            ]
+        },
+        {
+            "code": "66.05",
+            "label": "Pilotage, soutien et",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "66",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1437860,
+                1437860,
+                1437860,
+                1520034,
+                1520034
+            ],
+            "amount_rows": [
+                [
+                    1437860,
+                    1437860,
+                    1437860
+                ],
+                [
+                    1520034,
+                    1520034
+                ]
+            ],
+            "extracted_lines": [
+                "1 437 860                                                                               1 437 860         1 437 860",
+                "1 520 034                                                                              1 520 034"
+            ],
+            "ae_lfi": 1437860,
+            "ae_consumed": 1520034,
+            "cp_lfi": 1437860,
+            "cp_consumed": 1520034,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1437860,
+                1437860,
+                1437860,
+                1520034,
+                1520034,
+                23
+            ]
+        },
+        {
+            "code": "66.06",
+            "label": "Pilotage, soutien et",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "66",
+            "contributes_to_program_total": false,
+            "amounts": [
+                27524266,
+                27524266,
+                27524266,
+                21207340,
+                21207340
+            ],
+            "amount_rows": [
+                [
+                    27524266,
+                    27524266,
+                    27524266
+                ],
+                [
+                    21207340,
+                    21207340
+                ]
+            ],
+            "extracted_lines": [
+                "27 524 266                                                                               27 524 266        27 524 266",
+                "21 207 340                                                                              21 207 340"
+            ],
+            "ae_lfi": 27524266,
+            "ae_consumed": 21207340,
+            "cp_lfi": 27524266,
+            "cp_consumed": 21207340,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                27524266,
+                27524266,
+                27524266,
+                21207340,
+                21207340
+            ]
+        },
+        {
+            "code": "67",
+            "label": "Pilotage, soutien et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                85832223,
+                85832223,
+                85832223,
+                87622980,
+                87622980
+            ],
+            "amount_rows": [
+                [
+                    85832223,
+                    85832223,
+                    85832223
+                ],
+                [
+                    87622980,
+                    87622980
+                ]
+            ],
+            "extracted_lines": [
+                "85 832 223                                                                               85 832 223        85 832 223",
+                "87 622 980                                                                              87 622 980"
+            ],
+            "ae_lfi": 85832223,
+            "ae_consumed": 87622980,
+            "cp_lfi": 85832223,
+            "cp_consumed": 87622980,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                85832223,
+                85832223,
+                85832223,
+                87622980,
+                87622980
+            ]
+        },
+        {
+            "code": "67.01",
+            "label": "Cabinet du Ministre des",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "67",
+            "contributes_to_program_total": false,
+            "amounts": [
+                32961637,
+                32961637,
+                32961637,
+                33008733,
+                33008733
+            ],
+            "amount_rows": [
+                [
+                    32961637,
+                    32961637,
+                    32961637
+                ],
+                [
+                    33008733,
+                    33008733
+                ]
+            ],
+            "extracted_lines": [
+                "32 961 637                                                                               32 961 637        32 961 637",
+                "33 008 733                                                                              33 008 733"
+            ],
+            "ae_lfi": 32961637,
+            "ae_consumed": 33008733,
+            "cp_lfi": 32961637,
+            "cp_consumed": 33008733,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                32961637,
+                32961637,
+                32961637,
+                33008733,
+                33008733
+            ]
+        },
+        {
+            "code": "67.02",
+            "label": "Contrôle général des",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "67",
+            "contributes_to_program_total": false,
+            "amounts": [
+                21223253,
+                21223253,
+                21223253,
+                24545546,
+                24545546
+            ],
+            "amount_rows": [
+                [
+                    21223253,
+                    21223253,
+                    21223253
+                ],
+                [
+                    24545546,
+                    24545546
+                ]
+            ],
+            "extracted_lines": [
+                "21 223 253                                                                               21 223 253        21 223 253",
+                "24 545 546                                                                              24 545 546"
+            ],
+            "ae_lfi": 21223253,
+            "ae_consumed": 24545546,
+            "cp_lfi": 21223253,
+            "cp_consumed": 24545546,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                21223253,
+                21223253,
+                21223253,
+                24545546,
+                24545546
+            ]
+        },
+        {
+            "code": "67.03",
+            "label": "Direction Générale du",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "67",
+            "contributes_to_program_total": false,
+            "amounts": [
+                6405748,
+                6405748,
+                6405748,
+                7245127,
+                7245127
+            ],
+            "amount_rows": [
+                [
+                    6405748,
+                    6405748,
+                    6405748
+                ],
+                [
+                    7245127,
+                    7245127
+                ]
+            ],
+            "extracted_lines": [
+                "6 405 748                                                                               6 405 748         6 405 748",
+                "7 245 127                                                                              7 245 127"
+            ],
+            "ae_lfi": 6405748,
+            "ae_consumed": 7245127,
+            "cp_lfi": 6405748,
+            "cp_consumed": 7245127,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                6405748,
+                6405748,
+                6405748,
+                7245127,
+                7245127
+            ]
+        },
+        {
+            "code": "67.04",
+            "label": "Délégation à l'Information",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "67",
+            "contributes_to_program_total": false,
+            "amounts": [
+                11948056,
+                11948056,
+                11948056,
+                9731544,
+                9731544
+            ],
+            "amount_rows": [
+                [
+                    11948056,
+                    11948056,
+                    11948056
+                ],
+                [
+                    9731544,
+                    9731544
+                ]
+            ],
+            "extracted_lines": [
+                "11 948 056                                                                               11 948 056        11 948 056",
+                "9 731 544                                                                               9 731 544"
+            ],
+            "ae_lfi": 11948056,
+            "ae_consumed": 9731544,
+            "cp_lfi": 11948056,
+            "cp_consumed": 9731544,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                11948056,
+                11948056,
+                11948056,
+                9731544,
+                9731544
+            ]
+        },
+        {
+            "code": "67.05",
+            "label": "Gendarmerie de la Sureté",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "67",
+            "contributes_to_program_total": false,
+            "amounts": [
+                5686115,
+                5686115,
+                5686115,
+                5747673,
+                5747673
+            ],
+            "amount_rows": [
+                [
+                    5686115,
+                    5686115,
+                    5686115
+                ],
+                [
+                    5747673,
+                    5747673
+                ]
+            ],
+            "extracted_lines": [
+                "5 686 115                                                                               5 686 115         5 686 115",
+                "5 747 673                                                                              5 747 673"
+            ],
+            "ae_lfi": 5686115,
+            "ae_consumed": 5747673,
+            "cp_lfi": 5686115,
+            "cp_consumed": 5747673,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                5686115,
+                5686115,
+                5686115,
+                5747673,
+                5747673
+            ]
+        },
+        {
+            "code": "67.06",
+            "label": "Contrôle Budgétaire et",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "67",
+            "contributes_to_program_total": false,
+            "amounts": [
+                3840308,
+                3840308,
+                3840308,
+                3940045,
+                3940045
+            ],
+            "amount_rows": [
+                [
+                    3840308,
+                    3840308,
+                    3840308
+                ],
+                [
+                    3940045,
+                    3940045
+                ]
+            ],
+            "extracted_lines": [
+                "3 840 308                                                                               3 840 308         3 840 308",
+                "3 940 045                                                                              3 940 045"
+            ],
+            "ae_lfi": 3840308,
+            "ae_consumed": 3940045,
+            "cp_lfi": 3840308,
+            "cp_consumed": 3940045,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                3840308,
+                3840308,
+                3840308,
+                3940045,
+                3940045
+            ]
+        },
+        {
+            "code": "67.07",
+            "label": "Direction de la Protection",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "67",
+            "contributes_to_program_total": false,
+            "amounts": [
+                3767106,
+                3767106,
+                3767106,
+                3404313,
+                3404313
+            ],
+            "amount_rows": [
+                [
+                    3767106,
+                    3767106,
+                    3767106
+                ],
+                [
+                    3404313,
+                    3404313
+                ]
+            ],
+            "extracted_lines": [
+                "3 767 106                                                                               3 767 106         3 767 106",
+                "3 404 313                                                                              3 404 313"
+            ],
+            "ae_lfi": 3767106,
+            "ae_consumed": 3404313,
+            "cp_lfi": 3767106,
+            "cp_consumed": 3404313,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                3767106,
+                3767106,
+                3767106,
+                3404313,
+                3404313
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 9223372036854775807,
+            "ae_consumed": 24505866186,
+            "cp_lfi": 9223372036854775807,
+            "cp_consumed": 24659167688
+        },
+        "differences": {
+            "ae_lfi": {
+                "actions_sum": 24944669897,
+                "programme_total": 9223372036854775807,
+                "difference": -9223372011910105910
+            },
+            "ae_consumed": {
+                "actions_sum": 23938107011,
+                "programme_total": 24505866186,
+                "difference": -567759175
+            },
+            "cp_lfi": {
+                "actions_sum": 24898607726,
+                "programme_total": 9223372036854775807,
+                "difference": -9223372011956168081
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 76,
+        "sub_actions": 52
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29768",
+    "pdf_sha256": "e6a2df59213f321968c42afe1832733c501cc1a928b1103fdd335dbf1820fdc0",
+    "mission": "Défense"
+}

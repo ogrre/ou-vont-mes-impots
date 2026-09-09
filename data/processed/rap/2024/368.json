@@ -1,0 +1,153 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "368",
+        "name": "Conduite et pilotage de la transformation et de la fonction publiques"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Accompagnement des transformations des ressources humaines (DGAFP\/CISIRH)",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                33074400,
+                33074400,
+                33074400,
+                31883738,
+                31883738
+            ],
+            "amount_rows": [
+                [
+                    33074400,
+                    33074400,
+                    33074400
+                ],
+                [
+                    31883738,
+                    31883738
+                ]
+            ],
+            "extracted_lines": [
+                "33 074 400      33 074 400          33 074 400",
+                "31 883 738       31 883 738"
+            ],
+            "ae_lfi": 33074400,
+            "ae_consumed": 31883738,
+            "cp_lfi": 33074400,
+            "cp_consumed": 31883738,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                33074400,
+                33074400,
+                33074400,
+                31883738,
+                31883738
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Pilotage des actions de modernisation (DITP)",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                15291348,
+                15291348,
+                15291348,
+                15040977,
+                15040977
+            ],
+            "amount_rows": [
+                [
+                    15291348,
+                    15291348,
+                    15291348
+                ],
+                [
+                    15040977,
+                    15040977
+                ]
+            ],
+            "extracted_lines": [
+                "15 291 348      15 291 348          15 291 348",
+                "15 040 977       15 040 977"
+            ],
+            "ae_lfi": 15291348,
+            "ae_consumed": 15040977,
+            "cp_lfi": 15291348,
+            "cp_consumed": 15040977,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                15291348,
+                15291348,
+                15291348,
+                15040977,
+                15040977
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Renouveau démocratique",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 48365748,
+            "ae_consumed": 46924715,
+            "cp_lfi": 48365748,
+            "cp_consumed": 46924715
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 3,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29879",
+    "pdf_sha256": "c195e8f9720c7e51a47a105ec6efc05e89473298f3ed8575551bf19e957e1156",
+    "mission": "Transformation et fonction publiques"
+}

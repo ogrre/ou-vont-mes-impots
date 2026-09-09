@@ -1,0 +1,400 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "793",
+        "name": "Électrification rurale"
+    },
+    "actions": [
+        {
+            "code": "03",
+            "label": "Renforcement des réseaux",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                181000000,
+                181000000,
+                181000000,
+                167004232,
+                167004232
+            ],
+            "amount_rows": [
+                [
+                    181000000,
+                    181000000,
+                    181000000
+                ],
+                [
+                    167004232,
+                    167004232
+                ]
+            ],
+            "extracted_lines": [
+                "181 000 000        181 000 000        181 000 000",
+                "167 004 232         167 004 232"
+            ],
+            "ae_lfi": 181000000,
+            "ae_consumed": 167004232,
+            "cp_lfi": 181000000,
+            "cp_consumed": 176213306,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                181000000,
+                181000000,
+                181000000,
+                176213306,
+                176213306
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Extension des réseaux",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                30000000,
+                30000000,
+                30000000,
+                20544360,
+                20544360
+            ],
+            "amount_rows": [
+                [
+                    30000000,
+                    30000000,
+                    30000000
+                ],
+                [
+                    20544360,
+                    20544360
+                ]
+            ],
+            "extracted_lines": [
+                "30 000 000        30 000 000         30 000 000",
+                "20 544 360         20 544 360"
+            ],
+            "ae_lfi": 30000000,
+            "ae_consumed": 20544360,
+            "cp_lfi": 30000000,
+            "cp_consumed": 25016842,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                30000000,
+                30000000,
+                30000000,
+                25016842,
+                25016842
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Enfouissement et pose en façade",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                45000000,
+                45000000,
+                45000000,
+                40598900,
+                40598900
+            ],
+            "amount_rows": [
+                [
+                    45000000,
+                    45000000,
+                    45000000
+                ],
+                [
+                    40598900,
+                    40598900
+                ]
+            ],
+            "extracted_lines": [
+                "45 000 000        45 000 000         45 000 000",
+                "40 598 900         40 598 900"
+            ],
+            "ae_lfi": 45000000,
+            "ae_consumed": 40598900,
+            "cp_lfi": 45000000,
+            "cp_consumed": 46192358,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                45000000,
+                45000000,
+                45000000,
+                46192358,
+                46192358
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Sécurisation des fils nus (hors faible section)",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                -11218
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    -11218
+                ]
+            ],
+            "extracted_lines": [
+                "0                     0",
+                "-11 218"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": -11218,
+            "cp_lfi": 0,
+            "cp_consumed": 2178454,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                2178454,
+                2178454
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Sécurisation des fils nus de faible section",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                -260294
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    -260294
+                ]
+            ],
+            "extracted_lines": [
+                "0                     0",
+                "-260 294"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": -260294,
+            "cp_lfi": 0,
+            "cp_consumed": 5848764,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                5848764,
+                5848764
+            ]
+        },
+        {
+            "code": "08",
+            "label": "Fonctionnement",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                800000,
+                800000,
+                800000,
+                567384,
+                567384
+            ],
+            "amount_rows": [
+                [
+                    800000,
+                    800000,
+                    800000
+                ],
+                [
+                    567384,
+                    567384
+                ]
+            ],
+            "extracted_lines": [
+                "800 000                               800 000            800 000",
+                "567 384                               567 384"
+            ],
+            "ae_lfi": 800000,
+            "ae_consumed": 567384,
+            "cp_lfi": 800000,
+            "cp_consumed": 610053,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                800000,
+                800000,
+                800000,
+                610053,
+                610053,
+                9
+            ]
+        },
+        {
+            "code": "09",
+            "label": "Déclaration d'utilité publique (Très haute tension)",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                200000,
+                200000,
+                200000,
+                0
+            ],
+            "amount_rows": [
+                [
+                    200000,
+                    200000,
+                    200000
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "200 000          200 000            200 000",
+                "0"
+            ],
+            "ae_lfi": 200000,
+            "ae_consumed": 0,
+            "cp_lfi": 200000,
+            "cp_consumed": 489600,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                200000,
+                200000,
+                200000,
+                489600,
+                489600
+            ]
+        },
+        {
+            "code": "10",
+            "label": "Intempéries",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                5000000,
+                5000000,
+                5000000,
+                35538786,
+                35538786
+            ],
+            "amount_rows": [
+                [
+                    5000000,
+                    5000000,
+                    5000000
+                ],
+                [
+                    35538786,
+                    35538786
+                ]
+            ],
+            "extracted_lines": [
+                "5 000 000       5 000 000           5 000 000",
+                "35 538 786       35 538 786"
+            ],
+            "ae_lfi": 5000000,
+            "ae_consumed": 35538786,
+            "cp_lfi": 5000000,
+            "cp_consumed": 12501800,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                5000000,
+                5000000,
+                5000000,
+                12501800,
+                12501800
+            ]
+        },
+        {
+            "code": "11",
+            "label": "Sécurisation de fils nus",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                95000000,
+                95000000,
+                95000000,
+                86310704,
+                86310704
+            ],
+            "amount_rows": [
+                [
+                    95000000,
+                    95000000,
+                    95000000
+                ],
+                [
+                    86310704,
+                    86310704
+                ]
+            ],
+            "extracted_lines": [
+                "95 000 000        95 000 000         95 000 000",
+                "86 310 704         86 310 704"
+            ],
+            "ae_lfi": 95000000,
+            "ae_consumed": 86310704,
+            "cp_lfi": 95000000,
+            "cp_consumed": 81558963,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                95000000,
+                95000000,
+                95000000,
+                81558963,
+                81558963
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 357000000,
+            "ae_consumed": 350292854,
+            "cp_lfi": 357000000,
+            "cp_consumed": 350610138
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 9,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30020",
+    "pdf_sha256": "202306dd37d1b51985592432dc33af6b0e3635c93e478874eff1b5479de8c538",
+    "mission": null
+}

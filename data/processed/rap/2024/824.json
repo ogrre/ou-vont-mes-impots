@@ -1,0 +1,72 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "824",
+        "name": "Prêts et avances à des services de l'État"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Prêts et avances au budget annexe « Contrôle et exploitation aériens »",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                238217124,
+                238217124,
+                238217124,
+                0
+            ],
+            "amount_rows": [
+                [
+                    238217124,
+                    238217124,
+                    238217124
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "238 217 124         238 217 124         238 217 124",
+                "0"
+            ],
+            "ae_lfi": 238217124,
+            "ae_consumed": 0,
+            "cp_lfi": 238217124,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                238217124,
+                238217124,
+                238217124,
+                0
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 238217124,
+            "ae_consumed": 0,
+            "cp_lfi": 238217124,
+            "cp_consumed": 0
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30065",
+    "pdf_sha256": "fd95e3f7c79865e75cafbad772ad2e34f2f3559f952b576b1ba7f641533fd56a",
+    "mission": null
+}

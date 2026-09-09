@@ -1,0 +1,117 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "109",
+        "name": "Aide à l'accès au logement"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Aides personnelles",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                13647000000,
+                13647000000,
+                13647000000,
+                13092997000,
+                13092997000
+            ],
+            "amount_rows": [
+                [
+                    13647000000,
+                    13647000000,
+                    13647000000
+                ],
+                [
+                    13092997000,
+                    13092997000
+                ]
+            ],
+            "extracted_lines": [
+                "13 647 000 000       13 647 000 000      13 647 000 000",
+                "13 092 997 000       13 092 997 000"
+            ],
+            "ae_lfi": 13647000000,
+            "ae_consumed": 13092997000,
+            "cp_lfi": 13647000000,
+            "cp_consumed": 13092997000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                13647000000,
+                13647000000,
+                13647000000,
+                13092997000,
+                13092997000
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Information relative au logement et accompagnement des publics en difficulté",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                9400000,
+                9400000,
+                9400000,
+                9211733,
+                9211733
+            ],
+            "amount_rows": [
+                [
+                    9400000,
+                    9400000,
+                    9400000
+                ],
+                [
+                    9211733,
+                    9211733
+                ]
+            ],
+            "extracted_lines": [
+                "9 400 000          9 400 000           9 400 000",
+                "9 211 733           9 211 733"
+            ],
+            "ae_lfi": 9400000,
+            "ae_consumed": 9211733,
+            "cp_lfi": 9400000,
+            "cp_consumed": 9211733,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                9400000,
+                9400000,
+                9400000,
+                9211733,
+                9211733
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 13656400000,
+            "ae_consumed": 13102208733,
+            "cp_lfi": 13656400000,
+            "cp_consumed": 13102208733
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 2,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29552",
+    "pdf_sha256": "43b1ae65bd181a208e61e7c699f71da4fb3ca0170bee285311900d17601b7f99",
+    "mission": "Cohésion des territoires"
+}

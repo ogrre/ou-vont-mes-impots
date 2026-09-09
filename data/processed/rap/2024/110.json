@@ -1,0 +1,171 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "110",
+        "name": "Aide économique et financière au développement"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Aide économique et financière multilatérale",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                430592700,
+                181205548,
+                611798248,
+                611798248,
+                340494805,
+                167502027,
+                507996833
+            ],
+            "amount_rows": [
+                [
+                    430592700,
+                    181205548,
+                    611798248,
+                    611798248
+                ],
+                [
+                    340494805,
+                    167502027,
+                    507996833
+                ]
+            ],
+            "extracted_lines": [
+                "430 592 700          181 205 548     611 798 248        611 798 248",
+                "340 494 805           167 502 027     507 996 833"
+            ],
+            "ae_lfi": 611798248,
+            "ae_consumed": 507996833,
+            "cp_lfi": 1490334801,
+            "cp_consumed": 1257111591,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                787847362,
+                702487439,
+                1490334801,
+                1490334801,
+                94239,
+                554529914,
+                702487438,
+                1257111591
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Aide économique et financière bilatérale",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                8930000,
+                2166400000,
+                2175330000,
+                2175330000,
+                12798943,
+                1340085456,
+                1352884399
+            ],
+            "amount_rows": [
+                [
+                    8930000,
+                    2166400000,
+                    2175330000,
+                    2175330000
+                ],
+                [
+                    12798943,
+                    1340085456,
+                    1352884399
+                ]
+            ],
+            "extracted_lines": [
+                "8 930 000     2 166 400 000                          2 175 330 000     2 175 330 000",
+                "12 798 943      1 340 085 456                          1 352 884 399"
+            ],
+            "ae_lfi": 2175330000,
+            "ae_consumed": 1352884399,
+            "cp_lfi": 734033346,
+            "cp_consumed": 503308570,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                8930000,
+                725103346,
+                734033346,
+                734033346,
+                9349468,
+                493959102,
+                503308570
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Traitement de la dette des pays pauvres",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                1451780,
+                1451780
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    1451780,
+                    1451780
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "1 451 780                           1 451 780"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 1451780,
+            "cp_lfi": 113542088,
+            "cp_consumed": 114993868,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                113542088,
+                113542088,
+                113542088,
+                1451780,
+                113542088,
+                114993868
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 2787128248,
+            "ae_consumed": 1862333012,
+            "cp_lfi": 2337910235,
+            "cp_consumed": 1875414028
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 3,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29555",
+    "pdf_sha256": "a221dcd0a5c307476836521934b183fa872d8503591c996c084727cc10895090",
+    "mission": "Aide publique au développement"
+}

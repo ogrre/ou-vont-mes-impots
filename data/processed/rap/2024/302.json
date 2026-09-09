@@ -1,0 +1,415 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "302",
+        "name": "Facilitation et sécurisation des échanges"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Surveillance douanière des flux de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                554060406,
+                27422891,
+                12348332,
+                593831629,
+                594021629,
+                551188530,
+                27238984,
+                15481873,
+                593909387
+            ],
+            "amount_rows": [
+                [
+                    554060406,
+                    27422891,
+                    12348332,
+                    593831629,
+                    594021629
+                ],
+                [
+                    551188530,
+                    27238984,
+                    15481873,
+                    593909387
+                ]
+            ],
+            "extracted_lines": [
+                "554 060 406         27 422 891             12 348 332                           593 831 629       594 021 629",
+                "551 188 530         27 238 984             15 481 873                           593 909 387"
+            ],
+            "ae_lfi": 594021629,
+            "ae_consumed": 593909387,
+            "cp_lfi": 587952226,
+            "cp_consumed": 586962186,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                554060406,
+                21138488,
+                12563332,
+                587762226,
+                587952226,
+                551188530,
+                28332036,
+                7441619,
+                586962186
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Préservation de la sécurité et de la",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                122001709,
+                64102312,
+                18696430,
+                204800451,
+                212787375,
+                121369334,
+                67199478,
+                324873,
+                188893686
+            ],
+            "amount_rows": [
+                [
+                    122001709,
+                    64102312,
+                    18696430,
+                    204800451,
+                    212787375
+                ],
+                [
+                    121369334,
+                    67199478,
+                    324873,
+                    188893686
+                ]
+            ],
+            "extracted_lines": [
+                "122 001 709         64 102 312             18 696 430                           204 800 451       212 787 375",
+                "121 369 334         67 199 478               324 873                            188 893 686"
+            ],
+            "ae_lfi": 212787375,
+            "ae_consumed": 188893686,
+            "cp_lfi": 174490029,
+            "cp_consumed": 156185390,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                122001709,
+                29936767,
+                14564629,
+                166503105,
+                174490029,
+                121369334,
+                34511348,
+                304708,
+                156185390
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Promotion des échanges",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                239280130,
+                2541000,
+                4175000,
+                245996130,
+                245996130,
+                238039863,
+                5797738,
+                8182775,
+                252020377
+            ],
+            "amount_rows": [
+                [
+                    239280130,
+                    2541000,
+                    4175000,
+                    245996130,
+                    245996130
+                ],
+                [
+                    238039863,
+                    5797738,
+                    8182775,
+                    252020377
+                ]
+            ],
+            "extracted_lines": [
+                "239 280 130          2 541 000              4 175 000                           245 996 130       245 996 130",
+                "238 039 863          5 797 738              8 182 775                           252 020 377"
+            ],
+            "ae_lfi": 245996130,
+            "ae_consumed": 252020377,
+            "cp_lfi": 246780130,
+            "cp_consumed": 250556736,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                239280130,
+                2800000,
+                4700000,
+                246780130,
+                246780130,
+                238039863,
+                5483604,
+                7033268,
+                250556736
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Fiscalité douanière, énergétique et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                121395722,
+                4385000,
+                580000,
+                5747124,
+                132107846,
+                132107846,
+                120766488,
+                1825838,
+                1535495,
+                3549773,
+                127677595
+            ],
+            "amount_rows": [
+                [
+                    121395722,
+                    4385000,
+                    580000,
+                    5747124,
+                    132107846,
+                    132107846
+                ],
+                [
+                    120766488,
+                    1825838,
+                    1535495,
+                    3549773,
+                    127677595
+                ]
+            ],
+            "extracted_lines": [
+                "121 395 722          4 385 000                580 000             5 747 124     132 107 846       132 107 846",
+                "120 766 488          1 825 838              1 535 495             3 549 773     127 677 595"
+            ],
+            "ae_lfi": 132107846,
+            "ae_consumed": 127677595,
+            "cp_lfi": 132740375,
+            "cp_consumed": 127617117,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                121395722,
+                5097240,
+                500000,
+                5747413,
+                132740375,
+                132740375,
+                120766488,
+                1699278,
+                1601578,
+                3549773,
+                127617117
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Soutien des services opérationnels",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                286019000,
+                160028522,
+                28309596,
+                1857554,
+                476214672,
+                478514672,
+                284536340,
+                166237931,
+                25178768,
+                5931302,
+                481884340
+            ],
+            "amount_rows": [
+                [
+                    286019000,
+                    160028522,
+                    28309596,
+                    1857554,
+                    476214672,
+                    478514672
+                ],
+                [
+                    284536340,
+                    166237931,
+                    25178768,
+                    5931302,
+                    481884340
+                ]
+            ],
+            "extracted_lines": [
+                "286 019 000       160 028 522              28 309 596             1 857 554     476 214 672       478 514 672",
+                "284 536 340       166 237 931              25 178 768             5 931 302     481 884 340"
+            ],
+            "ae_lfi": 478514672,
+            "ae_consumed": 481884340,
+            "cp_lfi": 496359093,
+            "cp_consumed": 497331195,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                286019000,
+                170631027,
+                35551354,
+                1857712,
+                494059093,
+                496359093,
+                284536340,
+                182006258,
+                24917275,
+                5871322,
+                497331195,
+                15
+            ]
+        },
+        {
+            "code": "08",
+            "label": "Soutien au réseau des débitants de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                59100000,
+                59100000,
+                59100000,
+                131,
+                157,
+                44824809,
+                44825097
+            ],
+            "amount_rows": [
+                [
+                    59100000,
+                    59100000,
+                    59100000
+                ],
+                [
+                    131,
+                    157,
+                    44824809,
+                    44825097
+                ]
+            ],
+            "extracted_lines": [
+                "59 100 000       59 100 000        59 100 000",
+                "131                157                                  44 824 809       44 825 097"
+            ],
+            "ae_lfi": 59100000,
+            "ae_consumed": 44825097,
+            "cp_lfi": 59100000,
+            "cp_consumed": 39352896,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                59100000,
+                59100000,
+                59100000,
+                131,
+                156,
+                39352610,
+                39352896
+            ]
+        },
+        {
+            "code": "09",
+            "label": "Mobilisation des outils du",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                6622147,
+                20715000,
+                27337147,
+                27337147,
+                6587822,
+                11004274,
+                5065542,
+                22657638
+            ],
+            "amount_rows": [
+                [
+                    6622147,
+                    20715000,
+                    27337147,
+                    27337147
+                ],
+                [
+                    6587822,
+                    11004274,
+                    5065542,
+                    22657638
+                ]
+            ],
+            "extracted_lines": [
+                "6 622 147                               20 715 000                            27 337 147        27 337 147",
+                "6 587 822       11 004 274               5 065 542                            22 657 638"
+            ],
+            "ae_lfi": 27337147,
+            "ae_consumed": 22657638,
+            "cp_lfi": 20009647,
+            "cp_consumed": 14788683,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                6622147,
+                13387500,
+                20009647,
+                20009647,
+                6587822,
+                6767256,
+                1433605,
+                14788683
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 1749864799,
+            "ae_consumed": 1711868120,
+            "cp_lfi": 1717431500,
+            "cp_consumed": 1672794203
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 7,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29804",
+    "pdf_sha256": "2b286e13499691e0759a3619995057c81b90e5c9605cba8d8c7dd7a6acb05b87",
+    "mission": "Gestion des finances publiques"
+}

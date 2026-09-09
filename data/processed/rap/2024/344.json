@@ -1,0 +1,75 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "344",
+        "name": "Fonds de soutien relatif aux prêts et contrats financiers structurés à risque"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Fonds de soutien relatif aux prêts et contrats financiers structurés à",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                11500000
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    11500000
+                ]
+            ],
+            "extracted_lines": [
+                "0        11 500 000",
+                "30 000                 -38 335              -8 335"
+            ],
+            "ae_lfi": 11500000,
+            "ae_consumed": null,
+            "cp_lfi": 199169310,
+            "cp_consumed": 177410819,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                90000,
+                187579310,
+                187669310,
+                199169310,
+                38335,
+                177372484,
+                177410819
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 11500000,
+            "ae_consumed": -8335,
+            "cp_lfi": 199169310,
+            "cp_consumed": 177410819
+        },
+        "differences": {
+            "ae_consumed": {
+                "actions_sum": 0,
+                "programme_total": -8335,
+                "difference": 8335
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29837",
+    "pdf_sha256": "fada98a6b90c96872e1410167cbfacaf0fb0a9bf8769abc5aef94da291ba7a85",
+    "mission": "Engagements financiers de l'État"
+}

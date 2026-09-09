@@ -1,0 +1,180 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "741",
+        "name": "Pensions civiles et militaires de retraite et allocations temporaires d'invalidité"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Fonctionnaires civils relevant du code des pensions",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                52974930507,
+                200000,
+                2900000,
+                52978030507,
+                52978030507,
+                53226089425,
+                48156,
+                2741449,
+                53228879030
+            ],
+            "amount_rows": [
+                [
+                    52974930507,
+                    200000,
+                    2900000,
+                    52978030507,
+                    52978030507
+                ],
+                [
+                    53226089425,
+                    48156,
+                    2741449,
+                    53228879030
+                ]
+            ],
+            "extracted_lines": [
+                "52 974 930 507           200 000           2 900 000    52 978 030 507    52 978 030 507",
+                "53 226 089 425           48 156            2 741 449    53 228 879 030"
+            ],
+            "ae_lfi": 52978030507,
+            "ae_consumed": 53228879030,
+            "cp_lfi": 52978030507,
+            "cp_consumed": 53228879030,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                52974930507,
+                200000,
+                2900000,
+                52978030507,
+                52978030507,
+                53226089425,
+                48156,
+                2741449,
+                53228879030
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Militaires relevant du code des pensions civiles et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                11114956437,
+                100000,
+                11115056437,
+                11115056437,
+                11080463571,
+                2000,
+                11080465571
+            ],
+            "amount_rows": [
+                [
+                    11114956437,
+                    100000,
+                    11115056437,
+                    11115056437
+                ],
+                [
+                    11080463571,
+                    2000,
+                    11080465571
+                ]
+            ],
+            "extracted_lines": [
+                "11 114 956 437           100 000                        11 115 056 437    11 115 056 437",
+                "11 080 463 571            2 000                         11 080 465 571"
+            ],
+            "ae_lfi": 11115056437,
+            "ae_consumed": 11080465571,
+            "cp_lfi": 11115056437,
+            "cp_consumed": 11080465571,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                11114956437,
+                100000,
+                11115056437,
+                11115056437,
+                11080463571,
+                2000,
+                11080465571
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Allocations temporaires d'invalidité",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                141205748,
+                50000,
+                141255748,
+                141255748,
+                141694944,
+                141694944
+            ],
+            "amount_rows": [
+                [
+                    141205748,
+                    50000,
+                    141255748,
+                    141255748
+                ],
+                [
+                    141694944,
+                    141694944
+                ]
+            ],
+            "extracted_lines": [
+                "141 205 748             50 000                          141 255 748       141 255 748",
+                "141 694 944                                              141 694 944"
+            ],
+            "ae_lfi": 141255748,
+            "ae_consumed": 141694944,
+            "cp_lfi": 141255748,
+            "cp_consumed": 141694944,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                141205748,
+                50000,
+                141255748,
+                141255748,
+                141694944,
+                141694944
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 64234342692,
+            "ae_consumed": 64451039545,
+            "cp_lfi": 64234342692,
+            "cp_consumed": 64451039545
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 3,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29993",
+    "pdf_sha256": "e6c9801f7f0d66208e63ce9fa1cdc2579c173f03c004b8a5880478fbf77ed148",
+    "mission": null
+}

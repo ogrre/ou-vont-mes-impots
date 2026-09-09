@@ -1,0 +1,285 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "195",
+        "name": "Régimes de retraite des mines, de la SEITA et divers"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Versements au fonds spécial de retraite de la caisse autonome nationale",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                920407980,
+                920407980,
+                920407980,
+                920711579,
+                920711579
+            ],
+            "amount_rows": [
+                [
+                    920407980,
+                    920407980,
+                    920407980
+                ],
+                [
+                    920711579,
+                    920711579
+                ]
+            ],
+            "extracted_lines": [
+                "920 407 980        920 407 980        920 407 980",
+                "920 711 579         920 711 579"
+            ],
+            "ae_lfi": 920407980,
+            "ae_consumed": 920711579,
+            "cp_lfi": 920407980,
+            "cp_consumed": 920711579,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                920407980,
+                920407980,
+                920407980,
+                920711579,
+                920711579
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Régime de retraite de la SEITA",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                129449070,
+                129449070,
+                129449070,
+                134965949,
+                134965949
+            ],
+            "amount_rows": [
+                [
+                    129449070,
+                    129449070,
+                    129449070
+                ],
+                [
+                    134965949,
+                    134965949
+                ]
+            ],
+            "extracted_lines": [
+                "129 449 070        129 449 070        129 449 070",
+                "134 965 949         134 965 949"
+            ],
+            "ae_lfi": 129449070,
+            "ae_consumed": 134965949,
+            "cp_lfi": 129449070,
+            "cp_consumed": 134965949,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                129449070,
+                129449070,
+                129449070,
+                134965949,
+                134965949
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Caisse des retraites des régies ferroviaires d'outre-mer",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                723261,
+                723261,
+                723261,
+                683000,
+                683000
+            ],
+            "amount_rows": [
+                [
+                    723261,
+                    723261,
+                    723261
+                ],
+                [
+                    683000,
+                    683000
+                ]
+            ],
+            "extracted_lines": [
+                "723 261          723 261            723 261",
+                "683 000          683 000"
+            ],
+            "ae_lfi": 723261,
+            "ae_consumed": 683000,
+            "cp_lfi": 723261,
+            "cp_consumed": 683000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                723261,
+                723261,
+                723261,
+                683000,
+                683000
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Caisse de retraites du personnel de la Comédie Française",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                4911774,
+                4911774,
+                4911774,
+                4560582,
+                4560582
+            ],
+            "amount_rows": [
+                [
+                    4911774,
+                    4911774,
+                    4911774
+                ],
+                [
+                    4560582,
+                    4560582
+                ]
+            ],
+            "extracted_lines": [
+                "4 911 774                              4 911 774          4 911 774",
+                "4 560 582         4 560 582"
+            ],
+            "ae_lfi": 4911774,
+            "ae_consumed": 4560582,
+            "cp_lfi": 4911774,
+            "cp_consumed": 4560582,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                4911774,
+                4911774,
+                4911774,
+                4560582,
+                4560582
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Caisse de retraites des personnels de l'Opéra national de Paris",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                20103382,
+                20103382,
+                20103382,
+                22014990,
+                22014990
+            ],
+            "amount_rows": [
+                [
+                    20103382,
+                    20103382,
+                    20103382
+                ],
+                [
+                    22014990,
+                    22014990
+                ]
+            ],
+            "extracted_lines": [
+                "20 103 382        20 103 382         20 103 382",
+                "22 014 990         22 014 990"
+            ],
+            "ae_lfi": 20103382,
+            "ae_consumed": 22014990,
+            "cp_lfi": 20103382,
+            "cp_consumed": 22014990,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                20103382,
+                20103382,
+                20103382,
+                22014990,
+                22014990
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Versements liés à la liquidation de l'ORTF",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                60000,
+                60000,
+                60000,
+                61906,
+                61906
+            ],
+            "amount_rows": [
+                [
+                    60000,
+                    60000,
+                    60000
+                ],
+                [
+                    61906,
+                    61906
+                ]
+            ],
+            "extracted_lines": [
+                "60 000         60 000             60 000",
+                "61 906         61 906"
+            ],
+            "ae_lfi": 60000,
+            "ae_consumed": 61906,
+            "cp_lfi": 60000,
+            "cp_consumed": 61906,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                60000,
+                60000,
+                60000,
+                61906,
+                61906
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 1075655467,
+            "ae_consumed": 1082998006,
+            "cp_lfi": 1075655467,
+            "cp_consumed": 1082998006
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 6,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29735",
+    "pdf_sha256": "e09ec3f4539f097f9981e20346d06f3b1ef825d7479870f7abc9c8fb8bcee40e",
+    "mission": "Régimes sociaux et de retraite"
+}

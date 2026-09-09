@@ -1,0 +1,219 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "832",
+        "name": "Avances aux collectivités et établissements publics, et à la Nouvelle-Calédonie"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Avances de l'article L. 2337-1 du code général des collectivités territoriales",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                6000000,
+                6000000,
+                6000000,
+                0
+            ],
+            "amount_rows": [
+                [
+                    6000000,
+                    6000000,
+                    6000000
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "6 000 000      6 000 000           6 000 000",
+                "0"
+            ],
+            "ae_lfi": 6000000,
+            "ae_consumed": 0,
+            "cp_lfi": 6000000,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                6000000,
+                6000000,
+                6000000,
+                0
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Avances de l'article L. 2337-2 du code général des collectivités territoriales",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                       0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Avances de l'article 34 de la loi n° 53-1336 du 31 décembre 1953 (avances",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                       0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Avances à la Nouvelle-Calédonie, au titre de la fiscalité du nickel",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                       0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Avances aux collectivités régies par les articles 74 et 76 de la Constitution",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                154000000,
+                154000000
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    154000000,
+                    154000000
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "154 000 000     154 000 000"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 154000000,
+            "cp_lfi": 0,
+            "cp_consumed": 154000000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                154000000,
+                154000000
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 6000000,
+            "ae_consumed": 154000000,
+            "cp_lfi": 6000000,
+            "cp_consumed": 154000000
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 5,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30086",
+    "pdf_sha256": "0ccfa168c70c61492cab24fbbc82b173abf430c930cf4571f3af006f80878bfa",
+    "mission": null
+}

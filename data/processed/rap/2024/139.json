@@ -1,0 +1,598 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "139",
+        "name": "Enseignement privé du premier et du second degrés"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Enseignement pré-élémentaire",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                614630972,
+                614630972,
+                614630972,
+                508066106,
+                508066106
+            ],
+            "amount_rows": [
+                [
+                    614630972,
+                    614630972,
+                    614630972
+                ],
+                [
+                    508066106,
+                    508066106
+                ]
+            ],
+            "extracted_lines": [
+                "614 630 972                                                                      614 630 972        614 630 972",
+                "508 066 106                                                                      508 066 106"
+            ],
+            "ae_lfi": 614630972,
+            "ae_consumed": 508066106,
+            "cp_lfi": 614630972,
+            "cp_consumed": 508066106,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                614630972,
+                614630972,
+                614630972,
+                508066106,
+                508066106
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Enseignement élémentaire",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1633360445,
+                1633360445,
+                1633360445,
+                -362,
+                45221,
+                1537049630
+            ],
+            "amount_rows": [
+                [
+                    1633360445,
+                    1633360445,
+                    1633360445
+                ],
+                [
+                    -362,
+                    45221,
+                    1537049630
+                ]
+            ],
+            "extracted_lines": [
+                "1 633 360 445                                                                    1 633 360 445     1 633 360 445",
+                "-362                 45 221                          1 537 049 630"
+            ],
+            "ae_lfi": 1633360445,
+            "ae_consumed": 1537049630,
+            "cp_lfi": 1633360445,
+            "cp_consumed": 1537044896,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1633360445,
+                1633360445,
+                1633360445,
+                -362,
+                40488,
+                1537044896
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Enseignement en collège",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                2302946156,
+                2302946156,
+                2302946156,
+                2523234400,
+                43,
+                2523234443
+            ],
+            "amount_rows": [
+                [
+                    2302946156,
+                    2302946156,
+                    2302946156
+                ],
+                [
+                    2523234400,
+                    43,
+                    2523234443
+                ]
+            ],
+            "extracted_lines": [
+                "2 302 946 156                                                                    2 302 946 156     2 302 946 156",
+                "2 523 234 400                    43                                              2 523 234 443"
+            ],
+            "ae_lfi": 2302946156,
+            "ae_consumed": 2523234443,
+            "cp_lfi": 2302946156,
+            "cp_consumed": 21,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                2302946156,
+                2302946156,
+                2302946156,
+                21,
+                2523234400,
+                43,
+                2523234443
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Enseignement général et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1534877252,
+                1534877252,
+                1534877252,
+                1860388708,
+                7955,
+                1860396663
+            ],
+            "amount_rows": [
+                [
+                    1534877252,
+                    1534877252,
+                    1534877252
+                ],
+                [
+                    1860388708,
+                    7955,
+                    1860396663
+                ]
+            ],
+            "extracted_lines": [
+                "1 534 877 252                                                                    1 534 877 252     1 534 877 252",
+                "1 860 388 708                                     7 955                          1 860 396 663"
+            ],
+            "ae_lfi": 1534877252,
+            "ae_consumed": 1860396663,
+            "cp_lfi": 1534877252,
+            "cp_consumed": 1860447805,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1534877252,
+                1534877252,
+                1534877252,
+                1860388708,
+                59097,
+                1860447805
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Enseignement professionnel sous",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                928831798,
+                77000000,
+                1005831798,
+                1005831798,
+                773910553,
+                292374,
+                71920856,
+                846123782
+            ],
+            "amount_rows": [
+                [
+                    928831798,
+                    77000000,
+                    1005831798,
+                    1005831798
+                ],
+                [
+                    773910553,
+                    292374,
+                    71920856,
+                    846123782
+                ]
+            ],
+            "extracted_lines": [
+                "928 831 798                                77 000 000                           1 005 831 798     1 005 831 798",
+                "773 910 553            292 374             71 920 856                             846 123 782"
+            ],
+            "ae_lfi": 1005831798,
+            "ae_consumed": 846123782,
+            "cp_lfi": 1005831798,
+            "cp_consumed": 846123782,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                928831798,
+                77000000,
+                1005831798,
+                1005831798,
+                773910553,
+                292374,
+                71920856,
+                846123782
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Enseignement post-baccalauréat en",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                312206124,
+                312206124,
+                312206124,
+                209742738,
+                209742738
+            ],
+            "amount_rows": [
+                [
+                    312206124,
+                    312206124,
+                    312206124
+                ],
+                [
+                    209742738,
+                    209742738
+                ]
+            ],
+            "extracted_lines": [
+                "312 206 124                                                                      312 206 124        312 206 124",
+                "209 742 738                                                                      209 742 738"
+            ],
+            "ae_lfi": 312206124,
+            "ae_consumed": 209742738,
+            "cp_lfi": 312206124,
+            "cp_consumed": 209742738,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                312206124,
+                312206124,
+                312206124,
+                209742738,
+                209742738
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Dispositifs spécifiques de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                201415488,
+                201415488,
+                201415488,
+                215734471,
+                215734471
+            ],
+            "amount_rows": [
+                [
+                    201415488,
+                    201415488,
+                    201415488
+                ],
+                [
+                    215734471,
+                    215734471
+                ]
+            ],
+            "extracted_lines": [
+                "201 415 488                                                                      201 415 488        201 415 488",
+                "215 734 471                                                                      215 734 471"
+            ],
+            "ae_lfi": 201415488,
+            "ae_consumed": 215734471,
+            "cp_lfi": 201415488,
+            "cp_consumed": 215734471,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                201415488,
+                201415488,
+                201415488,
+                215734471,
+                215734471
+            ]
+        },
+        {
+            "code": "08",
+            "label": "Actions sociales en faveur des",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                81239322,
+                81239322,
+                81239322,
+                -3966,
+                80803911,
+                80799945
+            ],
+            "amount_rows": [
+                [
+                    81239322,
+                    81239322,
+                    81239322
+                ],
+                [
+                    -3966,
+                    80803911,
+                    80799945
+                ]
+            ],
+            "extracted_lines": [
+                "81 239 322                              81 239 322        81 239 322",
+                "-3 966            80 803 911                              80 799 945"
+            ],
+            "ae_lfi": 81239322,
+            "ae_consumed": 80799945,
+            "cp_lfi": 81239322,
+            "cp_consumed": 80781150,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                81239322,
+                81239322,
+                81239322,
+                -3966,
+                80785116,
+                80781150
+            ]
+        },
+        {
+            "code": "09",
+            "label": "Fonctionnement des établissements",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                698991983,
+                698991983,
+                699056983,
+                90311,
+                703582357,
+                52726,
+                703725394
+            ],
+            "amount_rows": [
+                [
+                    698991983,
+                    698991983,
+                    699056983
+                ],
+                [
+                    90311,
+                    703582357,
+                    52726,
+                    703725394
+                ]
+            ],
+            "extracted_lines": [
+                "698 991 983                             698 991 983        699 056 983",
+                "90 311           703 582 357                52 726       703 725 394"
+            ],
+            "ae_lfi": 699056983,
+            "ae_consumed": 703725394,
+            "cp_lfi": 699056983,
+            "cp_consumed": 703234948,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                698991983,
+                698991983,
+                699056983,
+                102875,
+                703064346,
+                67726,
+                703234948
+            ]
+        },
+        {
+            "code": "10",
+            "label": "Formation des personnels",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                129873768,
+                1544359,
+                39394436,
+                170812563,
+                170812563,
+                54482512,
+                617974,
+                35583317,
+                9865,
+                90693668
+            ],
+            "amount_rows": [
+                [
+                    129873768,
+                    1544359,
+                    39394436,
+                    170812563,
+                    170812563
+                ],
+                [
+                    54482512,
+                    617974,
+                    35583317,
+                    9865,
+                    90693668
+                ]
+            ],
+            "extracted_lines": [
+                "129 873 768          1 544 359             39 394 436                            170 812 563        170 812 563",
+                "54 482 512           617 974              35 583 317                 9 865       90 693 668"
+            ],
+            "ae_lfi": 170812563,
+            "ae_consumed": 90693668,
+            "cp_lfi": 170812563,
+            "cp_consumed": 90670643,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                129873768,
+                1544359,
+                39394436,
+                170812563,
+                170812563,
+                54482512,
+                607635,
+                35570632,
+                9865,
+                90670643
+            ]
+        },
+        {
+            "code": "11",
+            "label": "Remplacement",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                229204473,
+                229204473,
+                229204473,
+                209772513,
+                33797,
+                209806310
+            ],
+            "amount_rows": [
+                [
+                    229204473,
+                    229204473,
+                    229204473
+                ],
+                [
+                    209772513,
+                    33797,
+                    209806310
+                ]
+            ],
+            "extracted_lines": [
+                "229 204 473                                                                      229 204 473        229 204 473",
+                "209 772 513             33 797                                                   209 806 310"
+            ],
+            "ae_lfi": 229204473,
+            "ae_consumed": 209806310,
+            "cp_lfi": 229204473,
+            "cp_consumed": 209832742,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                229204473,
+                229204473,
+                229204473,
+                209799029,
+                33713,
+                209832742
+            ]
+        },
+        {
+            "code": "12",
+            "label": "Soutien",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                246192977,
+                3595516,
+                249788493,
+                249788493,
+                151507826,
+                2858223,
+                51582,
+                154417631
+            ],
+            "amount_rows": [
+                [
+                    246192977,
+                    3595516,
+                    249788493,
+                    249788493
+                ],
+                [
+                    151507826,
+                    2858223,
+                    51582,
+                    154417631
+                ]
+            ],
+            "extracted_lines": [
+                "246 192 977          3 595 516                                                   249 788 493        249 788 493",
+                "151 507 826          2 858 223                  51 582                           154 417 631"
+            ],
+            "ae_lfi": 249788493,
+            "ae_consumed": 154417631,
+            "cp_lfi": 249788493,
+            "cp_consumed": 154444942,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                246192977,
+                3595516,
+                249788493,
+                249788493,
+                151507826,
+                2885534,
+                51582,
+                154444942
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 9035370069,
+            "ae_consumed": 8939790780,
+            "cp_lfi": 9035370069,
+            "cp_consumed": 8939358667
+        },
+        "differences": {
+            "cp_consumed": {
+                "actions_sum": 6416124244,
+                "programme_total": 8939358667,
+                "difference": -2523234423
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 12,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29609",
+    "pdf_sha256": "0baddcb5d8829aee094c4f993d5a652d247806499533985f0cc78dc212dcbc9a",
+    "mission": "Enseignement scolaire"
+}

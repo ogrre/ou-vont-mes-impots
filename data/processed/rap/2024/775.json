@@ -1,0 +1,115 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "775",
+        "name": "Développement et transfert en agriculture"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Développement et transfert",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                67855600,
+                67855600,
+                67855600,
+                66382527,
+                66382527
+            ],
+            "amount_rows": [
+                [
+                    67855600,
+                    67855600,
+                    67855600
+                ],
+                [
+                    66382527,
+                    66382527
+                ]
+            ],
+            "extracted_lines": [
+                "67 855 600     67 855 600         67 855 600",
+                "66 382 527      66 382 527"
+            ],
+            "ae_lfi": 67855600,
+            "ae_consumed": 66382527,
+            "cp_lfi": 67855600,
+            "cp_consumed": 65114229,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                67855600,
+                67855600,
+                67855600,
+                65114229,
+                65114229
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Fonction support",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                74400,
+                74400,
+                74400,
+                0
+            ],
+            "amount_rows": [
+                [
+                    74400,
+                    74400,
+                    74400
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "74 400                                74 400             74 400",
+                "0"
+            ],
+            "ae_lfi": 74400,
+            "ae_consumed": 0,
+            "cp_lfi": 74400,
+            "cp_consumed": 3360,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                74400,
+                74400,
+                74400,
+                3360,
+                3360
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 67930000,
+            "ae_consumed": 66382527,
+            "cp_lfi": 67930000,
+            "cp_consumed": 65117589
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 2,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30014",
+    "pdf_sha256": "00395d3988f33a8c5d296f74871a72a2b26210bdf2b6b55d71b4c6a479e0ebe9",
+    "mission": null
+}

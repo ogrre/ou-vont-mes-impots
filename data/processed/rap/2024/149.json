@@ -1,0 +1,912 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "149",
+        "name": "Compétitivité et durabilité de l'agriculture, de l'agroalimentaire et de la forêt"
+    },
+    "actions": [
+        {
+            "code": "21",
+            "label": "Adaptation des filières à l'évolution",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                3780000,
+                266067420,
+                269847420,
+                269847420,
+                4242108,
+                18436,
+                240625823,
+                244886367
+            ],
+            "amount_rows": [
+                [
+                    3780000,
+                    266067420,
+                    269847420,
+                    269847420
+                ],
+                [
+                    4242108,
+                    18436,
+                    240625823,
+                    244886367
+                ]
+            ],
+            "extracted_lines": [
+                "3 780 000                           266 067 420                        269 847 420        269 847 420",
+                "4 242 108             18 436        240 625 823                        244 886 367"
+            ],
+            "ae_lfi": 269847420,
+            "ae_consumed": 244886367,
+            "cp_lfi": 270989648,
+            "cp_consumed": 241123270,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                3780000,
+                267209648,
+                270989648,
+                270989648,
+                826944,
+                18436,
+                240277891,
+                241123270
+            ]
+        },
+        {
+            "code": "22",
+            "label": "Gestion des crises et des aléas de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                284310502,
+                284310502,
+                284310502,
+                7782787,
+                373381932,
+                186731255,
+                567895974
+            ],
+            "amount_rows": [
+                [
+                    284310502,
+                    284310502,
+                    284310502
+                ],
+                [
+                    7782787,
+                    373381932,
+                    186731255,
+                    567895974
+                ]
+            ],
+            "extracted_lines": [
+                "284 310 502                        284 310 502        284 310 502",
+                "7 782 787                           373 381 932     186 731 255        567 895 974"
+            ],
+            "ae_lfi": 284310502,
+            "ae_consumed": 567895974,
+            "cp_lfi": 282172527,
+            "cp_consumed": 376577655,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                282172527,
+                282172527,
+                282172527,
+                7786421,
+                182059979,
+                186731255,
+                376577655
+            ]
+        },
+        {
+            "code": "23",
+            "label": "Appui au renouvellement et à la",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                111404993,
+                111404993,
+                111404993,
+                700000,
+                111311276,
+                112011276
+            ],
+            "amount_rows": [
+                [
+                    111404993,
+                    111404993,
+                    111404993
+                ],
+                [
+                    700000,
+                    111311276,
+                    112011276
+                ]
+            ],
+            "extracted_lines": [
+                "111 404 993                        111 404 993        111 404 993",
+                "700 000                           111 311 276                        112 011 276"
+            ],
+            "ae_lfi": 111404993,
+            "ae_consumed": 112011276,
+            "cp_lfi": 123194993,
+            "cp_consumed": 138086114,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                123194993,
+                123194993,
+                123194993,
+                700000,
+                137386114,
+                138086114
+            ]
+        },
+        {
+            "code": "24",
+            "label": "Gestion équilibrée et durable des",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1325086,
+                1798332,
+                545248133,
+                548371551,
+                548371551,
+                1587239,
+                503124875,
+                504712114
+            ],
+            "amount_rows": [
+                [
+                    1325086,
+                    1798332,
+                    545248133,
+                    548371551,
+                    548371551
+                ],
+                [
+                    1587239,
+                    503124875,
+                    504712114
+                ]
+            ],
+            "extracted_lines": [
+                "1 325 086          1 798 332        545 248 133                        548 371 551        548 371 551",
+                "1 587 239                           503 124 875                        504 712 114"
+            ],
+            "ae_lfi": 548371551,
+            "ae_consumed": 504712114,
+            "cp_lfi": 526494297,
+            "cp_consumed": 520385816,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1325086,
+                3700000,
+                521469211,
+                526494297,
+                526494297,
+                1217778,
+                519168039,
+                520385816
+            ]
+        },
+        {
+            "code": "25",
+            "label": "Protection sociale",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                155420000,
+                155420000,
+                155420000,
+                16308,
+                180017442,
+                180033750
+            ],
+            "amount_rows": [
+                [
+                    155420000,
+                    155420000,
+                    155420000
+                ],
+                [
+                    16308,
+                    180017442,
+                    180033750
+                ]
+            ],
+            "extracted_lines": [
+                "155 420 000                        155 420 000        155 420 000",
+                "16 308                           180 017 442                        180 033 750"
+            ],
+            "ae_lfi": 155420000,
+            "ae_consumed": 180033750,
+            "cp_lfi": 155420000,
+            "cp_consumed": 180067373,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                155420000,
+                155420000,
+                155420000,
+                49931,
+                180017442,
+                180067373
+            ]
+        },
+        {
+            "code": "26",
+            "label": "Gestion durable de la forêt et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                195794651,
+                8317000,
+                94319659,
+                298431310,
+                298431310
+            ],
+            "amount_rows": [
+                [
+                    195794651,
+                    8317000,
+                    94319659,
+                    298431310,
+                    298431310
+                ]
+            ],
+            "extracted_lines": [
+                "195 794 651          8 317 000          94 319 659                        298 431 310        298 431 310",
+                "196 384 001         11 772 821          71 441 547       -3 968 880       275 629 489"
+            ],
+            "ae_lfi": 298431310,
+            "ae_consumed": null,
+            "cp_lfi": 305741414,
+            "cp_consumed": 281677740,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                195794651,
+                9400000,
+                100546763,
+                305741414,
+                305741414,
+                195499788,
+                11347868,
+                74830084,
+                281677740
+            ]
+        },
+        {
+            "code": "27",
+            "label": "Moyens de mise en oeuvre des",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                430146369,
+                47399861,
+                295480,
+                477841710,
+                477841710,
+                433923434,
+                44792869,
+                16329063,
+                495045366
+            ],
+            "amount_rows": [
+                [
+                    430146369,
+                    47399861,
+                    295480,
+                    477841710,
+                    477841710
+                ],
+                [
+                    433923434,
+                    44792869,
+                    16329063,
+                    495045366
+                ]
+            ],
+            "extracted_lines": [
+                "430 146 369          47 399 861            295 480                        477 841 710        477 841 710",
+                "433 923 434          44 792 869         16 329 063                        495 045 366"
+            ],
+            "ae_lfi": 477841710,
+            "ae_consumed": 495045366,
+            "cp_lfi": 477841710,
+            "cp_consumed": 496977440,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                430146369,
+                47399861,
+                295480,
+                477841710,
+                477841710,
+                434009026,
+                44792869,
+                18175544,
+                496977440
+            ]
+        },
+        {
+            "code": "29",
+            "label": "Planification écologique",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1031000000,
+                1031000000,
+                1031000000,
+                11138289,
+                168176,
+                663750146,
+                20000,
+                675076611
+            ],
+            "amount_rows": [
+                [
+                    1031000000,
+                    1031000000,
+                    1031000000
+                ],
+                [
+                    11138289,
+                    168176,
+                    663750146,
+                    20000,
+                    675076611
+                ]
+            ],
+            "extracted_lines": [
+                "1 031 000 000                       1 031 000 000     1 031 000 000",
+                "11 138 289             168 176        663 750 146           20 000        675 076 611"
+            ],
+            "ae_lfi": 1031000000,
+            "ae_consumed": 675076611,
+            "cp_lfi": 594000000,
+            "cp_consumed": 338481050,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                594000000,
+                594000000,
+                594000000,
+                5386410,
+                80000,
+                333014639,
+                338481050
+            ]
+        },
+        {
+            "code": "29.01",
+            "label": "Plan haies",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "29",
+            "contributes_to_program_total": false,
+            "amounts": [
+                110000000,
+                110000000,
+                110000000,
+                187805,
+                79669294,
+                79857099
+            ],
+            "amount_rows": [
+                [
+                    110000000,
+                    110000000,
+                    110000000
+                ],
+                [
+                    187805,
+                    79669294,
+                    79857099
+                ]
+            ],
+            "extracted_lines": [
+                "110 000 000                        110 000 000        110 000 000",
+                "187 805                            79 669 294                         79 857 099"
+            ],
+            "ae_lfi": 110000000,
+            "ae_consumed": 79857099,
+            "cp_lfi": 45000000,
+            "cp_consumed": 40126410,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                45000000,
+                45000000,
+                45000000,
+                114473,
+                40011937,
+                40126410
+            ]
+        },
+        {
+            "code": "29.02",
+            "label": "Plan protéines",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "29",
+            "contributes_to_program_total": false,
+            "amounts": [
+                100000000,
+                100000000,
+                100000000,
+                42878875,
+                42878875
+            ],
+            "amount_rows": [
+                [
+                    100000000,
+                    100000000,
+                    100000000
+                ],
+                [
+                    42878875,
+                    42878875
+                ]
+            ],
+            "extracted_lines": [
+                "100 000 000                        100 000 000        100 000 000",
+                "42 878 875                         42 878 875"
+            ],
+            "ae_lfi": 100000000,
+            "ae_consumed": 42878875,
+            "cp_lfi": 65000000,
+            "cp_consumed": 19243662,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                65000000,
+                65000000,
+                65000000,
+                19243662,
+                19243662
+            ]
+        },
+        {
+            "code": "29.03",
+            "label": "Diagnostic carbone",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "29",
+            "contributes_to_program_total": false,
+            "amounts": [
+                32000000,
+                32000000,
+                32000000,
+                546341,
+                21853659,
+                22400000
+            ],
+            "amount_rows": [
+                [
+                    32000000,
+                    32000000,
+                    32000000
+                ],
+                [
+                    546341,
+                    21853659,
+                    22400000
+                ]
+            ],
+            "extracted_lines": [
+                "32 000 000                          32 000 000        32 000 000",
+                "546 341                            21 853 659                          22 400 000"
+            ],
+            "ae_lfi": 32000000,
+            "ae_consumed": 22400000,
+            "cp_lfi": 20000000,
+            "cp_consumed": 13516971,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                20000000,
+                20000000,
+                20000000,
+                333013,
+                13183958,
+                13516971
+            ]
+        },
+        {
+            "code": "29.04",
+            "label": "Fonds en faveur de la",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "29",
+            "contributes_to_program_total": false,
+            "amounts": [
+                200000000,
+                200000000,
+                200000000,
+                112025633,
+                112025633
+            ],
+            "amount_rows": [
+                [
+                    200000000,
+                    200000000,
+                    200000000
+                ],
+                [
+                    112025633,
+                    112025633
+                ]
+            ],
+            "extracted_lines": [
+                "200 000 000                        200 000 000        200 000 000",
+                "112 025 633                        112 025 633"
+            ],
+            "ae_lfi": 200000000,
+            "ae_consumed": 112025633,
+            "cp_lfi": 25000000,
+            "cp_consumed": 14296736,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                25000000,
+                25000000,
+                25000000,
+                14296736,
+                14296736
+            ]
+        },
+        {
+            "code": "29.05",
+            "label": "Décarbonation en agriculture",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "29",
+            "contributes_to_program_total": false,
+            "amounts": [
+                80000000,
+                80000000,
+                80000000,
+                55300000,
+                55300000
+            ],
+            "amount_rows": [
+                [
+                    80000000,
+                    80000000,
+                    80000000
+                ],
+                [
+                    55300000,
+                    55300000
+                ]
+            ],
+            "extracted_lines": [
+                "80 000 000                          80 000 000        80 000 000",
+                "55 300 000                          55 300 000"
+            ],
+            "ae_lfi": 80000000,
+            "ae_consumed": 55300000,
+            "cp_lfi": 80000000,
+            "cp_consumed": 33200000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                80000000,
+                80000000,
+                80000000,
+                33200000,
+                33200000
+            ]
+        },
+        {
+            "code": "29.06",
+            "label": "Soutien au renouvellement",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "29",
+            "contributes_to_program_total": false,
+            "amounts": [
+                250000000,
+                250000000,
+                250000000,
+                1341463,
+                123958537,
+                125300000
+            ],
+            "amount_rows": [
+                [
+                    250000000,
+                    250000000,
+                    250000000
+                ],
+                [
+                    1341463,
+                    123958537,
+                    125300000
+                ]
+            ],
+            "extracted_lines": [
+                "250 000 000                        250 000 000        250 000 000",
+                "1 341 463                           123 958 537                        125 300 000"
+            ],
+            "ae_lfi": 250000000,
+            "ae_consumed": 125300000,
+            "cp_lfi": 100000000,
+            "cp_consumed": 71424355,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                100000000,
+                100000000,
+                100000000,
+                884740,
+                70539614,
+                71424355
+            ]
+        },
+        {
+            "code": "29.07",
+            "label": "Dynamisation de l'aval bois-",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "29",
+            "contributes_to_program_total": false,
+            "amounts": [
+                200000000,
+                200000000,
+                200000000,
+                3414634,
+                136585366,
+                140000000
+            ],
+            "amount_rows": [
+                [
+                    200000000,
+                    200000000,
+                    200000000
+                ],
+                [
+                    3414634,
+                    136585366,
+                    140000000
+                ]
+            ],
+            "extracted_lines": [
+                "200 000 000                        200 000 000        200 000 000",
+                "3 414 634                           136 585 366                        140 000 000"
+            ],
+            "ae_lfi": 200000000,
+            "ae_consumed": 140000000,
+            "cp_lfi": 200000000,
+            "cp_consumed": 87334728,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                200000000,
+                200000000,
+                200000000,
+                2081335,
+                85253393,
+                87334728
+            ]
+        },
+        {
+            "code": "29.08",
+            "label": "Défense des forêts contre les",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "29",
+            "contributes_to_program_total": false,
+            "amounts": [
+                34000000,
+                34000000,
+                34000000,
+                2140928,
+                168176,
+                25018477,
+                20000,
+                27347581
+            ],
+            "amount_rows": [
+                [
+                    34000000,
+                    34000000,
+                    34000000
+                ],
+                [
+                    2140928,
+                    168176,
+                    25018477,
+                    20000,
+                    27347581
+                ]
+            ],
+            "extracted_lines": [
+                "34 000 000                          34 000 000        34 000 000",
+                "2 140 928            168 176         25 018 477           20 000         27 347 581"
+            ],
+            "ae_lfi": 34000000,
+            "ae_consumed": 27347581,
+            "cp_lfi": 34000000,
+            "cp_consumed": 8342567,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                34000000,
+                34000000,
+                34000000,
+                1270093,
+                80000,
+                6992474,
+                8342567
+            ]
+        },
+        {
+            "code": "29.09",
+            "label": "Graines et plants, et travaux",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "29",
+            "contributes_to_program_total": false,
+            "amounts": [
+                10000000,
+                10000000,
+                10000000,
+                745347,
+                53640056,
+                54385403
+            ],
+            "amount_rows": [
+                [
+                    10000000,
+                    10000000,
+                    10000000
+                ],
+                [
+                    745347,
+                    53640056,
+                    54385403
+                ]
+            ],
+            "extracted_lines": [
+                "10 000 000                          10 000 000        10 000 000",
+                "745 347                            53 640 056                          54 385 403"
+            ],
+            "ae_lfi": 10000000,
+            "ae_consumed": 54385403,
+            "cp_lfi": 10000000,
+            "cp_consumed": 43021670,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                10000000,
+                10000000,
+                10000000,
+                612017,
+                42409653,
+                43021670
+            ]
+        },
+        {
+            "code": "29.10",
+            "label": "Forêt en Outre mer",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "29",
+            "contributes_to_program_total": false,
+            "amounts": [
+                15000000,
+                15000000,
+                15000000,
+                199430,
+                12820250,
+                13019680
+            ],
+            "amount_rows": [
+                [
+                    15000000,
+                    15000000,
+                    15000000
+                ],
+                [
+                    199430,
+                    12820250,
+                    13019680
+                ]
+            ],
+            "extracted_lines": [
+                "15 000 000                          15 000 000        15 000 000",
+                "199 430                            12 820 250                          13 019 680"
+            ],
+            "ae_lfi": 15000000,
+            "ae_consumed": 13019680,
+            "cp_lfi": 15000000,
+            "cp_consumed": 7889115,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                15000000,
+                15000000,
+                15000000,
+                5904,
+                7883211,
+                7889115
+            ]
+        },
+        {
+            "code": "29.11",
+            "label": "Marché d'intérim -mesures",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "29",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                2562340,
+                2562340
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    2562340,
+                    2562340
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "2 562 340                                                                2 562 340"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 2562340,
+            "cp_lfi": 0,
+            "cp_consumed": 84835,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                84835,
+                84835
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 3176627486,
+            "ae_consumed": 3055290947,
+            "cp_lfi": 2735854589,
+            "cp_consumed": 2573376458
+        },
+        "differences": {
+            "ae_consumed": {
+                "actions_sum": 2779661458,
+                "programme_total": 3055290947,
+                "difference": -275629489
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 19,
+        "sub_actions": 11
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29642",
+    "pdf_sha256": "303ad5fad03497907919bdaccf161129209e78190b77e3f22124ff2501c04f0d",
+    "mission": "Agriculture, alimentation, forêt et affaires rurales"
+}

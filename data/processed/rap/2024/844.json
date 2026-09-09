@@ -1,0 +1,75 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "844",
+        "name": "France Médias Monde"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "France Médias Monde",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                299202200,
+                299202200,
+                299202200,
+                299552666,
+                299552666
+            ],
+            "amount_rows": [
+                [
+                    299202200,
+                    299202200,
+                    299202200
+                ],
+                [
+                    299552666,
+                    299552666
+                ]
+            ],
+            "extracted_lines": [
+                "299 202 200     299 202 200         299 202 200",
+                "299 552 666      299 552 666"
+            ],
+            "ae_lfi": 299202200,
+            "ae_consumed": 299552666,
+            "cp_lfi": 299202200,
+            "cp_consumed": 299552666,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                299202200,
+                299202200,
+                299202200,
+                299552666,
+                299552666
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 299202200,
+            "ae_consumed": 299552666,
+            "cp_lfi": 299202200,
+            "cp_consumed": 299552666
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30104",
+    "pdf_sha256": "bbb3697b0af603f0815682f12c51f090c62c7ae94b850489f35636dafe346217",
+    "mission": null
+}

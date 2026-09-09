@@ -1,0 +1,72 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "552",
+        "name": "Dépenses accidentelles et imprévisibles"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Dépenses accidentelles et imprévisibles",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                525000000,
+                525000000,
+                525000000,
+                0
+            ],
+            "amount_rows": [
+                [
+                    525000000,
+                    525000000,
+                    525000000
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "525 000 000      525 000 000         525 000 000",
+                "0"
+            ],
+            "ae_lfi": 525000000,
+            "ae_consumed": 0,
+            "cp_lfi": 225000000,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                225000000,
+                225000000,
+                225000000,
+                0
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 525000000,
+            "ae_consumed": 0,
+            "cp_lfi": 225000000,
+            "cp_consumed": 0
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29939",
+    "pdf_sha256": "486b9e9b2a18b842c6b10f378e145b5b39ae2a995f46d4315221e3a2181fb5a1",
+    "mission": "Crédits non répartis"
+}

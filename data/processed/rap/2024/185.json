@@ -1,0 +1,351 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "185",
+        "name": "Diplomatie culturelle et d'influence"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Appui au réseau",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                44095662,
+                44095662,
+                46095662,
+                47411053,
+                665494,
+                2176775,
+                50253322
+            ],
+            "amount_rows": [
+                [
+                    44095662,
+                    44095662,
+                    46095662
+                ],
+                [
+                    47411053,
+                    665494,
+                    2176775,
+                    50253322
+                ]
+            ],
+            "extracted_lines": [
+                "44 095 662                                                  44 095 662        46 095 662",
+                "47 411 053                665 494             2 176 775     50 253 322"
+            ],
+            "ae_lfi": 46095662,
+            "ae_consumed": 50253322,
+            "cp_lfi": 46095662,
+            "cp_consumed": 49815133,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                44095662,
+                44095662,
+                46095662,
+                47449894,
+                180863,
+                2184375,
+                49815133
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Coopération culturelle et promotion",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                28267161,
+                58073767,
+                86340928,
+                86340928,
+                28835556,
+                52499474,
+                81335029
+            ],
+            "amount_rows": [
+                [
+                    28267161,
+                    58073767,
+                    86340928,
+                    86340928
+                ],
+                [
+                    28835556,
+                    52499474,
+                    81335029
+                ]
+            ],
+            "extracted_lines": [
+                "28 267 161                                  58 073 767      86 340 928        86 340 928",
+                "28 835 556                                  52 499 474      81 335 029"
+            ],
+            "ae_lfi": 86340928,
+            "ae_consumed": 81335029,
+            "cp_lfi": 86340928,
+            "cp_consumed": 81535810,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                28267161,
+                58073767,
+                86340928,
+                86340928,
+                28835556,
+                52700255,
+                81535810
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Objectifs de développement durable",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                2350342,
+                2350342,
+                2350342,
+                3810,
+                1162469,
+                1166279
+            ],
+            "amount_rows": [
+                [
+                    2350342,
+                    2350342,
+                    2350342
+                ],
+                [
+                    3810,
+                    1162469,
+                    1166279
+                ]
+            ],
+            "extracted_lines": [
+                "2 350 342      2 350 342          2 350 342",
+                "3 810                                    1 162 469      1 166 279"
+            ],
+            "ae_lfi": 2350342,
+            "ae_consumed": 1166279,
+            "cp_lfi": 2350342,
+            "cp_consumed": 1166279,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                2350342,
+                2350342,
+                2350342,
+                3810,
+                1162469,
+                1166279
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Enseignement supérieur et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                9155983,
+                113886055,
+                123042038,
+                123042038,
+                8153597,
+                80330610,
+                88484207
+            ],
+            "amount_rows": [
+                [
+                    9155983,
+                    113886055,
+                    123042038,
+                    123042038
+                ],
+                [
+                    8153597,
+                    80330610,
+                    88484207
+                ]
+            ],
+            "extracted_lines": [
+                "9 155 983                                 113 886 055     123 042 038       123 042 038",
+                "8 153 597                                  80 330 610      88 484 207"
+            ],
+            "ae_lfi": 123042038,
+            "ae_consumed": 88484207,
+            "cp_lfi": 123042038,
+            "cp_consumed": 89795927,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                9155983,
+                113886055,
+                123042038,
+                123042038,
+                8152795,
+                81643132,
+                89795927
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Agence pour l'enseignement",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                454928726,
+                454928726,
+                454928726,
+                445549840,
+                445549840
+            ],
+            "amount_rows": [
+                [
+                    454928726,
+                    454928726,
+                    454928726
+                ],
+                [
+                    445549840,
+                    445549840
+                ]
+            ],
+            "extracted_lines": [
+                "454 928 726                                                  454 928 726       454 928 726",
+                "445 549 840                                                  445 549 840"
+            ],
+            "ae_lfi": 454928726,
+            "ae_consumed": 445549840,
+            "cp_lfi": 454928726,
+            "cp_consumed": 445549840,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                454928726,
+                454928726,
+                454928726,
+                445549840,
+                445549840
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Dépenses de personnel concourant",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                84794416,
+                84794416,
+                84794416,
+                84682884,
+                84682884
+            ],
+            "amount_rows": [
+                [
+                    84794416,
+                    84794416,
+                    84794416
+                ],
+                [
+                    84682884,
+                    84682884
+                ]
+            ],
+            "extracted_lines": [
+                "84 794 416                                                                    84 794 416        84 794 416",
+                "84 682 884                                                                    84 682 884"
+            ],
+            "ae_lfi": 84794416,
+            "ae_consumed": 84682884,
+            "cp_lfi": 84794416,
+            "cp_consumed": 84682884,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                84794416,
+                84794416,
+                84794416,
+                84682884,
+                84682884
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Diplomatie économique et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                10420083,
+                10420083,
+                10420083,
+                388508,
+                15041921,
+                15430429
+            ],
+            "amount_rows": [
+                [
+                    10420083,
+                    10420083,
+                    10420083
+                ],
+                [
+                    388508,
+                    15041921,
+                    15430429
+                ]
+            ],
+            "extracted_lines": [
+                "10 420 083      10 420 083        10 420 083",
+                "388 508                                  15 041 921      15 430 429"
+            ],
+            "ae_lfi": 10420083,
+            "ae_consumed": 15430429,
+            "cp_lfi": 10420083,
+            "cp_consumed": 17035314,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                10420083,
+                10420083,
+                10420083,
+                1989080,
+                15046234,
+                17035314
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 807972195,
+            "ae_consumed": 766901990,
+            "cp_lfi": 807972195,
+            "cp_consumed": 769581187
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 7,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29720",
+    "pdf_sha256": "7481fd1977e350426cab100606525c86174c2bd596385f5f4f77ed5a6ff71b04",
+    "mission": "Action extérieure de l'État"
+}

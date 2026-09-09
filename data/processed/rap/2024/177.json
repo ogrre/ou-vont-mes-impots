@@ -1,0 +1,174 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "177",
+        "name": "Hébergement, parcours vers le logement et insertion des personnes vulnérables"
+    },
+    "actions": [
+        {
+            "code": "11",
+            "label": "Prévention de l'exclusion",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                31771000,
+                31771000,
+                31771000,
+                214081,
+                41396346,
+                41610428
+            ],
+            "amount_rows": [
+                [
+                    31771000,
+                    31771000,
+                    31771000
+                ],
+                [
+                    214081,
+                    41396346,
+                    41610428
+                ]
+            ],
+            "extracted_lines": [
+                "31 771 000       31 771 000         31 771 000",
+                "214 081                                 41 396 346       41 610 428"
+            ],
+            "ae_lfi": 31771000,
+            "ae_consumed": 41610428,
+            "cp_lfi": 31771000,
+            "cp_consumed": 42952038,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                31771000,
+                31771000,
+                31771000,
+                326260,
+                42625778,
+                42952038
+            ]
+        },
+        {
+            "code": "12",
+            "label": "Hébergement et logement adapté",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                2860872226,
+                2860872226,
+                2860872226,
+                27250744,
+                3018992943,
+                3046243687
+            ],
+            "amount_rows": [
+                [
+                    2860872226,
+                    2860872226,
+                    2860872226
+                ],
+                [
+                    27250744,
+                    3018992943,
+                    3046243687
+                ]
+            ],
+            "extracted_lines": [
+                "2 860 872 226    2 860 872 226     2 860 872 226",
+                "27 250 744                              3 018 992 943    3 046 243 687"
+            ],
+            "ae_lfi": 2860872226,
+            "ae_consumed": 3046243687,
+            "cp_lfi": 2885625670,
+            "cp_consumed": 3073791658,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                2885625670,
+                2885625670,
+                2885625670,
+                50565780,
+                3023225878,
+                3073791658
+            ]
+        },
+        {
+            "code": "14",
+            "label": "Conduite et animation des politiques de l'hébergement",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                2759000,
+                5513700,
+                8272700,
+                8272700,
+                3412573,
+                1949307,
+                10328926,
+                15690806
+            ],
+            "amount_rows": [
+                [
+                    2759000,
+                    5513700,
+                    8272700,
+                    8272700
+                ],
+                [
+                    3412573,
+                    1949307,
+                    10328926,
+                    15690806
+                ]
+            ],
+            "extracted_lines": [
+                "2 759 000                                  5 513 700       8 272 700           8 272 700",
+                "3 412 573              1 949 307           10 328 926      15 690 806"
+            ],
+            "ae_lfi": 8272700,
+            "ae_consumed": 15690806,
+            "cp_lfi": 8272700,
+            "cp_consumed": 14557878,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                2759000,
+                5513700,
+                8272700,
+                8272700,
+                3483038,
+                779065,
+                10295775,
+                14557878
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 2900915926,
+            "ae_consumed": 3103544920,
+            "cp_lfi": 2925669370,
+            "cp_consumed": 3131301574
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 3,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29702",
+    "pdf_sha256": "d2156ff68fe75bdc51a9874c2beaf82cf85a00a91f12fbead93570dbcf40b72f",
+    "mission": "Cohésion des territoires"
+}

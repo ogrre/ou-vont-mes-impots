@@ -1,0 +1,75 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "755",
+        "name": "Désendettement de l'État"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Désendettement de l'État",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                627390199,
+                627390199,
+                627390199,
+                715137656,
+                715137656
+            ],
+            "amount_rows": [
+                [
+                    627390199,
+                    627390199,
+                    627390199
+                ],
+                [
+                    715137656,
+                    715137656
+                ]
+            ],
+            "extracted_lines": [
+                "627 390 199    627 390 199         627 390 199",
+                "715 137 656     715 137 656"
+            ],
+            "ae_lfi": 627390199,
+            "ae_consumed": 715137656,
+            "cp_lfi": 627390199,
+            "cp_consumed": 715137656,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                627390199,
+                627390199,
+                627390199,
+                715137656,
+                715137656
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 627390199,
+            "ae_consumed": 715137656,
+            "cp_lfi": 627390199,
+            "cp_consumed": 715137656
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30011",
+    "pdf_sha256": "5bceb21a3ceb63db29ac5ba3aab6a0dcd0a854888b1583b4be1b075c9b472b9f",
+    "mission": null
+}

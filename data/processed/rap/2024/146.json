@@ -1,0 +1,4139 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "146",
+        "name": "Équipement des forces"
+    },
+    "actions": [
+        {
+            "code": "06",
+            "label": "Dissuasion",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                425798491,
+                3253248791,
+                3679047282,
+                3679047282,
+                668669299,
+                3045437622,
+                3714106921
+            ],
+            "amount_rows": [
+                [
+                    425798491,
+                    3253248791,
+                    3679047282,
+                    3679047282
+                ],
+                [
+                    668669299,
+                    3045437622,
+                    3714106921
+                ]
+            ],
+            "extracted_lines": [
+                "425 798 491         3 253 248 791                           3 679 047 282     3 679 047 282",
+                "668 669 299         3 045 437 622                           3 714 106 921"
+            ],
+            "ae_lfi": 3679047282,
+            "ae_consumed": 3714106921,
+            "cp_lfi": 5279277069,
+            "cp_consumed": 5146703185,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                713408258,
+                4565868811,
+                5279277069,
+                5279277069,
+                860684738,
+                4286018447,
+                5146703185
+            ]
+        },
+        {
+            "code": "06.14",
+            "label": "Assurer la crédibilité technique",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "06",
+            "contributes_to_program_total": false,
+            "amounts": [
+                254055606,
+                254055606,
+                254055606,
+                13744983,
+                315939353,
+                329684335
+            ],
+            "amount_rows": [
+                [
+                    254055606,
+                    254055606,
+                    254055606
+                ],
+                [
+                    13744983,
+                    315939353,
+                    329684335
+                ]
+            ],
+            "extracted_lines": [
+                "254 055 606                            254 055 606        254 055 606",
+                "13 744 983           315 939 353                            329 684 335"
+            ],
+            "ae_lfi": 254055606,
+            "ae_consumed": 329684335,
+            "cp_lfi": 857694967,
+            "cp_consumed": 699592746,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                55435437,
+                802259530,
+                857694967,
+                857694967,
+                66804648,
+                632788098,
+                699592746
+            ]
+        },
+        {
+            "code": "06.15",
+            "label": "Assurer la crédibilité technique",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "06",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "0           -211 053                              -211 053"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": null,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "06.17",
+            "label": "Assurer la crédibilité technique",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "06",
+            "contributes_to_program_total": false,
+            "amounts": [
+                60280000,
+                60280000,
+                60280000,
+                1920773,
+                72900955,
+                74821728
+            ],
+            "amount_rows": [
+                [
+                    60280000,
+                    60280000,
+                    60280000
+                ],
+                [
+                    1920773,
+                    72900955,
+                    74821728
+                ]
+            ],
+            "extracted_lines": [
+                "60 280 000                             60 280 000        60 280 000",
+                "1 920 773            72 900 955                             74 821 728"
+            ],
+            "ae_lfi": 60280000,
+            "ae_consumed": 74821728,
+            "cp_lfi": 140250572,
+            "cp_consumed": 108652410,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                3502475,
+                136748097,
+                140250572,
+                140250572,
+                5771095,
+                102881315,
+                108652410
+            ]
+        },
+        {
+            "code": "06.18",
+            "label": "Assurer la crédibilité technique",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "06",
+            "contributes_to_program_total": false,
+            "amounts": [
+                660921742,
+                660921742,
+                660921742,
+                681997270,
+                681997270
+            ],
+            "amount_rows": [
+                [
+                    660921742,
+                    660921742,
+                    660921742
+                ],
+                [
+                    681997270,
+                    681997270
+                ]
+            ],
+            "extracted_lines": [
+                "660 921 742                            660 921 742        660 921 742",
+                "681 997 270                            681 997 270"
+            ],
+            "ae_lfi": 660921742,
+            "ae_consumed": 681997270,
+            "cp_lfi": 619306371,
+            "cp_consumed": 688939279,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                619306371,
+                619306371,
+                619306371,
+                688939279,
+                688939279
+            ]
+        },
+        {
+            "code": "06.19",
+            "label": "Assurer la crédibilité technique",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "06",
+            "contributes_to_program_total": false,
+            "amounts": [
+                152693637,
+                1552720263,
+                1705413900,
+                1705413900,
+                193395033,
+                1302147768,
+                1495542800
+            ],
+            "amount_rows": [
+                [
+                    152693637,
+                    1552720263,
+                    1705413900,
+                    1705413900
+                ],
+                [
+                    193395033,
+                    1302147768,
+                    1495542800
+                ]
+            ],
+            "extracted_lines": [
+                "152 693 637         1 552 720 263                           1 705 413 900     1 705 413 900",
+                "193 395 033         1 302 147 768                           1 495 542 800"
+            ],
+            "ae_lfi": 1705413900,
+            "ae_consumed": 1495542800,
+            "cp_lfi": 1684027612,
+            "cp_consumed": 1642256512,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                165012945,
+                1519014667,
+                1684027612,
+                1684027612,
+                179404671,
+                1462851841,
+                1642256512
+            ]
+        },
+        {
+            "code": "06.22",
+            "label": "Assurer la crédibilité",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "06",
+            "contributes_to_program_total": false,
+            "amounts": [
+                207276178,
+                307226883,
+                514503061,
+                514503061,
+                291531680,
+                255748926,
+                547280606
+            ],
+            "amount_rows": [
+                [
+                    207276178,
+                    307226883,
+                    514503061,
+                    514503061
+                ],
+                [
+                    291531680,
+                    255748926,
+                    547280606
+                ]
+            ],
+            "extracted_lines": [
+                "207 276 178           307 226 883                            514 503 061        514 503 061",
+                "291 531 680           255 748 926                            547 280 606"
+            ],
+            "ae_lfi": 514503061,
+            "ae_consumed": 547280606,
+            "cp_lfi": 919939695,
+            "cp_consumed": 892998339,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                403419829,
+                516519866,
+                919939695,
+                919939695,
+                457394361,
+                435603978,
+                892998339
+            ]
+        },
+        {
+            "code": "06.23",
+            "label": "Assurer la crédibilité technique",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "06",
+            "contributes_to_program_total": false,
+            "amounts": [
+                65828676,
+                418044297,
+                483872973,
+                483872973,
+                167043923,
+                199469483,
+                366513406
+            ],
+            "amount_rows": [
+                [
+                    65828676,
+                    418044297,
+                    483872973,
+                    483872973
+                ],
+                [
+                    167043923,
+                    199469483,
+                    366513406
+                ]
+            ],
+            "extracted_lines": [
+                "65 828 676           418 044 297                            483 872 973        483 872 973",
+                "167 043 923           199 469 483                            366 513 406"
+            ],
+            "ae_lfi": 483872973,
+            "ae_consumed": 366513406,
+            "cp_lfi": 423976920,
+            "cp_consumed": 396482656,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                82447429,
+                341529491,
+                423976920,
+                423976920,
+                147299515,
+                249183141,
+                396482656
+            ]
+        },
+        {
+            "code": "06.24",
+            "label": "Assurer la crédibilité technique",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "06",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                1032907,
+                217444921,
+                218477828
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    1032907,
+                    217444921,
+                    218477828
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "1 032 907          217 444 921                            218 477 828"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 218477828,
+            "cp_lfi": 634080932,
+            "cp_consumed": 717781243,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                3590143,
+                630490789,
+                634080932,
+                634080932,
+                4010447,
+                713770796,
+                717781243
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Commandement et maîtrise de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                300877351,
+                4303839348,
+                35117,
+                4604751816,
+                4604751816,
+                971175515,
+                1599130425,
+                4321000,
+                2574626940
+            ],
+            "amount_rows": [
+                [
+                    300877351,
+                    4303839348,
+                    35117,
+                    4604751816,
+                    4604751816
+                ],
+                [
+                    971175515,
+                    1599130425,
+                    4321000,
+                    2574626940
+                ]
+            ],
+            "extracted_lines": [
+                "300 877 351         4 303 839 348                  35 117   4 604 751 816     4 604 751 816",
+                "971 175 515         1 599 130 425              4 321 000    2 574 626 940"
+            ],
+            "ae_lfi": 4604751816,
+            "ae_consumed": 2574626940,
+            "cp_lfi": 2823459692,
+            "cp_consumed": 2306793684,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                726545060,
+                2036324001,
+                2590631,
+                2765459692,
+                2823459692,
+                858684895,
+                1445782677,
+                2326112,
+                2306793684
+            ]
+        },
+        {
+            "code": "07.22",
+            "label": "Commander et conduire -",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                10000000,
+                10000000,
+                10000000,
+                0
+            ],
+            "amount_rows": [
+                [
+                    10000000,
+                    10000000,
+                    10000000
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "10 000 000                             10 000 000        10 000 000",
+                "0"
+            ],
+            "ae_lfi": 10000000,
+            "ae_consumed": 0,
+            "cp_lfi": 698228,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                698228,
+                698228,
+                698228,
+                0
+            ]
+        },
+        {
+            "code": "07.23",
+            "label": "Commander et conduire -",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                10000000,
+                10000000,
+                10000000,
+                8192009,
+                32637470,
+                40829479
+            ],
+            "amount_rows": [
+                [
+                    10000000,
+                    10000000,
+                    10000000
+                ],
+                [
+                    8192009,
+                    32637470,
+                    40829479
+                ]
+            ],
+            "extracted_lines": [
+                "10 000 000                             10 000 000        10 000 000",
+                "8 192 009            32 637 470                             40 829 479"
+            ],
+            "ae_lfi": 10000000,
+            "ae_consumed": 40829479,
+            "cp_lfi": 35662655,
+            "cp_consumed": 31404127,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                5521723,
+                30140932,
+                35662655,
+                35662655,
+                5297373,
+                26106754,
+                31404127
+            ]
+        },
+        {
+            "code": "07.24",
+            "label": "Commander et conduire -",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                6692344,
+                8307656,
+                15000000,
+                15000000,
+                23910962,
+                23601470,
+                47512432
+            ],
+            "amount_rows": [
+                [
+                    6692344,
+                    8307656,
+                    15000000,
+                    15000000
+                ],
+                [
+                    23910962,
+                    23601470,
+                    47512432
+                ]
+            ],
+            "extracted_lines": [
+                "6 692 344             8 307 656                              15 000 000        15 000 000",
+                "23 910 962            23 601 470                              47 512 432"
+            ],
+            "ae_lfi": 15000000,
+            "ae_consumed": 47512432,
+            "cp_lfi": 278775783,
+            "cp_consumed": 201982833,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                64492195,
+                214283588,
+                278775783,
+                278775783,
+                49657735,
+                152325098,
+                201982833
+            ]
+        },
+        {
+            "code": "07.25",
+            "label": "Commander et conduire -",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                7000001,
+                26270679,
+                33270680,
+                33270680,
+                41331953,
+                6683709,
+                155000,
+                48170662
+            ],
+            "amount_rows": [
+                [
+                    7000001,
+                    26270679,
+                    33270680,
+                    33270680
+                ],
+                [
+                    41331953,
+                    6683709,
+                    155000,
+                    48170662
+                ]
+            ],
+            "extracted_lines": [
+                "7 000 001             26 270 679                             33 270 680        33 270 680",
+                "41 331 953              6 683 709               155 000       48 170 662"
+            ],
+            "ae_lfi": 33270680,
+            "ae_consumed": 48170662,
+            "cp_lfi": 50179044,
+            "cp_consumed": 53344101,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                7010861,
+                43168183,
+                50179044,
+                50179044,
+                34649751,
+                18539350,
+                155000,
+                53344101
+            ]
+        },
+        {
+            "code": "07.27",
+            "label": "Commander et conduire -",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                4089998,
+                4089998,
+                4089998
+            ],
+            "amount_rows": [
+                [
+                    4089998,
+                    4089998,
+                    4089998
+                ]
+            ],
+            "extracted_lines": [
+                "4 089 998                                                    4 089 998           4 089 998",
+                "52 887 156            -12 662 493                            40 224 663"
+            ],
+            "ae_lfi": 4089998,
+            "ae_consumed": null,
+            "cp_lfi": 73326037,
+            "cp_consumed": 78185352,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                52773247,
+                20552790,
+                73326037,
+                73326037,
+                75617174,
+                2568178,
+                78185352
+            ]
+        },
+        {
+            "code": "07.28",
+            "label": "Commander et conduire - Autres",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                5566170,
+                142250608,
+                147816778,
+                147816778,
+                27311168,
+                69605337,
+                96916505
+            ],
+            "amount_rows": [
+                [
+                    5566170,
+                    142250608,
+                    147816778,
+                    147816778
+                ],
+                [
+                    27311168,
+                    69605337,
+                    96916505
+                ]
+            ],
+            "extracted_lines": [
+                "5 566 170           142 250 608                            147 816 778        147 816 778",
+                "27 311 168            69 605 337                             96 916 505"
+            ],
+            "ae_lfi": 147816778,
+            "ae_consumed": 96916505,
+            "cp_lfi": 47258615,
+            "cp_consumed": 25936246,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                8042695,
+                39215920,
+                47258615,
+                47258615,
+                15288387,
+                10647858,
+                25936246
+            ]
+        },
+        {
+            "code": "07.29",
+            "label": "Commander et conduire -",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                20550000,
+                47950000,
+                68500000,
+                68500000,
+                59054753,
+                24330674,
+                83385427
+            ],
+            "amount_rows": [
+                [
+                    20550000,
+                    47950000,
+                    68500000,
+                    68500000
+                ],
+                [
+                    59054753,
+                    24330674,
+                    83385427
+                ]
+            ],
+            "extracted_lines": [
+                "20 550 000            47 950 000                             68 500 000        68 500 000",
+                "59 054 753            24 330 674                             83 385 427"
+            ],
+            "ae_lfi": 68500000,
+            "ae_consumed": 83385427,
+            "cp_lfi": 99551066,
+            "cp_consumed": 87042599,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                19276674,
+                80274392,
+                99551066,
+                99551066,
+                60907453,
+                26135146,
+                87042599
+            ]
+        },
+        {
+            "code": "07.30",
+            "label": "Communiquer - Cyber",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                7822022,
+                533277978,
+                541100000,
+                541100000,
+                75170797,
+                127488213,
+                202659010
+            ],
+            "amount_rows": [
+                [
+                    7822022,
+                    533277978,
+                    541100000,
+                    541100000
+                ],
+                [
+                    75170797,
+                    127488213,
+                    202659010
+                ]
+            ],
+            "extracted_lines": [
+                "7 822 022           533 277 978                            541 100 000        541 100 000",
+                "75 170 797           127 488 213                            202 659 010"
+            ],
+            "ae_lfi": 541100000,
+            "ae_consumed": 202659010,
+            "cp_lfi": 196235151,
+            "cp_consumed": 143504355,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                58192864,
+                138042287,
+                196235151,
+                196235151,
+                76605365,
+                66898990,
+                143504355
+            ]
+        },
+        {
+            "code": "07.35",
+            "label": "Communiquer - Autres",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                75362329,
+                641737671,
+                717100000,
+                717100000,
+                114330370,
+                277265468,
+                391595837
+            ],
+            "amount_rows": [
+                [
+                    75362329,
+                    641737671,
+                    717100000,
+                    717100000
+                ],
+                [
+                    114330370,
+                    277265468,
+                    391595837
+                ]
+            ],
+            "extracted_lines": [
+                "75 362 329           641 737 671                            717 100 000        717 100 000",
+                "114 330 370           277 265 468                            391 595 837"
+            ],
+            "ae_lfi": 717100000,
+            "ae_consumed": 391595837,
+            "cp_lfi": 176659810,
+            "cp_consumed": 153792727,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                115813513,
+                60846297,
+                176659810,
+                176659810,
+                98202430,
+                55590297,
+                153792727
+            ]
+        },
+        {
+            "code": "07.36",
+            "label": "Communiquer - CONTACT",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                27366422,
+                470608513,
+                497974934,
+                11
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    27366422,
+                    470608513,
+                    497974934
+                ],
+                [
+                    11
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "27 366 422           470 608 513                            497 974 934",
+                "11"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 497974934,
+            "cp_lfi": 262985813,
+            "cp_consumed": 143738315,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                20757766,
+                241558700,
+                669347,
+                262985813,
+                262985813,
+                28901378,
+                114558040,
+                278897,
+                143738315
+            ]
+        },
+        {
+            "code": "07.37",
+            "label": "Communiquer - DESCARTES",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                230000000,
+                230000000,
+                230000000,
+                31234055,
+                12485349,
+                43719404
+            ],
+            "amount_rows": [
+                [
+                    230000000,
+                    230000000,
+                    230000000
+                ],
+                [
+                    31234055,
+                    12485349,
+                    43719404
+                ]
+            ],
+            "extracted_lines": [
+                "230 000 000                                230 000 000        230 000 000",
+                "31 234 055         12 485 349                                 43 719 404"
+            ],
+            "ae_lfi": 230000000,
+            "ae_consumed": 43719404,
+            "cp_lfi": 84351711,
+            "cp_consumed": 67102879,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1842582,
+                82509129,
+                84351711,
+                84351711,
+                33597964,
+                33504916,
+                67102879
+            ]
+        },
+        {
+            "code": "07.42",
+            "label": "Espace - Renseigner, surveiller,",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                886305,
+                86903446,
+                87789751,
+                87789751,
+                37623240,
+                37623240
+            ],
+            "amount_rows": [
+                [
+                    886305,
+                    86903446,
+                    87789751,
+                    87789751
+                ],
+                [
+                    37623240,
+                    37623240
+                ]
+            ],
+            "extracted_lines": [
+                "886 305          86 903 446                                 87 789 751        87 789 751",
+                "37 623 240                                                     37 623 240"
+            ],
+            "ae_lfi": 87789751,
+            "ae_consumed": 37623240,
+            "cp_lfi": 38754733,
+            "cp_consumed": 28701341,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                3242040,
+                35512693,
+                38754733,
+                38754733,
+                27900573,
+                800768,
+                28701341
+            ]
+        },
+        {
+            "code": "07.43",
+            "label": "Espace - Communiquer -",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                90147497,
+                9908817,
+                100056314,
+                100056314,
+                242066024,
+                201139097,
+                4000000,
+                447205120
+            ],
+            "amount_rows": [
+                [
+                    90147497,
+                    9908817,
+                    100056314,
+                    100056314
+                ],
+                [
+                    242066024,
+                    201139097,
+                    4000000,
+                    447205120
+                ]
+            ],
+            "extracted_lines": [
+                "90 147 497          9 908 817                                100 056 314        100 056 314",
+                "242 066 024        201 139 097              4 000 000         447 205 120"
+            ],
+            "ae_lfi": 100056314,
+            "ae_consumed": 447205120,
+            "cp_lfi": 391513760,
+            "cp_consumed": 362421115,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                102302157,
+                253211603,
+                355513760,
+                391513760,
+                130792495,
+                231628621,
+                362421115
+            ]
+        },
+        {
+            "code": "07.44",
+            "label": "Espace - Renseigner, surveiller,",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                3105,
+                6875,
+                20,
+                10000,
+                10000,
+                67121533,
+                42243377,
+                109364910
+            ],
+            "amount_rows": [
+                [
+                    3105,
+                    6875,
+                    20,
+                    10000,
+                    10000
+                ],
+                [
+                    67121533,
+                    42243377,
+                    109364910
+                ]
+            ],
+            "extracted_lines": [
+                "3 105              6 875                         20          10 000             10 000",
+                "67 121 533         42 243 377                                109 364 910"
+            ],
+            "ae_lfi": 10000,
+            "ae_consumed": 109364910,
+            "cp_lfi": 78199781,
+            "cp_consumed": 107662851,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                23944174,
+                54180331,
+                75276,
+                78199781,
+                78199781,
+                60675622,
+                46987229,
+                107662851
+            ]
+        },
+        {
+            "code": "07.45",
+            "label": "Espace - Maîtrise de l'Espace",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1210000000,
+                1210000000,
+                1210000000,
+                48622,
+                23539891,
+                166000,
+                23754513
+            ],
+            "amount_rows": [
+                [
+                    1210000000,
+                    1210000000,
+                    1210000000
+                ],
+                [
+                    48622,
+                    23539891,
+                    166000,
+                    23754513
+                ]
+            ],
+            "extracted_lines": [
+                "1 210 000 000                               1 210 000 000     1 210 000 000",
+                "48 622        23 539 891                166 000           23 754 513"
+            ],
+            "ae_lfi": 1210000000,
+            "ae_consumed": 23754513,
+            "cp_lfi": 48580914,
+            "cp_consumed": 46401825,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                21577437,
+                27003477,
+                48580914,
+                48580914,
+                16221269,
+                30014556,
+                166000,
+                46401825
+            ]
+        },
+        {
+            "code": "07.46",
+            "label": "Espace - Commander et",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                150000000,
+                150000000,
+                150000000
+            ],
+            "amount_rows": [
+                [
+                    150000000,
+                    150000000,
+                    150000000
+                ]
+            ],
+            "extracted_lines": [
+                "150 000 000                                150 000 000        150 000 000",
+                "6 271 058        -2 511 881                                  3 759 178"
+            ],
+            "ae_lfi": 150000000,
+            "ae_consumed": null,
+            "cp_lfi": 71005932,
+            "cp_consumed": 27752876,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                586035,
+                70419897,
+                71005932,
+                71005932,
+                671654,
+                27081222,
+                27752876
+            ]
+        },
+        {
+            "code": "07.50",
+            "label": "Communiquer - Transmission",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                487000000,
+                487000000,
+                487000000,
+                4539115,
+                73730082,
+                78269197
+            ],
+            "amount_rows": [
+                [
+                    487000000,
+                    487000000,
+                    487000000
+                ],
+                [
+                    4539115,
+                    73730082,
+                    78269197
+                ]
+            ],
+            "extracted_lines": [
+                "487 000 000                                487 000 000        487 000 000",
+                "4 539 115        73 730 082                                 78 269 197"
+            ],
+            "ae_lfi": 487000000,
+            "ae_consumed": 78269197,
+            "cp_lfi": 61088659,
+            "cp_consumed": 60174668,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                52485700,
+                8602959,
+                61088659,
+                61088659,
+                5147655,
+                55027013,
+                60174668
+            ]
+        },
+        {
+            "code": "07.60",
+            "label": "Renseigner, surveiller, acquérir",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                231827,
+                15543725,
+                15775552
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    231827,
+                    15543725,
+                    15775552
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "231 827        15 543 725                                 15 775 552"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 15775552,
+            "cp_lfi": 8732994,
+            "cp_consumed": 2710558,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1460007,
+                7272987,
+                8732994,
+                8732994,
+                599413,
+                2111144,
+                2710558
+            ]
+        },
+        {
+            "code": "07.61",
+            "label": "Renseigner, surveiller, acquérir",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                96400000,
+                96400000,
+                96400000,
+                9988304,
+                79399357,
+                89387661
+            ],
+            "amount_rows": [
+                [
+                    96400000,
+                    96400000,
+                    96400000
+                ],
+                [
+                    9988304,
+                    79399357,
+                    89387661
+                ]
+            ],
+            "extracted_lines": [
+                "96 400 000                                 96 400 000        96 400 000",
+                "9 988 304         79 399 357                                 89 387 661"
+            ],
+            "ae_lfi": 96400000,
+            "ae_consumed": 89387661,
+            "cp_lfi": 119519956,
+            "cp_consumed": 112876822,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                240932,
+                119279024,
+                119519956,
+                119519956,
+                1547955,
+                111328867,
+                112876822
+            ]
+        },
+        {
+            "code": "07.62",
+            "label": "Renseigner, surveiller, acquérir",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                12457960,
+                551788417,
+                35097,
+                564281474,
+                564281474
+            ],
+            "amount_rows": [
+                [
+                    12457960,
+                    551788417,
+                    35097,
+                    564281474,
+                    564281474
+                ]
+            ],
+            "extracted_lines": [
+                "12 457 960       551 788 417                  35 097        564 281 474        564 281 474",
+                "26 628 497        -4 098 246                                 22 530 250"
+            ],
+            "ae_lfi": 564281474,
+            "ae_consumed": null,
+            "cp_lfi": 348240183,
+            "cp_consumed": 271455129,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                52771725,
+                271622450,
+                1846008,
+                326240183,
+                348240183,
+                29276322,
+                240586574,
+                1592232,
+                271455129
+            ]
+        },
+        {
+            "code": "07.63",
+            "label": "Renseigner, surveiller, acquérir",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                990000,
+                8910000,
+                9900000,
+                9900000,
+                30078269,
+                29356864,
+                59435133
+            ],
+            "amount_rows": [
+                [
+                    990000,
+                    8910000,
+                    9900000,
+                    9900000
+                ],
+                [
+                    30078269,
+                    29356864,
+                    59435133
+                ]
+            ],
+            "extracted_lines": [
+                "990 000          8 910 000                                  9 900 000           9 900 000",
+                "30 078 269         29 356 864                                 59 435 133"
+            ],
+            "ae_lfi": 9900000,
+            "ae_consumed": 59435133,
+            "cp_lfi": 142758779,
+            "cp_consumed": 127185328,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                20354084,
+                122404695,
+                142758779,
+                142758779,
+                26788237,
+                100397091,
+                127185328
+            ]
+        },
+        {
+            "code": "07.64",
+            "label": "Renseigner, surveiller, acquérir",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                16420442,
+                26379238,
+                42799680,
+                42799680,
+                24182234,
+                74012998,
+                98195232
+            ],
+            "amount_rows": [
+                [
+                    16420442,
+                    26379238,
+                    42799680,
+                    42799680
+                ],
+                [
+                    24182234,
+                    74012998,
+                    98195232
+                ]
+            ],
+            "extracted_lines": [
+                "16 420 442         26 379 238                                 42 799 680        42 799 680",
+                "24 182 234         74 012 998                                 98 195 232"
+            ],
+            "ae_lfi": 42799680,
+            "ae_consumed": 98195232,
+            "cp_lfi": 103632490,
+            "cp_consumed": 110036250,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                34383528,
+                69248962,
+                103632490,
+                103632490,
+                29603405,
+                80432846,
+                110036250
+            ]
+        },
+        {
+            "code": "07.67",
+            "label": "Renseigner, surveiller, acquérir",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1330000,
+                11970000,
+                13300000,
+                13300000,
+                2432228,
+                1040701,
+                3472928
+            ],
+            "amount_rows": [
+                [
+                    1330000,
+                    11970000,
+                    13300000,
+                    13300000
+                ],
+                [
+                    2432228,
+                    1040701,
+                    3472928
+                ]
+            ],
+            "extracted_lines": [
+                "1 330 000         11 970 000                                 13 300 000        13 300 000",
+                "2 432 228          1 040 701                                  3 472 928"
+            ],
+            "ae_lfi": 13300000,
+            "ae_consumed": 3472928,
+            "cp_lfi": 33971107,
+            "cp_consumed": 6866008,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                5295255,
+                28675852,
+                33971107,
+                33971107,
+                3272111,
+                3593896,
+                6866008
+            ]
+        },
+        {
+            "code": "07.68",
+            "label": "Renseigner, surveiller, acquérir -",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                51559178,
+                14777963,
+                66337141,
+                66337141,
+                59174922,
+                33690751,
+                92865672
+            ],
+            "amount_rows": [
+                [
+                    51559178,
+                    14777963,
+                    66337141,
+                    66337141
+                ],
+                [
+                    59174922,
+                    33690751,
+                    92865672
+                ]
+            ],
+            "extracted_lines": [
+                "51 559 178         14 777 963                                 66 337 141        66 337 141",
+                "59 174 922         33 690 751                                 92 865 672"
+            ],
+            "ae_lfi": 66337141,
+            "ae_consumed": 92865672,
+            "cp_lfi": 71776491,
+            "cp_consumed": 56515381,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                54177866,
+                17598625,
+                71776491,
+                71776491,
+                47463174,
+                8918224,
+                133983,
+                56515381
+            ]
+        },
+        {
+            "code": "08",
+            "label": "Projection - mobilité - soutien",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                103349968,
+                3970397243,
+                6170,
+                4073753381,
+                4073753381,
+                630428940,
+                1472863257,
+                13015000,
+                2116307197
+            ],
+            "amount_rows": [
+                [
+                    103349968,
+                    3970397243,
+                    6170,
+                    4073753381,
+                    4073753381
+                ],
+                [
+                    630428940,
+                    1472863257,
+                    13015000,
+                    2116307197
+                ]
+            ],
+            "extracted_lines": [
+                "103 349 968      3 970 397 243                  6 170        4 073 753 381     4 073 753 381",
+                "630 428 940      1 472 863 257            13 015 000         2 116 307 197"
+            ],
+            "ae_lfi": 4073753381,
+            "ae_consumed": 2116307197,
+            "cp_lfi": 1419097115,
+            "cp_consumed": 1535833841,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                192186588,
+                1132515361,
+                395166,
+                1325097115,
+                1419097115,
+                263960281,
+                1269394280,
+                2479280,
+                1535833841,
+                15
+            ]
+        },
+        {
+            "code": "08.42",
+            "label": "Projeter les forces - Avion de",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "08",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1396562,
+                76286459,
+                6170,
+                77689191,
+                77689191,
+                20227001,
+                209447764,
+                13000000,
+                242674765
+            ],
+            "amount_rows": [
+                [
+                    1396562,
+                    76286459,
+                    6170,
+                    77689191,
+                    77689191
+                ],
+                [
+                    20227001,
+                    209447764,
+                    13000000,
+                    242674765
+                ]
+            ],
+            "extracted_lines": [
+                "1 396 562         76 286 459                  6 170          77 689 191         77 689 191",
+                "20 227 001        209 447 764            13 000 000          242 674 765"
+            ],
+            "ae_lfi": 77689191,
+            "ae_consumed": 242674765,
+            "cp_lfi": 331306884,
+            "cp_consumed": 255668734,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                11487380,
+                283686749,
+                132755,
+                295306884,
+                331306884,
+                4306257,
+                250621316,
+                741160,
+                255668734
+            ]
+        },
+        {
+            "code": "08.43",
+            "label": "Projeter les forces - Autres",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "08",
+            "contributes_to_program_total": false,
+            "amounts": [
+                6543920,
+                4657478,
+                11201398,
+                11201398,
+                10635811,
+                18698483,
+                15000,
+                29349294
+            ],
+            "amount_rows": [
+                [
+                    6543920,
+                    4657478,
+                    11201398,
+                    11201398
+                ],
+                [
+                    10635811,
+                    18698483,
+                    15000,
+                    29349294
+                ]
+            ],
+            "extracted_lines": [
+                "6 543 920          4 657 478                                  11 201 398        11 201 398",
+                "10 635 811         18 698 483                  15 000          29 349 294"
+            ],
+            "ae_lfi": 11201398,
+            "ae_consumed": 29349294,
+            "cp_lfi": 95521964,
+            "cp_consumed": 66420267,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                52819935,
+                42702029,
+                95521964,
+                95521964,
+                14296691,
+                52093576,
+                30000,
+                66420267
+            ]
+        },
+        {
+            "code": "08.44",
+            "label": "Assurer la mobilité - VLTP",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "08",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1384224,
+                2103465776,
+                2104850000,
+                2104850000,
+                12274301,
+                669124664,
+                681398965
+            ],
+            "amount_rows": [
+                [
+                    1384224,
+                    2103465776,
+                    2104850000,
+                    2104850000
+                ],
+                [
+                    12274301,
+                    669124664,
+                    681398965
+                ]
+            ],
+            "extracted_lines": [
+                "1 384 224      2 103 465 776                               2 104 850 000     2 104 850 000",
+                "12 274 301        669 124 664                                 681 398 965"
+            ],
+            "ae_lfi": 2104850000,
+            "ae_consumed": 681398965,
+            "cp_lfi": 35602789,
+            "cp_consumed": 12709387,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                10161287,
+                25441502,
+                35602789,
+                35602789,
+                609301,
+                12100086,
+                12709387
+            ]
+        },
+        {
+            "code": "08.45",
+            "label": "Assurer la mobilité - HIL",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "08",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1268328,
+                37831672,
+                39100000,
+                39100000,
+                4288598,
+                28565993,
+                32854591
+            ],
+            "amount_rows": [
+                [
+                    1268328,
+                    37831672,
+                    39100000,
+                    39100000
+                ],
+                [
+                    4288598,
+                    28565993,
+                    32854591
+                ]
+            ],
+            "extracted_lines": [
+                "1 268 328         37 831 672                                 39 100 000        39 100 000",
+                "4 288 598         28 565 993                                 32 854 591"
+            ],
+            "ae_lfi": 39100000,
+            "ae_consumed": 32854591,
+            "cp_lfi": 135632471,
+            "cp_consumed": 179268528,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                9249536,
+                126382935,
+                135632471,
+                135632471,
+                17462857,
+                161805670,
+                179268528
+            ]
+        },
+        {
+            "code": "08.46",
+            "label": "Assurer la mobilité - Rénovation",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "08",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "0                                     0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "08.47",
+            "label": "Assurer la mobilité - Hélicoptère",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "08",
+            "contributes_to_program_total": false,
+            "amounts": [
+                435000000,
+                435000000,
+                435000000,
+                123284931,
+                168368682,
+                291653614
+            ],
+            "amount_rows": [
+                [
+                    435000000,
+                    435000000,
+                    435000000
+                ],
+                [
+                    123284931,
+                    168368682,
+                    291653614
+                ]
+            ],
+            "extracted_lines": [
+                "435 000 000                                435 000 000        435 000 000",
+                "123 284 931        168 368 682                                291 653 614"
+            ],
+            "ae_lfi": 435000000,
+            "ae_consumed": 291653614,
+            "cp_lfi": 271209401,
+            "cp_consumed": 350888929,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                238209401,
+                238209401,
+                271209401,
+                72281482,
+                278305278,
+                302169,
+                350888929
+            ]
+        },
+        {
+            "code": "08.48",
+            "label": "Assurer la mobilité - Autres",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "08",
+            "contributes_to_program_total": false,
+            "amounts": [
+                54275718,
+                218481356,
+                272757074,
+                272757074,
+                49022022,
+                54002239,
+                103024261
+            ],
+            "amount_rows": [
+                [
+                    54275718,
+                    218481356,
+                    272757074,
+                    272757074
+                ],
+                [
+                    49022022,
+                    54002239,
+                    103024261
+                ]
+            ],
+            "extracted_lines": [
+                "54 275 718       218 481 356                                272 757 074        272 757 074",
+                "49 022 022        54 002 239                                103 024 261"
+            ],
+            "ae_lfi": 272757074,
+            "ae_consumed": 103024261,
+            "cp_lfi": 96604763,
+            "cp_consumed": 136496921,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                45106480,
+                51498283,
+                96604763,
+                96604763,
+                77883982,
+                58612939,
+                136496921
+            ]
+        },
+        {
+            "code": "08.49",
+            "label": "Assurer la mobilité –",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "08",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 62219803,
+            "cp_consumed": 67369118,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                62219803,
+                62219803,
+                62219803,
+                12214,
+                67356904,
+                67369118
+            ]
+        },
+        {
+            "code": "08.51",
+            "label": "Assurer la mobilité - FTLT",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "08",
+            "contributes_to_program_total": false,
+            "amounts": [
+                125000000,
+                125000000,
+                125000000,
+                14550863,
+                119084391,
+                133635254
+            ],
+            "amount_rows": [
+                [
+                    125000000,
+                    125000000,
+                    125000000
+                ],
+                [
+                    14550863,
+                    119084391,
+                    133635254
+                ]
+            ],
+            "extracted_lines": [
+                "125 000 000                                125 000 000        125 000 000",
+                "14 550 863        119 084 391                                133 635 254"
+            ],
+            "ae_lfi": 125000000,
+            "ae_consumed": 133635254,
+            "cp_lfi": 8800040,
+            "cp_consumed": 1250838,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                880004,
+                7920036,
+                8800040,
+                8800040,
+                97706,
+                1153133,
+                1250838
+            ]
+        },
+        {
+            "code": "08.53",
+            "label": "Maintenir le potentiel ami et autre",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "08",
+            "contributes_to_program_total": false,
+            "amounts": [
+                38481216,
+                319674502,
+                358155718,
+                358155718,
+                390000717,
+                37621200,
+                427621917
+            ],
+            "amount_rows": [
+                [
+                    38481216,
+                    319674502,
+                    358155718,
+                    358155718
+                ],
+                [
+                    390000717,
+                    37621200,
+                    427621917
+                ]
+            ],
+            "extracted_lines": [
+                "38 481 216        319 674 502                                358 155 718        358 155 718",
+                "390 000 717         37 621 200                                427 621 917"
+            ],
+            "ae_lfi": 358155718,
+            "ae_consumed": 427621917,
+            "cp_lfi": 59551520,
+            "cp_consumed": 43532949,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                57620994,
+                1930526,
+                59551520,
+                59551520,
+                43214661,
+                318288,
+                43532949
+            ]
+        },
+        {
+            "code": "08.55",
+            "label": "Maintenir le potentiel ami et autre",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "08",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                4399440,
+                140452179,
+                144851619
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    4399440,
+                    140452179,
+                    144851619
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "4 399 440       140 452 179                                144 851 619"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 144851619,
+            "cp_lfi": 196007700,
+            "cp_consumed": 272756142,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                3829146,
+                167178554,
+                171007700,
+                196007700,
+                21941541,
+                250814601,
+                272756142
+            ]
+        },
+        {
+            "code": "08.56",
+            "label": "Maintenir le potentiel ami et autre",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "08",
+            "contributes_to_program_total": false,
+            "amounts": [
+                650000000,
+                650000000,
+                650000000,
+                1745255,
+                27497662,
+                29242916
+            ],
+            "amount_rows": [
+                [
+                    650000000,
+                    650000000,
+                    650000000
+                ],
+                [
+                    1745255,
+                    27497662,
+                    29242916
+                ]
+            ],
+            "extracted_lines": [
+                "650 000 000                                650 000 000        650 000 000",
+                "1 745 255        27 497 662                                 29 242 916"
+            ],
+            "ae_lfi": 650000000,
+            "ae_consumed": 29242916,
+            "cp_lfi": 126639780,
+            "cp_consumed": 149472028,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1031826,
+                125345543,
+                262411,
+                126639780,
+                126639780,
+                11853588,
+                136212489,
+                1405951,
+                149472028
+            ]
+        },
+        {
+            "code": "09",
+            "label": "Engagement et combat",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                361626785,
+                8818919472,
+                282581,
+                9180828838,
+                9180828838,
+                1342591806,
+                3919432479,
+                28870217,
+                5290894502
+            ],
+            "amount_rows": [
+                [
+                    361626785,
+                    8818919472,
+                    282581,
+                    9180828838,
+                    9180828838
+                ],
+                [
+                    1342591806,
+                    3919432479,
+                    28870217,
+                    5290894502
+                ]
+            ],
+            "extracted_lines": [
+                "361 626 785      8 818 919 472               282 581         9 180 828 838     9 180 828 838",
+                "1 342 591 806      3 919 432 479            28 870 217         5 290 894 502"
+            ],
+            "ae_lfi": 9180828838,
+            "ae_consumed": 5290894502,
+            "cp_lfi": 6306265620,
+            "cp_consumed": 5915326314,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1123437882,
+                4847771209,
+                6056529,
+                5977265620,
+                6306265620,
+                1238954136,
+                4637260671,
+                39111507,
+                5915326314
+            ]
+        },
+        {
+            "code": "09.56",
+            "label": "Frapper à distance - Missile de",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                315466,
+                631507,
+                946973
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    315466,
+                    631507,
+                    946973
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "315 466            631 507                                   946 973"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 946973,
+            "cp_lfi": 7545369,
+            "cp_consumed": 7148775,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                7332541,
+                212828,
+                7545369,
+                7545369,
+                2864535,
+                4284240,
+                7148775
+            ]
+        },
+        {
+            "code": "09.59",
+            "label": "Frapper à distance - RAFALE",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                34322335,
+                878114845,
+                912437180,
+                912437180,
+                259928746,
+                987103667,
+                1247032413
+            ],
+            "amount_rows": [
+                [
+                    34322335,
+                    878114845,
+                    912437180,
+                    912437180
+                ],
+                [
+                    259928746,
+                    987103667,
+                    1247032413
+                ]
+            ],
+            "extracted_lines": [
+                "34 322 335        878 114 845                             912 437 180        912 437 180",
+                "259 928 746        987 103 667                           1 247 032 413"
+            ],
+            "ae_lfi": 912437180,
+            "ae_consumed": 1247032413,
+            "cp_lfi": 1881228494,
+            "cp_consumed": 1976761727,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                235323987,
+                1442904507,
+                1678228494,
+                1881228494,
+                289719394,
+                1687042333,
+                1976761727
+            ]
+        },
+        {
+            "code": "09.61",
+            "label": "Frapper à distance - Autres",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                66434774,
+                949638097,
+                281089,
+                1016353960,
+                1016353960,
+                250485899,
+                131401982,
+                4595602,
+                386483483
+            ],
+            "amount_rows": [
+                [
+                    66434774,
+                    949638097,
+                    281089,
+                    1016353960,
+                    1016353960
+                ],
+                [
+                    250485899,
+                    131401982,
+                    4595602,
+                    386483483
+                ]
+            ],
+            "extracted_lines": [
+                "66 434 774        949 638 097                281 089     1 016 353 960     1 016 353 960",
+                "250 485 899        131 401 982              4 595 602       386 483 483"
+            ],
+            "ae_lfi": 1016353960,
+            "ae_consumed": 386483483,
+            "cp_lfi": 398571900,
+            "cp_consumed": 352668342,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                111134610,
+                287065276,
+                372014,
+                398571900,
+                398571900,
+                168891035,
+                178255743,
+                5521564,
+                352668342
+            ]
+        },
+        {
+            "code": "09.62",
+            "label": "Frapper à distance - SCAF",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                3855336,
+                18740932,
+                22596267
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    3855336,
+                    18740932,
+                    22596267
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "3 855 336        18 740 932                              22 596 267"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 22596267,
+            "cp_lfi": 306684453,
+            "cp_consumed": 479753115,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                306684453,
+                306684453,
+                306684453,
+                74133566,
+                405619549,
+                479753115
+            ]
+        },
+        {
+            "code": "09.63",
+            "label": "Frapper à distance - Porte-avions",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                10258423,
+                496940389,
+                507198812,
+                507198812,
+                250548301,
+                761238395,
+                1011786695
+            ],
+            "amount_rows": [
+                [
+                    10258423,
+                    496940389,
+                    507198812,
+                    507198812
+                ],
+                [
+                    250548301,
+                    761238395,
+                    1011786695
+                ]
+            ],
+            "extracted_lines": [
+                "10 258 423        496 940 389                             507 198 812        507 198 812",
+                "250 548 301        761 238 395                           1 011 786 695"
+            ],
+            "ae_lfi": 507198812,
+            "ae_consumed": 1011786695,
+            "cp_lfi": 227657754,
+            "cp_consumed": 255724089,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                160398724,
+                67259030,
+                227657754,
+                227657754,
+                107939062,
+                147785027,
+                255724089
+            ]
+        },
+        {
+            "code": "09.66",
+            "label": "Opérer en milieu hostile -",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "366 359           -384 907                                -18 548"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": null,
+            "cp_lfi": 2378431,
+            "cp_consumed": 3357358,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                2046980,
+                331451,
+                2378431,
+                2378431,
+                3237277,
+                120081,
+                3357358
+            ]
+        },
+        {
+            "code": "09.68",
+            "label": "Opérer en milieu hostile -",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                107084,
+                31951425,
+                1492,
+                32060001,
+                32060001,
+                16210259,
+                15413531,
+                31623789
+            ],
+            "amount_rows": [
+                [
+                    107084,
+                    31951425,
+                    1492,
+                    32060001,
+                    32060001
+                ],
+                [
+                    16210259,
+                    15413531,
+                    31623789
+                ]
+            ],
+            "extracted_lines": [
+                "107 084          31 951 425                   1 492      32 060 001        32 060 001",
+                "16 210 259          15 413 531                              31 623 789"
+            ],
+            "ae_lfi": 32060001,
+            "ae_consumed": 31623789,
+            "cp_lfi": 236793366,
+            "cp_consumed": 252677233,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                131426044,
+                74810334,
+                2556988,
+                208793366,
+                236793366,
+                12183703,
+                238508073,
+                1985457,
+                252677233
+            ]
+        },
+        {
+            "code": "09.69",
+            "label": "Opérer en milieu hostile - Future",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                32962997,
+                2768122,
+                35731118
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    32962997,
+                    2768122,
+                    35731118
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "32 962 997           2 768 122                             35 731 118"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 35731118,
+            "cp_lfi": 33339912,
+            "cp_consumed": 20623258,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                8998012,
+                24341900,
+                33339912,
+                33339912,
+                6082497,
+                14540761,
+                20623258
+            ]
+        },
+        {
+            "code": "09.71",
+            "label": "Opérer en milieu hostile -",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1181000000,
+                1181000000,
+                1181000000
+            ],
+            "amount_rows": [
+                [
+                    1181000000,
+                    1181000000,
+                    1181000000
+                ]
+            ],
+            "extracted_lines": [
+                "1 181 000 000                            1 181 000 000     1 181 000 000",
+                "47 022 186         -4 123 941              2 122 000        45 020 245"
+            ],
+            "ae_lfi": 1181000000,
+            "ae_consumed": null,
+            "cp_lfi": 74576131,
+            "cp_consumed": 68061546,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                74576131,
+                74576131,
+                74576131,
+                49517509,
+                16422036,
+                2122000,
+                68061546
+            ]
+        },
+        {
+            "code": "09.73",
+            "label": "Opérer en milieu hostile -",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                22000000,
+                22000000,
+                22000000,
+                -57133,
+                10276877,
+                10219745
+            ],
+            "amount_rows": [
+                [
+                    22000000,
+                    22000000,
+                    22000000
+                ],
+                [
+                    -57133,
+                    10276877,
+                    10219745
+                ]
+            ],
+            "extracted_lines": [
+                "22 000 000                              22 000 000        22 000 000",
+                "-57 133         10 276 877                              10 219 745"
+            ],
+            "ae_lfi": 22000000,
+            "ae_consumed": 10219745,
+            "cp_lfi": 16473521,
+            "cp_consumed": 10446045,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                616180,
+                15647969,
+                209372,
+                16473521,
+                16473521,
+                375233,
+                9108999,
+                961813,
+                10446045
+            ]
+        },
+        {
+            "code": "09.74",
+            "label": "Opérer en milieu hostile - SNA",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                17009810,
+                368731730,
+                385741540
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    17009810,
+                    368731730,
+                    385741540
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "17 009 810        368 731 730                             385 741 540"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 385741540,
+            "cp_lfi": 687576844,
+            "cp_consumed": 536872323,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                3003843,
+                637573001,
+                640576844,
+                687576844,
+                21663960,
+                515208363,
+                536872323
+            ]
+        },
+        {
+            "code": "09.75",
+            "label": "Opérer en milieu hostile - Autres",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                183568354,
+                230258630,
+                413826984,
+                413826984,
+                201468706,
+                114081790,
+                18938000,
+                334488495
+            ],
+            "amount_rows": [
+                [
+                    183568354,
+                    230258630,
+                    413826984,
+                    413826984
+                ],
+                [
+                    201468706,
+                    114081790,
+                    18938000,
+                    334488495
+                ]
+            ],
+            "extracted_lines": [
+                "183 568 354        230 258 630                             413 826 984        413 826 984",
+                "201 468 706        114 081 790            18 938 000       334 488 495"
+            ],
+            "ae_lfi": 413826984,
+            "ae_consumed": 334488495,
+            "cp_lfi": 380672852,
+            "cp_consumed": 417242653,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                180490965,
+                200181887,
+                380672852,
+                380672852,
+                250590407,
+                144015847,
+                22636400,
+                417242653
+            ]
+        },
+        {
+            "code": "09.77",
+            "label": "Opérer en milieu hostile -",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                3388000000,
+                3388000000,
+                3388000000,
+                80496577,
+                1168967510,
+                38000,
+                1249502087
+            ],
+            "amount_rows": [
+                [
+                    3388000000,
+                    3388000000,
+                    3388000000
+                ],
+                [
+                    80496577,
+                    1168967510,
+                    38000,
+                    1249502087
+                ]
+            ],
+            "extracted_lines": [
+                "3 388 000 000                            3 388 000 000     3 388 000 000",
+                "80 496 577      1 168 967 510                  38 000    1 249 502 087"
+            ],
+            "ae_lfi": 3388000000,
+            "ae_consumed": 1249502087,
+            "cp_lfi": 1106564193,
+            "cp_consumed": 1024334481,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                158749920,
+                947814273,
+                1106564193,
+                1106564193,
+                94441785,
+                927161711,
+                2730986,
+                1024334481
+            ]
+        },
+        {
+            "code": "09.78",
+            "label": "Frapper à distance - Mirage 2000",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                38976142,
+                23023858,
+                62000000,
+                62000000,
+                49088999,
+                8589452,
+                57678450
+            ],
+            "amount_rows": [
+                [
+                    38976142,
+                    23023858,
+                    62000000,
+                    62000000
+                ],
+                [
+                    49088999,
+                    8589452,
+                    57678450
+                ]
+            ],
+            "extracted_lines": [
+                "38 976 142         23 023 858                              62 000 000        62 000 000",
+                "49 088 999          8 589 452                              57 678 450"
+            ],
+            "ae_lfi": 62000000,
+            "ae_consumed": 57678450,
+            "cp_lfi": 79252523,
+            "cp_consumed": 73320756,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                40718821,
+                38533702,
+                79252523,
+                79252523,
+                42032370,
+                31288387,
+                73320756
+            ]
+        },
+        {
+            "code": "09.79",
+            "label": "Opérer en milieu hostile -",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                305805601,
+                305805601,
+                305805601,
+                60110809,
+                198246426,
+                258357235
+            ],
+            "amount_rows": [
+                [
+                    305805601,
+                    305805601,
+                    305805601
+                ],
+                [
+                    60110809,
+                    198246426,
+                    258357235
+                ]
+            ],
+            "extracted_lines": [
+                "305 805 601                             305 805 601        305 805 601",
+                "60 110 809        198 246 426                             258 357 235"
+            ],
+            "ae_lfi": 305805601,
+            "ae_consumed": 258357235,
+            "cp_lfi": 185745359,
+            "cp_consumed": 174037470,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                33398067,
+                152347292,
+                185745359,
+                185745359,
+                61962258,
+                112075213,
+                174037470
+            ]
+        },
+        {
+            "code": "09.80",
+            "label": "Opérer en milieu hostile - MGCS",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                3312000,
+                29808000,
+                33120000,
+                33120000,
+                0
+            ],
+            "amount_rows": [
+                [
+                    3312000,
+                    29808000,
+                    33120000,
+                    33120000
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "3 312 000         29 808 000                              33 120 000        33 120 000",
+                "0"
+            ],
+            "ae_lfi": 33120000,
+            "ae_consumed": 0,
+            "cp_lfi": 98418,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                9842,
+                88576,
+                98418,
+                98418,
+                0
+            ]
+        },
+        {
+            "code": "09.84",
+            "label": "Opérer en milieu hostile - MAST-",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                73922,
+                8884906,
+                328212,
+                9287040
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    73922,
+                    8884906,
+                    328212,
+                    9287040
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "73 922          8 884 906               328 212        9 287 040"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 9287040,
+            "cp_lfi": 107915180,
+            "cp_consumed": 2596371,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                105070166,
+                2845014,
+                107915180,
+                107915180,
+                73430,
+                932533,
+                1590409,
+                2596371
+            ]
+        },
+        {
+            "code": "09.85",
+            "label": "Opérer en milieu hostile - SLAMF",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                714562,
+                1032785438,
+                1033500000,
+                1033500000,
+                1195874,
+                98622602,
+                2035403,
+                101853879
+            ],
+            "amount_rows": [
+                [
+                    714562,
+                    1032785438,
+                    1033500000,
+                    1033500000
+                ],
+                [
+                    1195874,
+                    98622602,
+                    2035403,
+                    101853879
+                ]
+            ],
+            "extracted_lines": [
+                "714 562     1 032 785 438                            1 033 500 000     1 033 500 000",
+                "1 195 874        98 622 602              2 035 403       101 853 879"
+            ],
+            "ae_lfi": 1033500000,
+            "ae_consumed": 101853879,
+            "cp_lfi": 38437854,
+            "cp_consumed": 57453431,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                2065797,
+                36298916,
+                73141,
+                38437854,
+                38437854,
+                2439373,
+                54264180,
+                749879,
+                57453431
+            ]
+        },
+        {
+            "code": "09.86",
+            "label": "Opérer en milieu hostile - ATL2",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                23933111,
+                9593189,
+                33526300,
+                33526300,
+                64330795,
+                14545472,
+                78876267
+            ],
+            "amount_rows": [
+                [
+                    23933111,
+                    9593189,
+                    33526300,
+                    33526300
+                ],
+                [
+                    64330795,
+                    14545472,
+                    78876267
+                ]
+            ],
+            "extracted_lines": [
+                "23 933 111         9 593 189                               33 526 300        33 526 300",
+                "64 330 795        14 545 472                               78 876 267"
+            ],
+            "ae_lfi": 33526300,
+            "ae_consumed": 78876267,
+            "cp_lfi": 47657057,
+            "cp_consumed": 35477291,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                25606707,
+                22050350,
+                47657057,
+                47657057,
+                19857522,
+                15619769,
+                35477291
+            ]
+        },
+        {
+            "code": "09.88",
+            "label": "Opérer en milieu hostile - missile",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                 0",
+                "2 885 310         -5 327 569               813 000        -1 629 260"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": null,
+            "cp_lfi": 72208227,
+            "cp_consumed": 32698805,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                14441646,
+                57766581,
+                72208227,
+                72208227,
+                27084266,
+                4801539,
+                813000,
+                32698805
+            ]
+        },
+        {
+            "code": "09.89",
+            "label": "Opérer en milieu hostile -",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                240000000,
+                240000000,
+                240000000,
+                4292591,
+                21023995,
+                25316586
+            ],
+            "amount_rows": [
+                [
+                    240000000,
+                    240000000,
+                    240000000
+                ],
+                [
+                    4292591,
+                    21023995,
+                    25316586
+                ]
+            ],
+            "extracted_lines": [
+                "240 000 000                             240 000 000        240 000 000",
+                "4 292 591        21 023 995                              25 316 586"
+            ],
+            "ae_lfi": 240000000,
+            "ae_consumed": 25316586,
+            "cp_lfi": 414887782,
+            "cp_consumed": 134071245,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                7675196,
+                356212586,
+                363887782,
+                414887782,
+                3864957,
+                130206288,
+                134071245
+            ]
+        },
+        {
+            "code": "10",
+            "label": "Protection et sauvegarde",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                49254401,
+                2557868314,
+                2607122715,
+                2607122715,
+                461,
+                962462368,
+                1041974035,
+                484000,
+                2004920864
+            ],
+            "amount_rows": [
+                [
+                    49254401,
+                    2557868314,
+                    2607122715,
+                    2607122715
+                ],
+                [
+                    461,
+                    962462368,
+                    1041974035,
+                    484000,
+                    2004920864
+                ]
+            ],
+            "extracted_lines": [
+                "49 254 401      2 557 868 314                            2 607 122 715     2 607 122 715",
+                "461      962 462 368      1 041 974 035                484 000     2 004 920 864"
+            ],
+            "ae_lfi": 2607122715,
+            "ae_consumed": 2004920864,
+            "cp_lfi": 1037499882,
+            "cp_consumed": 1089291188,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                201225716,
+                817274166,
+                1018499882,
+                1037499882,
+                387920789,
+                691615824,
+                9754575,
+                1089291188
+            ]
+        },
+        {
+            "code": "10.74",
+            "label": "Assurer la sûreté des approches,",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "10",
+            "contributes_to_program_total": false,
+            "amounts": [
+                4100000,
+                50000000,
+                54100000,
+                54100000,
+                35184533,
+                6141127,
+                41325660
+            ],
+            "amount_rows": [
+                [
+                    4100000,
+                    50000000,
+                    54100000,
+                    54100000
+                ],
+                [
+                    35184533,
+                    6141127,
+                    41325660
+                ]
+            ],
+            "extracted_lines": [
+                "4 100 000          50 000 000                              54 100 000        54 100 000",
+                "35 184 533           6 141 127                              41 325 660"
+            ],
+            "ae_lfi": 54100000,
+            "ae_consumed": 41325660,
+            "cp_lfi": 49996274,
+            "cp_consumed": 48157695,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                28576446,
+                21419828,
+                49996274,
+                49996274,
+                16748873,
+                31408822,
+                48157695
+            ]
+        },
+        {
+            "code": "10.75",
+            "label": "Assurer la sûreté des approches,",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "10",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                2799357,
+                48752094,
+                51551451
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    2799357,
+                    48752094,
+                    51551451
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "2 799 357        48 752 094                              51 551 451"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 51551451,
+            "cp_lfi": 140738374,
+            "cp_consumed": 127455864,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1916591,
+                138821783,
+                140738374,
+                140738374,
+                2826308,
+                124629556,
+                127455864
+            ]
+        },
+        {
+            "code": "10.76",
+            "label": "Assurer la sûreté des approches,",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "10",
+            "contributes_to_program_total": false,
+            "amounts": [
+                496000000,
+                496000000,
+                496000000,
+                55093309,
+                7460602,
+                128000,
+                62681912
+            ],
+            "amount_rows": [
+                [
+                    496000000,
+                    496000000,
+                    496000000
+                ],
+                [
+                    55093309,
+                    7460602,
+                    128000,
+                    62681912
+                ]
+            ],
+            "extracted_lines": [
+                "496 000 000                             496 000 000        496 000 000",
+                "55 093 309          7 460 602                128 000       62 681 912"
+            ],
+            "ae_lfi": 496000000,
+            "ae_consumed": 62681912,
+            "cp_lfi": 183434606,
+            "cp_consumed": 130754929,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                98126372,
+                66308234,
+                164434606,
+                183434606,
+                97740198,
+                32886731,
+                128000,
+                130754929
+            ]
+        },
+        {
+            "code": "10.77",
+            "label": "Assurer la sûreté des approches,",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "10",
+            "contributes_to_program_total": false,
+            "amounts": [
+                792361,
+                1107639,
+                1900000,
+                1900000,
+                3913236,
+                56340634,
+                60253870
+            ],
+            "amount_rows": [
+                [
+                    792361,
+                    1107639,
+                    1900000,
+                    1900000
+                ],
+                [
+                    3913236,
+                    56340634,
+                    60253870
+                ]
+            ],
+            "extracted_lines": [
+                "792 361         1 107 639                               1 900 000           1 900 000",
+                "3 913 236        56 340 634                              60 253 870"
+            ],
+            "ae_lfi": 1900000,
+            "ae_consumed": 60253870,
+            "cp_lfi": 162890665,
+            "cp_consumed": 125586473,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                17355942,
+                145534723,
+                162890665,
+                162890665,
+                1903338,
+                123683135,
+                125586473
+            ]
+        },
+        {
+            "code": "10.79",
+            "label": "Assurer la sûreté des approches,",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "10",
+            "contributes_to_program_total": false,
+            "amounts": [
+                4802973,
+                60103221,
+                64906194,
+                64906194,
+                5076569,
+                25521949,
+                30598518
+            ],
+            "amount_rows": [
+                [
+                    4802973,
+                    60103221,
+                    64906194,
+                    64906194
+                ],
+                [
+                    5076569,
+                    25521949,
+                    30598518
+                ]
+            ],
+            "extracted_lines": [
+                "4 802 973         60 103 221                              64 906 194        64 906 194",
+                "5 076 569         25 521 949                              30 598 518"
+            ],
+            "ae_lfi": 64906194,
+            "ae_consumed": 30598518,
+            "cp_lfi": 80312125,
+            "cp_consumed": 51288018,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                6581343,
+                73730782,
+                80312125,
+                80312125,
+                9754881,
+                41533137,
+                51288018
+            ]
+        },
+        {
+            "code": "10.80",
+            "label": "Assurer la sûreté des approches,",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "10",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                0,
+                13
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    13
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "0",
+                "13"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "10.82",
+            "label": "Assurer la protection des forces",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "10",
+            "contributes_to_program_total": false,
+            "amounts": [
+                674300000,
+                674300000,
+                674300000,
+                672790087,
+                486112485,
+                350000,
+                1159252572
+            ],
+            "amount_rows": [
+                [
+                    674300000,
+                    674300000,
+                    674300000
+                ],
+                [
+                    672790087,
+                    486112485,
+                    350000,
+                    1159252572
+                ]
+            ],
+            "extracted_lines": [
+                "674 300 000                               674 300 000       674 300 000",
+                "672 790 087          486 112 485                350 000      1 159 252 572"
+            ],
+            "ae_lfi": 674300000,
+            "ae_consumed": 1159252572,
+            "cp_lfi": 133471943,
+            "cp_consumed": 315363908,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                133471943,
+                133471943,
+                133471943,
+                130071905,
+                177088263,
+                8203740,
+                315363908
+            ]
+        },
+        {
+            "code": "10.86",
+            "label": "Assurer la protection des forces",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "10",
+            "contributes_to_program_total": false,
+            "amounts": [
+                37553760,
+                1054262761,
+                1091816521,
+                1091816521,
+                461,
+                174206509,
+                277684118,
+                451891088
+            ],
+            "amount_rows": [
+                [
+                    37553760,
+                    1054262761,
+                    1091816521,
+                    1091816521
+                ],
+                [
+                    461,
+                    174206509,
+                    277684118,
+                    451891088
+                ]
+            ],
+            "extracted_lines": [
+                "37 553 760       1 054 262 761                              1 091 816 521     1 091 816 521",
+                "461        174 206 509         277 684 118                                451 891 088"
+            ],
+            "ae_lfi": 1091816521,
+            "ae_consumed": 451891088,
+            "cp_lfi": 255511473,
+            "cp_consumed": 265014092,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                45827939,
+                209683534,
+                255511473,
+                255511473,
+                113458152,
+                150139106,
+                1416835,
+                265014092
+            ]
+        },
+        {
+            "code": "10.87",
+            "label": "Assurer la protection de l'homme",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "10",
+            "contributes_to_program_total": false,
+            "amounts": [
+                17000000,
+                17000000,
+                17000000,
+                846755,
+                846755
+            ],
+            "amount_rows": [
+                [
+                    17000000,
+                    17000000,
+                    17000000
+                ],
+                [
+                    846755,
+                    846755
+                ]
+            ],
+            "extracted_lines": [
+                "17 000 000                                17 000 000        17 000 000",
+                "846 755                                                      846 755"
+            ],
+            "ae_lfi": 17000000,
+            "ae_consumed": 846755,
+            "cp_lfi": 6878021,
+            "cp_consumed": 2804323,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                6878021,
+                6878021,
+                6878021,
+                2804323,
+                2804323
+            ]
+        },
+        {
+            "code": "10.88",
+            "label": "Assurer la sûreté des approches,",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "10",
+            "contributes_to_program_total": false,
+            "amounts": [
+                2000000,
+                2000000,
+                2000000,
+                1425,
+                857408,
+                858832
+            ],
+            "amount_rows": [
+                [
+                    2000000,
+                    2000000,
+                    2000000
+                ],
+                [
+                    1425,
+                    857408,
+                    858832
+                ]
+            ],
+            "extracted_lines": [
+                "2 000 000                                                     2 000 000          2 000 000",
+                "1 425              857 408                                  858 832"
+            ],
+            "ae_lfi": 2000000,
+            "ae_consumed": 858832,
+            "cp_lfi": 1640298,
+            "cp_consumed": 47870,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1640298,
+                1640298,
+                1640298,
+                47870,
+                47870
+            ]
+        },
+        {
+            "code": "10.89",
+            "label": "Assurer la protection des forces",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "10",
+            "contributes_to_program_total": false,
+            "amounts": [
+                5307,
+                205094693,
+                205100000,
+                205100000,
+                12550587,
+                133103618,
+                6000,
+                145660206
+            ],
+            "amount_rows": [
+                [
+                    5307,
+                    205094693,
+                    205100000,
+                    205100000
+                ],
+                [
+                    12550587,
+                    133103618,
+                    6000,
+                    145660206
+                ]
+            ],
+            "extracted_lines": [
+                "5 307         205 094 693                               205 100 000       205 100 000",
+                "12 550 587          133 103 618                   6 000       145 660 206"
+            ],
+            "ae_lfi": 205100000,
+            "ae_consumed": 145660206,
+            "cp_lfi": 22626103,
+            "cp_consumed": 22818017,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1200785,
+                21425318,
+                22626103,
+                22626103,
+                12564942,
+                10247074,
+                6000,
+                22818017
+            ]
+        },
+        {
+            "code": "11",
+            "label": "Préparation et conduite des",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                178116400,
+                65834900,
+                3453700,
+                247405000,
+                301907420,
+                274213928,
+                57644356,
+                3243707,
+                335101991
+            ],
+            "amount_rows": [
+                [
+                    178116400,
+                    65834900,
+                    3453700,
+                    247405000,
+                    301907420
+                ],
+                [
+                    274213928,
+                    57644356,
+                    3243707,
+                    335101991
+                ]
+            ],
+            "extracted_lines": [
+                "178 116 400           65 834 900              3 453 700        247 405 000       301 907 420",
+                "274 213 928           57 644 356              3 243 707        335 101 991"
+            ],
+            "ae_lfi": 301907420,
+            "ae_consumed": 335101991,
+            "cp_lfi": 280255540,
+            "cp_consumed": 330584654,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                160168987,
+                62310980,
+                3273153,
+                225753120,
+                280255540,
+                273680502,
+                53817080,
+                3087071,
+                330584654
+            ]
+        },
+        {
+            "code": "11.89",
+            "label": "Fonctionnement et soutien DGA",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "11",
+            "contributes_to_program_total": false,
+            "amounts": [
+                82791300,
+                250000,
+                3283700,
+                86325000,
+                140827420,
+                151769784,
+                707005,
+                3035707,
+                155512496
+            ],
+            "amount_rows": [
+                [
+                    82791300,
+                    250000,
+                    3283700,
+                    86325000,
+                    140827420
+                ],
+                [
+                    151769784,
+                    707005,
+                    3035707,
+                    155512496
+                ]
+            ],
+            "extracted_lines": [
+                "82 791 300              250 000              3 283 700        86 325 000        140 827 420",
+                "151 769 784             707 005               3 035 707       155 512 496"
+            ],
+            "ae_lfi": 140827420,
+            "ae_consumed": 155512496,
+            "cp_lfi": 128405852,
+            "cp_consumed": 151885017,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                70614883,
+                179702,
+                3108847,
+                73903432,
+                128405852,
+                148667309,
+                338637,
+                2879071,
+                151885017
+            ]
+        },
+        {
+            "code": "11.90",
+            "label": "Investissements pour les",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "11",
+            "contributes_to_program_total": false,
+            "amounts": [
+                95325100,
+                65584900,
+                170000,
+                161080000,
+                161080000,
+                122444145,
+                56937351,
+                208000,
+                179589495
+            ],
+            "amount_rows": [
+                [
+                    95325100,
+                    65584900,
+                    170000,
+                    161080000,
+                    161080000
+                ],
+                [
+                    122444145,
+                    56937351,
+                    208000,
+                    179589495
+                ]
+            ],
+            "extracted_lines": [
+                "95 325 100           65 584 900                170 000        161 080 000       161 080 000",
+                "122 444 145           56 937 351               208 000         179 589 495"
+            ],
+            "ae_lfi": 161080000,
+            "ae_consumed": 179589495,
+            "cp_lfi": 151849688,
+            "cp_consumed": 178699637,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                89554104,
+                62131278,
+                164306,
+                151849688,
+                151849688,
+                125013193,
+                53478444,
+                208000,
+                178699637
+            ]
+        },
+        {
+            "code": "12",
+            "label": "Parts étrangères et programmes",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                48864624,
+                2586375,
+                51450999
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    48864624,
+                    2586375,
+                    51450999
+                ]
+            ],
+            "extracted_lines": [
+                "0                 0",
+                "48 864 624            2 586 375                                51 450 999"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 51450999,
+            "cp_lfi": 0,
+            "cp_consumed": 36160789,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                32660995,
+                3499794,
+                36160789
+            ]
+        },
+        {
+            "code": "12.96",
+            "label": "Parts étrangères",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "12",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                45361859,
+                648912,
+                46010771
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    45361859,
+                    648912,
+                    46010771
+                ]
+            ],
+            "extracted_lines": [
+                "0                 0",
+                "45 361 859              648 912                                46 010 771"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 46010771,
+            "cp_lfi": 0,
+            "cp_consumed": 31993854,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                29523088,
+                2470766,
+                31993854
+            ]
+        },
+        {
+            "code": "12.97",
+            "label": "Programmes civils",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "12",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                3502765,
+                1937463,
+                5440228
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    3502765,
+                    1937463,
+                    5440228
+                ]
+            ],
+            "extracted_lines": [
+                "0                 0",
+                "3 502 765           1 937 463                                 5 440 228"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 5440228,
+            "cp_lfi": 0,
+            "cp_consumed": 4166935,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                3137907,
+                1029028,
+                4166935
+            ]
+        },
+        {
+            "code": "13",
+            "label": "Soutien à l’effort de défense de pays",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                447406142,
+                45918534,
+                28500000,
+                521824676
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    447406142,
+                    45918534,
+                    28500000,
+                    521824676
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "447 406 142          45 918 534             28 500 000        521 824 676"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 521824676,
+            "cp_lfi": 0,
+            "cp_consumed": 352530822,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                0,
+                0,
+                275618901,
+                46444134,
+                30467787,
+                352530822
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 24447411452,
+            "ae_consumed": 16609234088,
+            "cp_lfi": 17145854918,
+            "cp_consumed": 16713224479
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 88,
+        "sub_actions": 80
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29633",
+    "pdf_sha256": "e89695e6bc1a7193f13ab786faff84082a5f47a90d4c4c9340a9906c9ff16cfc",
+    "mission": "Défense"
+}

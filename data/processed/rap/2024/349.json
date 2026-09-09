@@ -1,0 +1,186 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "349",
+        "name": "Transformation publique"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Fonds pour la transformation",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1500000,
+                51025531,
+                30364686,
+                40123143,
+                123013360,
+                123013360
+            ],
+            "amount_rows": [
+                [
+                    1500000,
+                    51025531,
+                    30364686,
+                    40123143,
+                    123013360,
+                    123013360
+                ]
+            ],
+            "extracted_lines": [
+                "1 500 000         51 025 531        30 364 686       40 123 143                        123 013 360       123 013 360",
+                "59 309 282        19 892 885       12 789 485       -2 789 315       89 202 337"
+            ],
+            "ae_lfi": 123013360,
+            "ae_consumed": null,
+            "cp_lfi": 140374233,
+            "cp_consumed": 152678624,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1500000,
+                63497993,
+                30533311,
+                44842929,
+                140374233,
+                140374233,
+                84108376,
+                51530577,
+                16817772,
+                221900,
+                152678624
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Accompagnement du",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                19150000,
+                1000000,
+                500000,
+                20650000,
+                20650000,
+                10850893,
+                2318838,
+                860853,
+                14030584
+            ],
+            "amount_rows": [
+                [
+                    19150000,
+                    1000000,
+                    500000,
+                    20650000,
+                    20650000
+                ],
+                [
+                    10850893,
+                    2318838,
+                    860853,
+                    14030584
+                ]
+            ],
+            "extracted_lines": [
+                "19 150 000         1 000 000           500 000                        20 650 000        20 650 000",
+                "10 850 893         2 318 838          860 853                        14 030 584"
+            ],
+            "ae_lfi": 20650000,
+            "ae_consumed": 14030584,
+            "cp_lfi": 20650000,
+            "cp_consumed": 16876557,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                18150000,
+                2000000,
+                500000,
+                20650000,
+                20650000,
+                14055564,
+                1786462,
+                1034532,
+                16876557
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Renouveau démocratique",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1800000,
+                1800000,
+                1800000,
+                492071,
+                227664,
+                719735
+            ],
+            "amount_rows": [
+                [
+                    1800000,
+                    1800000,
+                    1800000
+                ],
+                [
+                    492071,
+                    227664,
+                    719735
+                ]
+            ],
+            "extracted_lines": [
+                "1 800 000                                                             1 800 000         1 800 000",
+                "492 071                              227 664                          719 735"
+            ],
+            "ae_lfi": 1800000,
+            "ae_consumed": 719735,
+            "cp_lfi": 1800000,
+            "cp_consumed": 1083118,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1800000,
+                1800000,
+                1800000,
+                855454,
+                227664,
+                1083118
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 145463360,
+            "ae_consumed": 103952656,
+            "cp_lfi": 162824233,
+            "cp_consumed": 170638299
+        },
+        "differences": {
+            "ae_consumed": {
+                "actions_sum": 14750319,
+                "programme_total": 103952656,
+                "difference": -89202337
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 3,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29846",
+    "pdf_sha256": "599d94d55e1a8d9cd2788e225d780af49e8f17b0ba329d11d2e658c27bf85c6c",
+    "mission": "Transformation et fonction publiques"
+}

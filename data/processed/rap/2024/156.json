@@ -1,0 +1,513 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "156",
+        "name": "Gestion fiscale et financière de l'État et du secteur public local"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Fiscalité des grandes entreprises",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                118426552,
+                3200000,
+                121626552,
+                121626552,
+                114414046,
+                5153052,
+                20464,
+                119587562
+            ],
+            "amount_rows": [
+                [
+                    118426552,
+                    3200000,
+                    121626552,
+                    121626552
+                ],
+                [
+                    114414046,
+                    5153052,
+                    20464,
+                    119587562
+                ]
+            ],
+            "extracted_lines": [
+                "118 426 552          3 200 000                                                121 626 552        121 626 552",
+                "114 414 046          5 153 052              20 464                            119 587 562"
+            ],
+            "ae_lfi": 121626552,
+            "ae_consumed": 119587562,
+            "cp_lfi": 126626552,
+            "cp_consumed": 122837166,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                118426552,
+                8200000,
+                126626552,
+                126626552,
+                114414046,
+                8423120,
+                122837166
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Fiscalité des PME",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1525225052,
+                81718000,
+                26100000,
+                1633043052,
+                1633743052,
+                1432038371,
+                114940627,
+                29659087,
+                1576638086
+            ],
+            "amount_rows": [
+                [
+                    1525225052,
+                    81718000,
+                    26100000,
+                    1633043052,
+                    1633743052
+                ],
+                [
+                    1432038371,
+                    114940627,
+                    29659087,
+                    1576638086
+                ]
+            ],
+            "extracted_lines": [
+                "1 525 225 052       81 718 000           26 100 000                           1 633 043 052     1 633 743 052",
+                "1 432 038 371      114 940 627           29 659 087                           1 576 638 086"
+            ],
+            "ae_lfi": 1633743052,
+            "ae_consumed": 1576638086,
+            "cp_lfi": 1640915052,
+            "cp_consumed": 1526050481,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1525225052,
+                90440000,
+                24550000,
+                1640215052,
+                1640915052,
+                1432038371,
+                68895483,
+                25116627,
+                1526050481
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Fiscalité des particuliers et fiscalité",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1986425520,
+                119223000,
+                26400000,
+                2132048520,
+                2132048520,
+                1927879337,
+                103955528,
+                13055821,
+                2044890686
+            ],
+            "amount_rows": [
+                [
+                    1986425520,
+                    119223000,
+                    26400000,
+                    2132048520,
+                    2132048520
+                ],
+                [
+                    1927879337,
+                    103955528,
+                    13055821,
+                    2044890686
+                ]
+            ],
+            "extracted_lines": [
+                "1 986 425 520      119 223 000           26 400 000                           2 132 048 520     2 132 048 520",
+                "1 927 879 337      103 955 528           13 055 821                           2 044 890 686"
+            ],
+            "ae_lfi": 2132048520,
+            "ae_consumed": 2044890686,
+            "cp_lfi": 2131948520,
+            "cp_consumed": 2048479518,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1986425520,
+                116823000,
+                28700000,
+                2131948520,
+                2131948520,
+                1927879337,
+                106517109,
+                14083073,
+                2048479518
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Gestion financière de l'État hors",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                790635724,
+                17260700,
+                3820000,
+                811716424,
+                819416424,
+                901392028,
+                26041593,
+                8574393,
+                936008014
+            ],
+            "amount_rows": [
+                [
+                    790635724,
+                    17260700,
+                    3820000,
+                    811716424,
+                    819416424
+                ],
+                [
+                    901392028,
+                    26041593,
+                    8574393,
+                    936008014
+                ]
+            ],
+            "extracted_lines": [
+                "790 635 724         17 260 700           3 820 000                            811 716 424        819 416 424",
+                "901 392 028         26 041 593           8 574 393                            936 008 014"
+            ],
+            "ae_lfi": 819416424,
+            "ae_consumed": 936008014,
+            "cp_lfi": 819545724,
+            "cp_consumed": 934137734,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                790635724,
+                17210000,
+                4000000,
+                811845724,
+                819545724,
+                901392028,
+                25650460,
+                7095246,
+                934137734
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Gestion des pensions",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                79156089,
+                12257630,
+                91413719,
+                92013719,
+                78145191,
+                11648345,
+                70739,
+                89864275
+            ],
+            "amount_rows": [
+                [
+                    79156089,
+                    12257630,
+                    91413719,
+                    92013719
+                ],
+                [
+                    78145191,
+                    11648345,
+                    70739,
+                    89864275
+                ]
+            ],
+            "extracted_lines": [
+                "79 156 089        12 257 630                                                  91 413 719        92 013 719",
+                "78 145 191        11 648 345              70 739                              89 864 275"
+            ],
+            "ae_lfi": 92013719,
+            "ae_consumed": 89864275,
+            "cp_lfi": 91793719,
+            "cp_consumed": 90280326,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                79156089,
+                12037630,
+                91193719,
+                91793719,
+                78145191,
+                12064397,
+                70739,
+                90280326
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Gestion financière du secteur public",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1281982631,
+                42214000,
+                4600000,
+                1328796631,
+                1329326631,
+                1237783007,
+                48238328,
+                2017547,
+                1288038881
+            ],
+            "amount_rows": [
+                [
+                    1281982631,
+                    42214000,
+                    4600000,
+                    1328796631,
+                    1329326631
+                ],
+                [
+                    1237783007,
+                    48238328,
+                    2017547,
+                    1288038881
+                ]
+            ],
+            "extracted_lines": [
+                "1 281 982 631        42 214 000           4 600 000                           1 328 796 631     1 329 326 631",
+                "1 237 783 007        48 238 328           2 017 547                           1 288 038 881"
+            ],
+            "ae_lfi": 1329326631,
+            "ae_consumed": 1288038881,
+            "cp_lfi": 1330528831,
+            "cp_consumed": 21,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1281982631,
+                44016200,
+                4000000,
+                1329998831,
+                1330528831,
+                21,
+                1237783007,
+                44491198,
+                2260126,
+                1284534330
+            ]
+        },
+        {
+            "code": "08",
+            "label": "Gestion des fonds déposés",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                56047932,
+                2513000,
+                58560932,
+                66840932,
+                54567872,
+                2846040,
+                57413911
+            ],
+            "amount_rows": [
+                [
+                    56047932,
+                    2513000,
+                    58560932,
+                    66840932
+                ],
+                [
+                    54567872,
+                    2846040,
+                    57413911
+                ]
+            ],
+            "extracted_lines": [
+                "56 047 932         2 513 000                                                  58 560 932        66 840 932",
+                "54 567 872         2 846 040                                                  57 413 911"
+            ],
+            "ae_lfi": 66840932,
+            "ae_consumed": 57413911,
+            "cp_lfi": 66790932,
+            "cp_consumed": 56820518,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                56047932,
+                2463000,
+                58510932,
+                66790932,
+                54567872,
+                2252647,
+                56820518
+            ]
+        },
+        {
+            "code": "09",
+            "label": "Soutien",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1044291971,
+                752293104,
+                85031226,
+                460000,
+                1882076301,
+                1882816301,
+                978297354,
+                819133684,
+                70423366,
+                509393,
+                1868363797
+            ],
+            "amount_rows": [
+                [
+                    1044291971,
+                    752293104,
+                    85031226,
+                    460000,
+                    1882076301,
+                    1882816301
+                ],
+                [
+                    978297354,
+                    819133684,
+                    70423366,
+                    509393,
+                    1868363797
+                ]
+            ],
+            "extracted_lines": [
+                "1 044 291 971      752 293 104           85 031 226                460 000    1 882 076 301     1 882 816 301",
+                "978 297 354      819 133 684           70 423 366               509 393     1 868 363 797"
+            ],
+            "ae_lfi": 1882816301,
+            "ae_consumed": 1868363797,
+            "cp_lfi": 1927184435,
+            "cp_consumed": 1876719523,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1044291971,
+                807313668,
+                74378796,
+                460000,
+                1926444435,
+                1927184435,
+                978297354,
+                812896581,
+                84982576,
+                543012,
+                1876719523
+            ]
+        },
+        {
+            "code": "10",
+            "label": "Élaboration de la législation fiscale",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                21240175,
+                100000,
+                21340175,
+                21340175,
+                19117662,
+                204862,
+                19322524
+            ],
+            "amount_rows": [
+                [
+                    21240175,
+                    100000,
+                    21340175,
+                    21340175
+                ],
+                [
+                    19117662,
+                    204862,
+                    19322524
+                ]
+            ],
+            "extracted_lines": [
+                "21 240 175           100 000                                                  21 340 175        21 340 175",
+                "19 117 662          204 862                                                   19 322 524"
+            ],
+            "ae_lfi": 21340175,
+            "ae_consumed": 19322524,
+            "cp_lfi": 21340175,
+            "cp_consumed": 19337051,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                21240175,
+                100000,
+                21340175,
+                21340175,
+                19117662,
+                219389,
+                19337051
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 8099172306,
+            "ae_consumed": 8000127737,
+            "cp_lfi": 8156673940,
+            "cp_consumed": 7959196649
+        },
+        "differences": {
+            "cp_consumed": {
+                "actions_sum": 6674662338,
+                "programme_total": 7959196649,
+                "difference": -1284534311
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 9,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29657",
+    "pdf_sha256": "c9972c268c9eeeab08d3ab6c91bf827fce112e8d6f066981941143a9d31b3590",
+    "mission": "Gestion des finances publiques"
+}

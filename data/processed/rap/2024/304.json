@@ -1,0 +1,530 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "304",
+        "name": "Inclusion sociale et protection des personnes"
+    },
+    "actions": [
+        {
+            "code": "11",
+            "label": "Prime d'activité et autres dispositifs",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                12669827225,
+                12669827225,
+                12669827225,
+                12679845258,
+                12679845258
+            ],
+            "amount_rows": [
+                [
+                    12669827225,
+                    12669827225,
+                    12669827225
+                ],
+                [
+                    12679845258,
+                    12679845258
+                ]
+            ],
+            "extracted_lines": [
+                "12 669 827 225     12 669 827 225    12 669 827 225",
+                "12 679 845 258     12 679 845 258"
+            ],
+            "ae_lfi": 12669827225,
+            "ae_consumed": 12679845258,
+            "cp_lfi": 12670988559,
+            "cp_consumed": 12679845258,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                12670988559,
+                12670988559,
+                12670988559,
+                12679845258,
+                12679845258
+            ]
+        },
+        {
+            "code": "13",
+            "label": "Ingénierie, outils de la gouvernance et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1416113,
+                16984522,
+                18400635,
+                18400635,
+                2487139,
+                16515827,
+                19002965
+            ],
+            "amount_rows": [
+                [
+                    1416113,
+                    16984522,
+                    18400635,
+                    18400635
+                ],
+                [
+                    2487139,
+                    16515827,
+                    19002965
+                ]
+            ],
+            "extracted_lines": [
+                "1 416 113          16 984 522         18 400 635         18 400 635",
+                "2 487 139           16 515 827         19 002 965"
+            ],
+            "ae_lfi": 18400635,
+            "ae_consumed": 19002965,
+            "cp_lfi": 18400635,
+            "cp_consumed": 18926369,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1416113,
+                16984522,
+                18400635,
+                18400635,
+                2278619,
+                16647751,
+                18926369
+            ]
+        },
+        {
+            "code": "14",
+            "label": "Aide alimentaire",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                2900000,
+                141625485,
+                144525485,
+                144525485,
+                31825646,
+                155431877,
+                187257522
+            ],
+            "amount_rows": [
+                [
+                    2900000,
+                    141625485,
+                    144525485,
+                    144525485
+                ],
+                [
+                    31825646,
+                    155431877,
+                    187257522
+                ]
+            ],
+            "extracted_lines": [
+                "2 900 000        141 625 485        144 525 485       144 525 485",
+                "31 825 646         155 431 877        187 257 522"
+            ],
+            "ae_lfi": 144525485,
+            "ae_consumed": 187257522,
+            "cp_lfi": 144525485,
+            "cp_consumed": 188129464,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                2900000,
+                141625485,
+                144525485,
+                144525485,
+                31645439,
+                156484025,
+                188129464
+            ]
+        },
+        {
+            "code": "15",
+            "label": "Qualification en travail social",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                3400000,
+                2353424,
+                1394923,
+                7148347,
+                7148347,
+                1686221,
+                2467785,
+                1112667,
+                5266673
+            ],
+            "amount_rows": [
+                [
+                    3400000,
+                    2353424,
+                    1394923,
+                    7148347,
+                    7148347
+                ],
+                [
+                    1686221,
+                    2467785,
+                    1112667,
+                    5266673
+                ]
+            ],
+            "extracted_lines": [
+                "3 400 000         2 353 424            1 394 923         7 148 347          7 148 347",
+                "1 686 221         2 467 785             1 112 667         5 266 673"
+            ],
+            "ae_lfi": 7148347,
+            "ae_consumed": 5266673,
+            "cp_lfi": 7148347,
+            "cp_consumed": 5298806,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                3400000,
+                2353424,
+                1394923,
+                7148347,
+                7148347,
+                1686221,
+                2506918,
+                1105667,
+                5298806,
+                15
+            ]
+        },
+        {
+            "code": "16",
+            "label": "Protection juridique des majeurs",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                857563727,
+                857563727,
+                857563727,
+                1061020,
+                852671569,
+                853732589
+            ],
+            "amount_rows": [
+                [
+                    857563727,
+                    857563727,
+                    857563727
+                ],
+                [
+                    1061020,
+                    852671569,
+                    853732589
+                ]
+            ],
+            "extracted_lines": [
+                "857 563 727        857 563 727       857 563 727",
+                "1 061 020         852 671 569        853 732 589"
+            ],
+            "ae_lfi": 857563727,
+            "ae_consumed": 853732589,
+            "cp_lfi": 857563727,
+            "cp_consumed": 853751370,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                857563727,
+                857563727,
+                857563727,
+                1054913,
+                852696457,
+                853751370
+            ]
+        },
+        {
+            "code": "17",
+            "label": "Protection et accompagnement des enfants, des",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                5496068,
+                338551472,
+                344047540,
+                344047540,
+                6612483,
+                318727936,
+                325340419
+            ],
+            "amount_rows": [
+                [
+                    5496068,
+                    338551472,
+                    344047540,
+                    344047540
+                ],
+                [
+                    6612483,
+                    318727936,
+                    325340419
+                ]
+            ],
+            "extracted_lines": [
+                "5 496 068         338 551 472        344 047 540       344 047 540",
+                "6 612 483          318 727 936        325 340 419"
+            ],
+            "ae_lfi": 344047540,
+            "ae_consumed": 325340419,
+            "cp_lfi": 344047540,
+            "cp_consumed": 325439516,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                5496068,
+                338551472,
+                344047540,
+                344047540,
+                6710161,
+                318729355,
+                325439516
+            ]
+        },
+        {
+            "code": "18",
+            "label": "Aide à la vie familiale et sociale des anciens migrants",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                674555,
+                674555,
+                674555,
+                9076,
+                662106,
+                671182
+            ],
+            "amount_rows": [
+                [
+                    674555,
+                    674555,
+                    674555
+                ],
+                [
+                    9076,
+                    662106,
+                    671182
+                ]
+            ],
+            "extracted_lines": [
+                "674 555          674 555            674 555",
+                "9 076             662 106          671 182"
+            ],
+            "ae_lfi": 674555,
+            "ae_consumed": 671182,
+            "cp_lfi": 674555,
+            "cp_consumed": 671182,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                674555,
+                674555,
+                674555,
+                9076,
+                662106,
+                671182
+            ]
+        },
+        {
+            "code": "19",
+            "label": "Stratégie interministérielle de Prévention et de Lutte",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "-108 738             -150 758         -259 496"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": null,
+            "cp_lfi": 0,
+            "cp_consumed": 12397335,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                2965725,
+                9431609,
+                12397335
+            ]
+        },
+        {
+            "code": "21",
+            "label": "Allocations et dépenses d'aide sociale",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                36000000,
+                36000000,
+                36000000,
+                -16573,
+                39822796,
+                39806223
+            ],
+            "amount_rows": [
+                [
+                    36000000,
+                    36000000,
+                    36000000
+                ],
+                [
+                    -16573,
+                    39822796,
+                    39806223
+                ]
+            ],
+            "extracted_lines": [
+                "36 000 000         36 000 000         36 000 000",
+                "-16 573          39 822 796         39 806 223"
+            ],
+            "ae_lfi": 36000000,
+            "ae_consumed": 39806223,
+            "cp_lfi": 36000000,
+            "cp_consumed": 39838554,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                36000000,
+                36000000,
+                36000000,
+                -16573,
+                39855128,
+                39838554
+            ]
+        },
+        {
+            "code": "22",
+            "label": "Aide exceptionnelle de solidarité 3",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "23",
+            "label": "Pacte des Solidarités",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                205710000,
+                205710000,
+                205710000,
+                1616661,
+                200509223,
+                202125883
+            ],
+            "amount_rows": [
+                [
+                    205710000,
+                    205710000,
+                    205710000
+                ],
+                [
+                    1616661,
+                    200509223,
+                    202125883
+                ]
+            ],
+            "extracted_lines": [
+                "205 710 000        205 710 000       205 710 000",
+                "1 616 661         200 509 223        202 125 883"
+            ],
+            "ae_lfi": 205710000,
+            "ae_consumed": 202125883,
+            "cp_lfi": 205710000,
+            "cp_consumed": 198967081,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                205710000,
+                205710000,
+                205710000,
+                1069270,
+                197897811,
+                198967081
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 14283897514,
+            "ae_consumed": 14312789219,
+            "cp_lfi": 14285058848,
+            "cp_consumed": 14323264934
+        },
+        "differences": {
+            "ae_consumed": {
+                "actions_sum": 14313048714,
+                "programme_total": 14312789219,
+                "difference": 259495
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 11,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29810",
+    "pdf_sha256": "99d75fe8cc5d75e706a1f525deac16272f674967b0b39482f34d8d60173831c5",
+    "mission": "Solidarité, insertion et égalité des chances"
+}

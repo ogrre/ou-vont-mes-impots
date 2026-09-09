@@ -1,0 +1,153 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "379",
+        "name": "Compensation à la Sécurité sociale du coût des dons de vaccins à des pays tiers et reversement des recettes de la Facilité pour la Relance et la Résilience (FRR) européenne au titre du volet « Ségur investissement » du plan national de relance et de"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Compensation à la Sécurité sociale du coût des dons de vaccins à des",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Ségur investissement du PNRR",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                906900000,
+                906900000,
+                906900000,
+                906900000,
+                906900000
+            ],
+            "amount_rows": [
+                [
+                    906900000,
+                    906900000,
+                    906900000
+                ],
+                [
+                    906900000,
+                    906900000
+                ]
+            ],
+            "extracted_lines": [
+                "906 900 000                             906 900 000        906 900 000",
+                "906 900 000         906 900 000"
+            ],
+            "ae_lfi": 906900000,
+            "ae_consumed": 906900000,
+            "cp_lfi": 906900000,
+            "cp_consumed": 906900000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                906900000,
+                906900000,
+                906900000,
+                906900000,
+                906900000
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Neutralisation des pertes de recettes de la branche Maladie au titre des",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                342000000,
+                342000000,
+                342000000,
+                342000000,
+                342000000
+            ],
+            "amount_rows": [
+                [
+                    342000000,
+                    342000000,
+                    342000000
+                ],
+                [
+                    342000000,
+                    342000000
+                ]
+            ],
+            "extracted_lines": [
+                "342 000 000                             342 000 000        342 000 000",
+                "342 000 000         342 000 000"
+            ],
+            "ae_lfi": 342000000,
+            "ae_consumed": 342000000,
+            "cp_lfi": 342000000,
+            "cp_consumed": 342000000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                342000000,
+                342000000,
+                342000000,
+                342000000,
+                342000000
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 1248900000,
+            "ae_consumed": 1248900000,
+            "cp_lfi": 1248900000,
+            "cp_consumed": 1248900000
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 3,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29888",
+    "pdf_sha256": "8226d57d45de1b21877b6675029da2a7a98040a60d1206756e7c485d0c852375",
+    "mission": null
+}

@@ -1,0 +1,392 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "135",
+        "name": "Urbanisme, territoires et amélioration de l'habitat"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Construction locative et amélioration du parc",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1780000,
+                413208760,
+                414988760,
+                956659140,
+                1579111,
+                604444134,
+                606023245
+            ],
+            "amount_rows": [
+                [
+                    1780000,
+                    413208760,
+                    414988760,
+                    956659140
+                ],
+                [
+                    1579111,
+                    604444134,
+                    606023245
+                ]
+            ],
+            "extracted_lines": [
+                "1 780 000                               413 208 760      414 988 760        956 659 140",
+                "1 579 111                                604 444 134      606 023 245"
+            ],
+            "ae_lfi": 956659140,
+            "ae_consumed": 606023245,
+            "cp_lfi": 358866817,
+            "cp_consumed": 308396750,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1780000,
+                73008760,
+                74788760,
+                358866817,
+                1382436,
+                307014315,
+                308396750
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Soutien à l'accession à la propriété",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                4200000,
+                4200000,
+                4200000,
+                3774226,
+                3774226
+            ],
+            "amount_rows": [
+                [
+                    4200000,
+                    4200000,
+                    4200000
+                ],
+                [
+                    3774226,
+                    3774226
+                ]
+            ],
+            "extracted_lines": [
+                "4 200 000                                                   4 200 000          4 200 000",
+                "3 774 226                                                    3 774 226"
+            ],
+            "ae_lfi": 4200000,
+            "ae_consumed": 3774226,
+            "cp_lfi": 4200000,
+            "cp_consumed": 3774226,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                4200000,
+                4200000,
+                4200000,
+                3774226,
+                3774226
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Lutte contre l'habitat indigne",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                7750000,
+                12750000,
+                20500000,
+                20500000,
+                4025844,
+                846313,
+                4872157
+            ],
+            "amount_rows": [
+                [
+                    7750000,
+                    12750000,
+                    20500000,
+                    20500000
+                ],
+                [
+                    4025844,
+                    846313,
+                    4872157
+                ]
+            ],
+            "extracted_lines": [
+                "7 750 000                                12 750 000        20 500 000         20 500 000",
+                "4 025 844                                   846 313          4 872 157"
+            ],
+            "ae_lfi": 20500000,
+            "ae_consumed": 4872157,
+            "cp_lfi": 20500000,
+            "cp_consumed": 6123091,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                7750000,
+                12750000,
+                20500000,
+                20500000,
+                4125802,
+                1997289,
+                6123091
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Réglementation, politique technique et qualité de la",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                51200000,
+                1128273800,
+                1179473800,
+                1179473800,
+                53235987,
+                386297198,
+                439533185
+            ],
+            "amount_rows": [
+                [
+                    51200000,
+                    1128273800,
+                    1179473800,
+                    1179473800
+                ],
+                [
+                    53235987,
+                    386297198,
+                    439533185
+                ]
+            ],
+            "extracted_lines": [
+                "51 200 000                             1 128 273 800     1 179 473 800     1 179 473 800",
+                "53 235 987                                386 297 198       439 533 185"
+            ],
+            "ae_lfi": 1179473800,
+            "ae_consumed": 439533185,
+            "cp_lfi": 1179473800,
+            "cp_consumed": 440498624,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                51200000,
+                1128273800,
+                1179473800,
+                1179473800,
+                54698201,
+                385800423,
+                440498624
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Innovation, territorialisation et services numériques",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                17900000,
+                21100000,
+                39000000,
+                39000000,
+                33591398,
+                4288093,
+                3742428,
+                41621919
+            ],
+            "amount_rows": [
+                [
+                    17900000,
+                    21100000,
+                    39000000,
+                    39000000
+                ],
+                [
+                    33591398,
+                    4288093,
+                    3742428,
+                    41621919
+                ]
+            ],
+            "extracted_lines": [
+                "17 900 000          21 100 000                              39 000 000         39 000 000",
+                "33 591 398           4 288 093               3 742 428       41 621 919"
+            ],
+            "ae_lfi": 39000000,
+            "ae_consumed": 41621919,
+            "cp_lfi": 39000000,
+            "cp_consumed": 41569371,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                18600000,
+                20400000,
+                39000000,
+                39000000,
+                33788953,
+                3726234,
+                4054185,
+                41569371
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Urbanisme et aménagement",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                8916000,
+                250782909,
+                259698909,
+                259698909,
+                7790620,
+                367168446,
+                374959066
+            ],
+            "amount_rows": [
+                [
+                    8916000,
+                    250782909,
+                    259698909,
+                    259698909
+                ],
+                [
+                    7790620,
+                    367168446,
+                    374959066
+                ]
+            ],
+            "extracted_lines": [
+                "8 916 000                               250 782 909      259 698 909        259 698 909",
+                "7 790 620                                367 168 446      374 959 066"
+            ],
+            "ae_lfi": 259698909,
+            "ae_consumed": 374959066,
+            "cp_lfi": 265698909,
+            "cp_consumed": 307103948,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                8916000,
+                256782909,
+                265698909,
+                265698909,
+                7975039,
+                299128909,
+                307103948
+            ]
+        },
+        {
+            "code": "09",
+            "label": "Crédits Relance Cohésion",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                -2967578
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    -2967578
+                ]
+            ],
+            "extracted_lines": [
+                "0                 0",
+                "-2 967 578"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": -2967578,
+            "cp_lfi": 0,
+            "cp_consumed": 9334286,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                9334286,
+                9334286
+            ]
+        },
+        {
+            "code": "10",
+            "label": "Crédits Relance Écologie",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                -1779571
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    -1779571
+                ]
+            ],
+            "extracted_lines": [
+                "0                 0",
+                "-1 779 571"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": -1779571,
+            "cp_lfi": 0,
+            "cp_consumed": 101176050,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                101176050,
+                101176050
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 2459531849,
+            "ae_consumed": 1466036649,
+            "cp_lfi": 1867739526,
+            "cp_consumed": 1217976347
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 8,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29600",
+    "pdf_sha256": "54122e2833a939ff93dda161ad0a3939791030048e372124621285370fb8c496",
+    "mission": "Cohésion des territoires"
+}

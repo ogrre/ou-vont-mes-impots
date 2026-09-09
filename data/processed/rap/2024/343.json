@@ -1,0 +1,160 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "343",
+        "name": "Plan France Très haut débit"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Réseaux d'initiative publique",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                50500000,
+                50500000,
+                50500000,
+                12965668,
+                12965668
+            ],
+            "amount_rows": [
+                [
+                    50500000,
+                    50500000,
+                    50500000
+                ],
+                [
+                    12965668,
+                    12965668
+                ]
+            ],
+            "extracted_lines": [
+                "50 500 000     50 500 000         50 500 000",
+                "12 965 668      12 965 668"
+            ],
+            "ae_lfi": 50500000,
+            "ae_consumed": 12965668,
+            "cp_lfi": 418035090,
+            "cp_consumed": 198088000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                418035090,
+                418035090,
+                418035090,
+                198088000,
+                198088000
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Autres projets concourant à la mise en œuvre du plan France très haut",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                4635000,
+                4635000,
+                4635000,
+                0
+            ],
+            "amount_rows": [
+                [
+                    4635000,
+                    4635000,
+                    4635000
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "4 635 000      4 635 000          4 635 000",
+                "0"
+            ],
+            "ae_lfi": 4635000,
+            "ae_consumed": 0,
+            "cp_lfi": 4635000,
+            "cp_consumed": 1500000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                4635000,
+                4635000,
+                4635000,
+                1500000,
+                1500000
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Inclusion numérique",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                41800000,
+                41800000,
+                41800000,
+                13710000,
+                48290000,
+                62000000
+            ],
+            "amount_rows": [
+                [
+                    41800000,
+                    41800000,
+                    41800000
+                ],
+                [
+                    13710000,
+                    48290000,
+                    62000000
+                ]
+            ],
+            "extracted_lines": [
+                "41 800 000     41 800 000         41 800 000",
+                "13 710 000             48 290 000      62 000 000"
+            ],
+            "ae_lfi": 41800000,
+            "ae_consumed": 62000000,
+            "cp_lfi": 41800000,
+            "cp_consumed": 61285291,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                41800000,
+                41800000,
+                41800000,
+                12995291,
+                48290000,
+                61285291
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 96935000,
+            "ae_consumed": 74965668,
+            "cp_lfi": 464470090,
+            "cp_consumed": 260873291
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 3,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29834",
+    "pdf_sha256": "e1d05a6a2fd87b811fade495c31d790219a06e2f2eb7bbb9356335ee1f7617e5",
+    "mission": "Économie"
+}

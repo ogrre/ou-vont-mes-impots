@@ -1,0 +1,171 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "380",
+        "name": "Fonds d'accélération de la transition écologique dans les territoires"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Performance environnementale",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1209000000,
+                1209000000,
+                1209000000,
+                5649138,
+                812173130,
+                817822267
+            ],
+            "amount_rows": [
+                [
+                    1209000000,
+                    1209000000,
+                    1209000000
+                ],
+                [
+                    5649138,
+                    812173130,
+                    817822267
+                ]
+            ],
+            "extracted_lines": [
+                "1 209 000 000    1 209 000 000      1 209 000 000",
+                "5 649 138        812 173 130       817 822 267"
+            ],
+            "ae_lfi": 1209000000,
+            "ae_consumed": 817822267,
+            "cp_lfi": 488526749,
+            "cp_consumed": 273073492,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                488526749,
+                488526749,
+                488526749,
+                1884389,
+                271189102,
+                273073492
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Adaptation des territoires au changement climatique",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                10000000,
+                415000000,
+                425000000,
+                425000000,
+                37388926,
+                221074340,
+                258463266
+            ],
+            "amount_rows": [
+                [
+                    10000000,
+                    415000000,
+                    425000000,
+                    425000000
+                ],
+                [
+                    37388926,
+                    221074340,
+                    258463266
+                ]
+            ],
+            "extracted_lines": [
+                "10 000 000         415 000 000     425 000 000         425 000 000",
+                "37 388 926         221 074 340      258 463 266"
+            ],
+            "ae_lfi": 425000000,
+            "ae_consumed": 258463266,
+            "cp_lfi": 199032922,
+            "cp_consumed": 105909841,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                2500000,
+                196532922,
+                199032922,
+                199032922,
+                22536011,
+                83373830,
+                105909841
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Amélioration du cadre de vie",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                865000000,
+                865000000,
+                865000000,
+                8553440,
+                505771787,
+                514325228
+            ],
+            "amount_rows": [
+                [
+                    865000000,
+                    865000000,
+                    865000000
+                ],
+                [
+                    8553440,
+                    505771787,
+                    514325228
+                ]
+            ],
+            "extracted_lines": [
+                "865 000 000     865 000 000         865 000 000",
+                "8 553 440        505 771 787      514 325 228"
+            ],
+            "ae_lfi": 865000000,
+            "ae_consumed": 514325228,
+            "cp_lfi": 436440329,
+            "cp_consumed": 190963197,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                436440329,
+                436440329,
+                436440329,
+                4340227,
+                186622969,
+                190963197
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 2499000000,
+            "ae_consumed": 1590610761,
+            "cp_lfi": 1124000000,
+            "cp_consumed": 569946529
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 3,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29891",
+    "pdf_sha256": "71d0b68609214419cc3fa255b4e2db30e9f4636306ac70f1a9a643b3f4a0a30a",
+    "mission": "Écologie, développement et mobilité durables"
+}

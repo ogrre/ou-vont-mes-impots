@@ -1,0 +1,70 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "876",
+        "name": "Prêts octroyés dans le cadre des programmes des investissements d'avenir"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Prêts octroyés dans le cadre du plan Nano 2022",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                       0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 11000000,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                11000000,
+                11000000,
+                11000000,
+                0
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 11000000,
+            "cp_consumed": 0
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30137",
+    "pdf_sha256": "7c421336a7cd8ad82b2a7bda7437ded86db64c87e9b7201e425a22345b079526",
+    "mission": null
+}

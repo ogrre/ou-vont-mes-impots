@@ -1,0 +1,231 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "348",
+        "name": "Performance et résilience des bâtiments de l'Etat et de ses opérateurs"
+    },
+    "actions": [
+        {
+            "code": "11",
+            "label": "Etudes",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                7000000,
+                29000000,
+                36000000,
+                36000000,
+                15391869,
+                6132436,
+                2506364,
+                24030669
+            ],
+            "amount_rows": [
+                [
+                    7000000,
+                    29000000,
+                    36000000,
+                    36000000
+                ],
+                [
+                    15391869,
+                    6132436,
+                    2506364,
+                    24030669
+                ]
+            ],
+            "extracted_lines": [
+                "7 000 000          29 000 000                                               36 000 000        36 000 000",
+                "15 391 869           6 132 436                               2 506 364       24 030 669"
+            ],
+            "ae_lfi": 36000000,
+            "ae_consumed": 24030669,
+            "cp_lfi": 21488087,
+            "cp_consumed": 16623159,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                6000000,
+                15488087,
+                21488087,
+                21488087,
+                6028755,
+                10280559,
+                313846,
+                16623159
+            ]
+        },
+        {
+            "code": "12",
+            "label": "Travaux et gros entretien à la",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                368288480,
+                368288480,
+                368288480,
+                26131091,
+                75169158,
+                38094798,
+                139395048
+            ],
+            "amount_rows": [
+                [
+                    368288480,
+                    368288480,
+                    368288480
+                ],
+                [
+                    26131091,
+                    75169158,
+                    38094798,
+                    139395048
+                ]
+            ],
+            "extracted_lines": [
+                "368 288 480                                               368 288 480       368 288 480",
+                "26 131 091         75 169 158                              38 094 798       139 395 048"
+            ],
+            "ae_lfi": 368288480,
+            "ae_consumed": 139395048,
+            "cp_lfi": 227774548,
+            "cp_consumed": 205849605,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                227774548,
+                227774548,
+                227774548,
+                28949172,
+                176720253,
+                180180,
+                205849605
+            ]
+        },
+        {
+            "code": "13",
+            "label": "Acquisitions, construction",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                9054905,
+                9054905,
+                9054905,
+                3144874,
+                18692066,
+                21836940
+            ],
+            "amount_rows": [
+                [
+                    9054905,
+                    9054905,
+                    9054905
+                ],
+                [
+                    3144874,
+                    18692066,
+                    21836940
+                ]
+            ],
+            "extracted_lines": [
+                "9 054 905                                                9 054 905           9 054 905",
+                "3 144 874        18 692 066                                               21 836 940"
+            ],
+            "ae_lfi": 9054905,
+            "ae_consumed": 21836940,
+            "cp_lfi": 29003572,
+            "cp_consumed": 47440159,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                29003572,
+                29003572,
+                29003572,
+                3478749,
+                43961410,
+                47440159
+            ]
+        },
+        {
+            "code": "14",
+            "label": "Résilience",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                6000000,
+                290500000,
+                296500000,
+                296500000,
+                23450101,
+                95216842,
+                1575500,
+                43994031,
+                164236473
+            ],
+            "amount_rows": [
+                [
+                    6000000,
+                    290500000,
+                    296500000,
+                    296500000
+                ],
+                [
+                    23450101,
+                    95216842,
+                    1575500,
+                    43994031,
+                    164236473
+                ]
+            ],
+            "extracted_lines": [
+                "6 000 000        290 500 000                                               296 500 000       296 500 000",
+                "23 450 101         95 216 842            1 575 500         43 994 031       164 236 473"
+            ],
+            "ae_lfi": 296500000,
+            "ae_consumed": 164236473,
+            "cp_lfi": 249601498,
+            "cp_consumed": 128988742,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                6000000,
+                243601498,
+                249601498,
+                249601498,
+                30368996,
+                82869483,
+                1350050,
+                14400213,
+                128988742
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 709843385,
+            "ae_consumed": 349499131,
+            "cp_lfi": 527867705,
+            "cp_consumed": 398901665
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 4,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29843",
+    "pdf_sha256": "14b50cfa867c69bc39b8af1c92a3b41aad9273ad0e8ca8ceb91caf5a9ba7112b",
+    "mission": "Transformation et fonction publiques"
+}

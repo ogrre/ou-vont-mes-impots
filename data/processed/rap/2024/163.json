@@ -1,0 +1,231 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "163",
+        "name": "Jeunesse et vie associative"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Développement de la vie associative",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                4215304,
+                53668009,
+                57883313,
+                95383313,
+                3930212,
+                81066821,
+                84997032
+            ],
+            "amount_rows": [
+                [
+                    4215304,
+                    53668009,
+                    57883313,
+                    95383313
+                ],
+                [
+                    3930212,
+                    81066821,
+                    84997032
+                ]
+            ],
+            "extracted_lines": [
+                "4 215 304                                53 668 009      57 883 313        95 383 313",
+                "3 930 212                                81 066 821      84 997 032"
+            ],
+            "ae_lfi": 95383313,
+            "ae_consumed": 84997032,
+            "cp_lfi": 95383313,
+            "cp_consumed": 84217506,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                4215304,
+                53668009,
+                57883313,
+                95383313,
+                3243282,
+                80974224,
+                84217506
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Actions en faveur de la jeunesse et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1795750,
+                162548234,
+                164343984,
+                164343984,
+                1632451,
+                148732589,
+                150365039
+            ],
+            "amount_rows": [
+                [
+                    1795750,
+                    162548234,
+                    164343984,
+                    164343984
+                ],
+                [
+                    1632451,
+                    148732589,
+                    150365039
+                ]
+            ],
+            "extracted_lines": [
+                "1 795 750                               162 548 234     164 343 984       164 343 984",
+                "1 632 451                               148 732 589     150 365 039"
+            ],
+            "ae_lfi": 164343984,
+            "ae_consumed": 150365039,
+            "cp_lfi": 164343984,
+            "cp_consumed": 148922370,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1795750,
+                162548234,
+                164343984,
+                164343984,
+                2210741,
+                146711629,
+                148922370
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Développement du service civique",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                518796356,
+                518796356,
+                518796356,
+                413939761,
+                26299,
+                4254682,
+                418220743
+            ],
+            "amount_rows": [
+                [
+                    518796356,
+                    518796356,
+                    518796356
+                ],
+                [
+                    413939761,
+                    26299,
+                    4254682,
+                    418220743
+                ]
+            ],
+            "extracted_lines": [
+                "518 796 356                                                518 796 356       518 796 356",
+                "413 939 761               26 299              4 254 682    418 220 743"
+            ],
+            "ae_lfi": 518796356,
+            "ae_consumed": 418220743,
+            "cp_lfi": 518796356,
+            "cp_consumed": 418300007,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                518796356,
+                518796356,
+                518796356,
+                413944845,
+                26299,
+                4328862,
+                418300007
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Service National Universel",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                40952981,
+                119094207,
+                160047188,
+                160047188,
+                16601447,
+                98047584,
+                26299,
+                1382704,
+                116058035
+            ],
+            "amount_rows": [
+                [
+                    40952981,
+                    119094207,
+                    160047188,
+                    160047188
+                ],
+                [
+                    16601447,
+                    98047584,
+                    26299,
+                    1382704,
+                    116058035
+                ]
+            ],
+            "extracted_lines": [
+                "40 952 981      119 094 207                                                160 047 188       160 047 188",
+                "16 601 447       98 047 584               26 299              1 382 704    116 058 035"
+            ],
+            "ae_lfi": 160047188,
+            "ae_consumed": 116058035,
+            "cp_lfi": 160047188,
+            "cp_consumed": 121077710,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                40952981,
+                119094207,
+                160047188,
+                160047188,
+                16601447,
+                103086493,
+                26299,
+                1363471,
+                121077710
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 938570841,
+            "ae_consumed": 769640849,
+            "cp_lfi": 938570841,
+            "cp_consumed": 772517592
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 4,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29675",
+    "pdf_sha256": "c9bfc836c8766c7f454b88b021cf8ad89290f54dfc16e1a3fe93f9f8a960d673",
+    "mission": "Sport, jeunesse et vie associative"
+}

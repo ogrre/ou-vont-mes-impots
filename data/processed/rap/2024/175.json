@@ -1,0 +1,340 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "175",
+        "name": "Patrimoines"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Monuments Historiques et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                114541265,
+                226942374,
+                182377003,
+                2400000,
+                526260642,
+                526260642
+            ],
+            "amount_rows": [
+                [
+                    114541265,
+                    226942374,
+                    182377003,
+                    2400000,
+                    526260642,
+                    526260642
+                ]
+            ],
+            "extracted_lines": [
+                "114 541 265        226 942 374         182 377 003            2 400 000         526 260 642       526 260 642",
+                "134 497 060        276 044 050         188 575 177          -11 373 901         587 742 385"
+            ],
+            "ae_lfi": 526260642,
+            "ae_consumed": null,
+            "cp_lfi": 510865178,
+            "cp_consumed": null,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                114493024,
+                212734926,
+                181237228,
+                2400000,
+                510865178,
+                510865178
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Architecture et sites patrimoniaux",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                19382195,
+                747551,
+                17702000,
+                37831746,
+                37831746,
+                21888650,
+                356114,
+                14069574,
+                339298,
+                36653636
+            ],
+            "amount_rows": [
+                [
+                    19382195,
+                    747551,
+                    17702000,
+                    37831746,
+                    37831746
+                ],
+                [
+                    21888650,
+                    356114,
+                    14069574,
+                    339298,
+                    36653636
+                ]
+            ],
+            "extracted_lines": [
+                "19 382 195            747 551         17 702 000                               37 831 746        37 831 746",
+                "21 888 650           356 114          14 069 574               339 298         36 653 636"
+            ],
+            "ae_lfi": 37831746,
+            "ae_consumed": 36653636,
+            "cp_lfi": 37831746,
+            "cp_consumed": 35939903,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                19382195,
+                747551,
+                17702000,
+                37831746,
+                37831746,
+                22602317,
+                356114,
+                12981472,
+                35939903
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Patrimoine des musées de France",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                341360213,
+                277440765,
+                36599960,
+                655400938,
+                655400938,
+                328278863,
+                30068141,
+                30685514,
+                218793643,
+                607826161
+            ],
+            "amount_rows": [
+                [
+                    341360213,
+                    277440765,
+                    36599960,
+                    655400938,
+                    655400938
+                ],
+                [
+                    328278863,
+                    30068141,
+                    30685514,
+                    218793643,
+                    607826161
+                ]
+            ],
+            "extracted_lines": [
+                "341 360 213        277 440 765          36 599 960                              655 400 938       655 400 938",
+                "328 278 863         30 068 141          30 685 514          218 793 643         607 826 161"
+            ],
+            "ae_lfi": 655400938,
+            "ae_consumed": 607826161,
+            "cp_lfi": 431144683,
+            "cp_consumed": 411273147,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                344260213,
+                50304511,
+                36579959,
+                431144683,
+                431144683,
+                342034451,
+                38987109,
+                26097973,
+                4153614,
+                411273147
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Patrimoine archivistique",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                14955893,
+                58853174,
+                8480050,
+                82289117,
+                82289117
+            ],
+            "amount_rows": [
+                [
+                    14955893,
+                    58853174,
+                    8480050,
+                    82289117,
+                    82289117
+                ]
+            ],
+            "extracted_lines": [
+                "14 955 893         58 853 174          8 480 050                               82 289 117        82 289 117",
+                "89 671 959         10 202 836                       -9     110 780 548"
+            ],
+            "ae_lfi": 82289117,
+            "ae_consumed": null,
+            "cp_lfi": 36467007,
+            "cp_consumed": 40718910,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                14955893,
+                13031064,
+                8480050,
+                36467007,
+                36467007,
+                15559901,
+                13094141,
+                12064868,
+                40718910
+            ]
+        },
+        {
+            "code": "08",
+            "label": "Acquisition et enrichissement des",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                50000,
+                5800193,
+                3925118,
+                9775311,
+                9775311
+            ],
+            "amount_rows": [
+                [
+                    50000,
+                    5800193,
+                    3925118,
+                    9775311,
+                    9775311
+                ]
+            ],
+            "extracted_lines": [
+                "50 000         5 800 193           3 925 118                               9 775 311          9 775 311",
+                "-342 032          9 990 380           2 690 127           -3 117 553          9 220 922"
+            ],
+            "ae_lfi": 9775311,
+            "ae_consumed": null,
+            "cp_lfi": 9775311,
+            "cp_consumed": null,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                50000,
+                5800193,
+                3925118,
+                9775311,
+                9775311
+            ]
+        },
+        {
+            "code": "09",
+            "label": "Patrimoine archéologique",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                101028164,
+                1722892,
+                65108538,
+                167859594,
+                167859594,
+                105422530,
+                1730068,
+                66840106,
+                1722352,
+                175715055
+            ],
+            "amount_rows": [
+                [
+                    101028164,
+                    1722892,
+                    65108538,
+                    167859594,
+                    167859594
+                ],
+                [
+                    105422530,
+                    1730068,
+                    66840106,
+                    1722352,
+                    175715055
+                ]
+            ],
+            "extracted_lines": [
+                "101 028 164           1 722 892         65 108 538                              167 859 594       167 859 594",
+                "105 422 530           1 730 068         66 840 106             1 722 352        175 715 055"
+            ],
+            "ae_lfi": 167859594,
+            "ae_consumed": 175715055,
+            "cp_lfi": 167727074,
+            "cp_consumed": 167512732,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                100895644,
+                1722892,
+                65108538,
+                167727074,
+                167727074,
+                105661333,
+                2130345,
+                59721055,
+                167512732
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 1479417348,
+            "ae_consumed": 1527938707,
+            "cp_lfi": 1193810999,
+            "cp_consumed": 1250576676
+        },
+        "differences": {
+            "ae_consumed": {
+                "actions_sum": 820194852,
+                "programme_total": 1527938707,
+                "difference": -707743855
+            },
+            "cp_consumed": {
+                "actions_sum": 655444692,
+                "programme_total": 1250576676,
+                "difference": -595131984
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 6,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29696",
+    "pdf_sha256": "9ebc2f6f849fe17cc1126030132298cafac46c45ab212316d29b15c152cb9a33",
+    "mission": "Culture"
+}

@@ -1,0 +1,393 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "164",
+        "name": "Cour des comptes et autres juridictions financières"
+    },
+    "actions": [
+        {
+            "code": "21",
+            "label": "Examen des comptes publics",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                49983712,
+                700000,
+                50683712,
+                55192712,
+                49074880,
+                2594750,
+                51669630
+            ],
+            "amount_rows": [
+                [
+                    49983712,
+                    700000,
+                    50683712,
+                    55192712
+                ],
+                [
+                    49074880,
+                    2594750,
+                    51669630
+                ]
+            ],
+            "extracted_lines": [
+                "49 983 712            700 000                                                   50 683 712        55 192 712",
+                "49 074 880          2 594 750                                                   51 669 630"
+            ],
+            "ae_lfi": 55192712,
+            "ae_consumed": 51669630,
+            "cp_lfi": 55192712,
+            "cp_consumed": 51805887,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                49983712,
+                700000,
+                50683712,
+                55192712,
+                49074880,
+                2731007,
+                51805887
+            ]
+        },
+        {
+            "code": "22",
+            "label": "Contrôle des finances publiques",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                19324294,
+                19324294,
+                19324294,
+                19026989,
+                19026989
+            ],
+            "amount_rows": [
+                [
+                    19324294,
+                    19324294,
+                    19324294
+                ],
+                [
+                    19026989,
+                    19026989
+                ]
+            ],
+            "extracted_lines": [
+                "19 324 294                                                                      19 324 294        19 324 294",
+                "19 026 989                                                                      19 026 989"
+            ],
+            "ae_lfi": 19324294,
+            "ae_consumed": 19026989,
+            "cp_lfi": 19324294,
+            "cp_consumed": 19026989,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                19324294,
+                19324294,
+                19324294,
+                19026989,
+                19026989
+            ]
+        },
+        {
+            "code": "23",
+            "label": "Contrôle des gestions publiques",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                71650668,
+                71650668,
+                71650668,
+                70943972,
+                70943972
+            ],
+            "amount_rows": [
+                [
+                    71650668,
+                    71650668,
+                    71650668
+                ],
+                [
+                    70943972,
+                    70943972
+                ]
+            ],
+            "extracted_lines": [
+                "71 650 668                                                                      71 650 668        71 650 668",
+                "70 943 972                                                                      70 943 972"
+            ],
+            "ae_lfi": 71650668,
+            "ae_consumed": 70943972,
+            "cp_lfi": 71650668,
+            "cp_consumed": 70943972,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                71650668,
+                71650668,
+                71650668,
+                70943972,
+                70943972
+            ]
+        },
+        {
+            "code": "24",
+            "label": "Evaluation des politiques publiques",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                40967633,
+                40967633,
+                40967633,
+                40352750,
+                40352750
+            ],
+            "amount_rows": [
+                [
+                    40967633,
+                    40967633,
+                    40967633
+                ],
+                [
+                    40352750,
+                    40352750
+                ]
+            ],
+            "extracted_lines": [
+                "40 967 633                                                                      40 967 633        40 967 633",
+                "40 352 750                                                                      40 352 750"
+            ],
+            "ae_lfi": 40967633,
+            "ae_consumed": 40352750,
+            "cp_lfi": 40967633,
+            "cp_consumed": 40352750,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                40967633,
+                40967633,
+                40967633,
+                40352750,
+                40352750
+            ]
+        },
+        {
+            "code": "25",
+            "label": "Information des citoyens",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                8629199,
+                8629199,
+                8629199,
+                8479304,
+                8479304
+            ],
+            "amount_rows": [
+                [
+                    8629199,
+                    8629199,
+                    8629199
+                ],
+                [
+                    8479304,
+                    8479304
+                ]
+            ],
+            "extracted_lines": [
+                "8 629 199                                                                      8 629 199          8 629 199",
+                "8 479 304                                                                      8 479 304"
+            ],
+            "ae_lfi": 8629199,
+            "ae_consumed": 8479304,
+            "cp_lfi": 8629199,
+            "cp_consumed": 8479304,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                8629199,
+                8629199,
+                8629199,
+                8479304,
+                8479304
+            ]
+        },
+        {
+            "code": "26",
+            "label": "Mise en jeu de la responsabilité des",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                5787331,
+                5787331,
+                5787331,
+                5689100,
+                5689100
+            ],
+            "amount_rows": [
+                [
+                    5787331,
+                    5787331,
+                    5787331
+                ],
+                [
+                    5689100,
+                    5689100
+                ]
+            ],
+            "extracted_lines": [
+                "5 787 331                                                                      5 787 331          5 787 331",
+                "5 689 100                                                                      5 689 100"
+            ],
+            "ae_lfi": 5787331,
+            "ae_consumed": 5689100,
+            "cp_lfi": 5787331,
+            "cp_consumed": 5689100,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                5787331,
+                5787331,
+                5787331,
+                5689100,
+                5689100
+            ]
+        },
+        {
+            "code": "27",
+            "label": "Pilotage et soutien des juridictions",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                30161049,
+                25502661,
+                375000,
+                47000,
+                56085710,
+                56206710,
+                28212578,
+                25445155,
+                93293,
+                57285,
+                53808311
+            ],
+            "amount_rows": [
+                [
+                    30161049,
+                    25502661,
+                    375000,
+                    47000,
+                    56085710,
+                    56206710
+                ],
+                [
+                    28212578,
+                    25445155,
+                    93293,
+                    57285,
+                    53808311
+                ]
+            ],
+            "extracted_lines": [
+                "30 161 049         25 502 661                375 000                 47 000     56 085 710        56 206 710",
+                "28 212 578         25 445 155                93 293                 57 285      53 808 311"
+            ],
+            "ae_lfi": 56206710,
+            "ae_consumed": 53808311,
+            "cp_lfi": 56973988,
+            "cp_consumed": 56334856,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                30161049,
+                26269939,
+                375000,
+                47000,
+                56852988,
+                56973988,
+                28212578,
+                27633401,
+                431592,
+                57285,
+                56334856
+            ]
+        },
+        {
+            "code": "28",
+            "label": "Gouvernance des Finances",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1351398,
+                1351398,
+                1351398,
+                934967,
+                934967
+            ],
+            "amount_rows": [
+                [
+                    1351398,
+                    1351398,
+                    1351398
+                ],
+                [
+                    934967,
+                    934967
+                ]
+            ],
+            "extracted_lines": [
+                "1 351 398                                                                      1 351 398          1 351 398",
+                "934 967                                                                        934 967"
+            ],
+            "ae_lfi": 1351398,
+            "ae_consumed": 934967,
+            "cp_lfi": 1351398,
+            "cp_consumed": 934967,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1351398,
+                1351398,
+                1351398,
+                934967,
+                934967
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 259109945,
+            "ae_consumed": 250905024,
+            "cp_lfi": 259877223,
+            "cp_consumed": 253567826
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 8,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29678",
+    "pdf_sha256": "dcedf4534c1754d0b01e2cbb37305fb56acbf989bdea00fa9759463a6bb7540d",
+    "mission": "Conseil et contrôle de l'État"
+}

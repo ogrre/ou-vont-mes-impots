@@ -1,0 +1,205 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "350",
+        "name": "Jeux olympiques et paralympiques 2024"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Société de livraison des ouvrages olympiques et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                18500000,
+                24260000,
+                42760000,
+                42760000,
+                15026513,
+                6694,
+                238303,
+                15271510
+            ],
+            "amount_rows": [
+                [
+                    18500000,
+                    24260000,
+                    42760000,
+                    42760000
+                ],
+                [
+                    15026513,
+                    6694,
+                    238303,
+                    15271510
+                ]
+            ],
+            "extracted_lines": [
+                "18 500 000                                  24 260 000      42 760 000         42 760 000",
+                "15 026 513                    6 694            238 303       15 271 510"
+            ],
+            "ae_lfi": 42760000,
+            "ae_consumed": 15271510,
+            "cp_lfi": 103500000,
+            "cp_consumed": 76011510,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                18500000,
+                85000000,
+                103500000,
+                103500000,
+                15026513,
+                13131755,
+                47853242,
+                76011510
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Comité d'organisation des jeux olympiques et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                29900000,
+                29900000
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    29900000,
+                    29900000
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "29 900 000     29 900 000"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 29900000,
+            "cp_lfi": 30000000,
+            "cp_consumed": 59900000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                30000000,
+                30000000,
+                30000000,
+                59900000,
+                59900000
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Héritage des jeux olympiques et paralympiques",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Autres dépenses liées aux Jeux olympiques et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                150000,
+                150000,
+                150000,
+                184620,
+                125190,
+                309810
+            ],
+            "amount_rows": [
+                [
+                    150000,
+                    150000,
+                    150000
+                ],
+                [
+                    184620,
+                    125190,
+                    309810
+                ]
+            ],
+            "extracted_lines": [
+                "150 000       150 000            150 000",
+                "184 620                                      125 190       309 810"
+            ],
+            "ae_lfi": 150000,
+            "ae_consumed": 309810,
+            "cp_lfi": 150000,
+            "cp_consumed": 183845,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                150000,
+                150000,
+                150000,
+                69860,
+                113985,
+                183845
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 42910000,
+            "ae_consumed": 45481320,
+            "cp_lfi": 133650000,
+            "cp_consumed": 136095355
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 4,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29849",
+    "pdf_sha256": "0bcd56811877f7ec03ea2460dc99ae04549cd7f1419e16c0eb837daede293967",
+    "mission": "Sport, jeunesse et vie associative"
+}

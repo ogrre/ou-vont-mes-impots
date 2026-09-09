@@ -1,0 +1,351 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "743",
+        "name": "Pensions militaires d'invalidité et des victimes de guerre et autres pensions"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Reconnaissance de la Nation",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                537202130,
+                537202130,
+                537202130,
+                542901088,
+                542901088
+            ],
+            "amount_rows": [
+                [
+                    537202130,
+                    537202130,
+                    537202130
+                ],
+                [
+                    542901088,
+                    542901088
+                ]
+            ],
+            "extracted_lines": [
+                "537 202 130      537 202 130       537 202 130",
+                "542 901 088      542 901 088"
+            ],
+            "ae_lfi": 537202130,
+            "ae_consumed": 542901088,
+            "cp_lfi": 537202130,
+            "cp_consumed": 542901088,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                537202130,
+                537202130,
+                537202130,
+                542901088,
+                542901088
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Réparation",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                100000,
+                690247441,
+                690347441,
+                690347441,
+                10873,
+                720665805,
+                720676677
+            ],
+            "amount_rows": [
+                [
+                    100000,
+                    690247441,
+                    690347441,
+                    690347441
+                ],
+                [
+                    10873,
+                    720665805,
+                    720676677
+                ]
+            ],
+            "extracted_lines": [
+                "100 000         690 247 441      690 347 441       690 347 441",
+                "10 873          720 665 805      720 676 677"
+            ],
+            "ae_lfi": 690347441,
+            "ae_consumed": 720676677,
+            "cp_lfi": 690347441,
+            "cp_consumed": 720676677,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                100000,
+                690247441,
+                690347441,
+                690347441,
+                10873,
+                720665805,
+                720676677
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Pensions d'Alsace-Moselle",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                16000000,
+                16000000,
+                16000000,
+                17340326,
+                17340326
+            ],
+            "amount_rows": [
+                [
+                    16000000,
+                    16000000,
+                    16000000
+                ],
+                [
+                    17340326,
+                    17340326
+                ]
+            ],
+            "extracted_lines": [
+                "16 000 000                                            16 000 000         16 000 000",
+                "17 340 326                                             17 340 326"
+            ],
+            "ae_lfi": 16000000,
+            "ae_consumed": 17340326,
+            "cp_lfi": 16000000,
+            "cp_consumed": 17340326,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                16000000,
+                16000000,
+                16000000,
+                17340326,
+                17340326
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Allocations de reconnaissance des anciens supplétifs",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                41702301,
+                41702301,
+                41702301,
+                58011598,
+                58011598
+            ],
+            "amount_rows": [
+                [
+                    41702301,
+                    41702301,
+                    41702301
+                ],
+                [
+                    58011598,
+                    58011598
+                ]
+            ],
+            "extracted_lines": [
+                "41 702 301       41 702 301         41 702 301",
+                "58 011 598       58 011 598"
+            ],
+            "ae_lfi": 41702301,
+            "ae_consumed": 58011598,
+            "cp_lfi": 41702301,
+            "cp_consumed": 58011598,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                41702301,
+                41702301,
+                41702301,
+                58011598,
+                58011598
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Pensions des anciens agents du chemin de fer franco-",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                7622,
+                25226,
+                32848,
+                32848,
+                7622,
+                12541,
+                20164
+            ],
+            "amount_rows": [
+                [
+                    7622,
+                    25226,
+                    32848,
+                    32848
+                ],
+                [
+                    7622,
+                    12541,
+                    20164
+                ]
+            ],
+            "extracted_lines": [
+                "7 622               25 226          32 848            32 848",
+                "7 622               12 541          20 164"
+            ],
+            "ae_lfi": 32848,
+            "ae_consumed": 20164,
+            "cp_lfi": 32848,
+            "cp_consumed": 20164,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                7622,
+                25226,
+                32848,
+                32848,
+                7622,
+                12541,
+                20164
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Pensions des sapeurs-pompiers et anciens agents de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                350378,
+                11505525,
+                11855903,
+                11855903,
+                281107,
+                11723563,
+                12004670
+            ],
+            "amount_rows": [
+                [
+                    350378,
+                    11505525,
+                    11855903,
+                    11855903
+                ],
+                [
+                    281107,
+                    11723563,
+                    12004670
+                ]
+            ],
+            "extracted_lines": [
+                "350 378          11 505 525       11 855 903         11 855 903",
+                "281 107           11 723 563       12 004 670"
+            ],
+            "ae_lfi": 11855903,
+            "ae_consumed": 12004670,
+            "cp_lfi": 11855903,
+            "cp_consumed": 12004670,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                350378,
+                11505525,
+                11855903,
+                11855903,
+                281107,
+                11723563,
+                12004670
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Pensions de l'ORTF",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                24000,
+                48000,
+                72000,
+                72000,
+                20464,
+                57572,
+                78037
+            ],
+            "amount_rows": [
+                [
+                    24000,
+                    48000,
+                    72000,
+                    72000
+                ],
+                [
+                    20464,
+                    57572,
+                    78037
+                ]
+            ],
+            "extracted_lines": [
+                "24 000               48 000          72 000            72 000",
+                "20 464               57 572          78 037"
+            ],
+            "ae_lfi": 72000,
+            "ae_consumed": 78037,
+            "cp_lfi": 72000,
+            "cp_consumed": 78037,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                24000,
+                48000,
+                72000,
+                72000,
+                20464,
+                57572,
+                78037
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 1297212623,
+            "ae_consumed": 1351032560,
+            "cp_lfi": 1297212623,
+            "cp_consumed": 1351032560
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 7,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29999",
+    "pdf_sha256": "9fa10b278f8ac5b2fc765127370a56a7c8c6c64070d9708f90112b04644f8a3c",
+    "mission": null
+}

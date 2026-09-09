@@ -1,0 +1,357 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "105",
+        "name": "Action de la France en Europe et dans le monde"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Coordination de l'action",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                80005426,
+                38065772,
+                5603017,
+                123674215,
+                123819010,
+                73031680,
+                45618553,
+                56636,
+                5746832,
+                124453701
+            ],
+            "amount_rows": [
+                [
+                    80005426,
+                    38065772,
+                    5603017,
+                    123674215,
+                    123819010
+                ],
+                [
+                    73031680,
+                    45618553,
+                    56636,
+                    5746832,
+                    124453701
+                ]
+            ],
+            "extracted_lines": [
+                "80 005 426       38 065 772                           5 603 017                        123 674 215       123 819 010",
+                "73 031 680       45 618 553            56 636        5 746 832                         124 453 701"
+            ],
+            "ae_lfi": 123819010,
+            "ae_consumed": 124453701,
+            "cp_lfi": 123819010,
+            "cp_consumed": 113660972,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                80005426,
+                38065772,
+                5603017,
+                123674215,
+                123819010,
+                73031680,
+                34843352,
+                39108,
+                5746832,
+                113660972
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Action européenne",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                11891587,
+                15000,
+                199537612,
+                211444199,
+                211444199,
+                12537082,
+                6762,
+                152011338,
+                164555182
+            ],
+            "amount_rows": [
+                [
+                    11891587,
+                    15000,
+                    199537612,
+                    211444199,
+                    211444199
+                ],
+                [
+                    12537082,
+                    6762,
+                    152011338,
+                    164555182
+                ]
+            ],
+            "extracted_lines": [
+                "11 891 587            15 000                       199 537 612                         211 444 199       211 444 199",
+                "12 537 082            6 762                       152 011 338                          164 555 182"
+            ],
+            "ae_lfi": 211444199,
+            "ae_consumed": 164555182,
+            "cp_lfi": 211444199,
+            "cp_consumed": 164562182,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                11891587,
+                15000,
+                199537612,
+                211444199,
+                211444199,
+                12537082,
+                13762,
+                152011338,
+                164562182
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Contributions internationales",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                728878952,
+                728878952,
+                728878952,
+                671144975,
+                671144975
+            ],
+            "amount_rows": [
+                [
+                    728878952,
+                    728878952,
+                    728878952
+                ],
+                [
+                    671144975,
+                    671144975
+                ]
+            ],
+            "extracted_lines": [
+                "728 878 952                         728 878 952       728 878 952",
+                "671 144 975                          671 144 975"
+            ],
+            "ae_lfi": 728878952,
+            "ae_consumed": 671144975,
+            "cp_lfi": 728878952,
+            "cp_consumed": 670894975,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                728878952,
+                728878952,
+                728878952,
+                670894975,
+                670894975
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Coopération de sécurité et de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                80601738,
+                4591832,
+                34345813,
+                119539383,
+                119539383,
+                55535232,
+                7307533,
+                28651678,
+                91494443
+            ],
+            "amount_rows": [
+                [
+                    80601738,
+                    4591832,
+                    34345813,
+                    119539383,
+                    119539383
+                ],
+                [
+                    55535232,
+                    7307533,
+                    28651678,
+                    91494443
+                ]
+            ],
+            "extracted_lines": [
+                "80 601 738        4 591 832                          34 345 813                        119 539 383       119 539 383",
+                "55 535 232        7 307 533                         28 651 678                          91 494 443"
+            ],
+            "ae_lfi": 119539383,
+            "ae_consumed": 91494443,
+            "cp_lfi": 119539383,
+            "cp_consumed": 90834912,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                80601738,
+                4591832,
+                34345813,
+                119539383,
+                119539383,
+                55535232,
+                7151570,
+                28148110,
+                90834912
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Soutien",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                148769562,
+                124043140,
+                18340000,
+                291152702,
+                291262702,
+                164915112,
+                123165808,
+                12747774,
+                144093,
+                300972786
+            ],
+            "amount_rows": [
+                [
+                    148769562,
+                    124043140,
+                    18340000,
+                    291152702,
+                    291262702
+                ],
+                [
+                    164915112,
+                    123165808,
+                    12747774,
+                    144093,
+                    300972786
+                ]
+            ],
+            "extracted_lines": [
+                "148 769 562      124 043 140         18 340 000                                          291 152 702       291 262 702",
+                "164 915 112      123 165 808        12 747 774            144 093                        300 972 786"
+            ],
+            "ae_lfi": 291262702,
+            "ae_consumed": 300972786,
+            "cp_lfi": 300994751,
+            "cp_consumed": 305153428,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                148769562,
+                132675189,
+                19440000,
+                300884751,
+                300994751,
+                164915112,
+                129125839,
+                10978788,
+                133688,
+                305153428
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Réseau diplomatique",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                467959453,
+                217119411,
+                105813080,
+                790891944,
+                795941944,
+                462735419,
+                222180476,
+                81926013,
+                277780,
+                172042,
+                767291730
+            ],
+            "amount_rows": [
+                [
+                    467959453,
+                    217119411,
+                    105813080,
+                    790891944,
+                    795941944
+                ],
+                [
+                    462735419,
+                    222180476,
+                    81926013,
+                    277780,
+                    172042,
+                    767291730
+                ]
+            ],
+            "extracted_lines": [
+                "467 959 453      217 119 411       105 813 080                                           790 891 944       795 941 944",
+                "462 735 419      222 180 476       81 926 013             277 780         172 042        767 291 730"
+            ],
+            "ae_lfi": 795941944,
+            "ae_consumed": 767291730,
+            "cp_lfi": 784404108,
+            "cp_consumed": 759932370,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                467959453,
+                217119411,
+                94275244,
+                779354108,
+                784404108,
+                462735419,
+                221836972,
+                74910157,
+                277780,
+                172042,
+                759932370
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 2270886190,
+            "ae_consumed": 2119912818,
+            "cp_lfi": 2269080403,
+            "cp_consumed": 2105038840
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 6,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29546",
+    "pdf_sha256": "1b39afb396f4e16f23de58613830ddb58bb1a805efd136ff5932b1232b4d262b",
+    "mission": "Action extérieure de l'État"
+}

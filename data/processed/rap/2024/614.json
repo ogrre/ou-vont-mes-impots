@@ -1,0 +1,186 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "614",
+        "name": "Transports aériens, surveillance et certification"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Développement durable et régulation",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                10494056,
+                4534907,
+                4250000,
+                19278963,
+                21553963,
+                11650057,
+                1038421,
+                4649000,
+                17337478
+            ],
+            "amount_rows": [
+                [
+                    10494056,
+                    4534907,
+                    4250000,
+                    19278963,
+                    21553963
+                ],
+                [
+                    11650057,
+                    1038421,
+                    4649000,
+                    17337478
+                ]
+            ],
+            "extracted_lines": [
+                "10 494 056              4 534 907             4 250 000     19 278 963         21 553 963",
+                "11 650 057              1 038 421              4 649 000     17 337 478"
+            ],
+            "ae_lfi": 21553963,
+            "ae_consumed": 17337478,
+            "cp_lfi": 21633677,
+            "cp_consumed": 17562308,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                10573770,
+                4534907,
+                4250000,
+                19358677,
+                21633677,
+                11704857,
+                1559951,
+                4297500,
+                17562308
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Surveillance et certification",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                19211911,
+                6002255,
+                25214166,
+                32064166,
+                30532642,
+                2751853,
+                100000,
+                33384494
+            ],
+            "amount_rows": [
+                [
+                    19211911,
+                    6002255,
+                    25214166,
+                    32064166
+                ],
+                [
+                    30532642,
+                    2751853,
+                    100000,
+                    33384494
+                ]
+            ],
+            "extracted_lines": [
+                "19 211 911              6 002 255                           25 214 166         32 064 166",
+                "30 532 642              2 751 853                100 000     33 384 494"
+            ],
+            "ae_lfi": 32064166,
+            "ae_consumed": 33384494,
+            "cp_lfi": 33870088,
+            "cp_consumed": 32121121,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                19295833,
+                7724255,
+                27020088,
+                33870088,
+                29038953,
+                3057168,
+                25000,
+                32121121
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Enquêtes de sécurité aérienne",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                2765940,
+                1239920,
+                4005860,
+                4140860,
+                2981675,
+                948771,
+                3930446
+            ],
+            "amount_rows": [
+                [
+                    2765940,
+                    1239920,
+                    4005860,
+                    4140860
+                ],
+                [
+                    2981675,
+                    948771,
+                    3930446
+                ]
+            ],
+            "extracted_lines": [
+                "2 765 940              1 239 920                            4 005 860          4 140 860",
+                "2 981 675                948 771                             3 930 446"
+            ],
+            "ae_lfi": 4140860,
+            "ae_consumed": 3930446,
+            "cp_lfi": 4040186,
+            "cp_consumed": 3584519,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                2665267,
+                1239919,
+                3905186,
+                4040186,
+                2699030,
+                885490,
+                3584519
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 57758989,
+            "ae_consumed": 54652419,
+            "cp_lfi": 59543951,
+            "cp_consumed": 53267948
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 3,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29336",
+    "pdf_sha256": "4de3c38d5c63d22d37f3665b5d25bce808e9943c1224e05c6173f72b9fc588a2",
+    "mission": null
+}

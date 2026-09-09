@@ -1,0 +1,75 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "869",
+        "name": "Prêts à la société concessionnaire de la liaison express entre Paris et l'aéroport Paris-Charles de Gaulle"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Prêts à la société concessionnaire de la liaison express entre Paris et l'aéroport",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                300000000,
+                300000000,
+                300000000,
+                500000000,
+                500000000
+            ],
+            "amount_rows": [
+                [
+                    300000000,
+                    300000000,
+                    300000000
+                ],
+                [
+                    500000000,
+                    500000000
+                ]
+            ],
+            "extracted_lines": [
+                "300 000 000     300 000 000         300 000 000",
+                "500 000 000      500 000 000"
+            ],
+            "ae_lfi": 300000000,
+            "ae_consumed": 500000000,
+            "cp_lfi": 367200000,
+            "cp_consumed": 353308867,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                367200000,
+                367200000,
+                367200000,
+                353308867,
+                353308867
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 300000000,
+            "ae_consumed": 500000000,
+            "cp_lfi": 367200000,
+            "cp_consumed": 353308867
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30134",
+    "pdf_sha256": "e05f86a39f089c32d22895af316b663fa91792ba0496709fa31b09f21cce4ca1",
+    "mission": null
+}

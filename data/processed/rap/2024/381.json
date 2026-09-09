@@ -1,0 +1,75 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "381",
+        "name": "Allègements du coût du travail en agriculture (TODE-AG)"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Allègements de cotisations et contributions sociales",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                423000000,
+                423000000,
+                423000000,
+                438427824,
+                438427824
+            ],
+            "amount_rows": [
+                [
+                    423000000,
+                    423000000,
+                    423000000
+                ],
+                [
+                    438427824,
+                    438427824
+                ]
+            ],
+            "extracted_lines": [
+                "423 000 000      423 000 000         423 000 000",
+                "438 427 824       438 427 824"
+            ],
+            "ae_lfi": 423000000,
+            "ae_consumed": 438427824,
+            "cp_lfi": 423000000,
+            "cp_consumed": 438427824,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                423000000,
+                423000000,
+                423000000,
+                438427824,
+                438427824
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 423000000,
+            "ae_consumed": 438427824,
+            "cp_lfi": 423000000,
+            "cp_consumed": 438427824
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29894",
+    "pdf_sha256": "139ecfd44b40020418547a8fe61a52195d8d2a66ac97626de24c1f2658203e36",
+    "mission": "Agriculture, alimentation, forêt et affaires rurales"
+}

@@ -1,0 +1,201 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "107",
+        "name": "Administration pénitentiaire"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Garde et contrôle des personnes",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                2571983220,
+                374175091,
+                712946000,
+                3659104311,
+                3661123344,
+                2595573348,
+                327384070,
+                170799326,
+                41348,
+                3093798093
+            ],
+            "amount_rows": [
+                [
+                    2571983220,
+                    374175091,
+                    712946000,
+                    3659104311,
+                    3661123344
+                ],
+                [
+                    2595573348,
+                    327384070,
+                    170799326,
+                    41348,
+                    3093798093
+                ]
+            ],
+            "extracted_lines": [
+                "2 571 983 220      374 175 091            712 946 000                            3 659 104 311     3 661 123 344",
+                "2 595 573 348      327 384 070            170 799 326                  41 348    3 093 798 093"
+            ],
+            "ae_lfi": 3661123344,
+            "ae_consumed": 3093798093,
+            "cp_lfi": 3441419094,
+            "cp_consumed": 3361483986,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                2571983220,
+                348720242,
+                518696599,
+                3439400061,
+                3441419094,
+                2595573348,
+                307307134,
+                458355153,
+                248351,
+                3361483986
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Accueil et accompagnement des",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                369105731,
+                2336252907,
+                15022630,
+                2720381268,
+                2720381268,
+                327010689,
+                1942745575,
+                16519541,
+                17440856,
+                2303716661
+            ],
+            "amount_rows": [
+                [
+                    369105731,
+                    2336252907,
+                    15022630,
+                    2720381268,
+                    2720381268
+                ],
+                [
+                    327010689,
+                    1942745575,
+                    16519541,
+                    17440856,
+                    2303716661
+                ]
+            ],
+            "extracted_lines": [
+                "369 105 731     2 336 252 907                                   15 022 630      2 720 381 268     2 720 381 268",
+                "327 010 689     1 942 745 575             16 519 541            17 440 856      2 303 716 661"
+            ],
+            "ae_lfi": 2720381268,
+            "ae_consumed": 2303716661,
+            "cp_lfi": 1129054700,
+            "cp_consumed": 1136694365,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                369105731,
+                744926339,
+                15022630,
+                1129054700,
+                1129054700,
+                327010689,
+                775955726,
+                17446112,
+                16281838,
+                1136694365
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Soutien et formation",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                284291322,
+                150204731,
+                434496053,
+                434896053,
+                259758764,
+                167966720,
+                5586142,
+                2023763,
+                435335388
+            ],
+            "amount_rows": [
+                [
+                    284291322,
+                    150204731,
+                    434496053,
+                    434896053
+                ],
+                [
+                    259758764,
+                    167966720,
+                    5586142,
+                    2023763,
+                    435335388
+                ]
+            ],
+            "extracted_lines": [
+                "284 291 322       150 204 731                                                    434 496 053        434 896 053",
+                "259 758 764       167 966 720               5 586 142             2 023 763      435 335 388"
+            ],
+            "ae_lfi": 434896053,
+            "ae_consumed": 435335388,
+            "cp_lfi": 434896053,
+            "cp_consumed": 446595278,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                284291322,
+                150204731,
+                434496053,
+                434896053,
+                259758764,
+                179780139,
+                5044867,
+                2011508,
+                446595278
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 6816400665,
+            "ae_consumed": 5832850142,
+            "cp_lfi": 5005369847,
+            "cp_consumed": 4944773629
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 3,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29549",
+    "pdf_sha256": "1c1f5dd48db37bf98f670c5f118eca73427b5919ad8bcfd8ba308569f68f3093",
+    "mission": "Justice"
+}

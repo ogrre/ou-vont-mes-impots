@@ -1,0 +1,75 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "834",
+        "name": "Avances remboursables de droits de mutation à titre onéreux destinées à soutenir les départements et d'autres collectivités affectés par les conséquences économiques de l'épidémie de covid-19"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Permettre aux départements de faire face à la baisse momentanée de leurs recettes",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "-1 364 147          -1 364 147"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": null,
+            "cp_lfi": 0,
+            "cp_consumed": null,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 0,
+            "ae_consumed": -1364147,
+            "cp_lfi": 0,
+            "cp_consumed": -1364147
+        },
+        "differences": {
+            "ae_consumed": {
+                "actions_sum": 0,
+                "programme_total": -1364147,
+                "difference": 1364147
+            },
+            "cp_consumed": {
+                "actions_sum": 0,
+                "programme_total": -1364147,
+                "difference": 1364147
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30092",
+    "pdf_sha256": "a4a25f7d4250e97716bcdd9c21cf7bd4d13e3af560a36d60bf92523d6899bc8d",
+    "mission": null
+}

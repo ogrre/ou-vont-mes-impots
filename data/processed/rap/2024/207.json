@@ -1,0 +1,189 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "207",
+        "name": "Sécurité et éducation routières"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Observation, prospective, réglementation et soutien au",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                11753773,
+                1500000,
+                13253773,
+                13253773,
+                3733971,
+                3404289,
+                7138260
+            ],
+            "amount_rows": [
+                [
+                    11753773,
+                    1500000,
+                    13253773,
+                    13253773
+                ],
+                [
+                    3733971,
+                    3404289,
+                    7138260
+                ]
+            ],
+            "extracted_lines": [
+                "11 753 773                                     1 500 000     13 253 773         13 253 773",
+                "3 733 971                                      3 404 289      7 138 260"
+            ],
+            "ae_lfi": 13253773,
+            "ae_consumed": 7138260,
+            "cp_lfi": 13253773,
+            "cp_consumed": 5382637,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                11753773,
+                1500000,
+                13253773,
+                13253773,
+                2531568,
+                2851069,
+                5382637
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Démarches interministérielles et communication",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                48567237,
+                14016877,
+                4617743,
+                67201857,
+                67321857,
+                32461379,
+                4236598,
+                5984230,
+                42682206
+            ],
+            "amount_rows": [
+                [
+                    48567237,
+                    14016877,
+                    4617743,
+                    67201857,
+                    67321857
+                ],
+                [
+                    32461379,
+                    4236598,
+                    5984230,
+                    42682206
+                ]
+            ],
+            "extracted_lines": [
+                "48 567 237              14 016 877             4 617 743     67 201 857         67 321 857",
+                "32 461 379               4 236 598              5 984 230     42 682 206"
+            ],
+            "ae_lfi": 67321857,
+            "ae_consumed": 42682206,
+            "cp_lfi": 66709375,
+            "cp_consumed": 40836944,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                48567237,
+                13404395,
+                4617743,
+                66589375,
+                66709375,
+                32558321,
+                2721911,
+                5556713,
+                40836944
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Éducation routière",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                18640292,
+                4991281,
+                6300000,
+                29931573,
+                29931573,
+                18172102,
+                394227,
+                4650895,
+                23217224
+            ],
+            "amount_rows": [
+                [
+                    18640292,
+                    4991281,
+                    6300000,
+                    29931573,
+                    29931573
+                ],
+                [
+                    18172102,
+                    394227,
+                    4650895,
+                    23217224
+                ]
+            ],
+            "extracted_lines": [
+                "18 640 292               4 991 281             6 300 000     29 931 573         29 931 573",
+                "18 172 102                 394 227              4 650 895     23 217 224"
+            ],
+            "ae_lfi": 29931573,
+            "ae_consumed": 23217224,
+            "cp_lfi": 29036573,
+            "cp_consumed": 23858807,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                17745292,
+                4991281,
+                6300000,
+                29036573,
+                29036573,
+                17545737,
+                1662626,
+                4650445,
+                23858807
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 110507203,
+            "ae_consumed": 73037691,
+            "cp_lfi": 108999721,
+            "cp_consumed": 70078389
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 3,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29762",
+    "pdf_sha256": "4aa4dc957dbe240b164fd18474c37ca177c6d21aa7da54e693db942aaa8ffe0a",
+    "mission": "Sécurités"
+}

@@ -1,0 +1,237 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "158",
+        "name": "Indemnisation des victimes des persécutions antisémites et des actes de barbarie pendant la seconde guerre mondiale"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Indemnisation des orphelins de la déportation et des",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1467031,
+                386483,
+                38239288,
+                40092802,
+                40092802,
+                1436734,
+                353182,
+                30595552,
+                32385468
+            ],
+            "amount_rows": [
+                [
+                    1467031,
+                    386483,
+                    38239288,
+                    40092802,
+                    40092802
+                ],
+                [
+                    1436734,
+                    353182,
+                    30595552,
+                    32385468
+                ]
+            ],
+            "extracted_lines": [
+                "1 467 031           386 483          38 239 288     40 092 802         40 092 802",
+                "1 436 734           353 182           30 595 552     32 385 468"
+            ],
+            "ae_lfi": 40092802,
+            "ae_consumed": 32385468,
+            "cp_lfi": 40092802,
+            "cp_consumed": 32431712,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1467031,
+                386483,
+                38239288,
+                40092802,
+                40092802,
+                1436734,
+                346605,
+                30648374,
+                32431712
+            ]
+        },
+        {
+            "code": "01.01",
+            "label": "Indemnisation des victimes de spoliations",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "01",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1467031,
+                333815,
+                9000000,
+                10800846,
+                10800846,
+                1436734,
+                306381,
+                4000000,
+                5743115
+            ],
+            "amount_rows": [
+                [
+                    1467031,
+                    333815,
+                    9000000,
+                    10800846,
+                    10800846
+                ],
+                [
+                    1436734,
+                    306381,
+                    4000000,
+                    5743115
+                ]
+            ],
+            "extracted_lines": [
+                "1 467 031           333 815            9 000 000    10 800 846         10 800 846",
+                "1 436 734           306 381             4 000 000     5 743 115"
+            ],
+            "ae_lfi": 10800846,
+            "ae_consumed": 5743115,
+            "cp_lfi": 10800846,
+            "cp_consumed": 5736538,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1467031,
+                333815,
+                9000000,
+                10800846,
+                10800846,
+                1436734,
+                299804,
+                4000000,
+                5736538
+            ]
+        },
+        {
+            "code": "01.02",
+            "label": "Indemnisation des victimes d'actes antisémites",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "01",
+            "contributes_to_program_total": false,
+            "amounts": [
+                52668,
+                29239288,
+                29291956,
+                29291956,
+                46801,
+                26595552,
+                26642353
+            ],
+            "amount_rows": [
+                [
+                    52668,
+                    29239288,
+                    29291956,
+                    29291956
+                ],
+                [
+                    46801,
+                    26595552,
+                    26642353
+                ]
+            ],
+            "extracted_lines": [
+                "52 668         29 239 288     29 291 956         29 291 956",
+                "46 801          26 595 552     26 642 353"
+            ],
+            "ae_lfi": 29291956,
+            "ae_consumed": 26642353,
+            "cp_lfi": 29291956,
+            "cp_consumed": 26695175,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                52668,
+                29239288,
+                29291956,
+                29291956,
+                46801,
+                26648374,
+                26695175
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Indemnisation des victimes d'actes de barbarie durant",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                87595,
+                47960438,
+                48048033,
+                48048033,
+                81497,
+                44345968,
+                44427465
+            ],
+            "amount_rows": [
+                [
+                    87595,
+                    47960438,
+                    48048033,
+                    48048033
+                ],
+                [
+                    81497,
+                    44345968,
+                    44427465
+                ]
+            ],
+            "extracted_lines": [
+                "87 595         47 960 438     48 048 033         48 048 033",
+                "81 497          44 345 968     44 427 465"
+            ],
+            "ae_lfi": 48048033,
+            "ae_consumed": 44427465,
+            "cp_lfi": 48048033,
+            "cp_consumed": 44515661,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                87595,
+                47960438,
+                48048033,
+                48048033,
+                81497,
+                44434164,
+                44515661
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 88140835,
+            "ae_consumed": 76812932,
+            "cp_lfi": 88140835,
+            "cp_consumed": 76947373
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 4,
+        "sub_actions": 2
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29663",
+    "pdf_sha256": "c712c2c963df1edd3b8a89835f5ee123f8c9ba8e83ced21d94edfcdc2f8f3d22",
+    "mission": "Anciens combattants, mémoire et liens avec la Nation"
+}

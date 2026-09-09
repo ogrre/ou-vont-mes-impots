@@ -1,0 +1,281 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "143",
+        "name": "Enseignement technique agricole"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Mise en oeuvre de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                864287512,
+                40659766,
+                721500,
+                905668778,
+                905668778,
+                834732261,
+                18209,
+                46758781,
+                832878,
+                882342129
+            ],
+            "amount_rows": [
+                [
+                    864287512,
+                    40659766,
+                    721500,
+                    905668778,
+                    905668778
+                ],
+                [
+                    834732261,
+                    18209,
+                    46758781,
+                    832878,
+                    882342129
+                ]
+            ],
+            "extracted_lines": [
+                "864 287 512                                           40 659 766         721 500     905 668 778       905 668 778",
+                "834 732 261            18 209                          46 758 781        832 878      882 342 129"
+            ],
+            "ae_lfi": 905668778,
+            "ae_consumed": 882342129,
+            "cp_lfi": 905668778,
+            "cp_consumed": 882373773,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                864287512,
+                40659766,
+                721500,
+                905668778,
+                905668778,
+                834732261,
+                35853,
+                46772781,
+                832878,
+                882373773
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Mise en oeuvre des",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                250476713,
+                371110000,
+                621586713,
+                621586713,
+                256632633,
+                84243,
+                384308628,
+                641025504
+            ],
+            "amount_rows": [
+                [
+                    250476713,
+                    371110000,
+                    621586713,
+                    621586713
+                ],
+                [
+                    256632633,
+                    84243,
+                    384308628,
+                    641025504
+                ]
+            ],
+            "extracted_lines": [
+                "250 476 713                                         371 110 000                      621 586 713       621 586 713",
+                "256 632 633            84 243                        384 308 628                      641 025 504"
+            ],
+            "ae_lfi": 621586713,
+            "ae_consumed": 641025504,
+            "cp_lfi": 621586713,
+            "cp_consumed": 641025503,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                250476713,
+                371110000,
+                621586713,
+                621586713,
+                256632633,
+                84243,
+                384308628,
+                641025503
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Aide sociale aux élèves et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                73817009,
+                73817009,
+                73817009,
+                336803,
+                83335745,
+                83672547
+            ],
+            "amount_rows": [
+                [
+                    73817009,
+                    73817009,
+                    73817009
+                ],
+                [
+                    336803,
+                    83335745,
+                    83672547
+                ]
+            ],
+            "extracted_lines": [
+                "73 817 009                      73 817 009        73 817 009",
+                "336 803                          83 335 745                      83 672 547"
+            ],
+            "ae_lfi": 73817009,
+            "ae_consumed": 83672547,
+            "cp_lfi": 73900541,
+            "cp_consumed": 83890479,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                73900541,
+                73900541,
+                73900541,
+                330133,
+                83560346,
+                83890479
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Mise en œuvre de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                7097930,
+                7097930,
+                7097930,
+                241411,
+                6666358,
+                6907770
+            ],
+            "amount_rows": [
+                [
+                    7097930,
+                    7097930,
+                    7097930
+                ],
+                [
+                    241411,
+                    6666358,
+                    6907770
+                ]
+            ],
+            "extracted_lines": [
+                "7 097 930                       7 097 930         7 097 930",
+                "241 411                           6 666 358                       6 907 770"
+            ],
+            "ae_lfi": 7097930,
+            "ae_consumed": 6907770,
+            "cp_lfi": 5297930,
+            "cp_consumed": 5511460,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                5297930,
+                5297930,
+                5297930,
+                237873,
+                5273588,
+                5511460
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Moyens communs à",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                15339797,
+                73874667,
+                89214464,
+                89214464,
+                10787628,
+                124032,
+                57970367,
+                68882027
+            ],
+            "amount_rows": [
+                [
+                    15339797,
+                    73874667,
+                    89214464,
+                    89214464
+                ],
+                [
+                    10787628,
+                    124032,
+                    57970367,
+                    68882027
+                ]
+            ],
+            "extracted_lines": [
+                "15 339 797                          73 874 667                      89 214 464        89 214 464",
+                "10 787 628            124 032        57 970 367                      68 882 027"
+            ],
+            "ae_lfi": 89214464,
+            "ae_consumed": 68882027,
+            "cp_lfi": 89214464,
+            "cp_consumed": 68817615,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                15339797,
+                73874667,
+                89214464,
+                89214464,
+                10847998,
+                57969618,
+                68817615
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 1697384894,
+            "ae_consumed": 1682829976,
+            "cp_lfi": 1695668426,
+            "cp_consumed": 1681618831
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 5,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29621",
+    "pdf_sha256": "1c1394d1357e4243b1d1b8b82505196a29dc43bce2abfed4c282e2f7c480a16a",
+    "mission": "Enseignement scolaire"
+}

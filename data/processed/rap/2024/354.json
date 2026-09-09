@@ -1,0 +1,329 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "354",
+        "name": "Administration territoriale de l'État"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Coordination de la sécurité",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                187828776,
+                187828776,
+                187828776,
+                191464915,
+                387,
+                191465302
+            ],
+            "amount_rows": [
+                [
+                    187828776,
+                    187828776,
+                    187828776
+                ],
+                [
+                    191464915,
+                    387,
+                    191465302
+                ]
+            ],
+            "extracted_lines": [
+                "187 828 776                                                                                      187 828 776       187 828 776",
+                "191 464 915              387                                                                     191 465 302"
+            ],
+            "ae_lfi": 187828776,
+            "ae_consumed": 191465302,
+            "cp_lfi": 187828776,
+            "cp_consumed": 191465290,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                187828776,
+                187828776,
+                187828776,
+                191464915,
+                375,
+                191465290
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Réglementation générale,",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                457582313,
+                3795509,
+                461377822,
+                487877822,
+                458637236,
+                2121629,
+                0,
+                25057838,
+                485816703
+            ],
+            "amount_rows": [
+                [
+                    457582313,
+                    3795509,
+                    461377822,
+                    487877822
+                ],
+                [
+                    458637236,
+                    2121629,
+                    0,
+                    25057838,
+                    485816703
+                ]
+            ],
+            "extracted_lines": [
+                "457 582 313        3 795 509                                                                     461 377 822       487 877 822",
+                "458 637 236        2 121 629                      0      25 057 838                              485 816 703"
+            ],
+            "ae_lfi": 487877822,
+            "ae_consumed": 485816703,
+            "cp_lfi": 487877822,
+            "cp_consumed": 486292146,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                457582313,
+                3795509,
+                461377822,
+                487877822,
+                458637236,
+                2568072,
+                29000,
+                25057838,
+                486292146
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Contrôle de légalité et conseil",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                143356257,
+                143356257,
+                143356257,
+                139872310,
+                139872310
+            ],
+            "amount_rows": [
+                [
+                    143356257,
+                    143356257,
+                    143356257
+                ],
+                [
+                    139872310,
+                    139872310
+                ]
+            ],
+            "extracted_lines": [
+                "143 356 257                                                                                      143 356 257       143 356 257",
+                "139 872 310                                                                                      139 872 310"
+            ],
+            "ae_lfi": 143356257,
+            "ae_consumed": 139872310,
+            "cp_lfi": 143356257,
+            "cp_consumed": 139872310,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                143356257,
+                143356257,
+                143356257,
+                139872310,
+                139872310
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Pilotage territorial des",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                794188284,
+                794188284,
+                794188284,
+                793480561,
+                54213,
+                30928,
+                793565702
+            ],
+            "amount_rows": [
+                [
+                    794188284,
+                    794188284,
+                    794188284
+                ],
+                [
+                    793480561,
+                    54213,
+                    30928,
+                    793565702
+                ]
+            ],
+            "extracted_lines": [
+                "794 188 284                                                                                      794 188 284       794 188 284",
+                "793 480 561           54 213            30 928                                                   793 565 702"
+            ],
+            "ae_lfi": 794188284,
+            "ae_consumed": 793565702,
+            "cp_lfi": 794188284,
+            "cp_consumed": 793633023,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                794188284,
+                794188284,
+                794188284,
+                793480561,
+                121534,
+                30928,
+                793633023
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Fonctionnement courant de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                450632253,
+                218758065,
+                22610819,
+                692001137,
+                704141137,
+                441311492,
+                204229961,
+                13014994,
+                1551970,
+                6,
+                660108423
+            ],
+            "amount_rows": [
+                [
+                    450632253,
+                    218758065,
+                    22610819,
+                    692001137,
+                    704141137
+                ],
+                [
+                    441311492,
+                    204229961,
+                    13014994,
+                    1551970,
+                    6,
+                    660108423
+                ]
+            ],
+            "extracted_lines": [
+                "450 632 253     218 758 065         22 610 819                                                   692 001 137       704 141 137",
+                "441 311 492     204 229 961         13 014 994            1 551 970                       6      660 108 423"
+            ],
+            "ae_lfi": 704141137,
+            "ae_consumed": 660108423,
+            "cp_lfi": 695216012,
+            "cp_consumed": 664509771,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                450632253,
+                209953674,
+                22490085,
+                683076012,
+                695216012,
+                441311492,
+                208147080,
+                13506203,
+                1544858,
+                138,
+                664509771
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Dépenses immobilières de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                288867800,
+                65623058,
+                354490858,
+                354890858
+            ],
+            "amount_rows": [
+                [
+                    288867800,
+                    65623058,
+                    354490858,
+                    354890858
+                ]
+            ],
+            "extracted_lines": [
+                "288 867 800         65 623 058                                                   354 490 858       354 890 858",
+                "253 738 126         20 773 388               265 732                      -4     274 777 241"
+            ],
+            "ae_lfi": 354890858,
+            "ae_consumed": null,
+            "cp_lfi": 313742475,
+            "cp_consumed": 318204499,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                266346076,
+                46996399,
+                313342475,
+                313742475,
+                285239281,
+                32839488,
+                125730,
+                318204499
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 2672283134,
+            "ae_consumed": 2545605681,
+            "cp_lfi": 2622209626,
+            "cp_consumed": 2593977039
+        },
+        "differences": {
+            "ae_consumed": {
+                "actions_sum": 2270828440,
+                "programme_total": 2545605681,
+                "difference": -274777241
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 6,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29855",
+    "pdf_sha256": "5a4bd66b5dc32ee411cee6b29fd63e37482d14c84da91ea52f57400fbff61b3a",
+    "mission": "Administration générale et territoriale de l'État"
+}

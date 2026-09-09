@@ -1,0 +1,114 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "117",
+        "name": "Charge de la dette et trésorerie de l'État (crédits évaluatifs)"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Dette",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                50863000000,
+                50863000000,
+                50863000000,
+                49383565890,
+                49383565890
+            ],
+            "amount_rows": [
+                [
+                    50863000000,
+                    50863000000,
+                    50863000000
+                ],
+                [
+                    49383565890,
+                    49383565890
+                ]
+            ],
+            "extracted_lines": [
+                "50 863 000 000       50 863 000 000      50 863 000 000",
+                "49 383 565 890       49 383 565 890"
+            ],
+            "ae_lfi": 50863000000,
+            "ae_consumed": 49383565890,
+            "cp_lfi": 50863000000,
+            "cp_consumed": 49383565890,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                50863000000,
+                50863000000,
+                50863000000,
+                49383565890,
+                49383565890
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Trésorerie",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                512000000,
+                512000000,
+                512000000,
+                -116000000
+            ],
+            "amount_rows": [
+                [
+                    512000000,
+                    512000000,
+                    512000000
+                ],
+                [
+                    -116000000
+                ]
+            ],
+            "extracted_lines": [
+                "512 000 000        512 000 000          512 000 000",
+                "-116 000 000"
+            ],
+            "ae_lfi": 512000000,
+            "ae_consumed": -116000000,
+            "cp_lfi": 512000000,
+            "cp_consumed": -116000000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                512000000,
+                512000000,
+                512000000,
+                -116000000
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 51375000000,
+            "ae_consumed": 49267565890,
+            "cp_lfi": 51375000000,
+            "cp_consumed": 49267565890
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 2,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29570",
+    "pdf_sha256": "9acb8d5127beb23d9b6686cbcd5ab2b5a4cccb339e9ea170b2674a11f21837e8",
+    "mission": "Engagements financiers de l'État"
+}

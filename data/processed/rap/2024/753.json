@@ -1,0 +1,81 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "753",
+        "name": "Contrôle et modernisation de la politique de la circulation et du stationnement routiers"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Déploiement du procès-verbal électronique",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                25200000,
+                1000000,
+                26200000,
+                26200000,
+                25200000,
+                1000000,
+                26200000
+            ],
+            "amount_rows": [
+                [
+                    25200000,
+                    1000000,
+                    26200000,
+                    26200000
+                ],
+                [
+                    25200000,
+                    1000000,
+                    26200000
+                ]
+            ],
+            "extracted_lines": [
+                "25 200 000            1 000 000   26 200 000         26 200 000",
+                "25 200 000            1 000 000    26 200 000"
+            ],
+            "ae_lfi": 26200000,
+            "ae_consumed": 26200000,
+            "cp_lfi": 26200000,
+            "cp_consumed": 26200000,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                25200000,
+                1000000,
+                26200000,
+                26200000,
+                25200000,
+                1000000,
+                26200000
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 26200000,
+            "ae_consumed": 26200000,
+            "cp_lfi": 26200000,
+            "cp_consumed": 26200000
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30005",
+    "pdf_sha256": "47715f183033c3320b3d91a65c5c75da440c8892bfec90795586a030a06794c2",
+    "mission": null
+}

@@ -1,0 +1,270 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "161",
+        "name": "Sécurité civile"
+    },
+    "actions": [
+        {
+            "code": "11",
+            "label": "Prévention et gestion de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                13227554,
+                26526435,
+                2233487,
+                15340000,
+                57327476,
+                57327476,
+                11678175,
+                25901546,
+                520076,
+                38427158,
+                76526955
+            ],
+            "amount_rows": [
+                [
+                    13227554,
+                    26526435,
+                    2233487,
+                    15340000,
+                    57327476,
+                    57327476
+                ],
+                [
+                    11678175,
+                    25901546,
+                    520076,
+                    38427158,
+                    76526955
+                ]
+            ],
+            "extracted_lines": [
+                "13 227 554       26 526 435         2 233 487       15 340 000                          57 327 476        57 327 476",
+                "11 678 175       25 901 546           520 076        38 427 158                          76 526 955"
+            ],
+            "ae_lfi": 57327476,
+            "ae_consumed": 76526955,
+            "cp_lfi": 83653691,
+            "cp_consumed": 82704031,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                13227554,
+                27726435,
+                27359702,
+                15340000,
+                83653691,
+                83653691,
+                11678175,
+                32565817,
+                3526366,
+                34933672,
+                82704031
+            ]
+        },
+        {
+            "code": "12",
+            "label": "Préparation et interventions",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                207993900,
+                199089659,
+                213629594,
+                620713153,
+                621113153,
+                195010303,
+                290966245,
+                183535802,
+                337897,
+                669850247
+            ],
+            "amount_rows": [
+                [
+                    207993900,
+                    199089659,
+                    213629594,
+                    620713153,
+                    621113153
+                ],
+                [
+                    195010303,
+                    290966245,
+                    183535802,
+                    337897,
+                    669850247
+                ]
+            ],
+            "extracted_lines": [
+                "207 993 900      199 089 659       213 629 594                                           620 713 153       621 113 153",
+                "195 010 303      290 966 245        183 535 802            337 897                        669 850 247"
+            ],
+            "ae_lfi": 621113153,
+            "ae_consumed": 669850247,
+            "cp_lfi": 541649281,
+            "cp_consumed": 608848085,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                207993900,
+                167882756,
+                165372625,
+                541249281,
+                541649281,
+                195010303,
+                232480913,
+                180936354,
+                420516,
+                608848085
+            ]
+        },
+        {
+            "code": "13",
+            "label": "Soutien aux acteurs de la",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                2968183,
+                30668004,
+                154388227,
+                2325763,
+                190350177,
+                190350177,
+                1841308,
+                32327581,
+                3525763,
+                151436315,
+                189130968
+            ],
+            "amount_rows": [
+                [
+                    2968183,
+                    30668004,
+                    154388227,
+                    2325763,
+                    190350177,
+                    190350177
+                ],
+                [
+                    1841308,
+                    32327581,
+                    3525763,
+                    151436315,
+                    189130968
+                ]
+            ],
+            "extracted_lines": [
+                "2 968 183       30 668 004                        154 388 227        2 325 763        190 350 177       190 350 177",
+                "1 841 308       32 327 581          3 525 763      151 436 315                         189 130 968"
+            ],
+            "ae_lfi": 190350177,
+            "ae_consumed": 189130968,
+            "cp_lfi": 223134070,
+            "cp_consumed": 225438724,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                2968183,
+                30668004,
+                187172120,
+                2325763,
+                223134070,
+                223134070,
+                1841308,
+                31441177,
+                3525763,
+                188630476,
+                225438724
+            ]
+        },
+        {
+            "code": "14",
+            "label": "Fonctionnement, soutien et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                6871073,
+                18892249,
+                7319000,
+                200000,
+                33282322,
+                47611212,
+                7532506,
+                32562613,
+                4784012,
+                64557,
+                44943688
+            ],
+            "amount_rows": [
+                [
+                    6871073,
+                    18892249,
+                    7319000,
+                    200000,
+                    33282322,
+                    47611212
+                ],
+                [
+                    7532506,
+                    32562613,
+                    4784012,
+                    64557,
+                    44943688
+                ]
+            ],
+            "extracted_lines": [
+                "6 871 073       18 892 249         7 319 000           200 000                         33 282 322        47 611 212",
+                "7 532 506       32 562 613          4 784 012           64 557                          44 943 688"
+            ],
+            "ae_lfi": 47611212,
+            "ae_consumed": 44943688,
+            "cp_lfi": 46787310,
+            "cp_consumed": 45625444,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                6871073,
+                19751347,
+                5636000,
+                200000,
+                32458420,
+                46787310,
+                7532506,
+                34045901,
+                3998480,
+                48557,
+                45625444
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 916402018,
+            "ae_consumed": 980451858,
+            "cp_lfi": 895224352,
+            "cp_consumed": 962616284
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 4,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29669",
+    "pdf_sha256": "476d931b038b1ae7713aa8c1946bd63985ed7405859d1e012ad44f83949136ab",
+    "mission": "Sécurités"
+}

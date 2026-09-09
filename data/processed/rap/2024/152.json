@@ -1,0 +1,707 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "152",
+        "name": "Gendarmerie nationale"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Ordre et sécurité publics",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                4169681650,
+                4169681650,
+                4169681650,
+                -949,
+                4305145362
+            ],
+            "amount_rows": [
+                [
+                    4169681650,
+                    4169681650,
+                    4169681650
+                ],
+                [
+                    -949,
+                    4305145362
+                ]
+            ],
+            "extracted_lines": [
+                "4 169 681 650                                                                 4 169 681 650     4 169 681 650",
+                "-949                                              4 305 145 362"
+            ],
+            "ae_lfi": 4169681650,
+            "ae_consumed": 4305145362,
+            "cp_lfi": 4169681650,
+            "cp_consumed": 4305145362,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                4169681650,
+                4169681650,
+                4169681650,
+                -949,
+                4305145362
+            ]
+        },
+        {
+            "code": "01.01",
+            "label": "Ordre et sécurité publics - hors",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "01",
+            "contributes_to_program_total": false,
+            "amounts": [
+                4151153691,
+                4151153691,
+                4151153691
+            ],
+            "amount_rows": [
+                [
+                    4151153691,
+                    4151153691,
+                    4151153691
+                ]
+            ],
+            "extracted_lines": [
+                "4 151 153 691                                                                 4 151 153 691     4 151 153 691",
+                "4 288 312 363               -949                                              4 288 311 414"
+            ],
+            "ae_lfi": 4151153691,
+            "ae_consumed": null,
+            "cp_lfi": 4151153691,
+            "cp_consumed": null,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                4151153691,
+                4151153691,
+                4151153691
+            ]
+        },
+        {
+            "code": "01.02",
+            "label": "Ordre et sécurité publics -",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "01",
+            "contributes_to_program_total": false,
+            "amounts": [
+                18527959,
+                18527959,
+                18527959,
+                16833947,
+                16833947
+            ],
+            "amount_rows": [
+                [
+                    18527959,
+                    18527959,
+                    18527959
+                ],
+                [
+                    16833947,
+                    16833947
+                ]
+            ],
+            "extracted_lines": [
+                "18 527 959                                                                    18 527 959        18 527 959",
+                "16 833 947                                                                    16 833 947"
+            ],
+            "ae_lfi": 18527959,
+            "ae_consumed": 16833947,
+            "cp_lfi": 18527959,
+            "cp_consumed": 16833947,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                18527959,
+                18527959,
+                18527959,
+                16833947,
+                16833947
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Sécurité routière",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                815062202,
+                815062202,
+                815062202,
+                819147270,
+                375,
+                819147644
+            ],
+            "amount_rows": [
+                [
+                    815062202,
+                    815062202,
+                    815062202
+                ],
+                [
+                    819147270,
+                    375,
+                    819147644
+                ]
+            ],
+            "extracted_lines": [
+                "815 062 202                                                                   815 062 202        815 062 202",
+                "819 147 270                375                                                819 147 644"
+            ],
+            "ae_lfi": 815062202,
+            "ae_consumed": 819147644,
+            "cp_lfi": 815062202,
+            "cp_consumed": 819147644,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                815062202,
+                815062202,
+                815062202,
+                819147270,
+                375,
+                819147644
+            ]
+        },
+        {
+            "code": "02.01",
+            "label": "Sécurité routière - hors",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "02",
+            "contributes_to_program_total": false,
+            "amounts": [
+                814979404,
+                814979404,
+                814979404,
+                817789520,
+                375,
+                817789895
+            ],
+            "amount_rows": [
+                [
+                    814979404,
+                    814979404,
+                    814979404
+                ],
+                [
+                    817789520,
+                    375,
+                    817789895
+                ]
+            ],
+            "extracted_lines": [
+                "814 979 404                                                                   814 979 404        814 979 404",
+                "817 789 520                375                                                817 789 895"
+            ],
+            "ae_lfi": 814979404,
+            "ae_consumed": 817789895,
+            "cp_lfi": 814979404,
+            "cp_consumed": 817789895,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                814979404,
+                814979404,
+                814979404,
+                817789520,
+                375,
+                817789895
+            ]
+        },
+        {
+            "code": "02.02",
+            "label": "Sécurité routière - administration",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "02",
+            "contributes_to_program_total": false,
+            "amounts": [
+                82798,
+                82798,
+                82798,
+                1357750,
+                1357750
+            ],
+            "amount_rows": [
+                [
+                    82798,
+                    82798,
+                    82798
+                ],
+                [
+                    1357750,
+                    1357750
+                ]
+            ],
+            "extracted_lines": [
+                "82 798                                                                        82 798             82 798",
+                "1 357 750                                                                     1 357 750"
+            ],
+            "ae_lfi": 82798,
+            "ae_consumed": 1357750,
+            "cp_lfi": 82798,
+            "cp_consumed": 1357750,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                82798,
+                82798,
+                82798,
+                1357750,
+                1357750
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Missions de police judiciaire et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                2588654725,
+                2588654725,
+                2588654725,
+                2605688359,
+                11596,
+                2605699955
+            ],
+            "amount_rows": [
+                [
+                    2588654725,
+                    2588654725,
+                    2588654725
+                ],
+                [
+                    2605688359,
+                    11596,
+                    2605699955
+                ]
+            ],
+            "extracted_lines": [
+                "2 588 654 725                                                                 2 588 654 725     2 588 654 725",
+                "2 605 688 359            11 596                                               2 605 699 955"
+            ],
+            "ae_lfi": 2588654725,
+            "ae_consumed": 2605699955,
+            "cp_lfi": 2588654725,
+            "cp_consumed": 2605699955,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                2588654725,
+                2588654725,
+                2588654725,
+                2605688359,
+                11596,
+                2605699955
+            ]
+        },
+        {
+            "code": "03.01",
+            "label": "Missions de police judiciaire et",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "03",
+            "contributes_to_program_total": false,
+            "amounts": [
+                2578662965,
+                2578662965,
+                2578662965,
+                2595186575,
+                11596,
+                2595198171
+            ],
+            "amount_rows": [
+                [
+                    2578662965,
+                    2578662965,
+                    2578662965
+                ],
+                [
+                    2595186575,
+                    11596,
+                    2595198171
+                ]
+            ],
+            "extracted_lines": [
+                "2 578 662 965                                                                 2 578 662 965     2 578 662 965",
+                "2 595 186 575            11 596                                               2 595 198 171"
+            ],
+            "ae_lfi": 2578662965,
+            "ae_consumed": 2595198171,
+            "cp_lfi": 2578662965,
+            "cp_consumed": 2595198171,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                2578662965,
+                2578662965,
+                2578662965,
+                2595186575,
+                11596,
+                2595198171
+            ]
+        },
+        {
+            "code": "03.02",
+            "label": "Missions de police judiciaire et",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "03",
+            "contributes_to_program_total": false,
+            "amounts": [
+                9991760,
+                9991760,
+                9991760,
+                10501784,
+                10501784
+            ],
+            "amount_rows": [
+                [
+                    9991760,
+                    9991760,
+                    9991760
+                ],
+                [
+                    10501784,
+                    10501784
+                ]
+            ],
+            "extracted_lines": [
+                "9 991 760                                                                     9 991 760           9 991 760",
+                "10 501 784                                                                    10 501 784"
+            ],
+            "ae_lfi": 9991760,
+            "ae_consumed": 10501784,
+            "cp_lfi": 9991760,
+            "cp_consumed": 10501784,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                9991760,
+                9991760,
+                9991760,
+                10501784,
+                10501784
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Commandement, ressources",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1159738845,
+                1928432491,
+                192728500,
+                3600000,
+                3284499836,
+                3526183754,
+                1185796005,
+                1864358938,
+                154532238,
+                16481496,
+                3221168677
+            ],
+            "amount_rows": [
+                [
+                    1159738845,
+                    1928432491,
+                    192728500,
+                    3600000,
+                    3284499836,
+                    3526183754
+                ],
+                [
+                    1185796005,
+                    1864358938,
+                    154532238,
+                    16481496,
+                    3221168677
+                ]
+            ],
+            "extracted_lines": [
+                "1 159 738 845    1 928 432 491          192 728 500             3 600 000     3 284 499 836     3 526 183 754",
+                "1 185 796 005    1 864 358 938          154 532 238            16 481 496     3 221 168 677"
+            ],
+            "ae_lfi": 3526183754,
+            "ae_consumed": 3221168677,
+            "cp_lfi": 2887617068,
+            "cp_consumed": 3112674242,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1159738845,
+                1297342171,
+                180570784,
+                8281350,
+                2645933150,
+                2887617068,
+                1185796005,
+                1718715151,
+                185555776,
+                22607309,
+                3112674242
+            ]
+        },
+        {
+            "code": "04.01",
+            "label": "Commandement, ressources",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "04",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1014225326,
+                1928432491,
+                192728500,
+                3600000,
+                3138986317,
+                3380670235,
+                1055271159,
+                1863953421,
+                154532238,
+                16481496,
+                3090238314
+            ],
+            "amount_rows": [
+                [
+                    1014225326,
+                    1928432491,
+                    192728500,
+                    3600000,
+                    3138986317,
+                    3380670235
+                ],
+                [
+                    1055271159,
+                    1863953421,
+                    154532238,
+                    16481496,
+                    3090238314
+                ]
+            ],
+            "extracted_lines": [
+                "1 014 225 326    1 928 432 491          192 728 500             3 600 000     3 138 986 317     3 380 670 235",
+                "1 055 271 159    1 863 953 421          154 532 238            16 481 496     3 090 238 314"
+            ],
+            "ae_lfi": 3380670235,
+            "ae_consumed": 3090238314,
+            "cp_lfi": 2742103549,
+            "cp_consumed": 2963710103,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1014225326,
+                1297342171,
+                180570784,
+                8281350,
+                2500419631,
+                2742103549,
+                1055271159,
+                1718309634,
+                167522001,
+                22607309,
+                2963710103
+            ]
+        },
+        {
+            "code": "04.02",
+            "label": "Commandement, ressources",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "04",
+            "contributes_to_program_total": false,
+            "amounts": [
+                145513519,
+                145513519,
+                145513519,
+                130524847,
+                405517,
+                130930364
+            ],
+            "amount_rows": [
+                [
+                    145513519,
+                    145513519,
+                    145513519
+                ],
+                [
+                    130524847,
+                    405517,
+                    130930364
+                ]
+            ],
+            "extracted_lines": [
+                "145 513 519                                                                   145 513 519        145 513 519",
+                "130 524 847            405 517                                                130 930 364"
+            ],
+            "ae_lfi": 145513519,
+            "ae_consumed": 130930364,
+            "cp_lfi": 145513519,
+            "cp_consumed": 148964139,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                145513519,
+                145513519,
+                145513519,
+                130524847,
+                405517,
+                18033775,
+                148964139
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Exercice des missions militaires",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                173646218,
+                173646218,
+                173646218,
+                167199585,
+                167199585
+            ],
+            "amount_rows": [
+                [
+                    173646218,
+                    173646218,
+                    173646218
+                ],
+                [
+                    167199585,
+                    167199585
+                ]
+            ],
+            "extracted_lines": [
+                "173 646 218                                                                   173 646 218        173 646 218",
+                "167 199 585                                                                   167 199 585"
+            ],
+            "ae_lfi": 173646218,
+            "ae_consumed": 167199585,
+            "cp_lfi": 173646218,
+            "cp_consumed": 167199585,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                173646218,
+                173646218,
+                173646218,
+                167199585,
+                167199585
+            ]
+        },
+        {
+            "code": "05.01",
+            "label": "Exercice des missions militaires -",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "05",
+            "contributes_to_program_total": false,
+            "amounts": [
+                173557077,
+                173557077,
+                173557077,
+                167109645,
+                167109645
+            ],
+            "amount_rows": [
+                [
+                    173557077,
+                    173557077,
+                    173557077
+                ],
+                [
+                    167109645,
+                    167109645
+                ]
+            ],
+            "extracted_lines": [
+                "173 557 077                                                                   173 557 077        173 557 077",
+                "167 109 645                                                                   167 109 645"
+            ],
+            "ae_lfi": 173557077,
+            "ae_consumed": 167109645,
+            "cp_lfi": 173557077,
+            "cp_consumed": 167109645,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                173557077,
+                173557077,
+                173557077,
+                167109645,
+                167109645
+            ]
+        },
+        {
+            "code": "05.02",
+            "label": "Exercice des missions militaires -",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "05",
+            "contributes_to_program_total": false,
+            "amounts": [
+                89141,
+                89141,
+                89141,
+                89941,
+                89941
+            ],
+            "amount_rows": [
+                [
+                    89141,
+                    89141,
+                    89141
+                ],
+                [
+                    89941,
+                    89941
+                ]
+            ],
+            "extracted_lines": [
+                "89 141                                                                        89 141             89 141",
+                "89 941                                                                        89 941"
+            ],
+            "ae_lfi": 89141,
+            "ae_consumed": 89941,
+            "cp_lfi": 89141,
+            "cp_consumed": 89941,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                89141,
+                89141,
+                89141,
+                89941,
+                89941
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 11273228549,
+            "ae_consumed": 11118361224,
+            "cp_lfi": 10634661863,
+            "cp_consumed": 11009866788
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 15,
+        "sub_actions": 10
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29651",
+    "pdf_sha256": "769ef6ab0e8c9dc80580367d42920be9f874b500fdad14cd4ef9c3d8fb927a27",
+    "mission": "Sécurités"
+}

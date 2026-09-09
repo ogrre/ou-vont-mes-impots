@@ -1,0 +1,75 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "821",
+        "name": "Avances à l'Agence de services et de paiement, au titre du préfinancement des aides communautaires de la politique agricole commune"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Avances au titre du préfinancement des aides communautaires de la politique",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                10000000000,
+                10000000000,
+                10000000000,
+                7552942000,
+                7552942000
+            ],
+            "amount_rows": [
+                [
+                    10000000000,
+                    10000000000,
+                    10000000000
+                ],
+                [
+                    7552942000,
+                    7552942000
+                ]
+            ],
+            "extracted_lines": [
+                "10 000 000 000      10 000 000 000      10 000 000 000",
+                "7 552 942 000       7 552 942 000"
+            ],
+            "ae_lfi": 10000000000,
+            "ae_consumed": 7552942000,
+            "cp_lfi": 10000000000,
+            "cp_consumed": 7552942000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                10000000000,
+                10000000000,
+                10000000000,
+                7552942000,
+                7552942000
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 10000000000,
+            "ae_consumed": 7552942000,
+            "cp_lfi": 10000000000,
+            "cp_consumed": 7552942000
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30059",
+    "pdf_sha256": "cf5441fe06ef006b489b94aeb334560d790bdf790f81648e6c90774c9e01bd63",
+    "mission": null
+}

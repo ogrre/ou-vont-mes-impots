@@ -1,0 +1,55 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "511",
+        "name": "Assemblée nationale"
+    },
+    "format": "institutional_credits",
+    "actions": [
+        {
+            "code": "1",
+            "label": "Assemblée nationale",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": false,
+            "amounts": [
+                607647569,
+                627181842,
+                627181842
+            ],
+            "amount_rows": [],
+            "special_measurements": {
+                "allocation": 607647569,
+                "credits_opened": 627181842,
+                "expenditure_recorded": 627181842
+            },
+            "ae_lfi": null,
+            "ae_consumed": null,
+            "cp_lfi": null,
+            "cp_consumed": null,
+            "titles": [],
+            "review_required": false
+        }
+    ],
+    "parser": {
+        "anchor": "institutional credits table",
+        "amount_mapping": "allocation-opened-recorded-v1"
+    },
+    "review_required": false,
+    "warnings": [
+        "Ces montants ne sont pas des AE\/CP et ne doivent pas être convertis."
+    ],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": [],
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29915",
+    "pdf_sha256": "b27bffa71d0c31f1b8e4497c49511ab2bddff916f0ddbabb9bbf9652f05a17e5",
+    "mission": "Pouvoirs publics"
+}

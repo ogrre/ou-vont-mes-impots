@@ -1,0 +1,225 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "751",
+        "name": "Structures et dispositifs de sécurité routière"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Dispositifs de contrôle",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                155151683,
+                46300000,
+                201451683,
+                201451683,
+                184169204,
+                7041082,
+                6012991,
+                197223278
+            ],
+            "amount_rows": [
+                [
+                    155151683,
+                    46300000,
+                    201451683,
+                    201451683
+                ],
+                [
+                    184169204,
+                    7041082,
+                    6012991,
+                    197223278
+                ]
+            ],
+            "extracted_lines": [
+                "155 151 683             46 300 000                             201 451 683       201 451 683",
+                "184 169 204              7 041 082              6 012 991       197 223 278"
+            ],
+            "ae_lfi": 201451683,
+            "ae_consumed": 197223278,
+            "cp_lfi": 201451683,
+            "cp_consumed": 196302791,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                155151683,
+                46300000,
+                201451683,
+                201451683,
+                178039252,
+                18077981,
+                185558,
+                196302791
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Centre national de traitement",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                74501893,
+                15000000,
+                89501893,
+                89501893,
+                74501893,
+                15000000,
+                89501893
+            ],
+            "amount_rows": [
+                [
+                    74501893,
+                    15000000,
+                    89501893,
+                    89501893
+                ],
+                [
+                    74501893,
+                    15000000,
+                    89501893
+                ]
+            ],
+            "extracted_lines": [
+                "74 501 893             15 000 000                              89 501 893         89 501 893",
+                "74 501 893             15 000 000                               89 501 893"
+            ],
+            "ae_lfi": 89501893,
+            "ae_consumed": 89501893,
+            "cp_lfi": 89501893,
+            "cp_consumed": 89501893,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                74501893,
+                15000000,
+                89501893,
+                89501893,
+                74501893,
+                15000000,
+                89501893
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Soutien au programme",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                6086424,
+                6086424,
+                6086424,
+                6757472,
+                2910880,
+                9668352
+            ],
+            "amount_rows": [
+                [
+                    6086424,
+                    6086424,
+                    6086424
+                ],
+                [
+                    6757472,
+                    2910880,
+                    9668352
+                ]
+            ],
+            "extracted_lines": [
+                "6 086 424                                                      6 086 424          6 086 424",
+                "6 757 472                                     2 910 880         9 668 352"
+            ],
+            "ae_lfi": 6086424,
+            "ae_consumed": 9668352,
+            "cp_lfi": 6086424,
+            "cp_consumed": 8800183,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                6086424,
+                6086424,
+                6086424,
+                6688052,
+                2112131,
+                8800183
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Système d'information Education routière et permis de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                29150000,
+                13450000,
+                42600000,
+                42600000,
+                22882615,
+                20441886,
+                43324500
+            ],
+            "amount_rows": [
+                [
+                    29150000,
+                    13450000,
+                    42600000,
+                    42600000
+                ],
+                [
+                    22882615,
+                    20441886,
+                    43324500
+                ]
+            ],
+            "extracted_lines": [
+                "29 150 000             13 450 000                              42 600 000         42 600 000",
+                "22 882 615             20 441 886                               43 324 500"
+            ],
+            "ae_lfi": 42600000,
+            "ae_consumed": 43324500,
+            "cp_lfi": 42600000,
+            "cp_consumed": 46598958,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                29150000,
+                13450000,
+                42600000,
+                42600000,
+                24637156,
+                21961802,
+                46598958
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 339640000,
+            "ae_consumed": 339718023,
+            "cp_lfi": 339640000,
+            "cp_consumed": 341203825
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 4,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30002",
+    "pdf_sha256": "d5027fd310cd9ecfbfbc4f49537bb7b4429c2b7815480f8ce7b0645ffd582237",
+    "mission": null
+}

@@ -1,0 +1,584 @@
+{
+    "discovered": 229,
+    "downloaded": 0,
+    "failed": [],
+    "parsed": 178,
+    "programmes": 178,
+    "actions": 1104,
+    "sub_actions": 329,
+    "errors": [
+        {
+            "program": "501",
+            "error": "Section 2024 par action introuvable."
+        },
+        {
+            "program": "531",
+            "error": "Section 2024 par action introuvable."
+        },
+        {
+            "program": "532",
+            "error": "Section 2024 par action introuvable."
+        },
+        {
+            "program": "533",
+            "error": "Section 2024 par action introuvable."
+        },
+        {
+            "program": "542",
+            "error": "Section 2024 par action introuvable."
+        }
+    ],
+    "divergences": [
+        {
+            "program": "103",
+            "differences": {
+                "ae_consumed": {
+                    "actions_sum": 11732938855,
+                    "programme_total": 12809862771,
+                    "difference": -1076923916
+                }
+            }
+        },
+        {
+            "program": "112",
+            "differences": {
+                "ae_consumed": {
+                    "actions_sum": 397529560,
+                    "programme_total": 396755420,
+                    "difference": 774140
+                }
+            }
+        },
+        {
+            "program": "131",
+            "differences": {
+                "ae_consumed": {
+                    "actions_sum": 212013364,
+                    "programme_total": 948174882,
+                    "difference": -736161518
+                }
+            }
+        },
+        {
+            "program": "134",
+            "differences": {
+                "cp_consumed": {
+                    "actions_sum": 3676629425,
+                    "programme_total": 3691726548,
+                    "difference": -15097123
+                }
+            }
+        },
+        {
+            "program": "138",
+            "differences": {
+                "ae_consumed": {
+                    "actions_sum": 1994529953,
+                    "programme_total": 1997444051,
+                    "difference": -2914098
+                }
+            }
+        },
+        {
+            "program": "139",
+            "differences": {
+                "cp_consumed": {
+                    "actions_sum": 6416124244,
+                    "programme_total": 8939358667,
+                    "difference": -2523234423
+                }
+            }
+        },
+        {
+            "program": "140",
+            "differences": {
+                "ae_lfi": {
+                    "actions_sum": 26879048249,
+                    "programme_total": 9223372036854775807,
+                    "difference": -9223372009975727558
+                },
+                "cp_lfi": {
+                    "actions_sum": 26879048249,
+                    "programme_total": 9223372036854775807,
+                    "difference": -9223372009975727558
+                }
+            }
+        },
+        {
+            "program": "149",
+            "differences": {
+                "ae_consumed": {
+                    "actions_sum": 2779661458,
+                    "programme_total": 3055290947,
+                    "difference": -275629489
+                }
+            }
+        },
+        {
+            "program": "150",
+            "differences": {
+                "ae_lfi": {
+                    "actions_sum": 15287052720,
+                    "programme_total": 9223372036854775807,
+                    "difference": -9223372021567723087
+                },
+                "cp_lfi": {
+                    "actions_sum": 15220237689,
+                    "programme_total": 9223372036854775807,
+                    "difference": -9223372021634538118
+                }
+            }
+        },
+        {
+            "program": "155",
+            "differences": {
+                "cp_consumed": {
+                    "actions_sum": 702004349,
+                    "programme_total": 714697175,
+                    "difference": -12692826
+                }
+            }
+        },
+        {
+            "program": "156",
+            "differences": {
+                "cp_consumed": {
+                    "actions_sum": 6674662338,
+                    "programme_total": 7959196649,
+                    "difference": -1284534311
+                }
+            }
+        },
+        {
+            "program": "172",
+            "differences": {
+                "cp_consumed": {
+                    "actions_sum": 6772496790,
+                    "programme_total": 7736700386,
+                    "difference": -964203596
+                }
+            }
+        },
+        {
+            "program": "175",
+            "differences": {
+                "ae_consumed": {
+                    "actions_sum": 820194852,
+                    "programme_total": 1527938707,
+                    "difference": -707743855
+                },
+                "cp_consumed": {
+                    "actions_sum": 655444692,
+                    "programme_total": 1250576676,
+                    "difference": -595131984
+                }
+            }
+        },
+        {
+            "program": "176",
+            "differences": {
+                "ae_lfi": {
+                    "actions_sum": 13409619700,
+                    "programme_total": 9223372036854775807,
+                    "difference": -9223372023445156107
+                },
+                "cp_lfi": {
+                    "actions_sum": 13004252764,
+                    "programme_total": 9223372036854775807,
+                    "difference": -9223372023850523043
+                }
+            }
+        },
+        {
+            "program": "182",
+            "differences": {
+                "ae_consumed": {
+                    "actions_sum": 1048908275,
+                    "programme_total": 1086140569,
+                    "difference": -37232294
+                }
+            }
+        },
+        {
+            "program": "192",
+            "differences": {
+                "ae_consumed": {
+                    "actions_sum": 642294719,
+                    "programme_total": 642097473,
+                    "difference": 197246
+                }
+            }
+        },
+        {
+            "program": "193",
+            "differences": {
+                "cp_consumed": {
+                    "actions_sum": 1440001939,
+                    "programme_total": 1607279541,
+                    "difference": -167277602
+                }
+            }
+        },
+        {
+            "program": "200",
+            "differences": {
+                "ae_lfi": {
+                    "actions_sum": 9.223372069685764e+18,
+                    "programme_total": 136189146022,
+                    "difference": 9.223371933496618e+18
+                },
+                "ae_consumed": {
+                    "actions_sum": 9.22337207044618e+18,
+                    "programme_total": 141573590889,
+                    "difference": 9.223371928872589e+18
+                },
+                "cp_lfi": {
+                    "actions_sum": 9.223372069685764e+18,
+                    "programme_total": 136189146022,
+                    "difference": 9.223371933496618e+18
+                },
+                "cp_consumed": {
+                    "actions_sum": 9.223372070440817e+18,
+                    "programme_total": 141568330580,
+                    "difference": 9.223371928872486e+18
+                }
+            }
+        },
+        {
+            "program": "205",
+            "differences": {
+                "ae_consumed": {
+                    "actions_sum": 304377877,
+                    "programme_total": 338766057,
+                    "difference": -34388180
+                }
+            }
+        },
+        {
+            "program": "212",
+            "differences": {
+                "ae_lfi": {
+                    "actions_sum": 24944669897,
+                    "programme_total": 9223372036854775807,
+                    "difference": -9223372011910105910
+                },
+                "ae_consumed": {
+                    "actions_sum": 23938107011,
+                    "programme_total": 24505866186,
+                    "difference": -567759175
+                },
+                "cp_lfi": {
+                    "actions_sum": 24898607726,
+                    "programme_total": 9223372036854775807,
+                    "difference": -9223372011956168081
+                }
+            }
+        },
+        {
+            "program": "214",
+            "differences": {
+                "ae_consumed": {
+                    "actions_sum": 2890051563,
+                    "programme_total": 3071099204,
+                    "difference": -181047641
+                },
+                "cp_consumed": {
+                    "actions_sum": 2728745121,
+                    "programme_total": 2909792898,
+                    "difference": -181047777
+                }
+            }
+        },
+        {
+            "program": "217",
+            "differences": {
+                "ae_consumed": {
+                    "actions_sum": 2203539463,
+                    "programme_total": 3028327039,
+                    "difference": -824787576
+                }
+            }
+        },
+        {
+            "program": "218",
+            "differences": {
+                "ae_consumed": {
+                    "actions_sum": 767767674,
+                    "programme_total": 943212768,
+                    "difference": -175445094
+                }
+            }
+        },
+        {
+            "program": "219",
+            "differences": {
+                "ae_consumed": {
+                    "actions_sum": 46585248,
+                    "programme_total": 668129672,
+                    "difference": -621544424
+                }
+            }
+        },
+        {
+            "program": "304",
+            "differences": {
+                "ae_consumed": {
+                    "actions_sum": 14313048714,
+                    "programme_total": 14312789219,
+                    "difference": 259495
+                }
+            }
+        },
+        {
+            "program": "305",
+            "differences": {
+                "ae_consumed": {
+                    "actions_sum": 85940294,
+                    "programme_total": 686068078,
+                    "difference": -600127784
+                }
+            }
+        },
+        {
+            "program": "310",
+            "differences": {
+                "cp_consumed": {
+                    "actions_sum": 617906112,
+                    "programme_total": 687482397,
+                    "difference": -69576285
+                }
+            }
+        },
+        {
+            "program": "334",
+            "differences": {
+                "ae_consumed": {
+                    "actions_sum": 30446326,
+                    "programme_total": 340420658,
+                    "difference": -309974332
+                }
+            }
+        },
+        {
+            "program": "344",
+            "differences": {
+                "ae_consumed": {
+                    "actions_sum": 0,
+                    "programme_total": -8335,
+                    "difference": 8335
+                }
+            }
+        },
+        {
+            "program": "349",
+            "differences": {
+                "ae_consumed": {
+                    "actions_sum": 14750319,
+                    "programme_total": 103952656,
+                    "difference": -89202337
+                }
+            }
+        },
+        {
+            "program": "354",
+            "differences": {
+                "ae_consumed": {
+                    "actions_sum": 2270828440,
+                    "programme_total": 2545605681,
+                    "difference": -274777241
+                }
+            }
+        },
+        {
+            "program": "361",
+            "differences": {
+                "cp_consumed": {
+                    "actions_sum": 518424605,
+                    "programme_total": 806994986,
+                    "difference": -288570381
+                }
+            }
+        },
+        {
+            "program": "362",
+            "differences": {
+                "ae_consumed": {
+                    "actions_sum": -20340893,
+                    "programme_total": -91161865,
+                    "difference": 70820972
+                },
+                "cp_consumed": {
+                    "actions_sum": 1749822000,
+                    "programme_total": 1766238850,
+                    "difference": -16416850
+                }
+            }
+        },
+        {
+            "program": "363",
+            "differences": {
+                "ae_consumed": {
+                    "actions_sum": 22284081,
+                    "programme_total": -187154200,
+                    "difference": 209438281
+                }
+            }
+        },
+        {
+            "program": "364",
+            "differences": {
+                "ae_consumed": {
+                    "actions_sum": -975713268,
+                    "programme_total": -995077875,
+                    "difference": 19364607
+                },
+                "cp_consumed": {
+                    "actions_sum": 220141468,
+                    "programme_total": 82627909,
+                    "difference": 137513559
+                }
+            }
+        },
+        {
+            "program": "423",
+            "differences": {
+                "ae_consumed": {
+                    "actions_sum": 0,
+                    "programme_total": -90000000,
+                    "difference": 90000000
+                },
+                "cp_consumed": {
+                    "actions_sum": 4600000,
+                    "programme_total": -76524300,
+                    "difference": 81124300
+                }
+            }
+        },
+        {
+            "program": "425",
+            "differences": {
+                "cp_consumed": {
+                    "actions_sum": 863000000,
+                    "programme_total": 1379785080,
+                    "difference": -516785080
+                }
+            }
+        },
+        {
+            "program": "723",
+            "differences": {
+                "ae_consumed": {
+                    "actions_sum": 185116349,
+                    "programme_total": 266520116,
+                    "difference": -81403767
+                }
+            }
+        },
+        {
+            "program": "834",
+            "differences": {
+                "ae_consumed": {
+                    "actions_sum": 0,
+                    "programme_total": -1364147,
+                    "difference": 1364147
+                },
+                "cp_consumed": {
+                    "actions_sum": 0,
+                    "programme_total": -1364147,
+                    "difference": 1364147
+                }
+            }
+        }
+    ],
+    "special_diagnostics": [
+        {
+            "program": "501",
+            "terminology_found": "specific institutional format",
+            "available_amounts": [],
+            "proposed_measurement_type": [],
+            "importable": false,
+            "reason": "Section 2024 par action introuvable."
+        },
+        {
+            "program": "511",
+            "terminology_found": "institutional_credits",
+            "available_amounts": [
+                "allocation",
+                "credits_opened",
+                "expenditure_recorded"
+            ],
+            "proposed_measurement_type": [
+                "allocation",
+                "credits_opened",
+                "expenditure_recorded"
+            ],
+            "importable": true,
+            "reason": "Colonnes explicites, sans conversion AE\/CP."
+        },
+        {
+            "program": "521",
+            "terminology_found": "institutional_credits",
+            "available_amounts": [
+                "allocation",
+                "credits_opened",
+                "expenditure_recorded"
+            ],
+            "proposed_measurement_type": [
+                "allocation",
+                "credits_opened",
+                "expenditure_recorded"
+            ],
+            "importable": true,
+            "reason": "Colonnes explicites, sans conversion AE\/CP."
+        },
+        {
+            "program": "531",
+            "terminology_found": "specific institutional format",
+            "available_amounts": [],
+            "proposed_measurement_type": [],
+            "importable": false,
+            "reason": "Section 2024 par action introuvable."
+        },
+        {
+            "program": "532",
+            "terminology_found": "specific institutional format",
+            "available_amounts": [],
+            "proposed_measurement_type": [],
+            "importable": false,
+            "reason": "Section 2024 par action introuvable."
+        },
+        {
+            "program": "533",
+            "terminology_found": "specific institutional format",
+            "available_amounts": [],
+            "proposed_measurement_type": [],
+            "importable": false,
+            "reason": "Section 2024 par action introuvable."
+        },
+        {
+            "program": "541",
+            "terminology_found": "institutional_credits",
+            "available_amounts": [
+                "allocation",
+                "credits_opened",
+                "expenditure_recorded"
+            ],
+            "proposed_measurement_type": [
+                "allocation",
+                "credits_opened",
+                "expenditure_recorded"
+            ],
+            "importable": true,
+            "reason": "Colonnes explicites, sans conversion AE\/CP."
+        },
+        {
+            "program": "542",
+            "terminology_found": "specific institutional format",
+            "available_amounts": [],
+            "proposed_measurement_type": [],
+            "importable": false,
+            "reason": "Section 2024 par action introuvable."
+        }
+    ],
+    "divergence_report": "\/var\/www\/data\/processed\/rap\/2024\/divergence-report.json"
+}

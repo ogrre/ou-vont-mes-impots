@@ -1,0 +1,240 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "794",
+        "name": "Opérations de maîtrise de la demande d'électricité, de production d'électricité par des énergies renouvelables ou de production de proximité dans les zones non interconnectées"
+    },
+    "actions": [
+        {
+            "code": "02",
+            "label": "Sites isolés",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                500000,
+                500000,
+                500000,
+                290863,
+                290863
+            ],
+            "amount_rows": [
+                [
+                    500000,
+                    500000,
+                    500000
+                ],
+                [
+                    290863,
+                    290863
+                ]
+            ],
+            "extracted_lines": [
+                "500 000         500 000             500 000",
+                "290 863         290 863"
+            ],
+            "ae_lfi": 500000,
+            "ae_consumed": 290863,
+            "cp_lfi": 500000,
+            "cp_consumed": 271433,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                500000,
+                500000,
+                500000,
+                271433,
+                271433
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Installations de proximité en zone non interconnectée",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                500000,
+                500000,
+                500000,
+                1754407,
+                1754407
+            ],
+            "amount_rows": [
+                [
+                    500000,
+                    500000,
+                    500000
+                ],
+                [
+                    1754407,
+                    1754407
+                ]
+            ],
+            "extracted_lines": [
+                "500 000          500 000             500 000",
+                "1 754 407        1 754 407"
+            ],
+            "ae_lfi": 500000,
+            "ae_consumed": 1754407,
+            "cp_lfi": 500000,
+            "cp_consumed": 824804,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                500000,
+                500000,
+                500000,
+                824804,
+                824804
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Maîtrise de la demande d'énergie",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                500000,
+                500000,
+                500000,
+                53421,
+                53421
+            ],
+            "amount_rows": [
+                [
+                    500000,
+                    500000,
+                    500000
+                ],
+                [
+                    53421,
+                    53421
+                ]
+            ],
+            "extracted_lines": [
+                "500 000         500 000             500 000",
+                "53 421          53 421"
+            ],
+            "ae_lfi": 500000,
+            "ae_consumed": 53421,
+            "cp_lfi": 500000,
+            "cp_consumed": 39414,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                500000,
+                500000,
+                500000,
+                39414,
+                39414
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Transition énergétique",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1000000,
+                1000000,
+                1000000,
+                4229997,
+                4229997
+            ],
+            "amount_rows": [
+                [
+                    1000000,
+                    1000000,
+                    1000000
+                ],
+                [
+                    4229997,
+                    4229997
+                ]
+            ],
+            "extracted_lines": [
+                "1 000 000       1 000 000           1 000 000",
+                "4 229 997        4 229 997"
+            ],
+            "ae_lfi": 1000000,
+            "ae_consumed": 4229997,
+            "cp_lfi": 1000000,
+            "cp_consumed": 4780915,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1000000,
+                1000000,
+                1000000,
+                4780915,
+                4780915
+            ]
+        },
+        {
+            "code": "08",
+            "label": "Appel à projets innovants",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                500000,
+                500000,
+                500000,
+                0
+            ],
+            "amount_rows": [
+                [
+                    500000,
+                    500000,
+                    500000
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "500 000         500 000             500 000",
+                "0"
+            ],
+            "ae_lfi": 500000,
+            "ae_consumed": 0,
+            "cp_lfi": 500000,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                500000,
+                500000,
+                500000,
+                0
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 3000000,
+            "ae_consumed": 6328689,
+            "cp_lfi": 3000000,
+            "cp_consumed": 5916566
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 5,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30023",
+    "pdf_sha256": "33bc58bfa0725efed776f6d33f10f33c51bda278c8f4d95179221a69dfb65c7a",
+    "mission": null
+}

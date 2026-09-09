@@ -1,0 +1,225 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "112",
+        "name": "Impulsion et coordination de la politique d'aménagement du territoire"
+    },
+    "actions": [
+        {
+            "code": "11",
+            "label": "FNADT section locale",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                190525726,
+                190525726,
+                190525726,
+                203445,
+                15030,
+                151896403,
+                152114878
+            ],
+            "amount_rows": [
+                [
+                    190525726,
+                    190525726,
+                    190525726
+                ],
+                [
+                    203445,
+                    15030,
+                    151896403,
+                    152114878
+                ]
+            ],
+            "extracted_lines": [
+                "190 525 726     190 525 726       190 525 726",
+                "203 445                 15 030          151 896 403     152 114 878"
+            ],
+            "ae_lfi": 190525726,
+            "ae_consumed": 152114878,
+            "cp_lfi": 130812235,
+            "cp_consumed": 127769838,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                130812235,
+                130812235,
+                130812235,
+                1022899,
+                126746939,
+                127769838
+            ]
+        },
+        {
+            "code": "12",
+            "label": "FNADT section générale",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                8000000,
+                5000000,
+                101344299,
+                114344299,
+                161314699,
+                4192740,
+                945674,
+                146774119,
+                151912533
+            ],
+            "amount_rows": [
+                [
+                    8000000,
+                    5000000,
+                    101344299,
+                    114344299,
+                    161314699
+                ],
+                [
+                    4192740,
+                    945674,
+                    146774119,
+                    151912533
+                ]
+            ],
+            "extracted_lines": [
+                "8 000 000         5 000 000                                 101 344 299     114 344 299       161 314 699",
+                "4 192 740          945 674                                  146 774 119     151 912 533"
+            ],
+            "ae_lfi": 161314699,
+            "ae_consumed": 151912533,
+            "cp_lfi": 164319940,
+            "cp_consumed": 154097453,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                8000000,
+                5000000,
+                104349540,
+                117349540,
+                164319940,
+                4192740,
+                350373,
+                149554340,
+                154097453
+            ]
+        },
+        {
+            "code": "13",
+            "label": "Soutien aux Opérateurs",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                89261442,
+                3800000,
+                93061442,
+                93061442,
+                81632149,
+                9450000,
+                2420000,
+                93502149
+            ],
+            "amount_rows": [
+                [
+                    89261442,
+                    3800000,
+                    93061442,
+                    93061442
+                ],
+                [
+                    81632149,
+                    9450000,
+                    2420000,
+                    93502149
+                ]
+            ],
+            "extracted_lines": [
+                "89 261 442              3 800 000                           93 061 442        93 061 442",
+                "81 632 149              9 450 000             2 420 000     93 502 149"
+            ],
+            "ae_lfi": 93061442,
+            "ae_consumed": 93502149,
+            "cp_lfi": 93061442,
+            "cp_consumed": 94046926,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                89261442,
+                3800000,
+                93061442,
+                93061442,
+                81651649,
+                9450000,
+                2945277,
+                94046926
+            ]
+        },
+        {
+            "code": "14",
+            "label": "Prime d'aménagement du territoire,",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "-774 140      -774 140"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": null,
+            "cp_lfi": 7297312,
+            "cp_consumed": 3716285,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                7297312,
+                7297312,
+                7297312,
+                3716285,
+                3716285
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 444901867,
+            "ae_consumed": 396755420,
+            "cp_lfi": 395490929,
+            "cp_consumed": 379630501
+        },
+        "differences": {
+            "ae_consumed": {
+                "actions_sum": 397529560,
+                "programme_total": 396755420,
+                "difference": 774140
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 4,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29561",
+    "pdf_sha256": "41e7ed81237ea5530076db90e8259835239961711ba44479d1994c2e5f311de4",
+    "mission": "Cohésion des territoires"
+}

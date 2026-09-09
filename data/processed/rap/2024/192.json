@@ -1,0 +1,184 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "192",
+        "name": "Recherche et enseignement supérieur en matière économique et industrielle"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Organismes de formation supérieure et de recherche",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                339811329,
+                4000000,
+                7798563,
+                351609892,
+                351609892,
+                332870437,
+                3780000,
+                8252640,
+                344903077
+            ],
+            "amount_rows": [
+                [
+                    339811329,
+                    4000000,
+                    7798563,
+                    351609892,
+                    351609892
+                ],
+                [
+                    332870437,
+                    3780000,
+                    8252640,
+                    344903077
+                ]
+            ],
+            "extracted_lines": [
+                "339 811 329               4 000 000             7 798 563    351 609 892       351 609 892",
+                "332 870 437               3 780 000              8 252 640    344 903 077"
+            ],
+            "ae_lfi": 351609892,
+            "ae_consumed": 344903077,
+            "cp_lfi": 351609892,
+            "cp_consumed": 344903077,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                339811329,
+                4000000,
+                7798563,
+                351609892,
+                351609892,
+                332870437,
+                3780000,
+                8252640,
+                344903077
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Soutien et diffusion de l'innovation technologique",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                17444671,
+                2476908,
+                306484052,
+                326405631,
+                326405631,
+                17259268,
+                2340678,
+                277791696,
+                297391642
+            ],
+            "amount_rows": [
+                [
+                    17444671,
+                    2476908,
+                    306484052,
+                    326405631,
+                    326405631
+                ],
+                [
+                    17259268,
+                    2340678,
+                    277791696,
+                    297391642
+                ]
+            ],
+            "extracted_lines": [
+                "17 444 671               2 476 908          306 484 052     326 405 631       326 405 631",
+                "17 259 268               2 340 678           277 791 696     297 391 642"
+            ],
+            "ae_lfi": 326405631,
+            "ae_consumed": 297391642,
+            "cp_lfi": 326405631,
+            "cp_consumed": 297391642,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                17444671,
+                2476908,
+                306484052,
+                326405631,
+                326405631,
+                17259268,
+                2340678,
+                277791696,
+                297391642
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Soutien de la recherche industrielle stratégique",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                121018,
+                121018,
+                121018
+            ],
+            "amount_rows": [
+                [
+                    121018,
+                    121018,
+                    121018
+                ]
+            ],
+            "extracted_lines": [
+                "121 018       121 018             121 018",
+                "-232 417      -197 246"
+            ],
+            "ae_lfi": 121018,
+            "ae_consumed": null,
+            "cp_lfi": 10621018,
+            "cp_consumed": 27371558,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                10621018,
+                10621018,
+                10621018,
+                35171,
+                27336387,
+                27371558
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 678136541,
+            "ae_consumed": 642097473,
+            "cp_lfi": 688636541,
+            "cp_consumed": 669666277
+        },
+        "differences": {
+            "ae_consumed": {
+                "actions_sum": 642294719,
+                "programme_total": 642097473,
+                "difference": 197246
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 3,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29729",
+    "pdf_sha256": "c7b67f2da9023c236f6a6dd1dacf1a62eb7847e621c072f3052e9f79f9c2b533",
+    "mission": "Recherche et enseignement supérieur"
+}

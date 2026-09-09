@@ -1,0 +1,75 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "365",
+        "name": "Renforcement des fonds propres de l'Agence française de développement"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Renforcement des fonds propres de l'Agence française de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                150000000,
+                150000000,
+                150000000,
+                150000000,
+                150000000
+            ],
+            "amount_rows": [
+                [
+                    150000000,
+                    150000000,
+                    150000000
+                ],
+                [
+                    150000000,
+                    150000000
+                ]
+            ],
+            "extracted_lines": [
+                "150 000 000      150 000 000        150 000 000",
+                "150 000 000                           150 000 000"
+            ],
+            "ae_lfi": 150000000,
+            "ae_consumed": 150000000,
+            "cp_lfi": 150000000,
+            "cp_consumed": 150000000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                150000000,
+                150000000,
+                150000000,
+                150000000,
+                150000000
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 150000000,
+            "ae_consumed": 150000000,
+            "cp_lfi": 150000000,
+            "cp_consumed": 150000000
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29873",
+    "pdf_sha256": "c69dc84b666637913a156c57ebe082b3fccb181c17b6cd8b872b7fbef432998a",
+    "mission": "Aide publique au développement"
+}

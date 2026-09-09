@@ -1,0 +1,505 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "216",
+        "name": "Conduite et pilotage des politiques de l'intérieur"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "État-major et services",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                686879197,
+                60740269,
+                8361351,
+                755980817,
+                757005417,
+                658233011,
+                48892947,
+                7833211,
+                934376,
+                715893546
+            ],
+            "amount_rows": [
+                [
+                    686879197,
+                    60740269,
+                    8361351,
+                    755980817,
+                    757005417
+                ],
+                [
+                    658233011,
+                    48892947,
+                    7833211,
+                    934376,
+                    715893546
+                ]
+            ],
+            "extracted_lines": [
+                "686 879 197        60 740 269         8 361 351                                          755 980 817       757 005 417",
+                "658 233 011       48 892 947         7 833 211            934 376                       715 893 546"
+            ],
+            "ae_lfi": 757005417,
+            "ae_consumed": 715893546,
+            "cp_lfi": 756044896,
+            "cp_consumed": 715785993,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                686879197,
+                59779748,
+                8361351,
+                755020296,
+                756044896,
+                658233011,
+                49499802,
+                7190911,
+                862268,
+                715785993
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Numérique",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                195478222,
+                142613816,
+                338092038,
+                347690898,
+                156975738,
+                94293166,
+                1300000,
+                252568904
+            ],
+            "amount_rows": [
+                [
+                    195478222,
+                    142613816,
+                    338092038,
+                    347690898
+                ],
+                [
+                    156975738,
+                    94293166,
+                    1300000,
+                    252568904
+                ]
+            ],
+            "extracted_lines": [
+                "195 478 222       142 613 816                                           338 092 038       347 690 898",
+                "156 975 738        94 293 166                          1 300 000        252 568 904"
+            ],
+            "ae_lfi": 347690898,
+            "ae_consumed": 252568904,
+            "cp_lfi": 309760608,
+            "cp_consumed": 257155216,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                160250161,
+                139911587,
+                300161748,
+                309760608,
+                162800083,
+                94355133,
+                257155216
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Action sociale et formation",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                83616729,
+                83616729,
+                85842812,
+                46506,
+                91120136,
+                3541,
+                1566511,
+                92736694
+            ],
+            "amount_rows": [
+                [
+                    83616729,
+                    83616729,
+                    85842812
+                ],
+                [
+                    46506,
+                    91120136,
+                    3541,
+                    1566511,
+                    92736694
+                ]
+            ],
+            "extracted_lines": [
+                "83 616 729                                                             83 616 729        85 842 812",
+                "46 506       91 120 136               3 541       1 566 511                         92 736 694"
+            ],
+            "ae_lfi": 85842812,
+            "ae_consumed": 92736694,
+            "cp_lfi": 86619339,
+            "cp_consumed": 92567219,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                84393256,
+                84393256,
+                86619339,
+                46506,
+                90955762,
+                1564951,
+                92567219
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Affaires immobilières",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                71648262,
+                1099713441,
+                1171361703,
+                1171361703,
+                140647893,
+                839027457,
+                979675350
+            ],
+            "amount_rows": [
+                [
+                    71648262,
+                    1099713441,
+                    1171361703,
+                    1171361703
+                ],
+                [
+                    140647893,
+                    839027457,
+                    979675350
+                ]
+            ],
+            "extracted_lines": [
+                "71 648 262    1 099 713 441                                          1 171 361 703    1 171 361 703",
+                "140 647 893      839 027 457                                            979 675 350"
+            ],
+            "ae_lfi": 1171361703,
+            "ae_consumed": 979675350,
+            "cp_lfi": 321131698,
+            "cp_consumed": 281656173,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                142239167,
+                178892531,
+                321131698,
+                321131698,
+                170167576,
+                111488598,
+                281656173
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Affaires juridiques et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                91749174,
+                91749174,
+                91749174,
+                215,
+                126100692,
+                126100907
+            ],
+            "amount_rows": [
+                [
+                    91749174,
+                    91749174,
+                    91749174
+                ],
+                [
+                    215,
+                    126100692,
+                    126100907
+                ]
+            ],
+            "extracted_lines": [
+                "91 749 174                                                              91 749 174       91 749 174",
+                "215      126 100 692                                                             126 100 907"
+            ],
+            "ae_lfi": 91749174,
+            "ae_consumed": 126100907,
+            "cp_lfi": 91788177,
+            "cp_consumed": 125349177,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                91788177,
+                91788177,
+                91788177,
+                215,
+                125348961,
+                125349177
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Cultes et laïcité",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                2109848,
+                2109848,
+                2109848,
+                589565,
+                1405866,
+                1995431
+            ],
+            "amount_rows": [
+                [
+                    2109848,
+                    2109848,
+                    2109848
+                ],
+                [
+                    589565,
+                    1405866,
+                    1995431
+                ]
+            ],
+            "extracted_lines": [
+                "2 109 848                          2 109 848         2 109 848",
+                "589 565                          1 405 866                          1 995 431"
+            ],
+            "ae_lfi": 2109848,
+            "ae_consumed": 1995431,
+            "cp_lfi": 2109848,
+            "cp_consumed": 1956937,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                2109848,
+                2109848,
+                2109848,
+                583471,
+                1373466,
+                1956937
+            ]
+        },
+        {
+            "code": "08",
+            "label": "Immigration, asile et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                43271153,
+                43271153,
+                43271153,
+                41676745,
+                1301,
+                41678046
+            ],
+            "amount_rows": [
+                [
+                    43271153,
+                    43271153,
+                    43271153
+                ],
+                [
+                    41676745,
+                    1301,
+                    41678046
+                ]
+            ],
+            "extracted_lines": [
+                "43 271 153                                                                              43 271 153        43 271 153",
+                "41 676 745            1 301                                                            41 678 046"
+            ],
+            "ae_lfi": 43271153,
+            "ae_consumed": 41678046,
+            "cp_lfi": 43271153,
+            "cp_consumed": 41678046,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                43271153,
+                43271153,
+                43271153,
+                41676745,
+                1301,
+                41678046
+            ]
+        },
+        {
+            "code": "09",
+            "label": "Sécurité et éducation",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                131052268,
+                131052268,
+                131052268,
+                134008930,
+                134008930
+            ],
+            "amount_rows": [
+                [
+                    131052268,
+                    131052268,
+                    131052268
+                ],
+                [
+                    134008930,
+                    134008930
+                ]
+            ],
+            "extracted_lines": [
+                "131 052 268                                                                              131 052 268       131 052 268",
+                "134 008 930                                                                             134 008 930"
+            ],
+            "ae_lfi": 131052268,
+            "ae_consumed": 134008930,
+            "cp_lfi": 131052268,
+            "cp_consumed": 134008930,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                131052268,
+                131052268,
+                131052268,
+                134008930,
+                134008930
+            ]
+        },
+        {
+            "code": "10",
+            "label": "Fonds interministériel de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                270000,
+                62162810,
+                62432810,
+                62432810,
+                187797,
+                46159228,
+                46347025
+            ],
+            "amount_rows": [
+                [
+                    270000,
+                    62162810,
+                    62432810,
+                    62432810
+                ],
+                [
+                    187797,
+                    46159228,
+                    46347025
+                ]
+            ],
+            "extracted_lines": [
+                "270 000                         62 162 810                          62 432 810        62 432 810",
+                "187 797                         46 159 228                          46 347 025"
+            ],
+            "ae_lfi": 62432810,
+            "ae_consumed": 46347025,
+            "cp_lfi": 62432810,
+            "cp_consumed": 46279993,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                270000,
+                62162810,
+                62432810,
+                62432810,
+                303569,
+                45976424,
+                46279993
+            ]
+        },
+        {
+            "code": "11",
+            "label": "Equipements de vidéo-",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                24966969,
+                24966969,
+                24966969,
+                2474967,
+                2474967
+            ],
+            "amount_rows": [
+                [
+                    24966969,
+                    24966969,
+                    24966969
+                ],
+                [
+                    2474967,
+                    2474967
+                ]
+            ],
+            "extracted_lines": [
+                "24 966 969                          24 966 969        24 966 969",
+                "2 474 967                           2 474 967"
+            ],
+            "ae_lfi": 24966969,
+            "ae_consumed": 2474967,
+            "cp_lfi": 24966969,
+            "cp_consumed": 16465040,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                24966969,
+                24966969,
+                24966969,
+                16465040,
+                16465040
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 2717483052,
+            "ae_consumed": 2393479799,
+            "cp_lfi": 1829177766,
+            "cp_consumed": 1712902724
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 10,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29777",
+    "pdf_sha256": "456eb41ee5fb5a40dbbb6be66537490ce7af6c242771a44230ed99abe8f1eee8",
+    "mission": "Administration générale et territoriale de l'État"
+}

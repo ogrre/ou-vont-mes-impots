@@ -1,0 +1,405 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "205",
+        "name": "Affaires maritimes, pêche et aquaculture"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Surveillance et sûreté maritimes",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                13402660,
+                15925535,
+                11486170,
+                40814365,
+                50564365,
+                23128140,
+                7517036,
+                11286348,
+                41931524
+            ],
+            "amount_rows": [
+                [
+                    13402660,
+                    15925535,
+                    11486170,
+                    40814365,
+                    50564365
+                ],
+                [
+                    23128140,
+                    7517036,
+                    11286348,
+                    41931524
+                ]
+            ],
+            "extracted_lines": [
+                "13 402 660         15 925 535         11 486 170                         40 814 365        50 564 365",
+                "23 128 140          7 517 036         11 286 348                         41 931 524"
+            ],
+            "ae_lfi": 50564365,
+            "ae_consumed": 41931524,
+            "cp_lfi": 45933569,
+            "cp_consumed": 40665206,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                13402660,
+                11294739,
+                11486170,
+                36183569,
+                45933569,
+                23278984,
+                6845774,
+                10540448,
+                40665206
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Emplois et formations maritimes",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                25850000,
+                990041,
+                7920000,
+                34760041,
+                34760041
+            ],
+            "amount_rows": [
+                [
+                    25850000,
+                    990041,
+                    7920000,
+                    34760041,
+                    34760041
+                ]
+            ],
+            "extracted_lines": [
+                "25 850 000            990 041           7 920 000                        34 760 041        34 760 041",
+                "1 905 405           7 783 612       -1 876 355       34 388 181"
+            ],
+            "ae_lfi": 34760041,
+            "ae_consumed": null,
+            "cp_lfi": 36458259,
+            "cp_consumed": 36190445,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                25848717,
+                2689542,
+                7920000,
+                36458259,
+                36458259,
+                26478710,
+                1905405,
+                7806330,
+                36190445
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Innovation et flotte de commerce",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                860180,
+                104423496,
+                105283676,
+                105283676,
+                791489,
+                2500,
+                107525022,
+                108319012
+            ],
+            "amount_rows": [
+                [
+                    860180,
+                    104423496,
+                    105283676,
+                    105283676
+                ],
+                [
+                    791489,
+                    2500,
+                    107525022,
+                    108319012
+                ]
+            ],
+            "extracted_lines": [
+                "860 180                           104 423 496                        105 283 676       105 283 676",
+                "791 489                2 500       107 525 022                        108 319 012"
+            ],
+            "ae_lfi": 105283676,
+            "ae_consumed": 108319012,
+            "cp_lfi": 105283676,
+            "cp_consumed": 108288991,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                860180,
+                104423496,
+                105283676,
+                105283676,
+                760861,
+                31670,
+                107496460,
+                108288991
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Action interministérielle de la mer",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                8785103,
+                29975648,
+                176182,
+                38936933,
+                38936933,
+                9556515,
+                27161906,
+                226788,
+                36945209
+            ],
+            "amount_rows": [
+                [
+                    8785103,
+                    29975648,
+                    176182,
+                    38936933,
+                    38936933
+                ],
+                [
+                    9556515,
+                    27161906,
+                    226788,
+                    36945209
+                ]
+            ],
+            "extracted_lines": [
+                "8 785 103         29 975 648             176 182                        38 936 933        38 936 933",
+                "9 556 515         27 161 906            226 788                         36 945 209"
+            ],
+            "ae_lfi": 38936933,
+            "ae_consumed": 36945209,
+            "cp_lfi": 18268409,
+            "cp_consumed": 12378900,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                8785103,
+                9307124,
+                176182,
+                18268409,
+                18268409,
+                8655777,
+                3522235,
+                200888,
+                12378900
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Soutien et systèmes d'information",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                9266100,
+                1544681,
+                208511,
+                11019292,
+                11519292,
+                12663094,
+                246811,
+                770655,
+                13680560
+            ],
+            "amount_rows": [
+                [
+                    9266100,
+                    1544681,
+                    208511,
+                    11019292,
+                    11519292
+                ],
+                [
+                    12663094,
+                    246811,
+                    770655,
+                    13680560
+                ]
+            ],
+            "extracted_lines": [
+                "9 266 100           1 544 681             208 511                        11 019 292        11 519 292",
+                "12 663 094            246 811             770 655                         13 680 560"
+            ],
+            "ae_lfi": 11519292,
+            "ae_consumed": 13680560,
+            "cp_lfi": 12112924,
+            "cp_consumed": 13667349,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                9859732,
+                1544681,
+                208511,
+                11612924,
+                12112924,
+                12423498,
+                443196,
+                800655,
+                13667349
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Pêche et aquaculture",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                17257800,
+                2500000,
+                68149388,
+                87907188,
+                89907188,
+                21455343,
+                63401747,
+                2240,
+                84859330
+            ],
+            "amount_rows": [
+                [
+                    17257800,
+                    2500000,
+                    68149388,
+                    87907188,
+                    89907188
+                ],
+                [
+                    21455343,
+                    63401747,
+                    2240,
+                    84859330
+                ]
+            ],
+            "extracted_lines": [
+                "17 257 800          2 500 000         68 149 388                         87 907 188        89 907 188",
+                "21 455 343                            63 401 747              2 240      84 859 330"
+            ],
+            "ae_lfi": 89907188,
+            "ae_consumed": 84859330,
+            "cp_lfi": 86616757,
+            "cp_consumed": 88886900,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                17257800,
+                2500000,
+                64858957,
+                84616757,
+                86616757,
+                21067705,
+                67778483,
+                40712,
+                88886900
+            ]
+        },
+        {
+            "code": "08",
+            "label": "Planification et économie bleue",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                2900232,
+                740000,
+                27521277,
+                31161509,
+                31161509,
+                2450727,
+                0,
+                16128516,
+                63000,
+                18642242
+            ],
+            "amount_rows": [
+                [
+                    2900232,
+                    740000,
+                    27521277,
+                    31161509,
+                    31161509
+                ],
+                [
+                    2450727,
+                    0,
+                    16128516,
+                    63000,
+                    18642242
+                ]
+            ],
+            "extracted_lines": [
+                "2 900 232            740 000         27 521 277                         31 161 509        31 161 509",
+                "2 450 727                 0          16 128 516            63 000       18 642 242"
+            ],
+            "ae_lfi": 31161509,
+            "ae_consumed": 18642242,
+            "cp_lfi": 19661509,
+            "cp_consumed": 13114013,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                2900232,
+                740000,
+                16021277,
+                19661509,
+                19661509,
+                2689968,
+                10424045,
+                13114013
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 362133004,
+            "ae_consumed": 338766057,
+            "cp_lfi": 324335103,
+            "cp_consumed": 313191804
+        },
+        "differences": {
+            "ae_consumed": {
+                "actions_sum": 304377877,
+                "programme_total": 338766057,
+                "difference": -34388180
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 7,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29756",
+    "pdf_sha256": "c9fa98c3f13832a12cc2bfc29c7f2d49a38c6f32e22c55e9de0427dceaa63249",
+    "mission": "Écologie, développement et mobilité durables"
+}

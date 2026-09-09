@@ -1,0 +1,126 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "157",
+        "name": "Handicap et dépendance"
+    },
+    "actions": [
+        {
+            "code": "12",
+            "label": "Allocations et aides en faveur des personnes handicapées",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                15316997783,
+                15316997783,
+                15316997783,
+                1193724,
+                15246727883,
+                15247921607
+            ],
+            "amount_rows": [
+                [
+                    15316997783,
+                    15316997783,
+                    15316997783
+                ],
+                [
+                    1193724,
+                    15246727883,
+                    15247921607
+                ]
+            ],
+            "extracted_lines": [
+                "15 316 997 783    15 316 997 783    15 316 997 783",
+                "1 193 724      15 246 727 883    15 247 921 607"
+            ],
+            "ae_lfi": 15316997783,
+            "ae_consumed": 15247921607,
+            "cp_lfi": 15316997783,
+            "cp_consumed": 15247860483,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                15316997783,
+                15316997783,
+                15316997783,
+                1132600,
+                15246727883,
+                15247860483
+            ]
+        },
+        {
+            "code": "13",
+            "label": "Pilotage du programme et animation des politiques inclusives",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                999329,
+                63769915,
+                64769244,
+                64769244,
+                4549976,
+                64611091,
+                69161067
+            ],
+            "amount_rows": [
+                [
+                    999329,
+                    63769915,
+                    64769244,
+                    64769244
+                ],
+                [
+                    4549976,
+                    64611091,
+                    69161067
+                ]
+            ],
+            "extracted_lines": [
+                "999 329           63 769 915       64 769 244         64 769 244",
+                "4 549 976          64 611 091        69 161 067"
+            ],
+            "ae_lfi": 64769244,
+            "ae_consumed": 69161067,
+            "cp_lfi": 64769244,
+            "cp_consumed": 67514209,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                999329,
+                63769915,
+                64769244,
+                64769244,
+                2808990,
+                64705219,
+                67514209
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 15381767027,
+            "ae_consumed": 15317082674,
+            "cp_lfi": 15381767027,
+            "cp_consumed": 15315374692
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 2,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29660",
+    "pdf_sha256": "54f6ad3e1e36fa25040db66b7e86340b2ee53cf2740b4cdcdefa575a2256fcf1",
+    "mission": "Solidarité, insertion et égalité des chances"
+}

@@ -1,0 +1,81 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "335",
+        "name": "Conseil supérieur de la magistrature"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Conseil supérieur de la magistrature",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                3275506,
+                1362523,
+                4638029,
+                4638029,
+                3177122,
+                1188810,
+                4365933
+            ],
+            "amount_rows": [
+                [
+                    3275506,
+                    1362523,
+                    4638029,
+                    4638029
+                ],
+                [
+                    3177122,
+                    1188810,
+                    4365933
+                ]
+            ],
+            "extracted_lines": [
+                "3 275 506           1 362 523     4 638 029          4 638 029",
+                "3 177 122           1 188 810      4 365 933"
+            ],
+            "ae_lfi": 4638029,
+            "ae_consumed": 4365933,
+            "cp_lfi": 5720822,
+            "cp_consumed": 5275275,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                3275506,
+                2445316,
+                5720822,
+                5720822,
+                3177122,
+                2098153,
+                5275275
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 4638029,
+            "ae_consumed": 4365933,
+            "cp_lfi": 5720822,
+            "cp_consumed": 5275275
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29825",
+    "pdf_sha256": "fc0bd63150dd9ef6765fe815bd91660b2a0cd72a301a9dcaf3331dced2eacbaf",
+    "mission": "Justice"
+}

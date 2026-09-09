@@ -1,0 +1,149 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "425",
+        "name": "Financement structurel des écosystèmes d'innovation"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Financements de l'écosystème ESRI et valorisation",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 220000000,
+            "cp_consumed": 158000000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                220000000,
+                220000000,
+                220000000,
+                158000000,
+                158000000
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Aides à l'innovation « bottom-up » (subventions et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "60 000 000           -60 000 000                0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": null,
+            "cp_lfi": 727500000,
+            "cp_consumed": null,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                727500000,
+                727500000,
+                727500000
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Aides à l’innovation « bottom-up » (fonds propres)",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                395000000,
+                395000000
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    395000000,
+                    395000000
+                ]
+            ],
+            "extracted_lines": [
+                "0                 0",
+                "395 000 000                                                  395 000 000"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 395000000,
+            "cp_lfi": 705000000,
+            "cp_consumed": 705000000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                705000000,
+                705000000,
+                705000000,
+                705000000,
+                705000000
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 0,
+            "ae_consumed": 395000000,
+            "cp_lfi": 1652500000,
+            "cp_consumed": 1379785080
+        },
+        "differences": {
+            "cp_consumed": {
+                "actions_sum": 863000000,
+                "programme_total": 1379785080,
+                "difference": -516785080
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 3,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29909",
+    "pdf_sha256": "a1f180e763d48d11fca850a9447e08f89b7fad7bcdb0e4d09da94e4ef1665225",
+    "mission": "Investir pour la France de 2030"
+}

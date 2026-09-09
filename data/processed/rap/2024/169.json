@@ -1,0 +1,845 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "169",
+        "name": "Reconnaissance et réparation en faveur du monde combattant, mémoire et liens avec la Nation"
+    },
+    "actions": [
+        {
+            "code": "02",
+            "label": "PMI, droits et soutien aux invalides",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                18840069,
+                807233973,
+                826074042,
+                826224042,
+                19220091,
+                841189822,
+                18297005,
+                878706918
+            ],
+            "amount_rows": [
+                [
+                    18840069,
+                    807233973,
+                    826074042,
+                    826224042
+                ],
+                [
+                    19220091,
+                    841189822,
+                    18297005,
+                    878706918
+                ]
+            ],
+            "extracted_lines": [
+                "18 840 069                           807 233 973                             826 074 042       826 224 042",
+                "19 220 091                           841 189 822           18 297 005        878 706 918"
+            ],
+            "ae_lfi": 826224042,
+            "ae_consumed": 878706918,
+            "cp_lfi": 835384042,
+            "cp_consumed": 867184279,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                18840069,
+                9160000,
+                807233973,
+                835234042,
+                835384042,
+                19208257,
+                841189822,
+                6786200,
+                867184279
+            ]
+        },
+        {
+            "code": "02.21",
+            "label": "Droits dérivés liés à l'invalidité",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "02",
+            "contributes_to_program_total": false,
+            "amounts": [
+                4404842,
+                34356890,
+                38761732,
+                38911732,
+                5038382,
+                38625250,
+                43663632
+            ],
+            "amount_rows": [
+                [
+                    4404842,
+                    34356890,
+                    38761732,
+                    38911732
+                ],
+                [
+                    5038382,
+                    38625250,
+                    43663632
+                ]
+            ],
+            "extracted_lines": [
+                "4 404 842                            34 356 890                              38 761 732        38 911 732",
+                "5 038 382                            38 625 250                              43 663 632"
+            ],
+            "ae_lfi": 38911732,
+            "ae_consumed": 43663632,
+            "cp_lfi": 38911732,
+            "cp_consumed": 43651798,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                4404842,
+                34356890,
+                38761732,
+                38911732,
+                5026548,
+                38625250,
+                43651798
+            ]
+        },
+        {
+            "code": "02.22",
+            "label": "Remboursement des réductions",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "02",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1680000,
+                1680000,
+                1680000,
+                2351987,
+                2351987
+            ],
+            "amount_rows": [
+                [
+                    1680000,
+                    1680000,
+                    1680000
+                ],
+                [
+                    2351987,
+                    2351987
+                ]
+            ],
+            "extracted_lines": [
+                "1 680 000                              1 680 000          1 680 000",
+                "2 351 987                              2 351 987"
+            ],
+            "ae_lfi": 1680000,
+            "ae_consumed": 2351987,
+            "cp_lfi": 1680000,
+            "cp_consumed": 2351987,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1680000,
+                1680000,
+                1680000,
+                2351987,
+                2351987
+            ]
+        },
+        {
+            "code": "02.23",
+            "label": "Remboursement des prestations",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "02",
+            "contributes_to_program_total": false,
+            "amounts": [
+                80849642,
+                80849642,
+                80849642,
+                80319099,
+                80319099
+            ],
+            "amount_rows": [
+                [
+                    80849642,
+                    80849642,
+                    80849642
+                ],
+                [
+                    80319099,
+                    80319099
+                ]
+            ],
+            "extracted_lines": [
+                "80 849 642                              80 849 642        80 849 642",
+                "80 319 099                              80 319 099"
+            ],
+            "ae_lfi": 80849642,
+            "ae_consumed": 80319099,
+            "cp_lfi": 80849642,
+            "cp_consumed": 80319099,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                80849642,
+                80849642,
+                80849642,
+                80319099,
+                80319099
+            ]
+        },
+        {
+            "code": "02.24",
+            "label": "PMI et allocations rattachées",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "02",
+            "contributes_to_program_total": false,
+            "amounts": [
+                690347441,
+                690347441,
+                690347441,
+                719893487,
+                719893487
+            ],
+            "amount_rows": [
+                [
+                    690347441,
+                    690347441,
+                    690347441
+                ],
+                [
+                    719893487,
+                    719893487
+                ]
+            ],
+            "extracted_lines": [
+                "690 347 441                             690 347 441       690 347 441",
+                "719 893 487                             719 893 487"
+            ],
+            "ae_lfi": 690347441,
+            "ae_consumed": 719893487,
+            "cp_lfi": 690347441,
+            "cp_consumed": 719893487,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                690347441,
+                690347441,
+                690347441,
+                719893487,
+                719893487
+            ]
+        },
+        {
+            "code": "02.25",
+            "label": "Institution nationale des invalides",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "02",
+            "contributes_to_program_total": false,
+            "amounts": [
+                14435227,
+                14435227,
+                14435227,
+                14181709,
+                18297005,
+                32478714
+            ],
+            "amount_rows": [
+                [
+                    14435227,
+                    14435227,
+                    14435227
+                ],
+                [
+                    14181709,
+                    18297005,
+                    32478714
+                ]
+            ],
+            "extracted_lines": [
+                "14 435 227                                                                    14 435 227        14 435 227",
+                "14 181 709                                                 18 297 005         32 478 714"
+            ],
+            "ae_lfi": 14435227,
+            "ae_consumed": 32478714,
+            "cp_lfi": 23595227,
+            "cp_consumed": 20967909,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                14435227,
+                9160000,
+                23595227,
+                23595227,
+                14181709,
+                6786200,
+                20967909
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Reconnaissance envers le monde",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                62560485,
+                760804556,
+                823365041,
+                823365041,
+                62560485,
+                774228366,
+                836788851
+            ],
+            "amount_rows": [
+                [
+                    62560485,
+                    760804556,
+                    823365041,
+                    823365041
+                ],
+                [
+                    62560485,
+                    774228366,
+                    836788851
+                ]
+            ],
+            "extracted_lines": [
+                "62 560 485                           760 804 556                             823 365 041       823 365 041",
+                "62 560 485                           774 228 366                             836 788 851"
+            ],
+            "ae_lfi": 823365041,
+            "ae_consumed": 836788851,
+            "cp_lfi": 823365041,
+            "cp_consumed": 836788851,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                62560485,
+                760804556,
+                823365041,
+                823365041,
+                62560485,
+                774228366,
+                836788851
+            ]
+        },
+        {
+            "code": "03.31",
+            "label": "Majoration des rentes",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "03",
+            "contributes_to_program_total": false,
+            "amounts": [
+                194955926,
+                194955926,
+                194955926,
+                207460777,
+                207460777
+            ],
+            "amount_rows": [
+                [
+                    194955926,
+                    194955926,
+                    194955926
+                ],
+                [
+                    207460777,
+                    207460777
+                ]
+            ],
+            "extracted_lines": [
+                "194 955 926                             194 955 926       194 955 926",
+                "207 460 777                             207 460 777"
+            ],
+            "ae_lfi": 194955926,
+            "ae_consumed": 207460777,
+            "cp_lfi": 194955926,
+            "cp_consumed": 207460777,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                194955926,
+                194955926,
+                194955926,
+                207460777,
+                207460777
+            ]
+        },
+        {
+            "code": "03.32",
+            "label": "Subventions aux associations et",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "03",
+            "contributes_to_program_total": false,
+            "amounts": [
+                360000,
+                360000,
+                360000,
+                543870,
+                543870
+            ],
+            "amount_rows": [
+                [
+                    360000,
+                    360000,
+                    360000
+                ],
+                [
+                    543870,
+                    543870
+                ]
+            ],
+            "extracted_lines": [
+                "360 000                                 360 000           360 000",
+                "543 870                                 543 870"
+            ],
+            "ae_lfi": 360000,
+            "ae_consumed": 543870,
+            "cp_lfi": 360000,
+            "cp_consumed": 543870,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                360000,
+                360000,
+                360000,
+                543870,
+                543870
+            ]
+        },
+        {
+            "code": "03.33",
+            "label": "Indemnités, pécules et frais de",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "03",
+            "contributes_to_program_total": false,
+            "amounts": [
+                50000,
+                50000,
+                50000,
+                50000,
+                50000
+            ],
+            "amount_rows": [
+                [
+                    50000,
+                    50000,
+                    50000
+                ],
+                [
+                    50000,
+                    50000
+                ]
+            ],
+            "extracted_lines": [
+                "50 000                                 50 000            50 000",
+                "50 000                                 50 000"
+            ],
+            "ae_lfi": 50000,
+            "ae_consumed": 50000,
+            "cp_lfi": 50000,
+            "cp_consumed": 50000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                50000,
+                50000,
+                50000,
+                50000,
+                50000
+            ]
+        },
+        {
+            "code": "03.34",
+            "label": "Action sociale en faveur du",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "03",
+            "contributes_to_program_total": false,
+            "amounts": [
+                29000000,
+                29000000,
+                29000000,
+                25800000,
+                25800000
+            ],
+            "amount_rows": [
+                [
+                    29000000,
+                    29000000,
+                    29000000
+                ],
+                [
+                    25800000,
+                    25800000
+                ]
+            ],
+            "extracted_lines": [
+                "29 000 000                              29 000 000        29 000 000",
+                "25 800 000                              25 800 000"
+            ],
+            "ae_lfi": 29000000,
+            "ae_consumed": 25800000,
+            "cp_lfi": 29000000,
+            "cp_consumed": 25800000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                29000000,
+                29000000,
+                29000000,
+                25800000,
+                25800000
+            ]
+        },
+        {
+            "code": "03.35",
+            "label": "Office national des anciens",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "03",
+            "contributes_to_program_total": false,
+            "amounts": [
+                62560485,
+                62560485,
+                62560485,
+                62560485,
+                62560485
+            ],
+            "amount_rows": [
+                [
+                    62560485,
+                    62560485,
+                    62560485
+                ],
+                [
+                    62560485,
+                    62560485
+                ]
+            ],
+            "extracted_lines": [
+                "62 560 485                                                                    62 560 485        62 560 485",
+                "62 560 485                                                                    62 560 485"
+            ],
+            "ae_lfi": 62560485,
+            "ae_consumed": 62560485,
+            "cp_lfi": 62560485,
+            "cp_consumed": 62560485,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                62560485,
+                62560485,
+                62560485,
+                62560485,
+                62560485
+            ]
+        },
+        {
+            "code": "03.38",
+            "label": "Allocation de reconnaissance du",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "03",
+            "contributes_to_program_total": false,
+            "amounts": [
+                536438630,
+                536438630,
+                536438630,
+                540373719,
+                540373719
+            ],
+            "amount_rows": [
+                [
+                    536438630,
+                    536438630,
+                    536438630
+                ],
+                [
+                    540373719,
+                    540373719
+                ]
+            ],
+            "extracted_lines": [
+                "536 438 630                             536 438 630       536 438 630",
+                "540 373 719                             540 373 719"
+            ],
+            "ae_lfi": 536438630,
+            "ae_consumed": 540373719,
+            "cp_lfi": 536438630,
+            "cp_consumed": 540373719,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                536438630,
+                536438630,
+                536438630,
+                540373719,
+                540373719
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Actions en faveur des rapatriés",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                112202301,
+                112202301,
+                112202301,
+                109694301,
+                109694301
+            ],
+            "amount_rows": [
+                [
+                    112202301,
+                    112202301,
+                    112202301
+                ],
+                [
+                    109694301,
+                    109694301
+                ]
+            ],
+            "extracted_lines": [
+                "112 202 301                             112 202 301       112 202 301",
+                "109 694 301                             109 694 301"
+            ],
+            "ae_lfi": 112202301,
+            "ae_consumed": 109694301,
+            "cp_lfi": 112202301,
+            "cp_consumed": 109694301,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                112202301,
+                112202301,
+                112202301,
+                109694301,
+                109694301
+            ]
+        },
+        {
+            "code": "08",
+            "label": "Liens armées-jeunesse",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                25485874,
+                220000,
+                380000,
+                26085874,
+                47734874,
+                35826760,
+                1000328,
+                122811,
+                36949900
+            ],
+            "amount_rows": [
+                [
+                    25485874,
+                    220000,
+                    380000,
+                    26085874,
+                    47734874
+                ],
+                [
+                    35826760,
+                    1000328,
+                    122811,
+                    36949900
+                ]
+            ],
+            "extracted_lines": [
+                "25 485 874            220 000             380 000                             26 085 874        47 734 874",
+                "35 826 760          1 000 328            122 811                              36 949 900"
+            ],
+            "ae_lfi": 47734874,
+            "ae_consumed": 36949900,
+            "cp_lfi": 47734874,
+            "cp_consumed": 34848622,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                25485874,
+                220000,
+                380000,
+                26085874,
+                47734874,
+                34227998,
+                496722,
+                123902,
+                34848622
+            ]
+        },
+        {
+            "code": "09",
+            "label": "Politique de mémoire",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                24359366,
+                18070000,
+                42429366,
+                42504366,
+                10472054,
+                6274,
+                23276004,
+                33754332
+            ],
+            "amount_rows": [
+                [
+                    24359366,
+                    18070000,
+                    42429366,
+                    42504366
+                ],
+                [
+                    10472054,
+                    6274,
+                    23276004,
+                    33754332
+                ]
+            ],
+            "extracted_lines": [
+                "24 359 366                            18 070 000                              42 429 366        42 504 366",
+                "10 472 054               6 274        23 276 004                              33 754 332"
+            ],
+            "ae_lfi": 42504366,
+            "ae_consumed": 33754332,
+            "cp_lfi": 42504366,
+            "cp_consumed": 33677229,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                24359366,
+                18070000,
+                42429366,
+                42504366,
+                10394951,
+                6274,
+                23276004,
+                33677229
+            ]
+        },
+        {
+            "code": "09.01",
+            "label": "Mémoire & patrimoine mémoriel",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                22620000,
+                18070000,
+                40690000,
+                40765000,
+                8732688,
+                6274,
+                23276004,
+                32014966
+            ],
+            "amount_rows": [
+                [
+                    22620000,
+                    18070000,
+                    40690000,
+                    40765000
+                ],
+                [
+                    8732688,
+                    6274,
+                    23276004,
+                    32014966
+                ]
+            ],
+            "extracted_lines": [
+                "22 620 000                            18 070 000                              40 690 000        40 765 000",
+                "8 732 688               6 274        23 276 004                              32 014 966"
+            ],
+            "ae_lfi": 40765000,
+            "ae_consumed": 32014966,
+            "cp_lfi": 40765000,
+            "cp_consumed": 31937863,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                22620000,
+                18070000,
+                40690000,
+                40765000,
+                8655585,
+                6274,
+                23276004,
+                31937863
+            ]
+        },
+        {
+            "code": "09.02",
+            "label": "Conseil national des communes",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1739366,
+                1739366,
+                1739366,
+                1739366,
+                1739366
+            ],
+            "amount_rows": [
+                [
+                    1739366,
+                    1739366,
+                    1739366
+                ],
+                [
+                    1739366,
+                    1739366
+                ]
+            ],
+            "extracted_lines": [
+                "1 739 366                                                                     1 739 366          1 739 366",
+                "1 739 366                                                                     1 739 366"
+            ],
+            "ae_lfi": 1739366,
+            "ae_consumed": 1739366,
+            "cp_lfi": 1739366,
+            "cp_consumed": 1739366,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1739366,
+                1739366,
+                1739366,
+                1739366,
+                1739366
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 1852030624,
+            "ae_consumed": 1895894302,
+            "cp_lfi": 1861190624,
+            "cp_consumed": 1882193283
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 18,
+        "sub_actions": 13
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29687",
+    "pdf_sha256": "faf344f604073d1aa8867d9c113bd536db3471a6d199adbd5f771e00cef90f1f",
+    "mission": "Anciens combattants, mémoire et liens avec la Nation"
+}
