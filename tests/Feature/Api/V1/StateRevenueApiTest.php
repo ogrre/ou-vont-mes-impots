@@ -72,7 +72,7 @@ class StateRevenueApiTest extends TestCase
         $file = DatasetFile::where('slug', 'state-general-budget-revenue-2025-2026')->firstOrFail();
         app(StateBudgetRevenueXlsxImporter::class)->import(
             $file,
-            base_path('data/econ-fin-pub-recettes-budget.xlsx'),
+            base_path('data/2025/budget-etat/econ-fin-pub-recettes-budget.xlsx'),
         );
     }
 }
