@@ -23,6 +23,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Set up PHP
         uses: shivammathur/setup-php@v2
         with:
@@ -58,6 +60,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Set up PHP
         uses: shivammathur/setup-php@v2
         with:
@@ -76,7 +80,16 @@ jobs:
       - name: Run mutation tests
         env:
           XDEBUG_MODE: coverage
-        run: vendor/bin/infection --no-progress --threads=max
+          PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          PUSH_BEFORE_SHA: ${{ github.event.before }}
+        run: |
+          args=(--no-progress --threads=max --only-covering-test-cases)
+          if [[ "$GITHUB_EVENT_NAME" == "pull_request" && -n "$PR_BASE_SHA" ]]; then
+            args+=(--git-diff-base="$PR_BASE_SHA" --git-diff-lines)
+          elif [[ "$GITHUB_EVENT_NAME" == "push" && -n "$PUSH_BEFORE_SHA" && "$PUSH_BEFORE_SHA" != "0000000000000000000000000000000000000000" ]]; then
+            args+=(--git-diff-base="$PUSH_BEFORE_SHA" --git-diff-lines)
+          fi
+          vendor/bin/infection "${args[@]}"
 
   production-image:
     name: Production image
