@@ -2,8 +2,8 @@
 
 namespace App\Services\Api;
 
-use App\Models\FinancialObservation;
 use App\Models\ClassificationItem;
+use App\Models\FinancialObservation;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class StateRevenueQuery
@@ -93,6 +93,7 @@ class StateRevenueQuery
             array_unshift($labels, $item->official_label);
             $item = $item->parent;
         }
+
         return $labels;
     }
 }

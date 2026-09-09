@@ -43,28 +43,46 @@ class InseeCofogXlsxImporter implements DatasetImporter
         } catch (UniqueConstraintViolationException) {
             throw new DuplicateImportException("Ce contenu a déjà été importé pour {$datasetFile->slug}.");
         }
-        $read = 0; $written = 0;
+        $read = 0;
+        $written = 0;
         try {
             DB::transaction(function () use ($datasetFile, $path, $batch, &$read, &$written): void {
                 $scope = AccountingScope::query()->where('code', 'general_government')->firstOrFail();
                 $classification = Classification::query()->firstOrCreate(['code' => 'cofog'], ['name' => 'COFOG', 'description' => 'Classification des fonctions des administrations publiques.']);
-                $reader = new Reader; $reader->open($path);
+                $reader = new Reader;
+                $reader->open($path);
                 try {
                     foreach ($reader->getSheetIterator() as $sheet) {
-                        if ($sheet->getName() === 'Métadonnées') continue;
+                        if ($sheet->getName() === 'Métadonnées') {
+                            continue;
+                        }
                         $years = null;
                         foreach ($sheet->getRowIterator() as $rowNumber => $row) {
                             $values = array_map(static fn (mixed $value): string => trim((string) $value), $row->toArray());
                             if ($years === null) {
-                                foreach ($values as $index => $value) if (preg_match('/^(19|20)\\d{2}$/', $value)) $years[(int) $value] = $index;
-                                if ($years !== null && ! array_key_exists(2024, $years)) continue;
-                                if ($years === null) continue;
+                                foreach ($values as $index => $value) {
+                                    if (preg_match('/^(19|20)\\d{2}$/', $value)) {
+                                        $years[(int) $value] = $index;
+                                    }
+                                }
+                                if ($years !== null && ! array_key_exists(2024, $years)) {
+                                    continue;
+                                }
+                                if ($years === null) {
+                                    continue;
+                                }
+
                                 continue;
                             }
-                            if (($values[2] ?? '') === '' || ! preg_match('/^(?:_Z|GF\d{2,})$/', $values[2]) || ! array_key_exists(2024, $years)) continue;
-                            $code = $values[2]; $label = $values[3] ?? '';
+                            if (($values[2] ?? '') === '' || ! preg_match('/^(?:_Z|GF\d{2,})$/', $values[2]) || ! array_key_exists(2024, $years)) {
+                                continue;
+                            }
+                            $code = $values[2];
+                            $label = $values[3] ?? '';
                             $raw = $values[$years[2024]] ?? '';
-                            if ($label === '' || $raw === '' || ! is_numeric(str_replace(',', '.', $raw))) continue;
+                            if ($label === '' || $raw === '' || ! is_numeric(str_replace(',', '.', $raw))) {
+                                continue;
+                            }
                             $read++;
                             $level = $code === '_Z' ? 0 : (strlen($code) === 4 ? 1 : 2);
                             $parent = $level === 2 ? ClassificationItem::query()->where('classification_id', $classification->id)->where('code', substr($code, 0, 4))->first() : null;
@@ -73,13 +91,16 @@ class InseeCofogXlsxImporter implements DatasetImporter
                             $written++;
                         }
                     }
-                } finally { $reader->close(); }
+                } finally {
+                    $reader->close();
+                }
             });
             $batch->update(['status' => ImportStatus::Completed, 'completed_at' => now(), 'rows_read' => $read, 'rows_imported' => $written]);
         } catch (Throwable $exception) {
             $batch->update(['status' => ImportStatus::Failed, 'completed_at' => now(), 'rows_read' => $read, 'rows_rejected' => 1, 'error_message' => $exception->getMessage()]);
             throw $exception;
         }
+
         return $batch->fresh();
     }
 }

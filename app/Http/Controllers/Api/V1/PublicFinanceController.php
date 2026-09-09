@@ -3,8 +3,8 @@
 namespace App\Http\Controllers\Api\V1;
 
 use App\Http\Controllers\Controller;
-use App\Services\Api\PublicFinanceQuery;
 use App\Services\Api\HomePagePresenter;
+use App\Services\Api\PublicFinanceQuery;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 
@@ -58,6 +58,7 @@ class PublicFinanceController extends Controller
     public function budgetStateDistribution(int $year, Request $request, PublicFinanceQuery $query): JsonResponse
     {
         $data = $request->validate(['mission' => ['nullable', 'string'], 'programme' => ['nullable', 'string'], 'measurement' => ['nullable', 'in:commitment_authorization,payment_credit'], 'stage' => ['nullable', 'in:initial_budget,executed'], 'unit' => ['nullable', 'in:amount,percent,per_100']]);
+
         return response()->json($query->budgetStateDistribution($year, $data['mission'] ?? null, $data['programme'] ?? null, $data['measurement'] ?? 'payment_credit', $data['stage'] ?? 'executed', $data['unit'] ?? 'per_100'));
     }
 

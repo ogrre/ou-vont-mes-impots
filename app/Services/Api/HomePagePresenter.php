@@ -73,6 +73,7 @@ class HomePagePresenter
             $ratio = $amount === null || $denominator === null || $denominator === '0.00' ? null : bcmul(bcdiv((string) $amount, $denominator, 8), '100', 2);
             $item['percentage'] = $ratio;
             $item['per_100'] = $ratio;
+
             return $item;
         }, $items);
     }
@@ -83,12 +84,13 @@ class HomePagePresenter
     private function sortedItems(array $items): array
     {
         usort($items, fn (array $a, array $b): int => DecimalMoney::compare((string) ($b['amount'] ?? '0.00'), (string) ($a['amount'] ?? '0.00')));
+
         return $items;
     }
 
     /** @param array<string,mixed> $quality
-     * @param list<array<string,mixed>> $items
-     * @param array<string,mixed> $provenance
+     * @param  list<array<string,mixed>>  $items
+     * @param  array<string,mixed>  $provenance
      * @return array<string,mixed>
      */
     private function block(string $title, string $description, mixed $amount, array $items, array $quality, string $methodology, array $provenance): array
@@ -107,13 +109,19 @@ class HomePagePresenter
             ['code' => 'public_revenues', 'label' => 'Recettes publiques', 'amount' => $public['amount'] ?? null, 'percentage' => null, 'per_100' => null, 'quality_status' => $public['quality']['status'] ?? 'not_importable', 'accounting_basis' => $public['accounting_basis'] ?? 'national_accounts', 'provenance' => $this->provenance($public)],
             ['code' => 'state_budget_revenues', 'label' => 'Recettes budgétaires de l’État', 'amount' => $state['amount'] ?? null, 'percentage' => null, 'per_100' => null, 'quality_status' => $state['quality']['status'] ?? 'not_importable', 'accounting_basis' => $state['accounting_basis'] ?? 'budgetary', 'provenance' => $this->provenance($state)],
         ];
+
         return ['title' => 'D’où vient l’argent ?', 'description' => 'Les recettes publiques et les recettes budgétaires de l’État sont deux périmètres comptables distincts.', 'amount' => null, 'unit' => 'EUR', 'items' => $items, 'percentage' => null, 'per_100' => null, 'quality_status' => $this->combinedStatus($items), 'quality' => ['status' => $this->combinedStatus($items), 'reason' => 'Les deux sources sont exposées séparément et ne sont pas additionnées.', 'included_amount' => null, 'excluded_amount' => null, 'excluded_items' => []], 'methodology' => 'INSEE fournit les recettes des APU en comptabilité nationale ; le PLRG fournit les recettes exécutées du budget de l’État en comptabilité budgétaire.', 'provenance' => ['sources' => array_values(array_filter([$public['source'] ?? null, $state['source'] ?? null])), 'datasets' => array_values(array_filter([$public['dataset'] ?? null, $state['dataset'] ?? null]))], 'sub_blocks' => ['public_revenues' => $public, 'state_budget_revenues' => $state]];
     }
 
     /** @param list<array<string,mixed>> $items */
     private function combinedStatus(array $items): string
     {
-        foreach (['not_importable', 'review_required', 'validated'] as $status) if (collect($items)->contains(fn (array $item): bool => ($item['quality_status'] ?? null) === $status)) return $status;
+        foreach (['not_importable', 'review_required', 'validated'] as $status) {
+            if (collect($items)->contains(fn (array $item): bool => ($item['quality_status'] ?? null) === $status)) {
+                return $status;
+            }
+        }
+
         return 'not_importable';
     }
 

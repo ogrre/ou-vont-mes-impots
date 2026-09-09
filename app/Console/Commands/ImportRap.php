@@ -5,8 +5,8 @@ namespace App\Console\Commands;
 use App\Enums\AccountingBasis;
 use App\Enums\AeCp;
 use App\Enums\BudgetStage;
-use App\Enums\FlowType;
 use App\Enums\FinancialMeasure;
+use App\Enums\FlowType;
 use App\Enums\MeasurementType;
 use App\Enums\ObservationStatus;
 use App\Models\AccountingScope;
@@ -124,7 +124,7 @@ class ImportRap extends Command
                 $parsed['pdf_sha256'] = hash_file('sha256', $pdf);
                 $parsed['mission'] = $missionMap[$entry['program']] ?? null;
                 if (in_array((string) $entry['program'], ['501', '511', '521', '531', '532', '533', '541', '542'], true)) {
-                    $report['special_diagnostics'][] = ['program' => $entry['program'], 'terminology_found' => $parsed['format'] ?? 'none', 'available_amounts' => array_keys($parsed['actions'][0]['special_measurements'] ?? []), 'proposed_measurement_type' => array_keys($parsed['actions'][0]['special_measurements'] ?? []), 'importable' => ($parsed['format'] ?? null) === 'institutional_credits', 'reason' => ($parsed['format'] ?? null) === 'institutional_credits' ? 'Colonnes explicites, sans conversion AE/CP.' : 'Tableau spécifique non structuré.' ];
+                    $report['special_diagnostics'][] = ['program' => $entry['program'], 'terminology_found' => $parsed['format'] ?? 'none', 'available_amounts' => array_keys($parsed['actions'][0]['special_measurements'] ?? []), 'proposed_measurement_type' => array_keys($parsed['actions'][0]['special_measurements'] ?? []), 'importable' => ($parsed['format'] ?? null) === 'institutional_credits', 'reason' => ($parsed['format'] ?? null) === 'institutional_credits' ? 'Colonnes explicites, sans conversion AE/CP.' : 'Tableau spécifique non structuré.'];
                 }
                 if ($parsed['validation']['differences'] !== []) {
                     $report['divergences'][] = ['program' => $entry['program'], 'differences' => $parsed['validation']['differences']];
@@ -152,8 +152,8 @@ class ImportRap extends Command
     }
 
     /**
-     * @param array<string,mixed> $entry
-     * @param array<string,mixed> $parsed
+     * @param  array<string,mixed>  $entry
+     * @param  array<string,mixed>  $parsed
      */
     private function importParsed(Dataset $dataset, array $entry, string $pdf, array $parsed, Classification $classification, AccountingScope $scope): void
     {
@@ -179,6 +179,7 @@ class ImportRap extends Command
                         $stage = $financialMeasure === FinancialMeasure::ExpenditureRecorded ? BudgetStage::Execution : BudgetStage::InitialBudget;
                         FinancialObservation::query()->updateOrCreate(['dataset_file_id' => $file->id, 'source_identifier' => $entry['program'].'|'.$row['code'].'|'.$measure], ['dataset_id' => $dataset->id, 'import_batch_id' => $batch->id, 'year' => 2024, 'accounting_scope_id' => $scope->id, 'institution_scope_id' => $scope->id, 'classification_item_id' => $item->id, 'category_id' => $item->id, 'status' => $stage === BudgetStage::Execution ? ObservationStatus::Executed : ObservationStatus::InitialEstimate, 'measurement_type' => MeasurementType::Expenditure, 'accounting_basis' => AccountingBasis::Budgetary, 'budget_stage' => $stage, 'ae_cp' => null, 'is_consolidated' => false, 'measure' => $financialMeasure, 'flow_type' => FlowType::Expenditure, 'amount' => $amount, 'currency' => 'EUR', 'metadata' => ['source_url' => $entry['url'], 'source_page' => null, 'raw_label' => $row['label'], 'source_field' => $measure, 'review_required' => false]]);
                     }
+
                     continue;
                 }
                 foreach ([['ae_lfi', AeCp::Ae], ['ae_consumed', AeCp::Ae], ['cp_lfi', AeCp::Cp], ['cp_consumed', AeCp::Cp]] as [$field, $aeCp]) {

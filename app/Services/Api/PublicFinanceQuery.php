@@ -3,12 +3,12 @@
 namespace App\Services\Api;
 
 use App\Models\Classification;
+use App\Models\ClassificationItem;
 use App\Models\Dataset;
 use App\Models\FinancialObservation;
-use App\Models\ClassificationItem;
-use Illuminate\Support\Facades\File;
 use App\Support\DecimalMoney;
 use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 
 class PublicFinanceQuery
@@ -95,6 +95,7 @@ class PublicFinanceQuery
             $field = $measure === 'commitment_authorization' ? 'ae' : 'cp';
             $amount = (string) ($child[$field][$stageKey] ?? '0.00');
             $status = $child['quality']['status'] ?? 'validated';
+
             return ['code' => $child['code'], 'label' => $child['label'], 'amount' => $status === 'not_importable' ? null : $amount, 'quality_status' => $status, 'quality' => $child['quality'], 'provenance' => $child['provenance']];
         });
         $included = $items->filter(fn (array $item): bool => $item['amount'] !== null);
@@ -104,6 +105,7 @@ class PublicFinanceQuery
             $item['percent'] = $percent;
             $item['per_100'] = $percent;
             $item['value'] = $unit === 'amount' ? $item['amount'] : $percent;
+
             return $item;
         })->values();
         $excluded = $items->filter(fn (array $item): bool => $item['amount'] === null);
@@ -157,7 +159,7 @@ class PublicFinanceQuery
     }
 
     /**
-     * @param \Illuminate\Support\Collection<int,array<string,mixed>> $nodes
+     * @param  Collection<int,array<string,mixed>>  $nodes
      * @return array{lfi:string,execution:string}
      */
     private function sumBudgetNodeAmounts(Collection $nodes, string $field): array
@@ -169,8 +171,8 @@ class PublicFinanceQuery
     }
 
     /**
-     * @param array{status:string,reason:string,source:mixed,source_page:mixed} $current
-     * @param list<array<string,mixed>> $children
+     * @param  array{status:string,reason:string,source:mixed,source_page:mixed}  $current
+     * @param  list<array<string,mixed>>  $children
      * @return array{status:string,reason:string,source:mixed,source_page:mixed}
      */
     private function worstQuality(array $current, array $children): array
@@ -182,32 +184,35 @@ class PublicFinanceQuery
                 $current = ['status' => $quality['status'], 'reason' => $quality['reason'], 'source' => $quality['source'] ?? $current['source'], 'source_page' => $quality['source_page'] ?? $current['source_page']];
             }
         }
+
         return $current;
     }
 
     /**
-     * @param \Illuminate\Support\Collection<int,FinancialObservation> $observations
+     * @param  Collection<int,FinancialObservation>  $observations
      * @return array{lfi:string,execution:string}
      */
     private function budgetAmounts(Collection $observations, string $measure): array
     {
         $rows = $observations->filter(fn (FinancialObservation $observation): bool => $observation->measure?->value === $measure);
+
         return ['lfi' => DecimalMoney::sum($rows->filter(fn ($row): bool => $row->budget_stage?->value === 'initial_budget')->pluck('amount')), 'execution' => DecimalMoney::sum($rows->filter(fn ($row): bool => $row->budget_stage?->value === 'execution')->pluck('amount'))];
     }
 
     /**
-     * @param \Illuminate\Support\Collection<int,FinancialObservation> $observations
+     * @param  Collection<int,FinancialObservation>  $observations
      * @return array{source:mixed,source_url:mixed,source_page:mixed,dataset:mixed,raw_label:mixed}
      */
     private function budgetProvenance(Collection $observations): array
     {
         $observation = $observations->first();
         $metadata = $observation === null ? [] : ($observation->metadata ?? []);
+
         return ['source' => $observation?->dataset?->source?->name, 'source_url' => $metadata['source_url'] ?? $observation?->dataset?->source?->homepage_url, 'source_page' => $metadata['source_page'] ?? null, 'dataset' => $observation?->dataset?->slug, 'raw_label' => $metadata['raw_label'] ?? $observation?->classificationItem?->official_label];
     }
 
     /**
-     * @param \Illuminate\Support\Collection<int,FinancialObservation> $observations
+     * @param  Collection<int,FinancialObservation>  $observations
      * @return array{status:string,reason:string,source:mixed,source_page:mixed}
      */
     private function budgetQuality(ClassificationItem $item, Collection $observations): array
@@ -218,6 +223,7 @@ class PublicFinanceQuery
         $notImportable = collect((array) ($report['errors'] ?? []))->contains(fn (mixed $error): bool => is_array($error) && (string) ($error['program'] ?? '') === $program);
         $review = $notImportable || $observations->contains(fn (FinancialObservation $observation): bool => ($observation->metadata['review_required'] ?? false) === true);
         $provenance = $this->budgetProvenance($observations);
+
         return ['status' => $notImportable ? 'not_importable' : ($review ? 'review_required' : 'validated'), 'reason' => $notImportable ? 'Le RAP n’est pas importable dans le modèle détaillé.' : ($review ? 'Le contrôle de cohérence du RAP nécessite une revue.' : 'Aucune divergence de validation enregistrée.'), 'source' => $provenance['source'], 'source_page' => $provenance['source_page']];
     }
 
@@ -225,6 +231,7 @@ class PublicFinanceQuery
     {
         return (string) ($item->metadata['level'] ?? (str_contains((string) $item->code, '.') ? 'sub_action' : 'action'));
     }
+
     /** @return list<int> */
     public function years(): array
     {
@@ -299,11 +306,13 @@ class PublicFinanceQuery
         $names = ['central_government' => 'Administrations centrales', 'local_government' => 'Administrations publiques locales', 'social_security' => 'Administrations de sécurité sociale'];
         $items = $rows->map(function (FinancialObservation $row) use ($names, $year): array {
             $scope = $row->dataset->scope;
+
             return [
-            'code' => $scope, 'label' => $names[$scope] ?? $scope, 'amount' => $row->amount,
-            'year' => $year, 'quality_status' => 'review_required',
-            'provenance' => $this->overviewProvenance($row),
-        ]; })->values()->all();
+                'code' => $scope, 'label' => $names[$scope] ?? $scope, 'amount' => $row->amount,
+                'year' => $year, 'quality_status' => 'review_required',
+                'provenance' => $this->overviewProvenance($row),
+            ];
+        })->values()->all();
         $quality = $this->availabilityQuality(count($items) === 3, 'T_3215 absent ; distribution construite à partir des tableaux sectoriels disponibles sans reconstruction du total APU.');
         if ($items !== []) {
             $quality['status'] = 'review_required';
@@ -329,6 +338,7 @@ class PublicFinanceQuery
         }
         $total = FinancialObservation::query()->where('year', $year)->where('dataset_id', $rows->first()->dataset_id)->whereHas('classificationItem', fn ($query) => $query->where('code', '_Z'))->first();
         $denominator = $total === null ? DecimalMoney::sum($rows->pluck('amount')) : $total->amount;
+
         return $this->distributionBlock($year, 'general_government', 'national_accounts', 'expenditure', 'execution', 'consolidated', $rows, $denominator);
     }
 
@@ -344,6 +354,7 @@ class PublicFinanceQuery
         /** @var list<array<string,mixed>> $distributionItems */
         $distributionItems = $distribution['items'];
         $validatedAmount = DecimalMoney::sum(collect($distributionItems)->filter(fn (array $item): bool => ($item['quality_status'] ?? null) === 'validated' && $item['amount'] !== null)->pluck('amount'));
+
         return [
             'scope' => 'french_state_budget', 'accounting_basis' => 'budgetary', 'measurement_type' => 'payment_credit',
             'stage' => 'execution', 'consolidation' => 'not_consolidated', 'amount' => $publishableAmount ? $distribution['denominator'] : null,
@@ -387,7 +398,7 @@ class PublicFinanceQuery
     }
 
     /**
-     * @param array<string,mixed> $quality
+     * @param  array<string,mixed>  $quality
      * @return array<string,mixed>
      */
     private function blockMetadata(string $scope, string $basis, string $measurement, string $stage, string $consolidation, ?string $dataset, ?string $source, array $quality): array
@@ -414,12 +425,13 @@ class PublicFinanceQuery
     }
 
     /**
-     * @param Collection<int,FinancialObservation> $rows
+     * @param  Collection<int,FinancialObservation>  $rows
      * @return array<string,mixed>
      */
     private function distributionBlock(int $year, string $scope, string $basis, string $measurement, string $stage, string $consolidation, Collection $rows, string $denominator): array
     {
         $items = $rows->map(fn (FinancialObservation $row): array => ['code' => $row->classificationItem->code, 'label' => $row->classificationItem->official_label, 'amount' => $row->amount, 'percent' => $denominator === '0.00' ? null : bcmul(bcdiv($row->amount, $denominator, 8), '100', 2), 'per_100' => $denominator === '0.00' ? null : bcmul(bcdiv($row->amount, $denominator, 8), '100', 2), 'quality_status' => 'validated', 'provenance' => $this->overviewProvenance($row)])->values()->all();
+
         return ['year' => $year, 'scope' => $scope, 'accounting_basis' => $basis, 'measurement_type' => $measurement, 'stage' => $stage, 'consolidation' => $consolidation, 'amount' => $denominator, 'denominator' => $denominator, 'items' => $items, 'quality' => ['status' => 'validated', 'coverage_percent' => '100.00', 'included_amount' => $denominator, 'excluded_amount' => null, 'excluded_items' => []]];
     }
 
@@ -454,17 +466,24 @@ class PublicFinanceQuery
         $needle = Str::lower(Str::ascii(trim($term)));
         $results = $items->map(function (ClassificationItem $item) use ($needle, $year, $wantedTypes): ?array {
             $type = $this->searchType($item);
-            if ($wantedTypes->isNotEmpty() && ! $wantedTypes->contains($type)) return null;
+            if ($wantedTypes->isNotEmpty() && ! $wantedTypes->contains($type)) {
+                return null;
+            }
             $rawLabel = (string) ($item->metadata['raw_label'] ?? '');
             $label = Str::lower(Str::ascii($item->official_label));
             $code = Str::lower(Str::ascii((string) $item->code));
             $raw = Str::lower(Str::ascii($rawLabel));
-            if (! Str::contains($label, $needle) && ! Str::contains($code, $needle) && ! Str::contains($raw, $needle)) return null;
+            if (! Str::contains($label, $needle) && ! Str::contains($code, $needle) && ! Str::contains($raw, $needle)) {
+                return null;
+            }
             $score = Str::contains($label, $needle) ? (Str::startsWith($label, $needle) ? 80 : 50) : 20;
-            if ($code === $needle) $score += 100;
+            if ($code === $needle) {
+                $score += 100;
+            }
             $parents = $this->searchParents($item);
             $observations = $year === null ? collect() : $item->observations()->where('year', $year)->whereHas('importBatch', fn ($batch) => $batch->where('status', 'completed'))->get();
             $observation = $observations->first(fn (FinancialObservation $row): bool => $row->measure?->value === 'payment_credit' && $row->budget_stage?->value === 'execution') ?? $observations->first();
+
             return ['type' => $type, 'code' => $item->code, 'label' => $item->official_label, 'year' => $year, 'scope' => $item->classification->code, 'classification' => $item->classification->code, 'parent' => $parents !== [] ? $parents[count($parents) - 1] : null, 'breadcrumb' => array_merge(array_reverse($parents), [['type' => $type, 'code' => $item->code, 'label' => $item->official_label]]), 'amount' => $observation?->amount, 'quality_status' => 'validated', 'score' => $score];
         })->filter()->sortByDesc('score')->take($limit)->values()->all();
 
@@ -473,9 +492,16 @@ class PublicFinanceQuery
 
     private function searchType(ClassificationItem $item): string
     {
-        if ($item->classification->code === self::STATE_CLASSIFICATION) return (string) ($item->metadata['level'] ?? 'classification');
-        if ($item->classification->code === 'cofog') return 'cofog';
-        if ($item->classification->code === 'state_budget_revenue') return 'revenue';
+        if ($item->classification->code === self::STATE_CLASSIFICATION) {
+            return (string) ($item->metadata['level'] ?? 'classification');
+        }
+        if ($item->classification->code === 'cofog') {
+            return 'cofog';
+        }
+        if ($item->classification->code === 'state_budget_revenue') {
+            return 'revenue';
+        }
+
         return 'classification';
     }
 
@@ -488,7 +514,7 @@ class PublicFinanceQuery
             $parents[] = ['type' => $this->searchType($parent), 'code' => $parent->code, 'label' => $parent->official_label];
             $parent = $parent->parent;
         }
+
         return $parents;
     }
-
 }

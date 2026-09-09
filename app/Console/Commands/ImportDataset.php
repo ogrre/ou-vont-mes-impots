@@ -4,8 +4,8 @@ namespace App\Console\Commands;
 
 use App\Models\DatasetFile;
 use App\Services\Imports\Exceptions\DuplicateImportException;
-use App\Services\Imports\InseePublicAccountsXlsxImporter;
 use App\Services\Imports\InseeCofogXlsxImporter;
+use App\Services\Imports\InseePublicAccountsXlsxImporter;
 use App\Services\Imports\StateBudgetRevenueCsvImporter;
 use App\Services\Imports\StateBudgetRevenueXlsxImporter;
 use App\Services\Imports\StateExpenditurePlrgImporter;

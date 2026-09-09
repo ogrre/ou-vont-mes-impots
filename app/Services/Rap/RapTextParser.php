@@ -172,8 +172,8 @@ class RapTextParser
     }
 
     /**
-     * @param array{code:string,label:string} $current
-     * @param array<int,string> $numberLines
+     * @param  array{code:string,label:string}  $current
+     * @param  array<int,string>  $numberLines
      * @return array<string,mixed>
      */
     private function finish(array $current, array $numberLines): array
@@ -226,7 +226,7 @@ class RapTextParser
     }
 
     /**
-     * @param array<int,array<string,mixed>> $actions
+     * @param  array<int,array<string,mixed>>  $actions
      * @return array{tolerance_eur:int,totals:array<string,int|null>,differences:array<string,array{actions_sum:int,programme_total:int,difference:int}>,review_required:bool}
      */
     private function validateTotals(string $section, array $actions): array
