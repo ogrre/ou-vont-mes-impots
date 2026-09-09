@@ -4,6 +4,9 @@ namespace App\Console\Commands;
 
 use App\Models\DatasetFile;
 use App\Services\Imports\Exceptions\DuplicateImportException;
+use App\Services\Imports\InseePublicAccountsXlsxImporter;
+use App\Services\Imports\InseeCofogXlsxImporter;
+use App\Services\Imports\StateBudgetRevenueCsvImporter;
 use App\Services\Imports\StateBudgetRevenueXlsxImporter;
 use App\Services\Imports\StateExpenditurePlrgImporter;
 use Illuminate\Console\Command;
@@ -18,6 +21,9 @@ class ImportDataset extends Command
     public function handle(
         StateExpenditurePlrgImporter $expenditureImporter,
         StateBudgetRevenueXlsxImporter $revenueImporter,
+        InseePublicAccountsXlsxImporter $inseeImporter,
+        InseeCofogXlsxImporter $cofogImporter,
+        StateBudgetRevenueCsvImporter $revenueCsvImporter,
     ): int {
         $descriptor = DatasetFile::query()->where('slug', $this->argument('descriptor'))->first();
 
@@ -31,6 +37,9 @@ class ImportDataset extends Command
             $importer = match ($descriptor->metadata['importer'] ?? null) {
                 'state_expenditure_plrg' => $expenditureImporter,
                 'state_budget_revenue_xlsx' => $revenueImporter,
+                'insee_public_accounts_xlsx' => $inseeImporter,
+                'insee_cofog_xlsx' => $cofogImporter,
+                'state_budget_revenue_csv' => $revenueCsvImporter,
                 default => throw new \RuntimeException('Aucun importeur associé à ce descripteur.'),
             };
             $batch = $importer->import($descriptor, $this->argument('path'));
