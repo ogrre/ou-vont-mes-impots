@@ -9,6 +9,7 @@ use App\Models\ClassificationItem;
 use Illuminate\Support\Facades\File;
 use App\Support\DecimalMoney;
 use Illuminate\Support\Collection;
+use Illuminate\Support\Str;
 
 class PublicFinanceQuery
 {
@@ -423,7 +424,7 @@ class PublicFinanceQuery
     }
 
     /** @return list<array{year:int,amount:string}> */
-    public function history(string $metric, ?string $classification, ?string $category, ?string $scope, int $from, int $to): array
+    public function history(string $metric, ?string $classification, ?string $category, ?string $scope, int $from, int $to, ?string $accountingBasis = null): array
     {
         $query = FinancialObservation::query()->whereBetween('year', [$from, $to])->where('measurement_type', $metric)->whereHas('importBatch', fn ($q) => $q->where('status', 'completed'));
         if ($scope) {
@@ -435,8 +436,59 @@ class PublicFinanceQuery
         if ($category) {
             $query->whereHas('classificationItem', fn ($q) => $q->where('slug', $category)->orWhere('code', $category));
         }
+        if ($accountingBasis) {
+            $query->where('accounting_basis', $accountingBasis);
+        }
 
         return $query->get()->groupBy('year')->map(fn (Collection $rows, $year) => ['year' => (int) $year, 'amount' => DecimalMoney::sum($rows->pluck('amount'))])->sortBy('year')->values()->all();
+    }
+
+    /** @return array{query:string,year:int|null,items:list<array<string,mixed>>} */
+    public function search(string $term, ?int $year, ?string $scope, ?string $types, int $limit = 20): array
+    {
+        $wantedTypes = collect(explode(',', (string) $types))->map(fn (string $type): string => trim($type))->filter()->values();
+        $items = ClassificationItem::query()->with(['classification', 'parent.parent.parent.parent'])
+            ->when($scope !== null, fn ($query) => $query->whereHas('classification', fn ($classification) => $classification->where('code', $scope)))
+            ->when($year !== null, fn ($query) => $query->whereHas('observations', fn ($observations) => $observations->where('year', $year)->whereHas('importBatch', fn ($batch) => $batch->where('status', 'completed'))))
+            ->get();
+        $needle = Str::lower(Str::ascii(trim($term)));
+        $results = $items->map(function (ClassificationItem $item) use ($needle, $year, $wantedTypes): ?array {
+            $type = $this->searchType($item);
+            if ($wantedTypes->isNotEmpty() && ! $wantedTypes->contains($type)) return null;
+            $rawLabel = (string) ($item->metadata['raw_label'] ?? '');
+            $label = Str::lower(Str::ascii($item->official_label));
+            $code = Str::lower(Str::ascii((string) $item->code));
+            $raw = Str::lower(Str::ascii($rawLabel));
+            if (! Str::contains($label, $needle) && ! Str::contains($code, $needle) && ! Str::contains($raw, $needle)) return null;
+            $score = Str::contains($label, $needle) ? (Str::startsWith($label, $needle) ? 80 : 50) : 20;
+            if ($code === $needle) $score += 100;
+            $parents = $this->searchParents($item);
+            $observations = $year === null ? collect() : $item->observations()->where('year', $year)->whereHas('importBatch', fn ($batch) => $batch->where('status', 'completed'))->get();
+            $observation = $observations->first(fn (FinancialObservation $row): bool => $row->measure?->value === 'payment_credit' && $row->budget_stage?->value === 'execution') ?? $observations->first();
+            return ['type' => $type, 'code' => $item->code, 'label' => $item->official_label, 'year' => $year, 'scope' => $item->classification->code, 'classification' => $item->classification->code, 'parent' => $parents !== [] ? $parents[count($parents) - 1] : null, 'breadcrumb' => array_merge(array_reverse($parents), [['type' => $type, 'code' => $item->code, 'label' => $item->official_label]]), 'amount' => $observation?->amount, 'quality_status' => 'validated', 'score' => $score];
+        })->filter()->sortByDesc('score')->take($limit)->values()->all();
+
+        return ['query' => $term, 'year' => $year, 'items' => array_map(fn (array $result): array => collect($result)->except('score')->all(), $results)];
+    }
+
+    private function searchType(ClassificationItem $item): string
+    {
+        if ($item->classification->code === self::STATE_CLASSIFICATION) return (string) ($item->metadata['level'] ?? 'classification');
+        if ($item->classification->code === 'cofog') return 'cofog';
+        if ($item->classification->code === 'state_budget_revenue') return 'revenue';
+        return 'classification';
+    }
+
+    /** @return list<array{type:string,code:string|null,label:string}> */
+    private function searchParents(ClassificationItem $item): array
+    {
+        $parents = [];
+        $parent = $item->parent;
+        while ($parent !== null) {
+            $parents[] = ['type' => $this->searchType($parent), 'code' => $parent->code, 'label' => $parent->official_label];
+            $parent = $parent->parent;
+        }
+        return $parents;
     }
 
 }

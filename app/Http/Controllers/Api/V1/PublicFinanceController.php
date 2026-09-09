@@ -76,8 +76,21 @@ class PublicFinanceController extends Controller
 
     public function history(Request $request, PublicFinanceQuery $query): JsonResponse
     {
-        $data = $request->validate(['metric' => ['required', 'in:expenditure,revenue,tax,social_contribution,deficit,debt'], 'classification' => ['nullable', 'string'], 'category' => ['nullable', 'string'], 'scope' => ['nullable', 'string'], 'from' => ['required', 'integer', 'min:1949', 'max:2200'], 'to' => ['required', 'integer', 'min:1949', 'max:2200', 'gte:from']]);
+        $data = $request->validate(['metric' => ['required', 'in:expenditure,revenue,tax,social_contribution,deficit,debt'], 'classification' => ['nullable', 'string'], 'category' => ['nullable', 'string'], 'scope' => ['nullable', 'string'], 'accounting_basis' => ['nullable', 'in:national_accounts,budgetary'], 'from' => ['required', 'integer', 'min:1949', 'max:2200'], 'to' => ['required', 'integer', 'min:1949', 'max:2200', 'gte:from']]);
 
-        return response()->json(['metric' => $data['metric'], 'from' => $data['from'], 'to' => $data['to'], 'items' => $query->history($data['metric'], $data['classification'] ?? null, $data['category'] ?? null, $data['scope'] ?? null, $data['from'], $data['to'])]);
+        return response()->json(['metric' => $data['metric'], 'from' => $data['from'], 'to' => $data['to'], 'accounting_basis' => $data['accounting_basis'] ?? null, 'items' => $query->history($data['metric'], $data['classification'] ?? null, $data['category'] ?? null, $data['scope'] ?? null, $data['from'], $data['to'], $data['accounting_basis'] ?? null)]);
+    }
+
+    public function search(Request $request, PublicFinanceQuery $query): JsonResponse
+    {
+        $data = $request->validate([
+            'q' => ['required', 'string', 'min:2', 'max:120'],
+            'year' => ['nullable', 'integer', 'min:1949', 'max:2200'],
+            'scope' => ['nullable', 'string', 'max:80'],
+            'types' => ['nullable', 'string', 'max:200'],
+            'limit' => ['nullable', 'integer', 'min:1', 'max:50'],
+        ]);
+
+        return response()->json($query->search($data['q'], $data['year'] ?? null, $data['scope'] ?? null, $data['types'] ?? null, $data['limit'] ?? 20));
     }
 }

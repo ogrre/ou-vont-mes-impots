@@ -28,5 +28,6 @@ Route::prefix('v1')->group(function (): void {
     Route::get('categories/{classification}', [PublicFinanceController::class, 'categories'])->name('api.v1.categories');
     Route::get('categories/{classification}/{category}/children', [PublicFinanceController::class, 'children'])->name('api.v1.categories.children');
     Route::get('history', [PublicFinanceController::class, 'history'])->name('api.v1.history');
+    Route::get('search', [PublicFinanceController::class, 'search'])->name('api.v1.search');
     Route::get('methodology', fn () => response()->json(['version' => 'v1', 'principle' => 'Les recettes et les dépenses sont exposées séparément ; aucune relation directe recettes → dépenses n’est fabriquée.', 'accounting_bases' => ['budgetary', 'national_accounts'], 'notes' => ['AE et CP sont distinctes.', 'Les périmètres et années ne sont jamais masqués.']]))->name('api.v1.methodology');
 });

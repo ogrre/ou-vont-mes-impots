@@ -56,7 +56,7 @@ class StateRevenueApiTest extends TestCase
 
     public function test_it_validates_filters_returns_not_found_and_is_read_only(): void
     {
-        $this->getJson('/api/v1/state-revenue?year=2200&status=executed')
+        $this->getJson('/api/v1/state-revenue?year=2200&status=invalid_status')
             ->assertUnprocessable()
             ->assertJsonValidationErrors(['year', 'status']);
 

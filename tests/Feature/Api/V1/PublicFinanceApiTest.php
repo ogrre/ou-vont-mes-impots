@@ -46,6 +46,24 @@ class PublicFinanceApiTest extends TestCase
         $this->getJson('/api/v1/budget-state/2024/distribution')->assertOk()->assertJsonPath('measurement', 'payment_credit')->assertJsonPath('stage', 'executed')->assertJsonPath('denominator', '100.00')->assertJsonPath('items.0.per_100', '100.00');
     }
 
+    public function test_it_exposes_global_search_filters_and_canonical_identifiers(): void
+    {
+        $payload = ['query' => 'enseignement', 'year' => 2024, 'items' => [['type' => 'mission', 'code' => 'EDU', 'label' => 'Enseignement scolaire', 'year' => 2024, 'scope' => 'state_budget_programme_action', 'classification' => 'state_budget_programme_action', 'parent' => null, 'breadcrumb' => [['type' => 'mission', 'code' => 'EDU', 'label' => 'Enseignement scolaire']], 'amount' => '100.00', 'quality_status' => 'validated']]];
+        $mock = $this->mock(PublicFinanceQuery::class);
+        $mock->shouldReceive('search')->with('enseignement', 2024, null, null, 20)->andReturn($payload);
+
+        $this->getJson('/api/v1/search?q=enseignement&year=2024')
+            ->assertOk()
+            ->assertJsonPath('items.0.type', 'mission')
+            ->assertJsonPath('items.0.code', 'EDU')
+            ->assertJsonMissingPath('items.0.route');
+    }
+
+    public function test_global_search_validates_and_caps_limit(): void
+    {
+        $this->getJson('/api/v1/search?q=a&limit=51')->assertUnprocessable()->assertJsonValidationErrors(['q', 'limit']);
+    }
+
     public function test_overview_keeps_national_accounts_and_state_budget_separate_and_reports_missing_2024_datasets(): void
     {
         $this->seed(DatabaseSeeder::class);
