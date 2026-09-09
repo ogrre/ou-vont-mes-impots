@@ -18,6 +18,7 @@ class DatabaseSeeder extends Seeder
             FinancialReferenceSeeder::class,
             PlrgDatasetSeeder::class,
             StateRevenueDatasetSeeder::class,
+            InseeDatasetSeeder::class,
         ]);
     }
 }
