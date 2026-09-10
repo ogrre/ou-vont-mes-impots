@@ -24,8 +24,8 @@ class PublicFinanceApiTest extends TestCase
         );
 
         $this->getJson('/api/v1/years')->assertOk()->assertJsonPath('years.0', 1978)->assertJsonPath('years.47', 2025);
-        $this->getJson('/api/v1/sources')->assertOk()->assertJsonFragment(['code' => 'insee-t-3203']);
-        $this->getJson('/api/v1/categories/insee_accounting')->assertOk()->assertJsonPath('classification', 'insee_accounting');
+        $this->getJson('/api/v1/sources')->assertOk()->assertJsonFragment(['code' => 'insee-t-3203'])->assertJsonStructure(['sources' => [['code', 'name', 'source', 'publisher', 'accounting_system', 'scope', 'first_year', 'last_year']]]);
+        $this->getJson('/api/v1/categories/insee_accounting')->assertOk()->assertJsonPath('classification', 'insee_accounting')->assertJsonStructure(['classification', 'categories' => [['id', 'code', 'slug', 'name', 'description', 'parent_id']]]);
         $this->getJson('/api/v1/history?metric=expenditure&from=1978&to=1979')->assertOk()->assertJsonPath('items.0.year', 1978);
     }
 
@@ -85,6 +85,14 @@ class PublicFinanceApiTest extends TestCase
             ->assertJsonPath('revenues.state_budget_revenues.amount', null)
             ->assertJsonPath('revenues.state_budget_revenues.quality.status', 'not_importable')
             ->assertJsonPath('institutional_distribution.quality.status', 'not_importable');
+
+        $response->assertJsonPath('public_finances.measurement_type', 'expenditure_and_revenue')
+            ->assertJsonPath('public_finances.stage', 'execution')
+            ->assertJsonPath('public_finances.consolidation', 'consolidated')
+            ->assertJsonPath('public_finances.year', 2024)
+            ->assertJsonPath('public_finances.dataset', 'insee-t-3201')
+            ->assertJsonPath('public_finances.source', 'INSEE')
+            ->assertJsonPath('methodology.separation_rule', 'Les comptes nationaux et la comptabilité budgétaire sont exposés séparément et ne sont jamais additionnés.');
     }
 
     public function test_overview_exposes_imported_cofog_and_budget_revenues_without_merging_accounting_bases(): void

@@ -23,6 +23,7 @@ class RapCatalogCrawlerTest extends TestCase
         $this->assertSame(['101', '102'], array_column($entries, 'program'));
         $this->assertSame('https://www.budget.gouv.fr/documentation/file-download/1', $entries[0]['url']);
         $this->assertSame("Accès et retour à l'emploi", $entries[1]['name']);
+        Http::assertSent(fn ($request): bool => str_contains($request->url(), 'docuement_dossier%5B0%5D=typologie%3A115') && str_contains($request->url(), 'page=0'));
     }
 
     public function test_it_replaces_duplicate_programs_and_stops_after_an_empty_page(): void
@@ -62,5 +63,59 @@ class RapCatalogCrawlerTest extends TestCase
         $this->expectExceptionMessage('HTTP request returned status code 503');
 
         app(RapCatalogCrawler::class)->discover();
+    }
+
+    public function test_it_stops_at_the_first_empty_page_after_page_zero(): void
+    {
+        Http::fake(['*' => Http::sequence()
+            ->push('<article>2024 RAP 101 - Test <a href="/test.pdf">Télécharger PDF</a></article>')
+            ->push('<html></html>')]);
+
+        app(RapCatalogCrawler::class)->discover();
+
+        Http::assertSentCount(2);
+        Http::assertSent(fn ($request): bool => str_contains($request->url(), 'page=1'));
+    }
+
+    public function test_it_accepts_accented_context_and_absolute_urls(): void
+    {
+        Http::fake(['*' => Http::sequence()
+            ->push('<div>RAP 2024 101 – Éducation <a href="HTTP://example.test/report.pdf">Télécharger le PDF</a></div>')
+            ->push('<html></html>')]);
+
+        $entries = app(RapCatalogCrawler::class)->discover();
+
+        $this->assertSame('101', $entries[0]['program']);
+        $this->assertSame('HTTP://example.test/report.pdf', $entries[0]['url']);
+    }
+
+    public function test_it_normalizes_context_and_resolves_relative_urls(): void
+    {
+        $crawler = app(RapCatalogCrawler::class);
+        $invoke = static function (string $method, mixed ...$arguments) use ($crawler): mixed {
+            $reflection = new \ReflectionMethod($crawler, $method);
+            $reflection->setAccessible(true);
+
+            return $reflection->invoke($crawler, ...$arguments);
+        };
+
+        $this->assertSame('RAP 2024 A 101 - Test', $invoke('normalizeContext', 'RAP2024A101 - Test'));
+        $this->assertSame('https://example.test/a.pdf', $invoke('absoluteUrl', 'https://example.test/a.pdf'));
+        $this->assertSame('https://www.budget.gouv.fr/a.pdf', $invoke('absoluteUrl', '/a.pdf'));
+        $this->assertSame('https://www.budget.gouv.fr/a.pdf', $invoke('absoluteUrl', 'a.pdf'));
+    }
+
+    public function test_it_honours_the_fifty_page_safety_limit(): void
+    {
+        $sequence = Http::sequence();
+        for ($page = 0; $page < 50; $page++) {
+            $sequence->push('<article>RAP 2024 101 - Test '.$page.' <a href="/test.pdf">Télécharger PDF</a></article>');
+        }
+        $sequence->push('<html></html>');
+        Http::fake(['*' => $sequence]);
+
+        app(RapCatalogCrawler::class)->discover();
+
+        Http::assertSentCount(50);
     }
 }
