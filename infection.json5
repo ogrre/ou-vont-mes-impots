@@ -16,9 +16,13 @@
     "minMsi": 70,
     "minCoveredMsi": 70,
     "mutators": {
+        "@default": true,
         // Les casts défensifs de données externes ne constituent pas de la
         // logique métier et génèrent surtout des mutants équivalents.
-        "global-ignore": ["CastArray", "CastBool", "CastInt", "CastString"]
+        "CastArray": false,
+        "CastBool": false,
+        "CastInt": false,
+        "CastString": false
     },
     "logs": {
         "text": "storage/logs/infection.log",
