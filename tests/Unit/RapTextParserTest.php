@@ -68,6 +68,49 @@ TEXT;
         $this->assertSame(627181842, $result['actions'][0]['special_measurements']['expenditure_recorded']);
     }
 
+    public function test_it_reads_multicolumn_totals_after_the_label_and_detects_mismatches(): void
+    {
+        $text = <<<'TEXT'
+2024 / PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS OUVERTS ET DES CRÉDITS CONSOMMÉS
+2024 / AUTORISATIONS D'ENGAGEMENT
+01 – Action de test                                      1       2       3       4       5       6
+                                                           1       2       3       4       5       6
+TOTAL DES AE PRÉVUES EN LFI
+                                                           6       2007
+TOTAL DES AE CONSOMMÉES                                  6
+2024 / CRÉDITS DE PAIEMENT
+01 – Action de test                                      1       2       3       4       5       6
+                                                           1       2       3       4       5       6
+TOTAL DES CP PRÉVUS EN LFI                               6
+TOTAL DES CP CONSOMMÉS
+                                                           6       2007
+2023 / PRÉSENTATION PAR ACTION
+TEXT;
+
+        $result = app(RapTextParser::class)->parse($text, '999', 'Programme test');
+
+        $this->assertSame(2007, $result['validation']['totals']['ae_lfi']);
+        $this->assertSame(6, $result['validation']['totals']['ae_consumed']);
+        $this->assertSame(6, $result['validation']['totals']['cp_lfi']);
+        $this->assertSame(2007, $result['validation']['totals']['cp_consumed']);
+        $this->assertSame(1000, $result['validation']['tolerance_eur']);
+        $this->assertTrue($result['validation']['review_required']);
+        $this->assertSame(6, $result['actions'][0]['ae_lfi']);
+        $this->assertSame(6, $result['actions'][0]['cp_consumed']);
+        $this->assertArrayHasKey('ae_lfi', $result['validation']['differences']);
+        $this->assertArrayHasKey('cp_consumed', $result['validation']['differences']);
+    }
+
+    public function test_it_rejects_an_anchor_without_a_numbered_action(): void
+    {
+        $text = '2024 / PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS OUVERTS ET DES CRÉDITS CONSOMMÉS';
+
+        $this->expectException(\RuntimeException::class);
+        $this->expectExceptionMessage('Aucune action chiffrée');
+
+        app(RapTextParser::class)->parse($text, '999', 'Programme test');
+    }
+
     #[DataProvider('rapFixtures')]
     public function test_reference_rap_pdfs_are_parseable(string $filename, int $minimumActions): void
     {
