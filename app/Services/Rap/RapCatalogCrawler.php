@@ -14,7 +14,6 @@ class RapCatalogCrawler
     public function discover(): array
     {
         $entries = [];
-        $seenPages = [];
 
         for ($page = 0; $page < 50; $page++) {
             $url = self::PAGE_URL.'?'.http_build_query([
@@ -23,7 +22,6 @@ class RapCatalogCrawler
             ]);
             $html = $this->get($url)->body();
             $foundOnPage = $this->parsePage($html, $page);
-            $seenPages[$page] = true;
 
             foreach ($foundOnPage as $entry) {
                 $entries[$entry['program']] = $entry;

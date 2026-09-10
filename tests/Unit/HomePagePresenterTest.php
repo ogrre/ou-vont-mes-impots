@@ -129,6 +129,27 @@ class HomePagePresenterTest extends TestCase
         $this->assertSame(['large', 'small', 'missing'], array_column($result['what_for']['items'], 'code'));
     }
 
+    public function test_it_calculates_ratios_for_integer_amounts_and_keeps_provenance_metadata(): void
+    {
+        $overview = $this->overview();
+        $overview['institutional_distribution']['denominator'] = '3.00';
+        $overview['institutional_distribution']['items'] = [['code' => 'integer', 'amount' => 1]];
+        $overview['institutional_distribution']['source_url'] = 'https://example.test/source';
+        $overview['institutional_distribution']['source_page'] = 12;
+        $overview['institutional_distribution']['dataset'] = 'institutions';
+
+        $result = app(HomePagePresenter::class)->present($overview);
+
+        $this->assertSame('33.33', $result['who_spends']['items'][0]['percentage']);
+        $this->assertSame('33.33', $result['who_spends']['items'][0]['per_100']);
+        $this->assertSame([
+            'source' => 'INSEE',
+            'source_url' => 'https://example.test/source',
+            'dataset' => 'institutions',
+            'source_page' => 12,
+        ], $result['who_spends']['provenance']);
+    }
+
     /** @return array<string, mixed> */
     private function overview(): array
     {

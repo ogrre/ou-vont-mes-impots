@@ -2,6 +2,8 @@
 
 namespace Tests\Feature\Api\V1;
 
+use App\Models\Classification;
+use App\Models\ClassificationItem;
 use App\Models\DatasetFile;
 use App\Services\Api\PublicFinanceQuery;
 use App\Services\Imports\InseeCofogXlsxImporter;
@@ -122,5 +124,48 @@ class PublicFinanceApiTest extends TestCase
             ->assertJsonStructure(['public_spending' => ['title', 'description', 'amount', 'unit', 'items', 'percentage', 'per_100', 'quality_status', 'quality', 'methodology', 'provenance'], 'revenues' => ['items', 'sub_blocks' => ['public_revenues', 'state_budget_revenues']]])
             ->assertJsonPath('revenues.items.0.percentage', null)
             ->assertJsonPath('revenues.items.1.per_100', null);
+    }
+
+    public function test_global_search_matches_label_code_and_raw_label_and_orders_exact_code_first(): void
+    {
+        $classification = Classification::query()->create([
+            'code' => 'search_test',
+            'name' => 'Recherche',
+        ]);
+        $parent = ClassificationItem::query()->create([
+            'classification_id' => $classification->id,
+            'code' => 'PARENT',
+            'official_label' => 'Parent',
+            'slug' => 'parent',
+            'metadata' => [],
+        ]);
+        ClassificationItem::query()->create([
+            'classification_id' => $classification->id,
+            'parent_id' => $parent->id,
+            'code' => 'EDU',
+            'official_label' => 'Éducation',
+            'slug' => 'education',
+            'metadata' => ['raw_label' => 'École et formation'],
+        ]);
+
+        $result = app(PublicFinanceQuery::class)->search('EDU', null, null, null);
+
+        $this->assertSame('EDU', $result['items'][0]['code']);
+        $this->assertSame('Éducation', $result['items'][0]['label']);
+        $this->assertSame('search_test', $result['items'][0]['scope']);
+        $this->assertSame(['type' => 'classification', 'code' => 'PARENT', 'label' => 'Parent'], $result['items'][0]['parent']);
+        $this->assertSame([
+            ['type' => 'classification', 'code' => 'PARENT', 'label' => 'Parent'],
+            ['type' => 'classification', 'code' => 'EDU', 'label' => 'Éducation'],
+        ], $result['items'][0]['breadcrumb']);
+        $this->assertNull($result['items'][0]['amount']);
+
+        $rawLabelResult = app(PublicFinanceQuery::class)->search('ecole', null, null, null);
+        $this->assertSame('EDU', $rawLabelResult['items'][0]['code']);
+
+        $filtered = app(PublicFinanceQuery::class)->search('education', null, 'search_test', 'classification', 1);
+        $this->assertCount(1, $filtered['items']);
+        $this->assertSame('EDU', $filtered['items'][0]['code']);
+        $this->assertSame([], app(PublicFinanceQuery::class)->search('education', null, null, 'mission')['items']);
     }
 }
