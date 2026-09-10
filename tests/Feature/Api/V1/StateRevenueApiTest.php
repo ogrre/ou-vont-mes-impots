@@ -36,8 +36,14 @@ class StateRevenueApiTest extends TestCase
             ->assertJsonPath('items.0.label', 'Recettes fiscales brutes')
             ->assertJsonPath('items.0.amount', '495065000000.00')
             ->assertJsonPath('items.0.is_aggregate', true)
+            ->assertJsonPath('items.0.is_deduction', false)
+            ->assertJsonPath('items.0.level', null)
+            ->assertJsonPath('items.0.parent_code', null)
+            ->assertJsonPath('items.0.breadcrumb.0', 'Recettes fiscales brutes')
             ->assertJsonPath('items.11.label', 'À déduire : Remboursements et dégrèvements')
             ->assertJsonPath('items.11.is_deduction', true)
+            ->assertJsonPath('items.11.is_aggregate', false)
+            ->assertJsonPath('items.11.source_row_number', 15)
             ->assertJsonPath('source.file.descriptor', 'state-general-budget-revenue-2025-2026');
     }
 
