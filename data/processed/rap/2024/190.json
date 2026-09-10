@@ -1,0 +1,1199 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "190",
+        "name": "Recherche dans les domaines de l'énergie, du développement et de la mobilité durables"
+    },
+    "actions": [
+        {
+            "code": "11",
+            "label": "Recherche dans le domaine des risques",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                188988778,
+                188988778,
+                188988778,
+                192093412,
+                192093412
+            ],
+            "amount_rows": [
+                [
+                    188988778,
+                    188988778,
+                    188988778
+                ],
+                [
+                    192093412,
+                    192093412
+                ]
+            ],
+            "extracted_lines": [
+                "188 988 778                                       188 988 778       188 988 778",
+                "192 093 412                                        192 093 412"
+            ],
+            "ae_lfi": 188988778,
+            "ae_consumed": 192093412,
+            "cp_lfi": 188988778,
+            "cp_consumed": 192093412,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                188988778,
+                188988778,
+                188988778,
+                192093412,
+                192093412
+            ]
+        },
+        {
+            "code": "11.01",
+            "label": "Institut national de l'environnement industriel et des",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "11",
+            "contributes_to_program_total": false,
+            "amounts": [
+                6373110,
+                6373110,
+                6373110,
+                5977784,
+                5977784
+            ],
+            "amount_rows": [
+                [
+                    6373110,
+                    6373110,
+                    6373110
+                ],
+                [
+                    5977784,
+                    5977784
+                ]
+            ],
+            "extracted_lines": [
+                "6 373 110                                         6 373 110          6 373 110",
+                "5 977 784                                          5 977 784"
+            ],
+            "ae_lfi": 6373110,
+            "ae_consumed": 5977784,
+            "cp_lfi": 6373110,
+            "cp_consumed": 5977784,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                6373110,
+                6373110,
+                6373110,
+                5977784,
+                5977784
+            ]
+        },
+        {
+            "code": "11.02",
+            "label": "Institut de radioprotection et de sûreté nucléaire",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "11",
+            "contributes_to_program_total": false,
+            "amounts": [
+                182615668,
+                182615668,
+                182615668,
+                186115628,
+                186115628
+            ],
+            "amount_rows": [
+                [
+                    182615668,
+                    182615668,
+                    182615668
+                ],
+                [
+                    186115628,
+                    186115628
+                ]
+            ],
+            "extracted_lines": [
+                "182 615 668                                       182 615 668       182 615 668",
+                "186 115 628                                        186 115 628"
+            ],
+            "ae_lfi": 182615668,
+            "ae_consumed": 186115628,
+            "cp_lfi": 182615668,
+            "cp_consumed": 186115628,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                182615668,
+                182615668,
+                182615668,
+                186115628,
+                186115628
+            ]
+        },
+        {
+            "code": "12",
+            "label": "Recherche dans le domaine des transports, de la",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                85310044,
+                16223403,
+                101533447,
+                101533447,
+                78920735,
+                15331116,
+                94251851
+            ],
+            "amount_rows": [
+                [
+                    85310044,
+                    16223403,
+                    101533447,
+                    101533447
+                ],
+                [
+                    78920735,
+                    15331116,
+                    94251851
+                ]
+            ],
+            "extracted_lines": [
+                "85 310 044                         16 223 403    101 533 447       101 533 447",
+                "78 920 735                          15 331 116     94 251 851"
+            ],
+            "ae_lfi": 101533447,
+            "ae_consumed": 94251851,
+            "cp_lfi": 101533447,
+            "cp_consumed": 94251851,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                85310044,
+                16223403,
+                101533447,
+                101533447,
+                78920735,
+                15331116,
+                94251851
+            ]
+        },
+        {
+            "code": "12.01",
+            "label": "Université Gustave Eiffel",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "12",
+            "contributes_to_program_total": false,
+            "amounts": [
+                85310044,
+                85310044,
+                85310044,
+                82697333,
+                82697333
+            ],
+            "amount_rows": [
+                [
+                    85310044,
+                    85310044,
+                    85310044
+                ],
+                [
+                    82697333,
+                    82697333
+                ]
+            ],
+            "extracted_lines": [
+                "85 310 044                                        85 310 044         85 310 044",
+                "82 697 333                                         82 697 333"
+            ],
+            "ae_lfi": 85310044,
+            "ae_consumed": 82697333,
+            "cp_lfi": 85310044,
+            "cp_consumed": 82697333,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                85310044,
+                85310044,
+                85310044,
+                82697333,
+                82697333
+            ]
+        },
+        {
+            "code": "12.03",
+            "label": "Centre scientifique et technique du bâtiment (CSTB)",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "12",
+            "contributes_to_program_total": false,
+            "amounts": [
+                16223403,
+                16223403,
+                16223403,
+                -3776598,
+                15331116,
+                11554518
+            ],
+            "amount_rows": [
+                [
+                    16223403,
+                    16223403,
+                    16223403
+                ],
+                [
+                    -3776598,
+                    15331116,
+                    11554518
+                ]
+            ],
+            "extracted_lines": [
+                "16 223 403     16 223 403         16 223 403",
+                "-3 776 598                         15 331 116     11 554 518"
+            ],
+            "ae_lfi": 16223403,
+            "ae_consumed": 11554518,
+            "cp_lfi": 16223403,
+            "cp_consumed": 11554518,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                16223403,
+                16223403,
+                16223403,
+                -3776598,
+                15331116,
+                11554518
+            ]
+        },
+        {
+            "code": "13",
+            "label": "Recherche partenariale dans le développement et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1551198,
+                1551198,
+                1551198,
+                1452762,
+                329277,
+                1782039
+            ],
+            "amount_rows": [
+                [
+                    1551198,
+                    1551198,
+                    1551198
+                ],
+                [
+                    1452762,
+                    329277,
+                    1782039
+                ]
+            ],
+            "extracted_lines": [
+                "1 551 198                                         1 551 198          1 551 198",
+                "1 452 762            329 277                       1 782 039"
+            ],
+            "ae_lfi": 1551198,
+            "ae_consumed": 1782039,
+            "cp_lfi": 1551198,
+            "cp_consumed": 1782039,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1551198,
+                1551198,
+                1551198,
+                1452762,
+                329277,
+                1782039
+            ]
+        },
+        {
+            "code": "13.01",
+            "label": "Agence nationale chargée de la sécurité sanitaire",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "13",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1551198,
+                1551198,
+                1551198,
+                1452762,
+                1452762
+            ],
+            "amount_rows": [
+                [
+                    1551198,
+                    1551198,
+                    1551198
+                ],
+                [
+                    1452762,
+                    1452762
+                ]
+            ],
+            "extracted_lines": [
+                "1 551 198                                         1 551 198          1 551 198",
+                "1 452 762                                          1 452 762"
+            ],
+            "ae_lfi": 1551198,
+            "ae_consumed": 1452762,
+            "cp_lfi": 1551198,
+            "cp_consumed": 1452762,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1551198,
+                1551198,
+                1551198,
+                1452762,
+                1452762
+            ]
+        },
+        {
+            "code": "13.02",
+            "label": "Agence de l'environnement et de la maîtrise de",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "13",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "13.04",
+            "label": "Recherche en matière de transport (PREDIT)",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "13",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "13.05",
+            "label": "Construction (PREBAT, C2D2, RGCU)",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "13",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "13.06",
+            "label": "Urbanisme et territoire (PUCA, MUTS)",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "13",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "13.07",
+            "label": "Changement global (GMES, adaptation au",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "13",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "13.08",
+            "label": "Risque, santé, environnement",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "13",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                329277,
+                329277
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    329277,
+                    329277
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "329 277                        329 277"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 329277,
+            "cp_lfi": 0,
+            "cp_consumed": 329277,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                329277,
+                329277,
+                21
+            ]
+        },
+        {
+            "code": "13.09",
+            "label": "Biodiversité",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "13",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "13.10",
+            "label": "Innovation et prospective dans le domaine du",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "13",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "14",
+            "label": "Recherche et développement dans le domaine de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                59500000,
+                10500000,
+                70000000,
+                70000000,
+                52960807,
+                52960807
+            ],
+            "amount_rows": [
+                [
+                    59500000,
+                    10500000,
+                    70000000,
+                    70000000
+                ],
+                [
+                    52960807,
+                    52960807
+                ]
+            ],
+            "extracted_lines": [
+                "59 500 000        10 500 000     70 000 000         70 000 000",
+                "52 960 807                        52 960 807"
+            ],
+            "ae_lfi": 70000000,
+            "ae_consumed": 52960807,
+            "cp_lfi": 129900000,
+            "cp_consumed": 206055231,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                110415000,
+                19485000,
+                129900000,
+                129900000,
+                307316,
+                204231281,
+                1516634,
+                206055231
+            ]
+        },
+        {
+            "code": "14.01",
+            "label": "Recherches en amont",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "14",
+            "contributes_to_program_total": false,
+            "amounts": [
+                59500000,
+                59500000,
+                59500000,
+                52960807,
+                52960807
+            ],
+            "amount_rows": [
+                [
+                    59500000,
+                    59500000,
+                    59500000
+                ],
+                [
+                    52960807,
+                    52960807
+                ]
+            ],
+            "extracted_lines": [
+                "59 500 000                       59 500 000         59 500 000",
+                "52 960 807                        52 960 807"
+            ],
+            "ae_lfi": 59500000,
+            "ae_consumed": 52960807,
+            "cp_lfi": 110415000,
+            "cp_consumed": 204538598,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                110415000,
+                110415000,
+                110415000,
+                307316,
+                204231281,
+                204538598
+            ]
+        },
+        {
+            "code": "14.02",
+            "label": "Subventions à des organismes de recherche",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "14",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "14.03",
+            "label": "Equipementier",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "14",
+            "contributes_to_program_total": false,
+            "amounts": [
+                10500000,
+                10500000,
+                10500000,
+                0
+            ],
+            "amount_rows": [
+                [
+                    10500000,
+                    10500000,
+                    10500000
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "10 500 000     10 500 000         10 500 000",
+                "0"
+            ],
+            "ae_lfi": 10500000,
+            "ae_consumed": 0,
+            "cp_lfi": 19485000,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                19485000,
+                19485000,
+                19485000,
+                0
+            ]
+        },
+        {
+            "code": "14.04",
+            "label": "Avions",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "14",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 1516634,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                1516634,
+                1516634
+            ]
+        },
+        {
+            "code": "14.05",
+            "label": "Moteurs",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "14",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "14.06",
+            "label": "Hélicoptères",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "14",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "15",
+            "label": "Charges nucléaires de long terme des installations du",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                780000000,
+                780000000,
+                780000000,
+                752252856,
+                752252856
+            ],
+            "amount_rows": [
+                [
+                    780000000,
+                    780000000,
+                    780000000
+                ],
+                [
+                    752252856,
+                    752252856
+                ]
+            ],
+            "extracted_lines": [
+                "780 000 000                                                 780 000 000        780 000 000",
+                "752 252 856                                                  752 252 856"
+            ],
+            "ae_lfi": 780000000,
+            "ae_consumed": 752252856,
+            "cp_lfi": 780000000,
+            "cp_consumed": 752252856,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                780000000,
+                780000000,
+                780000000,
+                752252856,
+                752252856
+            ]
+        },
+        {
+            "code": "16",
+            "label": "Recherche dans le domaine de l'énergie nucléaire",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                558293105,
+                558293105,
+                558293105,
+                609471492,
+                609471492
+            ],
+            "amount_rows": [
+                [
+                    558293105,
+                    558293105,
+                    558293105
+                ],
+                [
+                    609471492,
+                    609471492
+                ]
+            ],
+            "extracted_lines": [
+                "558 293 105                                                 558 293 105        558 293 105",
+                "609 471 492                                                  609 471 492"
+            ],
+            "ae_lfi": 558293105,
+            "ae_consumed": 609471492,
+            "cp_lfi": 558293105,
+            "cp_consumed": 609471492,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                558293105,
+                558293105,
+                558293105,
+                609471492,
+                609471492
+            ]
+        },
+        {
+            "code": "16.01",
+            "label": "Soutien aux activités nucléaires du CEA",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "16",
+            "contributes_to_program_total": false,
+            "amounts": [
+                558293105,
+                558293105,
+                558293105,
+                609471492,
+                609471492
+            ],
+            "amount_rows": [
+                [
+                    558293105,
+                    558293105,
+                    558293105
+                ],
+                [
+                    609471492,
+                    609471492
+                ]
+            ],
+            "extracted_lines": [
+                "558 293 105                                                 558 293 105        558 293 105",
+                "609 471 492                                                  609 471 492"
+            ],
+            "ae_lfi": 558293105,
+            "ae_consumed": 609471492,
+            "cp_lfi": 558293105,
+            "cp_consumed": 609471492,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                558293105,
+                558293105,
+                558293105,
+                609471492,
+                609471492
+            ]
+        },
+        {
+            "code": "17",
+            "label": "Recherche dans le domaine des nouvelles",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                188216691,
+                188216691,
+                188216691,
+                183249721,
+                183249721
+            ],
+            "amount_rows": [
+                [
+                    188216691,
+                    188216691,
+                    188216691
+                ],
+                [
+                    183249721,
+                    183249721
+                ]
+            ],
+            "extracted_lines": [
+                "188 216 691                                                 188 216 691        188 216 691",
+                "183 249 721                                                  183 249 721"
+            ],
+            "ae_lfi": 188216691,
+            "ae_consumed": 183249721,
+            "cp_lfi": 188216691,
+            "cp_consumed": 183249721,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                188216691,
+                188216691,
+                188216691,
+                183249721,
+                183249721
+            ]
+        },
+        {
+            "code": "17.01",
+            "label": "Soutien aux nouvelles technologies de l'énergie",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "17",
+            "contributes_to_program_total": false,
+            "amounts": [
+                61000000,
+                61000000,
+                61000000,
+                61000000,
+                61000000
+            ],
+            "amount_rows": [
+                [
+                    61000000,
+                    61000000,
+                    61000000
+                ],
+                [
+                    61000000,
+                    61000000
+                ]
+            ],
+            "extracted_lines": [
+                "61 000 000                                                  61 000 000          61 000 000",
+                "61 000 000                                                   61 000 000"
+            ],
+            "ae_lfi": 61000000,
+            "ae_consumed": 61000000,
+            "cp_lfi": 61000000,
+            "cp_consumed": 61000000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                61000000,
+                61000000,
+                61000000,
+                61000000,
+                61000000
+            ]
+        },
+        {
+            "code": "17.02",
+            "label": "Soutien aux nouvelles technologies de l'énergie",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "17",
+            "contributes_to_program_total": false,
+            "amounts": [
+                127216691,
+                127216691,
+                127216691,
+                122249721,
+                122249721
+            ],
+            "amount_rows": [
+                [
+                    127216691,
+                    127216691,
+                    127216691
+                ],
+                [
+                    122249721,
+                    122249721
+                ]
+            ],
+            "extracted_lines": [
+                "127 216 691                                                 127 216 691        127 216 691",
+                "122 249 721                                                  122 249 721"
+            ],
+            "ae_lfi": 127216691,
+            "ae_consumed": 122249721,
+            "cp_lfi": 127216691,
+            "cp_consumed": 122249721,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                127216691,
+                127216691,
+                127216691,
+                122249721,
+                122249721
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 1888583219,
+            "ae_consumed": 1886062178,
+            "cp_lfi": 1948483219,
+            "cp_consumed": 2039156602
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 29,
+        "sub_actions": 22
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29723",
+    "pdf_sha256": "42dd8fc5c9a64e087e1f78666a7e2d7fe2a28b51f1b8aebb54114d16556f1a6c",
+    "mission": "Recherche et enseignement supérieur"
+}

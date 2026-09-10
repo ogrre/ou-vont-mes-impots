@@ -1,0 +1,316 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "218",
+        "name": "Conduite et pilotage des politiques économiques et financières"
+    },
+    "actions": [
+        {
+            "code": "02",
+            "label": "Expertise, audit, évaluation et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                170274964,
+                23217946,
+                9857998,
+                203350908,
+                206128334,
+                169962502,
+                28640903,
+                2510435,
+                201113839
+            ],
+            "amount_rows": [
+                [
+                    170274964,
+                    23217946,
+                    9857998,
+                    203350908,
+                    206128334
+                ],
+                [
+                    169962502,
+                    28640903,
+                    2510435,
+                    201113839
+                ]
+            ],
+            "extracted_lines": [
+                "170 274 964        23 217 946         9 857 998                                       203 350 908       206 128 334",
+                "169 962 502        28 640 903        2 510 435                                       201 113 839"
+            ],
+            "ae_lfi": 206128334,
+            "ae_consumed": 201113839,
+            "cp_lfi": 207482973,
+            "cp_consumed": 200694012,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                170274964,
+                23602985,
+                10827598,
+                204705547,
+                207482973,
+                169962502,
+                26400293,
+                4331217,
+                200694012
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Prestations d'appui et support",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                224140790,
+                175039501,
+                520000,
+                291306,
+                399991597,
+                402661597,
+                217537174,
+                156848023,
+                1189529,
+                909370,
+                376484095
+            ],
+            "amount_rows": [
+                [
+                    224140790,
+                    175039501,
+                    520000,
+                    291306,
+                    399991597,
+                    402661597
+                ],
+                [
+                    217537174,
+                    156848023,
+                    1189529,
+                    909370,
+                    376484095
+                ]
+            ],
+            "extracted_lines": [
+                "224 140 790       175 039 501           520 000           291 306                     399 991 597       402 661 597",
+                "217 537 174       156 848 023         1 189 529          909 370                     376 484 095"
+            ],
+            "ae_lfi": 402661597,
+            "ae_consumed": 376484095,
+            "cp_lfi": 473263529,
+            "cp_consumed": 392563151,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                224140790,
+                207871433,
+                38290000,
+                291306,
+                470593529,
+                473263529,
+                217537174,
+                172851426,
+                1313181,
+                861370,
+                392563151
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Pilotage des finances",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                68442657,
+                75804519,
+                38325205,
+                182572381,
+                182572381
+            ],
+            "amount_rows": [
+                [
+                    68442657,
+                    75804519,
+                    38325205,
+                    182572381,
+                    182572381
+                ]
+            ],
+            "extracted_lines": [
+                "68 442 657       75 804 519        38 325 205                                       182 572 381       182 572 381",
+                "69 200 787       84 246 699       21 936 976            111 672         -51 040    175 445 094"
+            ],
+            "ae_lfi": 182572381,
+            "ae_consumed": null,
+            "cp_lfi": 176474893,
+            "cp_consumed": 181114251,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                68442657,
+                74660464,
+                33371772,
+                176474893,
+                176474893,
+                69200787,
+                81546961,
+                29943490,
+                423013,
+                181114251
+            ]
+        },
+        {
+            "code": "08",
+            "label": "Accompagnement du",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                2423086,
+                810000,
+                12547200,
+                15780286,
+                15780286,
+                2624368,
+                2585936,
+                10459356,
+                15669660
+            ],
+            "amount_rows": [
+                [
+                    2423086,
+                    810000,
+                    12547200,
+                    15780286,
+                    15780286
+                ],
+                [
+                    2624368,
+                    2585936,
+                    10459356,
+                    15669660
+                ]
+            ],
+            "extracted_lines": [
+                "2 423 086          810 000        12 547 200                                        15 780 286        15 780 286",
+                "2 624 368        2 585 936       10 459 356                                        15 669 660"
+            ],
+            "ae_lfi": 15780286,
+            "ae_consumed": 15669660,
+            "cp_lfi": 13315331,
+            "cp_consumed": 9511393,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                2423086,
+                810000,
+                10082245,
+                13315331,
+                13315331,
+                2624368,
+                6684100,
+                191625,
+                11300,
+                9511393
+            ]
+        },
+        {
+            "code": "09",
+            "label": "Action sociale ministérielle",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                64373253,
+                123792669,
+                1064718,
+                441227,
+                189671867,
+                190171867,
+                60778642,
+                112671297,
+                296459,
+                173151,
+                580530,
+                174500080
+            ],
+            "amount_rows": [
+                [
+                    64373253,
+                    123792669,
+                    1064718,
+                    441227,
+                    189671867,
+                    190171867
+                ],
+                [
+                    60778642,
+                    112671297,
+                    296459,
+                    173151,
+                    580530,
+                    174500080
+                ]
+            ],
+            "extracted_lines": [
+                "64 373 253      123 792 669         1 064 718                           441 227     189 671 867       190 171 867",
+                "60 778 642      112 671 297          296 459            173 151        580 530     174 500 080"
+            ],
+            "ae_lfi": 190171867,
+            "ae_consumed": 174500080,
+            "cp_lfi": 190171867,
+            "cp_consumed": 179274575,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                64373253,
+                123792669,
+                1064718,
+                441227,
+                189671867,
+                190171867,
+                60778642,
+                117518631,
+                223325,
+                173447,
+                580530,
+                179274575
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 997314465,
+            "ae_consumed": 943212768,
+            "cp_lfi": 1060708593,
+            "cp_consumed": 963157381
+        },
+        "differences": {
+            "ae_consumed": {
+                "actions_sum": 767767674,
+                "programme_total": 943212768,
+                "difference": -175445094
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 5,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29783",
+    "pdf_sha256": "5194e59756416c60b406656a97ecb53af5260e58434a502ffd1e7a528f8ef2fb",
+    "mission": "Gestion des finances publiques"
+}

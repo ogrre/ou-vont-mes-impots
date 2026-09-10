@@ -1,0 +1,75 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "852",
+        "name": "Prêts à des États étrangers pour consolidation de dettes envers la France"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Prêts résultant de l'exécution d'accords conclus avec les gouvernements étrangers",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                287122390,
+                287122390,
+                287122390,
+                95816220,
+                95816220
+            ],
+            "amount_rows": [
+                [
+                    287122390,
+                    287122390,
+                    287122390
+                ],
+                [
+                    95816220,
+                    95816220
+                ]
+            ],
+            "extracted_lines": [
+                "287 122 390     287 122 390         287 122 390",
+                "95 816 220       95 816 220"
+            ],
+            "ae_lfi": 287122390,
+            "ae_consumed": 95816220,
+            "cp_lfi": 287122390,
+            "cp_consumed": 95816220,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                287122390,
+                287122390,
+                287122390,
+                95816220,
+                95816220
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 287122390,
+            "ae_consumed": 95816220,
+            "cp_lfi": 287122390,
+            "cp_consumed": 95816220
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30119",
+    "pdf_sha256": "81b8c0e1859ff1719c5d3f55b0018368708cff52c71f3bbb21141f0639f2e69a",
+    "mission": null
+}

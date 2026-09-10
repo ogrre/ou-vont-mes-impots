@@ -1,0 +1,326 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "174",
+        "name": "Énergie, climat et après-mines"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Politique de l'énergie",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                124281359,
+                63042870,
+                187324229,
+                187324229,
+                101473509,
+                106951,
+                31523267,
+                133103728
+            ],
+            "amount_rows": [
+                [
+                    124281359,
+                    63042870,
+                    187324229,
+                    187324229
+                ],
+                [
+                    101473509,
+                    106951,
+                    31523267,
+                    133103728
+                ]
+            ],
+            "extracted_lines": [
+                "124 281 359                               63 042 870                         187 324 229        187 324 229",
+                "101 473 509             106 951           31 523 267                         133 103 728"
+            ],
+            "ae_lfi": 187324229,
+            "ae_consumed": 133103728,
+            "cp_lfi": 182674229,
+            "cp_consumed": 93902151,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                109281359,
+                73392870,
+                182674229,
+                182674229,
+                69972394,
+                106951,
+                23822806,
+                93902151
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Accompagnement transition",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                31000000,
+                3760947498,
+                3791947498,
+                3791947498,
+                29896691,
+                1978259575,
+                2008156266
+            ],
+            "amount_rows": [
+                [
+                    31000000,
+                    3760947498,
+                    3791947498,
+                    3791947498
+                ],
+                [
+                    29896691,
+                    1978259575,
+                    2008156266
+                ]
+            ],
+            "extracted_lines": [
+                "31 000 000                           3 760 947 498                        3 791 947 498     3 791 947 498",
+                "29 896 691                           1 978 259 575                        2 008 156 266"
+            ],
+            "ae_lfi": 3791947498,
+            "ae_consumed": 2008156266,
+            "cp_lfi": 3416230932,
+            "cp_consumed": 1468153947,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                31000000,
+                3385230932,
+                3416230932,
+                3416230932,
+                22473874,
+                1445680073,
+                1468153947
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Aides à l'acquisition de véhicules",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                10000000,
+                1490999999,
+                1500999999,
+                1500999999,
+                16781403,
+                1867981581,
+                1884762984
+            ],
+            "amount_rows": [
+                [
+                    10000000,
+                    1490999999,
+                    1500999999,
+                    1500999999
+                ],
+                [
+                    16781403,
+                    1867981581,
+                    1884762984
+                ]
+            ],
+            "extracted_lines": [
+                "10 000 000                           1 490 999 999                        1 500 999 999     1 500 999 999",
+                "16 781 403                           1 867 981 581                        1 884 762 984"
+            ],
+            "ae_lfi": 1500999999,
+            "ae_consumed": 1884762984,
+            "cp_lfi": 1500999999,
+            "cp_consumed": 1909103748,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                10000000,
+                1490999999,
+                1500999999,
+                1500999999,
+                13998667,
+                1895105081,
+                1909103748
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Gestion économique et sociale de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                12861000,
+                257328000,
+                270189000,
+                270189000,
+                15687255,
+                237327298,
+                253014553
+            ],
+            "amount_rows": [
+                [
+                    12861000,
+                    257328000,
+                    270189000,
+                    270189000
+                ],
+                [
+                    15687255,
+                    237327298,
+                    253014553
+                ]
+            ],
+            "extracted_lines": [
+                "12 861 000                             257 328 000                         270 189 000        270 189 000",
+                "15 687 255                             237 327 298                         253 014 553"
+            ],
+            "ae_lfi": 270189000,
+            "ae_consumed": 253014553,
+            "cp_lfi": 270189000,
+            "cp_consumed": 253015478,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                12861000,
+                257328000,
+                270189000,
+                270189000,
+                15688179,
+                237327298,
+                253015478
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Lutte contre le changement",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                25914063,
+                39451508,
+                65365571,
+                65365571,
+                11619735,
+                39205760,
+                656242,
+                51481737
+            ],
+            "amount_rows": [
+                [
+                    25914063,
+                    39451508,
+                    65365571,
+                    65365571
+                ],
+                [
+                    11619735,
+                    39205760,
+                    656242,
+                    51481737
+                ]
+            ],
+            "extracted_lines": [
+                "25 914 063                              39 451 508                           65 365 571        65 365 571",
+                "11 619 735                              39 205 760           656 242         51 481 737"
+            ],
+            "ae_lfi": 65365571,
+            "ae_consumed": 51481737,
+            "cp_lfi": 63710000,
+            "cp_consumed": 50392900,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                24258492,
+                39451508,
+                63710000,
+                63710000,
+                10708161,
+                39028497,
+                656242,
+                50392900
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Soutien",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1350765,
+                1350765,
+                1350765,
+                20939208,
+                1849212,
+                17150,
+                22805569
+            ],
+            "amount_rows": [
+                [
+                    1350765,
+                    1350765,
+                    1350765
+                ],
+                [
+                    20939208,
+                    1849212,
+                    17150,
+                    22805569
+                ]
+            ],
+            "extracted_lines": [
+                "1 350 765                                                                    1 350 765           1 350 765",
+                "20 939 208                                 1 849 212           17 150        22 805 569"
+            ],
+            "ae_lfi": 1350765,
+            "ae_consumed": 22805569,
+            "cp_lfi": 1350765,
+            "cp_consumed": 22878887,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1350765,
+                1350765,
+                1350765,
+                21072475,
+                1806412,
+                22878887
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 5817177062,
+            "ae_consumed": 4353324837,
+            "cp_lfi": 5435154925,
+            "cp_consumed": 3797447110
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 6,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29693",
+    "pdf_sha256": "ac130ca56d8b63b145a0c66e7cae119a3e98b8cb61f81edce90d6000070c294d",
+    "mission": "Écologie, développement et mobilité durables"
+}

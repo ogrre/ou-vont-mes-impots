@@ -1,0 +1,213 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "137",
+        "name": "Égalité entre les femmes et les hommes"
+    },
+    "actions": [
+        {
+            "code": "23",
+            "label": "Soutien du programme égalité entre les femmes et les hommes",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1484357,
+                1484357,
+                1484357,
+                594877,
+                45096,
+                639973
+            ],
+            "amount_rows": [
+                [
+                    1484357,
+                    1484357,
+                    1484357
+                ],
+                [
+                    594877,
+                    45096,
+                    639973
+                ]
+            ],
+            "extracted_lines": [
+                "1 484 357                            1 484 357          1 484 357",
+                "594 877                  45 096      639 973"
+            ],
+            "ae_lfi": 1484357,
+            "ae_consumed": 639973,
+            "cp_lfi": 1484357,
+            "cp_consumed": 689261,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1484357,
+                1484357,
+                1484357,
+                641990,
+                47272,
+                689261
+            ]
+        },
+        {
+            "code": "24",
+            "label": "Accès aux droits et égalité professionnelle",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                24819421,
+                24819421,
+                24819421,
+                535431,
+                23172088,
+                23707519
+            ],
+            "amount_rows": [
+                [
+                    24819421,
+                    24819421,
+                    24819421
+                ],
+                [
+                    535431,
+                    23172088,
+                    23707519
+                ]
+            ],
+            "extracted_lines": [
+                "24 819 421      24 819 421         24 819 421",
+                "535 431          23 172 088       23 707 519"
+            ],
+            "ae_lfi": 24819421,
+            "ae_consumed": 23707519,
+            "cp_lfi": 24819421,
+            "cp_consumed": 23639360,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                24819421,
+                24819421,
+                24819421,
+                478676,
+                23160684,
+                23639360
+            ]
+        },
+        {
+            "code": "25",
+            "label": "Prévention et lutte contre les violences et la prostitution",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                38076357,
+                38076357,
+                38076357,
+                413320,
+                41304816,
+                41718135
+            ],
+            "amount_rows": [
+                [
+                    38076357,
+                    38076357,
+                    38076357
+                ],
+                [
+                    413320,
+                    41304816,
+                    41718135
+                ]
+            ],
+            "extracted_lines": [
+                "38 076 357      38 076 357         38 076 357",
+                "413 320          41 304 816       41 718 135"
+            ],
+            "ae_lfi": 38076357,
+            "ae_consumed": 41718135,
+            "cp_lfi": 38076357,
+            "cp_consumed": 41957020,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                38076357,
+                38076357,
+                38076357,
+                417395,
+                41539624,
+                41957020
+            ]
+        },
+        {
+            "code": "26",
+            "label": "Aide universelle d'urgence pour les personnes victimes de violences",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                13028547,
+                13028547,
+                13028547,
+                540434,
+                34235059,
+                34775493
+            ],
+            "amount_rows": [
+                [
+                    13028547,
+                    13028547,
+                    13028547
+                ],
+                [
+                    540434,
+                    34235059,
+                    34775493
+                ]
+            ],
+            "extracted_lines": [
+                "13 028 547      13 028 547         13 028 547",
+                "540 434          34 235 059       34 775 493"
+            ],
+            "ae_lfi": 13028547,
+            "ae_consumed": 34775493,
+            "cp_lfi": 13028547,
+            "cp_consumed": 34775493,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                13028547,
+                13028547,
+                13028547,
+                540434,
+                34235059,
+                34775493
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 77408682,
+            "ae_consumed": 100841120,
+            "cp_lfi": 77408682,
+            "cp_consumed": 101061134
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 4,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29603",
+    "pdf_sha256": "e4cb8e7ac698c01b421bce7d05c93fc8d987f257ea34fe7a9e73744c058dbbec",
+    "mission": "Solidarité, insertion et égalité des chances"
+}

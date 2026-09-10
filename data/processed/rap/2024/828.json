@@ -1,0 +1,69 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "828",
+        "name": "Prêts destinés à soutenir les autorités organisatrices de la mobilité à la suite des conséquences de l'épidémie de la covid-19"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Prêts destinés à soutenir les autorités organisatrices de la mobilité à la suite des conséquences de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30077",
+    "pdf_sha256": "02c3282b0b680a7b3ec43296df6ce1e467b5d997494a71c4cd19eca220922fe9",
+    "mission": null
+}

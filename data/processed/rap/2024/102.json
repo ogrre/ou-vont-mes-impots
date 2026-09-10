@@ -1,0 +1,689 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "102",
+        "name": "Accès et retour à l'emploi"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Indemnisation des demandeurs",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1725706838,
+                1725706838,
+                1725706838,
+                541,
+                1680351326,
+                1680351866
+            ],
+            "amount_rows": [
+                [
+                    1725706838,
+                    1725706838,
+                    1725706838
+                ],
+                [
+                    541,
+                    1680351326,
+                    1680351866
+                ]
+            ],
+            "extracted_lines": [
+                "1 725 706 838                        1 725 706 838     1 725 706 838",
+                "541                         1 680 351 326                        1 680 351 866"
+            ],
+            "ae_lfi": 1725706838,
+            "ae_consumed": 1680351866,
+            "cp_lfi": 1725706838,
+            "cp_consumed": 1680351866,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1725706838,
+                1725706838,
+                1725706838,
+                541,
+                1680351326,
+                1680351866
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Structures de mise en oeuvre de la",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1411836908,
+                23967895,
+                816112934,
+                2251917737,
+                2251917737,
+                1376075140,
+                22649660,
+                768141591,
+                2166866390
+            ],
+            "amount_rows": [
+                [
+                    1411836908,
+                    23967895,
+                    816112934,
+                    2251917737,
+                    2251917737
+                ],
+                [
+                    1376075140,
+                    22649660,
+                    768141591,
+                    2166866390
+                ]
+            ],
+            "extracted_lines": [
+                "1 411 836 908          23 967 895        816 112 934                        2 251 917 737     2 251 917 737",
+                "1 376 075 140          22 649 660        768 141 591                        2 166 866 390"
+            ],
+            "ae_lfi": 2251917737,
+            "ae_consumed": 2166866390,
+            "cp_lfi": 2257239408,
+            "cp_consumed": 2112132004,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1411836908,
+                23967895,
+                821434605,
+                2257239408,
+                2257239408,
+                1378132531,
+                22649660,
+                711349813,
+                2112132004
+            ]
+        },
+        {
+            "code": "02.01",
+            "label": "Financement du service public",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "02",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1350446848,
+                816112934,
+                2166559782,
+                2166559782,
+                1316451713,
+                737437292,
+                2053889006
+            ],
+            "amount_rows": [
+                [
+                    1350446848,
+                    816112934,
+                    2166559782,
+                    2166559782
+                ],
+                [
+                    1316451713,
+                    737437292,
+                    2053889006
+                ]
+            ],
+            "extracted_lines": [
+                "1 350 446 848                            816 112 934                        2 166 559 782     2 166 559 782",
+                "1 316 451 713                            737 437 292                        2 053 889 006"
+            ],
+            "ae_lfi": 2166559782,
+            "ae_consumed": 2053889006,
+            "cp_lfi": 2171881453,
+            "cp_consumed": 2007928210,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1350446848,
+                821434605,
+                2171881453,
+                2171881453,
+                1318509105,
+                689419106,
+                2007928210
+            ]
+        },
+        {
+            "code": "02.02",
+            "label": "Financement des organismes",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "02",
+            "contributes_to_program_total": false,
+            "amounts": [
+                61390060,
+                23967895,
+                85357955,
+                85357955,
+                59623427,
+                22649660,
+                30704298,
+                112977385
+            ],
+            "amount_rows": [
+                [
+                    61390060,
+                    23967895,
+                    85357955,
+                    85357955
+                ],
+                [
+                    59623427,
+                    22649660,
+                    30704298,
+                    112977385
+                ]
+            ],
+            "extracted_lines": [
+                "61 390 060         23 967 895                                             85 357 955         85 357 955",
+                "59 623 427         22 649 660         30 704 298                         112 977 385"
+            ],
+            "ae_lfi": 85357955,
+            "ae_consumed": 112977385,
+            "cp_lfi": 85357955,
+            "cp_consumed": 104203794,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                61390060,
+                23967895,
+                85357955,
+                85357955,
+                59623427,
+                22649660,
+                21930707,
+                104203794
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Accompagnement des personnes",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                2182199,
+                2475640354,
+                2477822553,
+                2527822553,
+                1063758,
+                2269275293,
+                2270339051
+            ],
+            "amount_rows": [
+                [
+                    2182199,
+                    2475640354,
+                    2477822553,
+                    2527822553
+                ],
+                [
+                    1063758,
+                    2269275293,
+                    2270339051
+                ]
+            ],
+            "extracted_lines": [
+                "2 182 199                         2 475 640 354                        2 477 822 553     2 527 822 553",
+                "1 063 758                         2 269 275 293                        2 270 339 051"
+            ],
+            "ae_lfi": 2527822553,
+            "ae_consumed": 2270339051,
+            "cp_lfi": 2525858616,
+            "cp_consumed": 2277639569,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                2182199,
+                2473676417,
+                2475858616,
+                2525858616,
+                1236022,
+                2276403548,
+                2277639569
+            ]
+        },
+        {
+            "code": "03.01",
+            "label": "Insertion dans l'emploi au moyen",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "03",
+            "contributes_to_program_total": false,
+            "amounts": [
+                400620525,
+                400620525,
+                400620525,
+                334725774,
+                334725774
+            ],
+            "amount_rows": [
+                [
+                    400620525,
+                    400620525,
+                    400620525
+                ],
+                [
+                    334725774,
+                    334725774
+                ]
+            ],
+            "extracted_lines": [
+                "400 620 525                         400 620 525        400 620 525",
+                "334 725 774                         334 725 774"
+            ],
+            "ae_lfi": 400620525,
+            "ae_consumed": 334725774,
+            "cp_lfi": 398656588,
+            "cp_consumed": 312942222,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                398656588,
+                398656588,
+                398656588,
+                312942222,
+                312942222
+            ]
+        },
+        {
+            "code": "03.02",
+            "label": "Insertion par l'activité",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "03",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1500607975,
+                1500607975,
+                1500607975,
+                1369265446,
+                1369265446
+            ],
+            "amount_rows": [
+                [
+                    1500607975,
+                    1500607975,
+                    1500607975
+                ],
+                [
+                    1369265446,
+                    1369265446
+                ]
+            ],
+            "extracted_lines": [
+                "1 500 607 975                        1 500 607 975     1 500 607 975",
+                "1 369 265 446                        1 369 265 446"
+            ],
+            "ae_lfi": 1500607975,
+            "ae_consumed": 1369265446,
+            "cp_lfi": 1500607975,
+            "cp_consumed": 1369689141,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1500607975,
+                1500607975,
+                1500607975,
+                1369689141,
+                1369689141
+            ]
+        },
+        {
+            "code": "03.03",
+            "label": "Exonérations liées à l'insertion",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "03",
+            "contributes_to_program_total": false,
+            "amounts": [
+                17325542,
+                17325542,
+                17325542,
+                15031359,
+                15031359
+            ],
+            "amount_rows": [
+                [
+                    17325542,
+                    17325542,
+                    17325542
+                ],
+                [
+                    15031359,
+                    15031359
+                ]
+            ],
+            "extracted_lines": [
+                "17 325 542                           17 325 542        17 325 542",
+                "15 031 359                           15 031 359"
+            ],
+            "ae_lfi": 17325542,
+            "ae_consumed": 15031359,
+            "cp_lfi": 17325542,
+            "cp_consumed": 15031359,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                17325542,
+                17325542,
+                17325542,
+                15031359,
+                15031359
+            ]
+        },
+        {
+            "code": "03.04",
+            "label": "Inclusion dans l'emploi des",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "03",
+            "contributes_to_program_total": false,
+            "amounts": [
+                470385924,
+                470385924,
+                520385924,
+                1063758,
+                468169849,
+                469233606
+            ],
+            "amount_rows": [
+                [
+                    470385924,
+                    470385924,
+                    520385924
+                ],
+                [
+                    1063758,
+                    468169849,
+                    469233606
+                ]
+            ],
+            "extracted_lines": [
+                "470 385 924                         470 385 924        520 385 924",
+                "1 063 758                           468 169 849                         469 233 606"
+            ],
+            "ae_lfi": 520385924,
+            "ae_consumed": 469233606,
+            "cp_lfi": 520385924,
+            "cp_consumed": 505806361,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                470385924,
+                470385924,
+                520385924,
+                1236022,
+                504570339,
+                505806361
+            ]
+        },
+        {
+            "code": "03.05",
+            "label": "Autres structures d'insertion dans",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "03",
+            "contributes_to_program_total": false,
+            "amounts": [
+                2182199,
+                77446453,
+                79628652,
+                79628652,
+                72100526,
+                72100526
+            ],
+            "amount_rows": [
+                [
+                    2182199,
+                    77446453,
+                    79628652,
+                    79628652
+                ],
+                [
+                    72100526,
+                    72100526
+                ]
+            ],
+            "extracted_lines": [
+                "2 182 199                            77 446 453                           79 628 652        79 628 652",
+                "72 100 526                           72 100 526"
+            ],
+            "ae_lfi": 79628652,
+            "ae_consumed": 72100526,
+            "cp_lfi": 79628652,
+            "cp_consumed": 64188147,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                2182199,
+                77446453,
+                79628652,
+                79628652,
+                64188147,
+                64188147
+            ]
+        },
+        {
+            "code": "03.06",
+            "label": "Exonérations liées aux structures",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "03",
+            "contributes_to_program_total": false,
+            "amounts": [
+                9253935,
+                9253935,
+                9253935,
+                9982339,
+                9982339
+            ],
+            "amount_rows": [
+                [
+                    9253935,
+                    9253935,
+                    9253935
+                ],
+                [
+                    9982339,
+                    9982339
+                ]
+            ],
+            "extracted_lines": [
+                "9 253 935                           9 253 935          9 253 935",
+                "9 982 339                           9 982 339"
+            ],
+            "ae_lfi": 9253935,
+            "ae_consumed": 9982339,
+            "cp_lfi": 9253935,
+            "cp_consumed": 9982339,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                9253935,
+                9253935,
+                9253935,
+                9982339,
+                9982339
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Insertion des jeunes sur le marché",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                68986679,
+                2112605,
+                1010319911,
+                1081419195,
+                1081419195,
+                67086827,
+                1996412,
+                875398237,
+                944481475
+            ],
+            "amount_rows": [
+                [
+                    68986679,
+                    2112605,
+                    1010319911,
+                    1081419195,
+                    1081419195
+                ],
+                [
+                    67086827,
+                    1996412,
+                    875398237,
+                    944481475
+                ]
+            ],
+            "extracted_lines": [
+                "68 986 679          2 112 605      1 010 319 911                        1 081 419 195     1 081 419 195",
+                "67 086 827          1 996 412        875 398 237                          944 481 475"
+            ],
+            "ae_lfi": 1081419195,
+            "ae_consumed": 944481475,
+            "cp_lfi": 1084370455,
+            "cp_consumed": 979236597,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                68986679,
+                2112605,
+                1013271171,
+                1084370455,
+                1084370455,
+                66992285,
+                1996412,
+                901982266,
+                8265633,
+                979236597
+            ]
+        },
+        {
+            "code": "04.01",
+            "label": "Dispositifs mis en œuvre pour",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "04",
+            "contributes_to_program_total": false,
+            "amounts": [
+                964014286,
+                964014286,
+                964014286,
+                843881021,
+                843881021
+            ],
+            "amount_rows": [
+                [
+                    964014286,
+                    964014286,
+                    964014286
+                ],
+                [
+                    843881021,
+                    843881021
+                ]
+            ],
+            "extracted_lines": [
+                "964 014 286                         964 014 286        964 014 286",
+                "843 881 021                         843 881 021"
+            ],
+            "ae_lfi": 964014286,
+            "ae_consumed": 843881021,
+            "cp_lfi": 964014286,
+            "cp_consumed": 859107215,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                964014286,
+                964014286,
+                964014286,
+                859107215,
+                859107215
+            ]
+        },
+        {
+            "code": "04.02",
+            "label": "Structures d'accompagnement",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "04",
+            "contributes_to_program_total": false,
+            "amounts": [
+                68986679,
+                2112605,
+                46305625,
+                117404909,
+                117404909,
+                67086827,
+                1996412,
+                31517216,
+                100600454
+            ],
+            "amount_rows": [
+                [
+                    68986679,
+                    2112605,
+                    46305625,
+                    117404909,
+                    117404909
+                ],
+                [
+                    67086827,
+                    1996412,
+                    31517216,
+                    100600454
+                ]
+            ],
+            "extracted_lines": [
+                "68 986 679          2 112 605         46 305 625                         117 404 909        117 404 909",
+                "67 086 827          1 996 412         31 517 216                         100 600 454"
+            ],
+            "ae_lfi": 117404909,
+            "ae_consumed": 100600454,
+            "cp_lfi": 120356169,
+            "cp_consumed": 120129381,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                68986679,
+                2112605,
+                49256885,
+                120356169,
+                120356169,
+                66992285,
+                1996412,
+                42875051,
+                8265633,
+                120129381
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 7586866323,
+            "ae_consumed": 7062038783,
+            "cp_lfi": 7593175317,
+            "cp_consumed": 7049360036
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 14,
+        "sub_actions": 10
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29537",
+    "pdf_sha256": "f6d61ce9e3926550a102f1f4cc467d7b6658bb98f41c01e29613c42c2a3e2d60",
+    "mission": "Travail et emploi"
+}

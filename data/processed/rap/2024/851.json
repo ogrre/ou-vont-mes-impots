@@ -1,0 +1,75 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "851",
+        "name": "Prêts du Trésor à des États étrangers en vue de faciliter la vente de biens et de services concourant au développement du commerce extérieur de la France"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Prêts à des États étrangers en vue de faciliter la vente de biens et de services",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1000000000,
+                1000000000,
+                1000000000,
+                413829472,
+                413829472
+            ],
+            "amount_rows": [
+                [
+                    1000000000,
+                    1000000000,
+                    1000000000
+                ],
+                [
+                    413829472,
+                    413829472
+                ]
+            ],
+            "extracted_lines": [
+                "1 000 000 000     1 000 000 000       1 000 000 000",
+                "413 829 472        413 829 472"
+            ],
+            "ae_lfi": 1000000000,
+            "ae_consumed": 413829472,
+            "cp_lfi": 762002804,
+            "cp_consumed": 379369835,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                762002804,
+                762002804,
+                762002804,
+                379369835,
+                379369835
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 1000000000,
+            "ae_consumed": 413829472,
+            "cp_lfi": 762002804,
+            "cp_consumed": 379369835
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30116",
+    "pdf_sha256": "ed9bb28086881bd6bd7bccb6fbe8c627072728c4ae0f80bb848fe1bb59671401",
+    "mission": null
+}

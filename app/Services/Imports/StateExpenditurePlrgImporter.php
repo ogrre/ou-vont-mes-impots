@@ -2,9 +2,13 @@
 
 namespace App\Services\Imports;
 
+use App\Enums\AccountingBasis;
+use App\Enums\AeCp;
+use App\Enums\BudgetStage;
 use App\Enums\FinancialMeasure;
 use App\Enums\FlowType;
 use App\Enums\ImportStatus;
+use App\Enums\MeasurementType;
 use App\Enums\ObservationStatus;
 use App\Models\AccountingScope;
 use App\Models\BudgetComponent;
@@ -116,9 +120,16 @@ class StateExpenditurePlrgImporter implements DatasetImporter
                             'import_batch_id' => $batch->id,
                             'year' => $semantics['year'],
                             'accounting_scope_id' => $scope->id,
+                            'institution_scope_id' => $scope->id,
                             'budget_component_id' => $component->id,
                             'classification_item_id' => $item->id,
+                            'category_id' => $item->id,
                             'status' => ObservationStatus::Executed,
+                            'measurement_type' => MeasurementType::Expenditure,
+                            'accounting_basis' => AccountingBasis::Budgetary,
+                            'budget_stage' => BudgetStage::Execution,
+                            'ae_cp' => $semantics['measure'] === FinancialMeasure::CommitmentAuthorization ? AeCp::Ae : AeCp::Cp,
+                            'is_consolidated' => false,
                             'measure' => $semantics['measure'],
                             'flow_type' => FlowType::Expenditure,
                             'amount' => $this->normalizer->billionEurToEur($originalValue),

@@ -26,7 +26,7 @@ class StateRevenueIndexRequest extends FormRequest
     {
         return [
             'year' => ['required', 'integer', 'min:2000', 'max:2100'],
-            'status' => ['required', Rule::in(['initial_estimate', 'revised_estimate', 'budget_bill'])],
+            'status' => ['required', Rule::in(['executed', 'initial_estimate', 'revised_estimate', 'budget_bill'])],
         ];
     }
 }

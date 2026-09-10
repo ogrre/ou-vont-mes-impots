@@ -1,0 +1,361 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "119",
+        "name": "Concours financiers aux collectivités territoriales et à leurs groupements"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Soutien aux projets des communes et groupements de communes",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1970250000,
+                1970250000,
+                1970250000,
+                1684,
+                1759460853,
+                1759462537
+            ],
+            "amount_rows": [
+                [
+                    1970250000,
+                    1970250000,
+                    1970250000
+                ],
+                [
+                    1684,
+                    1759460853,
+                    1759462537
+                ]
+            ],
+            "extracted_lines": [
+                "1 970 250 000     1 970 250 000      1 970 250 000",
+                "1 684      1 759 460 853     1 759 462 537"
+            ],
+            "ae_lfi": 1970250000,
+            "ae_consumed": 1759462537,
+            "cp_lfi": 1829927797,
+            "cp_consumed": 1785739392,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1829927797,
+                1829927797,
+                1829927797,
+                1785739392,
+                1785739392
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Dotation générale de décentralisation des communes",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                141091268,
+                141091268,
+                141091268,
+                141120719,
+                141120719
+            ],
+            "amount_rows": [
+                [
+                    141091268,
+                    141091268,
+                    141091268
+                ],
+                [
+                    141120719,
+                    141120719
+                ]
+            ],
+            "extracted_lines": [
+                "141 091 268      141 091 268         141 091 268",
+                "141 120 719       141 120 719"
+            ],
+            "ae_lfi": 141091268,
+            "ae_consumed": 141120719,
+            "cp_lfi": 141091268,
+            "cp_consumed": 141282889,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                141091268,
+                141091268,
+                141091268,
+                141282889,
+                141282889
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Soutien aux projets des départements et des régions",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                211855969,
+                211855969,
+                211855969,
+                194528092,
+                194528092
+            ],
+            "amount_rows": [
+                [
+                    211855969,
+                    211855969,
+                    211855969
+                ],
+                [
+                    194528092,
+                    194528092
+                ]
+            ],
+            "extracted_lines": [
+                "211 855 969      211 855 969         211 855 969",
+                "194 528 092       194 528 092"
+            ],
+            "ae_lfi": 211855969,
+            "ae_consumed": 194528092,
+            "cp_lfi": 154871382,
+            "cp_consumed": 124581096,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                154871382,
+                154871382,
+                154871382,
+                124581096,
+                124581096
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Dotation générale de décentralisation des départements",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                265413480,
+                265413480,
+                265413480,
+                265399092,
+                265399092
+            ],
+            "amount_rows": [
+                [
+                    265413480,
+                    265413480,
+                    265413480
+                ],
+                [
+                    265399092,
+                    265399092
+                ]
+            ],
+            "extracted_lines": [
+                "265 413 480      265 413 480         265 413 480",
+                "265 399 092       265 399 092"
+            ],
+            "ae_lfi": 265413480,
+            "ae_consumed": 265399092,
+            "cp_lfi": 265413480,
+            "cp_consumed": 265399092,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                265413480,
+                265413480,
+                265413480,
+                265399092,
+                265399092
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Dotation générale de décentralisation des régions",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                937541150,
+                937541150,
+                937541150,
+                937494498,
+                937494498
+            ],
+            "amount_rows": [
+                [
+                    937541150,
+                    937541150,
+                    937541150
+                ],
+                [
+                    937494498,
+                    937494498
+                ]
+            ],
+            "extracted_lines": [
+                "937 541 150      937 541 150         937 541 150",
+                "937 494 498       937 494 498"
+            ],
+            "ae_lfi": 937541150,
+            "ae_consumed": 937494498,
+            "cp_lfi": 937541150,
+            "cp_consumed": 943369369,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                937541150,
+                937541150,
+                937541150,
+                943369369,
+                943369369
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Dotation générale de décentralisation concours particuliers",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                272049877,
+                272049877,
+                272049877,
+                273188733,
+                273188733
+            ],
+            "amount_rows": [
+                [
+                    272049877,
+                    272049877,
+                    272049877
+                ],
+                [
+                    273188733,
+                    273188733
+                ]
+            ],
+            "extracted_lines": [
+                "272 049 877      272 049 877         272 049 877",
+                "273 188 733       273 188 733"
+            ],
+            "ae_lfi": 272049877,
+            "ae_consumed": 273188733,
+            "cp_lfi": 272049877,
+            "cp_consumed": 272797402,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                272049877,
+                272049877,
+                272049877,
+                272797402,
+                272797402
+            ]
+        },
+        {
+            "code": "08",
+            "label": "Concours exceptionnels pour l'achat de masques",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "09",
+            "label": "Dotation de soutien à l'investissement local exceptionnelle",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                -7866505
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    -7866505
+                ]
+            ],
+            "extracted_lines": [
+                "0                     0",
+                "-7 866 505"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": -7866505,
+            "cp_lfi": 110893552,
+            "cp_consumed": 104854484,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                110893552,
+                110893552,
+                110893552,
+                104854484,
+                104854484
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 3798201744,
+            "ae_consumed": 3563327165,
+            "cp_lfi": 3711788506,
+            "cp_consumed": 3638023725
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 8,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29573",
+    "pdf_sha256": "d15cab0495eb15e1e2da4e5a1ddd9dca29008a6df8c31da6f104039c5a7536d4",
+    "mission": "Relations avec les collectivités territoriales"
+}

@@ -26,7 +26,7 @@ class StateBudgetRevenueXlsxImporterTest extends TestCase
         $file = DatasetFile::where('slug', 'state-general-budget-revenue-2025-2026')->firstOrFail();
         $batch = app(StateBudgetRevenueXlsxImporter::class)->import(
             $file,
-            base_path('data/econ-fin-pub-recettes-budget.xlsx'),
+            base_path('data/2025/budget-etat/econ-fin-pub-recettes-budget.xlsx'),
         );
 
         $this->assertSame(20, $batch->rows_read);
@@ -78,7 +78,7 @@ class StateBudgetRevenueXlsxImporterTest extends TestCase
         $this->seed(DatabaseSeeder::class);
         $file = DatasetFile::where('slug', 'state-general-budget-revenue-2025-2026')->firstOrFail();
         $importer = app(StateBudgetRevenueXlsxImporter::class);
-        $path = base_path('data/econ-fin-pub-recettes-budget.xlsx');
+        $path = base_path('data/2025/budget-etat/econ-fin-pub-recettes-budget.xlsx');
         $importer->import($file, $path);
 
         try {
@@ -99,7 +99,7 @@ class StateBudgetRevenueXlsxImporterTest extends TestCase
         $file->update(['metadata' => [...$file->metadata, 'flow_type' => 'expenditure']]);
 
         $this->expectException(InvalidSourceDataException::class);
-        app(StateBudgetRevenueXlsxImporter::class)->import($file->fresh(), base_path('data/econ-fin-pub-recettes-budget.xlsx'));
+        app(StateBudgetRevenueXlsxImporter::class)->import($file->fresh(), base_path('data/2025/budget-etat/econ-fin-pub-recettes-budget.xlsx'));
     }
 
     public function test_it_rejects_invalid_headers_amounts_and_incomplete_workbooks(): void

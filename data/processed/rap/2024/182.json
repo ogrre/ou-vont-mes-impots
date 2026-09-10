@@ -1,0 +1,203 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "182",
+        "name": "Protection judiciaire de la jeunesse"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Mise en oeuvre des décisions",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                528665687,
+                81441459,
+                47073623,
+                322282199,
+                979462968,
+                980243581,
+                519414362,
+                66696412,
+                23922017,
+                288115238,
+                898148028
+            ],
+            "amount_rows": [
+                [
+                    528665687,
+                    81441459,
+                    47073623,
+                    322282199,
+                    979462968,
+                    980243581
+                ],
+                [
+                    519414362,
+                    66696412,
+                    23922017,
+                    288115238,
+                    898148028
+                ]
+            ],
+            "extracted_lines": [
+                "528 665 687        81 441 459        47 073 623      322 282 199                         979 462 968       980 243 581",
+                "519 414 362        66 696 412       23 922 017      288 115 238                          898 148 028"
+            ],
+            "ae_lfi": 980243581,
+            "ae_consumed": 898148028,
+            "cp_lfi": 949753911,
+            "cp_consumed": 893441869,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                528665687,
+                69123527,
+                28901885,
+                322282199,
+                948973298,
+                949753911,
+                519414362,
+                68083041,
+                17493066,
+                288451400,
+                893441869
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Soutien",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                107919689,
+                21479648,
+                6547559,
+                135946896,
+                136059396,
+                122423332,
+                21724691,
+                5912741,
+                699482,
+                150760247
+            ],
+            "amount_rows": [
+                [
+                    107919689,
+                    21479648,
+                    6547559,
+                    135946896,
+                    136059396
+                ],
+                [
+                    122423332,
+                    21724691,
+                    5912741,
+                    699482,
+                    150760247
+                ]
+            ],
+            "extracted_lines": [
+                "107 919 689        21 479 648         6 547 559                                          135 946 896       136 059 396",
+                "122 423 332        21 724 691        5 912 741            699 482                        150 760 247"
+            ],
+            "ae_lfi": 136059396,
+            "ae_consumed": 150760247,
+            "cp_lfi": 131633398,
+            "cp_consumed": 158037371,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                107919689,
+                19488400,
+                4112809,
+                131520898,
+                131633398,
+                122423332,
+                31206907,
+                3753728,
+                653403,
+                158037371
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Formation",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                33420784,
+                11619444,
+                236060,
+                75000,
+                45351288,
+                45351288
+            ],
+            "amount_rows": [
+                [
+                    33420784,
+                    11619444,
+                    236060,
+                    75000,
+                    45351288,
+                    45351288
+                ]
+            ],
+            "extracted_lines": [
+                "33 420 784       11 619 444           236 060             75 000                        45 351 288        45 351 288",
+                "14 236 386           73 714                                 -15        37 232 294"
+            ],
+            "ae_lfi": 45351288,
+            "ae_consumed": null,
+            "cp_lfi": 45453144,
+            "cp_consumed": 35916410,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                33420784,
+                11711300,
+                246060,
+                75000,
+                45453144,
+                45453144,
+                22922209,
+                12917577,
+                76625,
+                35916410
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 1161654265,
+            "ae_consumed": 1086140569,
+            "cp_lfi": 1126840453,
+            "cp_consumed": 1087395649
+        },
+        "differences": {
+            "ae_consumed": {
+                "actions_sum": 1048908275,
+                "programme_total": 1086140569,
+                "difference": -37232294
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 3,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29714",
+    "pdf_sha256": "3db274aeaef4f84c4676962e7e3f48bf75de0ab7663a928e22d362750f734bb6",
+    "mission": "Justice"
+}

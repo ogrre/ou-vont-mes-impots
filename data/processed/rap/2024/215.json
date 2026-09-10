@@ -1,0 +1,252 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "215",
+        "name": "Conduite et pilotage des politiques de l'agriculture"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Moyens de l'administration centrale",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                203444170,
+                19433554,
+                222877724,
+                223433755,
+                182711267,
+                21431785,
+                159728,
+                2383319,
+                206686099
+            ],
+            "amount_rows": [
+                [
+                    203444170,
+                    19433554,
+                    222877724,
+                    223433755
+                ],
+                [
+                    182711267,
+                    21431785,
+                    159728,
+                    2383319,
+                    206686099
+                ]
+            ],
+            "extracted_lines": [
+                "203 444 170        19 433 554                                                  222 877 724       223 433 755",
+                "182 711 267        21 431 785                159 728             2 383 319     206 686 099"
+            ],
+            "ae_lfi": 223433755,
+            "ae_consumed": 206686099,
+            "cp_lfi": 229534081,
+            "cp_consumed": 210952132,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                203444170,
+                25533880,
+                228978050,
+                229534081,
+                182711267,
+                25682942,
+                153953,
+                2403970,
+                210952132
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Évaluation de l'impact des politiques",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                15278835,
+                3551664,
+                18830499,
+                21118817,
+                14620885,
+                4955307,
+                716451,
+                20292642
+            ],
+            "amount_rows": [
+                [
+                    15278835,
+                    3551664,
+                    18830499,
+                    21118817
+                ],
+                [
+                    14620885,
+                    4955307,
+                    716451,
+                    20292642
+                ]
+            ],
+            "extracted_lines": [
+                "15 278 835         3 551 664                                                   18 830 499        21 118 817",
+                "14 620 885         4 955 307                                      716 451      20 292 642"
+            ],
+            "ae_lfi": 21118817,
+            "ae_consumed": 20292642,
+            "cp_lfi": 21118817,
+            "cp_consumed": 20647417,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                15278835,
+                3551664,
+                18830499,
+                21118817,
+                14620885,
+                5298947,
+                727586,
+                20647417
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Moyens des directions régionales de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                328184800,
+                7550807,
+                335735607,
+                338305231,
+                302308452,
+                10480982,
+                301824,
+                75017,
+                313166274
+            ],
+            "amount_rows": [
+                [
+                    328184800,
+                    7550807,
+                    335735607,
+                    338305231
+                ],
+                [
+                    302308452,
+                    10480982,
+                    301824,
+                    75017,
+                    313166274
+                ]
+            ],
+            "extracted_lines": [
+                "328 184 800        7 550 807                                                   335 735 607       338 305 231",
+                "302 308 452       10 480 982                 301 824                 75 017    313 166 274"
+            ],
+            "ae_lfi": 338305231,
+            "ae_consumed": 313166274,
+            "cp_lfi": 338509467,
+            "cp_consumed": 312881562,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                328184800,
+                7755043,
+                335939843,
+                338509467,
+                302308452,
+                10286731,
+                209413,
+                76967,
+                312881562
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Moyens communs",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                45529965,
+                19524687,
+                59223607,
+                450000,
+                124728259,
+                125301405,
+                37962572,
+                31993818,
+                4242134,
+                609993,
+                74808517
+            ],
+            "amount_rows": [
+                [
+                    45529965,
+                    19524687,
+                    59223607,
+                    450000,
+                    124728259,
+                    125301405
+                ],
+                [
+                    37962572,
+                    31993818,
+                    4242134,
+                    609993,
+                    74808517
+                ]
+            ],
+            "extracted_lines": [
+                "45 529 965        19 524 687             59 223 607               450 000     124 728 259       125 301 405",
+                "37 962 572        31 993 818              4 242 134              609 993       74 808 517"
+            ],
+            "ae_lfi": 125301405,
+            "ae_consumed": 74808517,
+            "cp_lfi": 99195958,
+            "cp_consumed": 72186304,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                45529965,
+                20163678,
+                32479169,
+                450000,
+                98622812,
+                99195958,
+                37962572,
+                30612146,
+                3001594,
+                609993,
+                72186304
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 708159208,
+            "ae_consumed": 614953533,
+            "cp_lfi": 688358323,
+            "cp_consumed": 616667415
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 4,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29774",
+    "pdf_sha256": "f60c01b3f3f412fbe17b1f600ce94ae21f7f24523ffd92674ecea9808d553d96",
+    "mission": "Agriculture, alimentation, forêt et affaires rurales"
+}

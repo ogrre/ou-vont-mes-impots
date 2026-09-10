@@ -1,0 +1,249 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "220",
+        "name": "Statistiques et études économiques"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Infrastructures statistiques et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                118669620,
+                8358233,
+                21963684,
+                148991537,
+                150022793,
+                114206176,
+                8154778,
+                84275,
+                22951049,
+                145396279
+            ],
+            "amount_rows": [
+                [
+                    118669620,
+                    8358233,
+                    21963684,
+                    148991537,
+                    150022793
+                ],
+                [
+                    114206176,
+                    8154778,
+                    84275,
+                    22951049,
+                    145396279
+                ]
+            ],
+            "extracted_lines": [
+                "118 669 620          8 358 233                                  21 963 684      148 991 537       150 022 793",
+                "114 206 176          8 154 778                 84 275           22 951 049      145 396 279"
+            ],
+            "ae_lfi": 150022793,
+            "ae_consumed": 145396279,
+            "cp_lfi": 150922794,
+            "cp_consumed": 145395697,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                118669620,
+                9358234,
+                21863684,
+                149891538,
+                150922794,
+                114206176,
+                10310657,
+                84275,
+                20794589,
+                145395697
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Action régionale",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                42486472,
+                634025,
+                43120497,
+                43339096,
+                44628168,
+                1386018,
+                3000,
+                46017186
+            ],
+            "amount_rows": [
+                [
+                    42486472,
+                    634025,
+                    43120497,
+                    43339096
+                ],
+                [
+                    44628168,
+                    1386018,
+                    3000,
+                    46017186
+                ]
+            ],
+            "extracted_lines": [
+                "42 486 472            634 025                                                   43 120 497        43 339 096",
+                "44 628 168          1 386 018                                         3 000     46 017 186"
+            ],
+            "ae_lfi": 43339096,
+            "ae_consumed": 46017186,
+            "cp_lfi": 43339096,
+            "cp_consumed": 46108854,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                42486472,
+                634025,
+                43120497,
+                43339096,
+                44628168,
+                1467686,
+                13000,
+                46108854
+            ]
+        },
+        {
+            "code": "08",
+            "label": "Information économique,",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                125436444,
+                5152702,
+                130589146,
+                131339291,
+                122602745,
+                3105974,
+                360940,
+                511303,
+                126580963
+            ],
+            "amount_rows": [
+                [
+                    125436444,
+                    5152702,
+                    130589146,
+                    131339291
+                ],
+                [
+                    122602745,
+                    3105974,
+                    360940,
+                    511303,
+                    126580963
+                ]
+            ],
+            "extracted_lines": [
+                "125 436 444          5 152 702                                                  130 589 146       131 339 291",
+                "122 602 745          3 105 974                360 940               511 303     126 580 963"
+            ],
+            "ae_lfi": 131339291,
+            "ae_consumed": 126580963,
+            "cp_lfi": 131939291,
+            "cp_consumed": 128037569,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                125436444,
+                5752702,
+                131189146,
+                131939291,
+                122602745,
+                5041674,
+                281846,
+                111303,
+                128037569
+            ]
+        },
+        {
+            "code": "09",
+            "label": "Pilotage, soutien et formation initiale",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                109334045,
+                53725084,
+                163059129,
+                167859129,
+                105264816,
+                36919736,
+                6038502,
+                7740,
+                148230794
+            ],
+            "amount_rows": [
+                [
+                    109334045,
+                    53725084,
+                    163059129,
+                    167859129
+                ],
+                [
+                    105264816,
+                    36919736,
+                    6038502,
+                    7740,
+                    148230794
+                ]
+            ],
+            "extracted_lines": [
+                "109 334 045         53 725 084                                                  163 059 129       167 859 129",
+                "105 264 816         36 919 736              6 038 502                  7 740    148 230 794"
+            ],
+            "ae_lfi": 167859129,
+            "ae_consumed": 148230794,
+            "cp_lfi": 154070742,
+            "cp_consumed": 139787320,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                109334045,
+                39936697,
+                149270742,
+                154070742,
+                105264816,
+                29041728,
+                5473026,
+                7750,
+                139787320
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 492560309,
+            "ae_consumed": 466225222,
+            "cp_lfi": 480271923,
+            "cp_consumed": 459329440
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 4,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29789",
+    "pdf_sha256": "062aa120eb576720d63e9ad41dec08d3b5a16fd7d8db52bd006259ea068da1fe",
+    "mission": "Économie"
+}

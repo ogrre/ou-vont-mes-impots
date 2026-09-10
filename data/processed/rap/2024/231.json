@@ -1,0 +1,236 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "231",
+        "name": "Vie étudiante"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Aides directes",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                38709641,
+                2619925442,
+                2658635083,
+                2659035083,
+                38023829,
+                2551540856,
+                2589564686
+            ],
+            "amount_rows": [
+                [
+                    38709641,
+                    2619925442,
+                    2658635083,
+                    2659035083
+                ],
+                [
+                    38023829,
+                    2551540856,
+                    2589564686
+                ]
+            ],
+            "extracted_lines": [
+                "38 709 641                         2 619 925 442                        2 658 635 083     2 659 035 083",
+                "38 023 829                         2 551 540 856                        2 589 564 686"
+            ],
+            "ae_lfi": 2659035083,
+            "ae_consumed": 2589564686,
+            "cp_lfi": 2659035083,
+            "cp_consumed": 2589655762,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                38709641,
+                2619925442,
+                2658635083,
+                2659035083,
+                38023829,
+                2551631932,
+                2589655762
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Aides indirectes",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                351491821,
+                135038539,
+                5963756,
+                492494116,
+                493494116,
+                357291500,
+                90158300,
+                6330290,
+                31384311,
+                485164401
+            ],
+            "amount_rows": [
+                [
+                    351491821,
+                    135038539,
+                    5963756,
+                    492494116,
+                    493494116
+                ],
+                [
+                    357291500,
+                    90158300,
+                    6330290,
+                    31384311,
+                    485164401
+                ]
+            ],
+            "extracted_lines": [
+                "351 491 821        135 038 539            5 963 756                        492 494 116        493 494 116",
+                "357 291 500         90 158 300            6 330 290      31 384 311        485 164 401"
+            ],
+            "ae_lfi": 493494116,
+            "ae_consumed": 485164401,
+            "cp_lfi": 462226783,
+            "cp_consumed": 464610625,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                351491821,
+                104271206,
+                5963756,
+                461726783,
+                462226783,
+                357304523,
+                91242248,
+                6330290,
+                9733564,
+                464610625
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Santé des étudiants et activités",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                85266751,
+                8647544,
+                93914295,
+                93914295,
+                75410187,
+                13537805,
+                88947992
+            ],
+            "amount_rows": [
+                [
+                    85266751,
+                    8647544,
+                    93914295,
+                    93914295
+                ],
+                [
+                    75410187,
+                    13537805,
+                    88947992
+                ]
+            ],
+            "extracted_lines": [
+                "85 266 751                             8 647 544                           93 914 295        93 914 295",
+                "75 410 187                            13 537 805                           88 947 992"
+            ],
+            "ae_lfi": 93914295,
+            "ae_consumed": 88947992,
+            "cp_lfi": 93914295,
+            "cp_consumed": 88876490,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                85266751,
+                8647544,
+                93914295,
+                93914295,
+                75212530,
+                13663960,
+                88876490
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Pilotage et animation du programme",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                109481455,
+                2881461,
+                112362916,
+                112362916,
+                108489045,
+                2722981,
+                925661,
+                112137687
+            ],
+            "amount_rows": [
+                [
+                    109481455,
+                    2881461,
+                    112362916,
+                    112362916
+                ],
+                [
+                    108489045,
+                    2722981,
+                    925661,
+                    112137687
+                ]
+            ],
+            "extracted_lines": [
+                "109 481 455           2 881 461                                            112 362 916        112 362 916",
+                "108 489 045           2 722 981                              925 661       112 137 687"
+            ],
+            "ae_lfi": 112362916,
+            "ae_consumed": 112137687,
+            "cp_lfi": 112362916,
+            "cp_consumed": 111103184,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                109481455,
+                2881461,
+                112362916,
+                112362916,
+                108380203,
+                2722981,
+                111103184
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 3358806410,
+            "ae_consumed": 3275814765,
+            "cp_lfi": 3327539077,
+            "cp_consumed": 3254246060
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 4,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29798",
+    "pdf_sha256": "392808eb28548f6651dd721fe4b89b9e9b5bfada6084825a02b0682c9245f63f",
+    "mission": "Recherche et enseignement supérieur"
+}

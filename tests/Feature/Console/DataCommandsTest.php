@@ -32,7 +32,7 @@ class DataCommandsTest extends TestCase
     {
         $this->artisan('dataset:import', [
             'descriptor' => 'state-general-budget-revenue-2025-2026',
-            'path' => base_path('data/econ-fin-pub-recettes-budget.xlsx'),
+            'path' => base_path('data/2025/budget-etat/econ-fin-pub-recettes-budget.xlsx'),
         ])->expectsOutputToContain('60 observations')
             ->assertSuccessful();
     }

@@ -1,0 +1,75 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "845",
+        "name": "Institut national de l'audiovisuel"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Institut national de l'audiovisuel",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                103913354,
+                103913354,
+                103913354,
+                104075354,
+                104075354
+            ],
+            "amount_rows": [
+                [
+                    103913354,
+                    103913354,
+                    103913354
+                ],
+                [
+                    104075354,
+                    104075354
+                ]
+            ],
+            "extracted_lines": [
+                "103 913 354     103 913 354         103 913 354",
+                "104 075 354      104 075 354"
+            ],
+            "ae_lfi": 103913354,
+            "ae_consumed": 104075354,
+            "cp_lfi": 103913354,
+            "cp_consumed": 104075354,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                103913354,
+                103913354,
+                103913354,
+                104075354,
+                104075354
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 103913354,
+            "ae_consumed": 104075354,
+            "cp_lfi": 103913354,
+            "cp_consumed": 104075354
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30107",
+    "pdf_sha256": "d393c4be538f7d390b22a515cd77d8bb38c9350ec06a1f81e777e97d385da5c6",
+    "mission": null
+}

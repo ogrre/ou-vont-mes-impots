@@ -23,6 +23,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Install system dependencies
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
       - name: Set up PHP
         uses: shivammathur/setup-php@v2
         with:
@@ -58,6 +62,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Install system dependencies
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
       - name: Set up PHP
         uses: shivammathur/setup-php@v2
         with:
@@ -76,7 +84,16 @@ jobs:
       - name: Run mutation tests
         env:
           XDEBUG_MODE: coverage
-        run: vendor/bin/infection --no-progress --threads=max
+          PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          PUSH_BEFORE_SHA: ${{ github.event.before }}
+        run: |
+          args=(--no-progress --threads=max --only-covering-test-cases --test-framework-extra-args="--exclude-group=slow")
+          if [[ "$GITHUB_EVENT_NAME" == "pull_request" && "$GITHUB_BASE_REF" == "dev" && -n "$PR_BASE_SHA" ]]; then
+            args+=(--git-diff-base="$PR_BASE_SHA" --git-diff-filter=AM)
+          elif [[ "$GITHUB_EVENT_NAME" == "push" && "$GITHUB_REF" == "refs/heads/dev" && -n "$PUSH_BEFORE_SHA" && "$PUSH_BEFORE_SHA" != "0000000000000000000000000000000000000000" ]]; then
+            args+=(--git-diff-base="$PUSH_BEFORE_SHA" --git-diff-filter=AM)
+          fi
+          vendor/bin/infection "${args[@]}"
 
   production-image:
     name: Production image

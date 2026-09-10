@@ -1,0 +1,75 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "823",
+        "name": "Avances à des organismes distincts de l'État et gérant des services publics"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Avances à des organismes distincts de l'État et gérant des services publics",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                210000000,
+                210000000,
+                210000000,
+                193897187,
+                193897187
+            ],
+            "amount_rows": [
+                [
+                    210000000,
+                    210000000,
+                    210000000
+                ],
+                [
+                    193897187,
+                    193897187
+                ]
+            ],
+            "extracted_lines": [
+                "210 000 000     210 000 000         210 000 000",
+                "193 897 187      193 897 187"
+            ],
+            "ae_lfi": 210000000,
+            "ae_consumed": 193897187,
+            "cp_lfi": 210000000,
+            "cp_consumed": 193897187,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                210000000,
+                210000000,
+                210000000,
+                193897187,
+                193897187
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 210000000,
+            "ae_consumed": 193897187,
+            "cp_lfi": 210000000,
+            "cp_consumed": 193897187
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30062",
+    "pdf_sha256": "ed4663272c464586edc1429f3f1233b1c03b11f904cc21411ddb0da4e4bcf4c8",
+    "mission": null
+}

@@ -1,0 +1,132 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "623",
+        "name": "Édition et diffusion"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Accès au droit et diffusion légale",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                22103036,
+                10668331,
+                32771367,
+                32771367,
+                20759142,
+                6853560,
+                19000,
+                27631702
+            ],
+            "amount_rows": [
+                [
+                    22103036,
+                    10668331,
+                    32771367,
+                    32771367
+                ],
+                [
+                    20759142,
+                    6853560,
+                    19000,
+                    27631702
+                ]
+            ],
+            "extracted_lines": [
+                "22 103 036             10 668 331                             32 771 367         32 771 367",
+                "20 759 142              6 853 560                  19 000      27 631 702"
+            ],
+            "ae_lfi": 32771367,
+            "ae_consumed": 27631702,
+            "cp_lfi": 29727516,
+            "cp_consumed": 28841521,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                22907516,
+                6820000,
+                29727516,
+                29727516,
+                21224684,
+                7597836,
+                19000,
+                28841521
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Information administrative et vie publique",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                9076223,
+                6035000,
+                15111223,
+                15111223,
+                7860417,
+                3861870,
+                11722288
+            ],
+            "amount_rows": [
+                [
+                    9076223,
+                    6035000,
+                    15111223,
+                    15111223
+                ],
+                [
+                    7860417,
+                    3861870,
+                    11722288
+                ]
+            ],
+            "extracted_lines": [
+                "9 076 223              6 035 000                             15 111 223         15 111 223",
+                "7 860 417              3 861 870                              11 722 288"
+            ],
+            "ae_lfi": 15111223,
+            "ae_consumed": 11722288,
+            "cp_lfi": 14443528,
+            "cp_consumed": 12131295,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                9289528,
+                5154000,
+                14443528,
+                14443528,
+                8693546,
+                3437749,
+                12131295
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 47882590,
+            "ae_consumed": 39353990,
+            "cp_lfi": 44171044,
+            "cp_consumed": 40972816
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 2,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29339",
+    "pdf_sha256": "bfcf69bb2bf204b73b59fb6aedcc13678b6f96bc284a91d52dd77c6fbebd1207",
+    "mission": null
+}

@@ -1,0 +1,177 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "305",
+        "name": "Stratégies économiques"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Définition et mise en oeuvre de la",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                81609414,
+                512800000,
+                16220000,
+                610629414,
+                612129414
+            ],
+            "amount_rows": [
+                [
+                    81609414,
+                    512800000,
+                    16220000,
+                    610629414,
+                    612129414
+                ]
+            ],
+            "extracted_lines": [
+                "81 609 414       512 800 000                                   16 220 000    610 629 414       612 129 414",
+                "78 471 236       231 735 932                   -5 052         289 925 668    600 127 784"
+            ],
+            "ae_lfi": 612129414,
+            "ae_consumed": null,
+            "cp_lfi": 603812414,
+            "cp_consumed": 603732088,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                81609414,
+                513903000,
+                6800000,
+                602312414,
+                603812414,
+                78471236,
+                234910718,
+                290350133,
+                603732088
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Développement international de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                68663959,
+                5220000,
+                73883959,
+                73883959,
+                62580752,
+                5781246,
+                68361997
+            ],
+            "amount_rows": [
+                [
+                    68663959,
+                    5220000,
+                    73883959,
+                    73883959
+                ],
+                [
+                    62580752,
+                    5781246,
+                    68361997
+                ]
+            ],
+            "extracted_lines": [
+                "68 663 959          5 220 000                                                 73 883 959        73 883 959",
+                "62 580 752          5 781 246                                                 68 361 997"
+            ],
+            "ae_lfi": 73883959,
+            "ae_consumed": 68361997,
+            "cp_lfi": 73883959,
+            "cp_consumed": 68136564,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                68663959,
+                5220000,
+                73883959,
+                73883959,
+                62580752,
+                5521612,
+                34200,
+                68136564
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Économie sociale, solidaire et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                19220000,
+                19220000,
+                19220000,
+                324333,
+                17253964,
+                17578297
+            ],
+            "amount_rows": [
+                [
+                    19220000,
+                    19220000,
+                    19220000
+                ],
+                [
+                    324333,
+                    17253964,
+                    17578297
+                ]
+            ],
+            "extracted_lines": [
+                "19 220 000     19 220 000        19 220 000",
+                "324 333                                  17 253 964     17 578 297"
+            ],
+            "ae_lfi": 19220000,
+            "ae_consumed": 17578297,
+            "cp_lfi": 22380000,
+            "cp_consumed": 20116400,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                22380000,
+                22380000,
+                22380000,
+                305360,
+                19811040,
+                20116400
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 705233373,
+            "ae_consumed": 686068078,
+            "cp_lfi": 700076373,
+            "cp_consumed": 691985052
+        },
+        "differences": {
+            "ae_consumed": {
+                "actions_sum": 85940294,
+                "programme_total": 686068078,
+                "difference": -600127784
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 3,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29813",
+    "pdf_sha256": "3a583dda7fb887de1e5c04834fb39ed7a2d4fe8db36b87d12dec006804b302e7",
+    "mission": "Économie"
+}

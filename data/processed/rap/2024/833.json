@@ -1,0 +1,201 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "833",
+        "name": "Avances sur le montant des impositions revenant aux régions, départements, communes, établissements et divers organismes"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Avances sur le montant des impositions revenant aux régions, départements,",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                125627068784,
+                125627068784,
+                125627068784,
+                120594345747,
+                120594345747
+            ],
+            "amount_rows": [
+                [
+                    125627068784,
+                    125627068784,
+                    125627068784
+                ],
+                [
+                    120594345747,
+                    120594345747
+                ]
+            ],
+            "extracted_lines": [
+                "125 627 068 784      125 627 068 784     125 627 068 784",
+                "120 594 345 747      120 594 345 747"
+            ],
+            "ae_lfi": 125627068784,
+            "ae_consumed": 120594345747,
+            "cp_lfi": 125627068784,
+            "cp_consumed": 120594345747,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                125627068784,
+                125627068784,
+                125627068784,
+                120594345747,
+                120594345747
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Avances aux départements sur le produit de la taxe intérieure de consommation sur",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                5083438104,
+                5083438104,
+                5083438104,
+                5083328644,
+                5083328644
+            ],
+            "amount_rows": [
+                [
+                    5083438104,
+                    5083438104,
+                    5083438104
+                ],
+                [
+                    5083328644,
+                    5083328644
+                ]
+            ],
+            "extracted_lines": [
+                "5 083 438 104       5 083 438 104       5 083 438 104",
+                "5 083 328 644       5 083 328 644"
+            ],
+            "ae_lfi": 5083438104,
+            "ae_consumed": 5083328644,
+            "cp_lfi": 5083438104,
+            "cp_consumed": 5083328644,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                5083438104,
+                5083438104,
+                5083438104,
+                5083328644,
+                5083328644
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Avances aux départements sur les frais de gestion de la taxe foncière sur les",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1080513451,
+                1080513451,
+                1080513451,
+                1167623754,
+                1167623754
+            ],
+            "amount_rows": [
+                [
+                    1080513451,
+                    1080513451,
+                    1080513451
+                ],
+                [
+                    1167623754,
+                    1167623754
+                ]
+            ],
+            "extracted_lines": [
+                "1 080 513 451       1 080 513 451       1 080 513 451",
+                "1 167 623 754       1 167 623 754"
+            ],
+            "ae_lfi": 1080513451,
+            "ae_consumed": 1167623754,
+            "cp_lfi": 1080513451,
+            "cp_consumed": 1167623754,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1080513451,
+                1080513451,
+                1080513451,
+                1167623754,
+                1167623754
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Avances aux régions sur les frais de gestion de la contribution foncière des",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1103332227,
+                1103332227,
+                1103332227,
+                1113666148,
+                1113666148
+            ],
+            "amount_rows": [
+                [
+                    1103332227,
+                    1103332227,
+                    1103332227
+                ],
+                [
+                    1113666148,
+                    1113666148
+                ]
+            ],
+            "extracted_lines": [
+                "1 103 332 227       1 103 332 227       1 103 332 227",
+                "1 113 666 148       1 113 666 148"
+            ],
+            "ae_lfi": 1103332227,
+            "ae_consumed": 1113666148,
+            "cp_lfi": 1103332227,
+            "cp_consumed": 1113666148,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1103332227,
+                1103332227,
+                1103332227,
+                1113666148,
+                1113666148
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 132894352566,
+            "ae_consumed": 127958964293,
+            "cp_lfi": 132894352566,
+            "cp_consumed": 127958964293
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 4,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30089",
+    "pdf_sha256": "d12f9595cfb03d2fc53526630241767d9242ab500f2a4b9bb9c6be10a99d7031",
+    "mission": null
+}

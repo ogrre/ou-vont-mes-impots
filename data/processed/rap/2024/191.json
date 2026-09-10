@@ -1,0 +1,168 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "191",
+        "name": "Recherche duale (civile et militaire)"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Recherche duale en lutte contre la menace NRBC-E",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                12000000,
+                12000000,
+                12000000,
+                12000000,
+                12000000
+            ],
+            "amount_rows": [
+                [
+                    12000000,
+                    12000000,
+                    12000000
+                ],
+                [
+                    12000000,
+                    12000000
+                ]
+            ],
+            "extracted_lines": [
+                "12 000 000                                                12 000 000         12 000 000",
+                "12 000 000                                                 12 000 000"
+            ],
+            "ae_lfi": 12000000,
+            "ae_consumed": 12000000,
+            "cp_lfi": 12000000,
+            "cp_consumed": 12000000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                12000000,
+                12000000,
+                12000000,
+                12000000,
+                12000000
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Recherche duale dans le domaine aérospatial",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                114931022,
+                12770114,
+                127701136,
+                127701136,
+                114931022,
+                11857050,
+                913064,
+                127701136
+            ],
+            "amount_rows": [
+                [
+                    114931022,
+                    12770114,
+                    127701136,
+                    127701136
+                ],
+                [
+                    114931022,
+                    11857050,
+                    913064,
+                    127701136
+                ]
+            ],
+            "extracted_lines": [
+                "114 931 022          12 770 114                           127 701 136       127 701 136",
+                "114 931 022          11 857 050               913 064      127 701 136"
+            ],
+            "ae_lfi": 127701136,
+            "ae_consumed": 127701136,
+            "cp_lfi": 127701136,
+            "cp_consumed": 127701136,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                114931022,
+                12770114,
+                127701136,
+                127701136,
+                114931022,
+                11857050,
+                913064,
+                127701136
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Autres recherches et développements technologiques",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                10318031,
+                10318031,
+                10318031,
+                10318031,
+                10318031
+            ],
+            "amount_rows": [
+                [
+                    10318031,
+                    10318031,
+                    10318031
+                ],
+                [
+                    10318031,
+                    10318031
+                ]
+            ],
+            "extracted_lines": [
+                "10 318 031                                                10 318 031         10 318 031",
+                "10 318 031                                                 10 318 031"
+            ],
+            "ae_lfi": 10318031,
+            "ae_consumed": 10318031,
+            "cp_lfi": 10318031,
+            "cp_consumed": 10318031,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                10318031,
+                10318031,
+                10318031,
+                10318031,
+                10318031
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 150019167,
+            "ae_consumed": 150019167,
+            "cp_lfi": 150019167,
+            "cp_consumed": 150019167
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 3,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29726",
+    "pdf_sha256": "63ac5dcd211ea28bf971019621a644f91dc3d3668980a44dbb39cd7b740eb800",
+    "mission": "Recherche et enseignement supérieur"
+}

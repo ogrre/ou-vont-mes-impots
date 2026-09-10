@@ -1,0 +1,231 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "731",
+        "name": "Opérations en capital intéressant les participations financières de l'État"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Augmentations de capital, dotations en fonds propres, avances",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                3180000000,
+                3180000000,
+                3180000000,
+                1712684133,
+                1712684133
+            ],
+            "amount_rows": [
+                [
+                    3180000000,
+                    3180000000,
+                    3180000000
+                ],
+                [
+                    1712684133,
+                    1712684133
+                ]
+            ],
+            "extracted_lines": [
+                "3 180 000 000    3 180 000 000      3 180 000 000",
+                "1 712 684 133    1 712 684 133"
+            ],
+            "ae_lfi": 3180000000,
+            "ae_consumed": 1712684133,
+            "cp_lfi": 3180000000,
+            "cp_consumed": 1712684133,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                3180000000,
+                3180000000,
+                3180000000,
+                1712684133,
+                1712684133
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Achats ou souscriptions de titres, parts ou droits de société",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                461762618,
+                461762618
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    461762618,
+                    461762618
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "461 762 618      461 762 618"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 461762618,
+            "cp_lfi": 0,
+            "cp_consumed": 461762618,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                461762618,
+                461762618
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Autres investissements financiers de nature patrimoniale",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                207000000,
+                207000000,
+                207000000,
+                851212500,
+                851212500
+            ],
+            "amount_rows": [
+                [
+                    207000000,
+                    207000000,
+                    207000000
+                ],
+                [
+                    851212500,
+                    851212500
+                ]
+            ],
+            "extracted_lines": [
+                "207 000 000      207 000 000        207 000 000",
+                "851 212 500       851 212 500"
+            ],
+            "ae_lfi": 207000000,
+            "ae_consumed": 851212500,
+            "cp_lfi": 207000000,
+            "cp_consumed": 851212500,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                207000000,
+                207000000,
+                207000000,
+                851212500,
+                851212500
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Prestations de services : commissions bancaires, frais juridiques et frais",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                679277,
+                679277
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    679277,
+                    679277
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "679 277                                679 277"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 679277,
+            "cp_lfi": 0,
+            "cp_consumed": 679277,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                679277,
+                679277
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Versements au profit du Mécanisme européen de stabilité",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 3387000000,
+            "ae_consumed": 3026338528,
+            "cp_lfi": 3387000000,
+            "cp_consumed": 3026338528
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 5,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29987",
+    "pdf_sha256": "71c6913abd481b5bbea359a0a11d26905ab597955b378bbf578591a7cebed654",
+    "mission": null
+}

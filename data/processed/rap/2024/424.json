@@ -1,0 +1,278 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "424",
+        "name": "Financement des investissements stratégiques"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Programmes et équipements prioritaires de recherche",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 54000000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                54000000,
+                54000000
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Maturation de technologies, R&D, valorisation de la",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                270000,
+                41603600,
+                41873600
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    270000,
+                    41603600,
+                    41873600
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "270 000           41 603 600                                41 873 600"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 41873600,
+            "cp_lfi": 640000000,
+            "cp_consumed": 476000000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                640000000,
+                640000000,
+                640000000,
+                476000000,
+                476000000
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Démonstration en conditions réelles, amorçage et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                230000000,
+                230000000
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    230000000,
+                    230000000
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "230 000 000         230 000 000"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 230000000,
+            "cp_lfi": 1238750000,
+            "cp_consumed": 1043988673,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1238750000,
+                1238750000,
+                1238750000,
+                1043988673,
+                1043988673
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Soutien au déploiement",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                57918188,
+                440353,
+                9749742,
+                68108283
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    57918188,
+                    440353,
+                    9749742,
+                    68108283
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "57 918 188               440 353             9 749 742         68 108 283"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 68108283,
+            "cp_lfi": 1873000000,
+            "cp_consumed": 1679951413,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1873000000,
+                1873000000,
+                1873000000,
+                9377280,
+                1670574133,
+                1679951413
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Accélération de la croissance (fonds propres)",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                6454051,
+                700569,
+                7154620
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    6454051,
+                    700569,
+                    7154620
+                ]
+            ],
+            "extracted_lines": [
+                "0                 0",
+                "6 454 051               700 569                                 7 154 620"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 7154620,
+            "cp_lfi": 210000000,
+            "cp_consumed": 203053310,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                210000000,
+                210000000,
+                210000000,
+                202836958,
+                216352,
+                203053310
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Industrialisation et déploiement",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 1730000000,
+            "cp_consumed": 1186000000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1730000000,
+                1730000000,
+                1730000000,
+                1186000000,
+                1186000000
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 0,
+            "ae_consumed": 347136503,
+            "cp_lfi": 5691750000,
+            "cp_consumed": 4642993396
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 6,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29906",
+    "pdf_sha256": "1069a4f27cc5f4418926d27fc2452325e589f1da38d78479cc3ae26c33db6b78",
+    "mission": "Investir pour la France de 2030"
+}

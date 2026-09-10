@@ -1,0 +1,498 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "144",
+        "name": "Environnement et prospective de la politique de défense"
+    },
+    "actions": [
+        {
+            "code": "03",
+            "label": "Recherche et exploitation du",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                179830897,
+                360486758,
+                356400,
+                540674055,
+                540994055,
+                290376838,
+                1155718726,
+                212455,
+                1446308019
+            ],
+            "amount_rows": [
+                [
+                    179830897,
+                    360486758,
+                    356400,
+                    540674055,
+                    540994055
+                ],
+                [
+                    290376838,
+                    1155718726,
+                    212455,
+                    1446308019
+                ]
+            ],
+            "extracted_lines": [
+                "179 830 897        360 486 758              356 400                               540 674 055       540 994 055",
+                "290 376 838      1 155 718 726             212 455                              1 446 308 019"
+            ],
+            "ae_lfi": 540994055,
+            "ae_consumed": 1446308019,
+            "cp_lfi": 476549395,
+            "cp_consumed": 627788258,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                233559206,
+                242313789,
+                356400,
+                476229395,
+                476549395,
+                290667451,
+                336647552,
+                473255,
+                627788258
+            ]
+        },
+        {
+            "code": "03.31",
+            "label": "Renseignement extérieur",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "03",
+            "contributes_to_program_total": false,
+            "amounts": [
+                159770897,
+                348936758,
+                296400,
+                509004055,
+                509304055,
+                273672944,
+                1146380338,
+                212455,
+                1420265737
+            ],
+            "amount_rows": [
+                [
+                    159770897,
+                    348936758,
+                    296400,
+                    509004055,
+                    509304055
+                ],
+                [
+                    273672944,
+                    1146380338,
+                    212455,
+                    1420265737
+                ]
+            ],
+            "extracted_lines": [
+                "159 770 897        348 936 758              296 400                               509 004 055       509 304 055",
+                "273 672 944      1 146 380 338             212 455                              1 420 265 737"
+            ],
+            "ae_lfi": 509304055,
+            "ae_consumed": 1420265737,
+            "cp_lfi": 425576426,
+            "cp_consumed": 576183857,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                216853813,
+                208126213,
+                296400,
+                425276426,
+                425576426,
+                272016273,
+                303762729,
+                404855,
+                576183857
+            ]
+        },
+        {
+            "code": "03.32",
+            "label": "Renseignement de sécurité de",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "03",
+            "contributes_to_program_total": false,
+            "amounts": [
+                20060000,
+                11550000,
+                60000,
+                31670000,
+                31690000,
+                16703894,
+                9338388,
+                26042282
+            ],
+            "amount_rows": [
+                [
+                    20060000,
+                    11550000,
+                    60000,
+                    31670000,
+                    31690000
+                ],
+                [
+                    16703894,
+                    9338388,
+                    26042282
+                ]
+            ],
+            "extracted_lines": [
+                "20 060 000         11 550 000               60 000                               31 670 000        31 690 000",
+                "16 703 894          9 338 388                                                    26 042 282"
+            ],
+            "ae_lfi": 31690000,
+            "ae_consumed": 26042282,
+            "cp_lfi": 50972969,
+            "cp_consumed": 51604401,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                16705393,
+                34187576,
+                60000,
+                50952969,
+                50972969,
+                18651178,
+                32884823,
+                68400,
+                51604401
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Prospective de défense",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1483873943,
+                63895889,
+                65782991,
+                1613552823,
+                1613552823,
+                1218179851,
+                45756183,
+                118270167,
+                1382206201
+            ],
+            "amount_rows": [
+                [
+                    1483873943,
+                    63895889,
+                    65782991,
+                    1613552823,
+                    1613552823
+                ],
+                [
+                    1218179851,
+                    45756183,
+                    118270167,
+                    1382206201
+                ]
+            ],
+            "extracted_lines": [
+                "1 483 873 943          63 895 889         65 782 991                              1 613 552 823     1 613 552 823",
+                "1 218 179 851          45 756 183        118 270 167                              1 382 206 201"
+            ],
+            "ae_lfi": 1613552823,
+            "ae_consumed": 1382206201,
+            "cp_lfi": 1447193614,
+            "cp_consumed": 1324073659,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1317514734,
+                63895889,
+                65782991,
+                1447193614,
+                1447193614,
+                1180399636,
+                46687857,
+                96986166,
+                1324073659
+            ]
+        },
+        {
+            "code": "07.01",
+            "label": "Analyse stratégique",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                9477363,
+                370000,
+                9847363,
+                9847363,
+                6087134,
+                1507000,
+                7594134
+            ],
+            "amount_rows": [
+                [
+                    9477363,
+                    370000,
+                    9847363,
+                    9847363
+                ],
+                [
+                    6087134,
+                    1507000,
+                    7594134
+                ]
+            ],
+            "extracted_lines": [
+                "9 477 363                                370 000                                 9 847 363          9 847 363",
+                "6 087 134                              1 507 000                                 7 594 134"
+            ],
+            "ae_lfi": 9847363,
+            "ae_consumed": 7594134,
+            "cp_lfi": 9647363,
+            "cp_consumed": 15,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                9277363,
+                370000,
+                9647363,
+                9647363,
+                15,
+                8932769,
+                179500,
+                9112269
+            ]
+        },
+        {
+            "code": "07.02",
+            "label": "Prospective des systèmes de",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                27531208,
+                27531208,
+                27531208,
+                24707965,
+                592000,
+                25299965
+            ],
+            "amount_rows": [
+                [
+                    27531208,
+                    27531208,
+                    27531208
+                ],
+                [
+                    24707965,
+                    592000,
+                    25299965
+                ]
+            ],
+            "extracted_lines": [
+                "27 531 208                                                                       27 531 208        27 531 208",
+                "24 707 965                                592 000                                25 299 965"
+            ],
+            "ae_lfi": 27531208,
+            "ae_consumed": 25299965,
+            "cp_lfi": 27531208,
+            "cp_consumed": 23449292,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                27531208,
+                27531208,
+                27531208,
+                22714894,
+                142398,
+                592000,
+                23449292
+            ]
+        },
+        {
+            "code": "07.03",
+            "label": "Etudes amont",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1140933409,
+                42225800,
+                1183159209,
+                1183159209,
+                871281397,
+                4942847,
+                92983976,
+                969208220
+            ],
+            "amount_rows": [
+                [
+                    1140933409,
+                    42225800,
+                    1183159209,
+                    1183159209
+                ],
+                [
+                    871281397,
+                    4942847,
+                    92983976,
+                    969208220
+                ]
+            ],
+            "extracted_lines": [
+                "1 140 933 409                             42 225 800                              1 183 159 209     1 183 159 209",
+                "871 281 397           4 942 847         92 983 976                                969 208 220"
+            ],
+            "ae_lfi": 1183159209,
+            "ae_consumed": 969208220,
+            "cp_lfi": 1017000000,
+            "cp_consumed": 911408216,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                974774200,
+                42225800,
+                1017000000,
+                1017000000,
+                832648619,
+                5732123,
+                73027475,
+                911408216
+            ]
+        },
+        {
+            "code": "07.04",
+            "label": "Gestion des moyens et",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "07",
+            "contributes_to_program_total": false,
+            "amounts": [
+                305931963,
+                63895889,
+                23187191,
+                393015043,
+                393015043,
+                316103355,
+                40813336,
+                23187191,
+                380103882
+            ],
+            "amount_rows": [
+                [
+                    305931963,
+                    63895889,
+                    23187191,
+                    393015043,
+                    393015043
+                ],
+                [
+                    316103355,
+                    40813336,
+                    23187191,
+                    380103882
+                ]
+            ],
+            "extracted_lines": [
+                "305 931 963          63 895 889         23 187 191                                393 015 043       393 015 043",
+                "316 103 355          40 813 336         23 187 191                                380 103 882"
+            ],
+            "ae_lfi": 393015043,
+            "ae_consumed": 380103882,
+            "cp_lfi": 393015043,
+            "cp_consumed": 380103882,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                305931963,
+                63895889,
+                23187191,
+                393015043,
+                393015043,
+                316103355,
+                40813336,
+                23187191,
+                380103882
+            ]
+        },
+        {
+            "code": "08",
+            "label": "Relations internationales et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                5246189,
+                38950000,
+                44196189,
+                44196189,
+                3921241,
+                50902534,
+                480,
+                54824255
+            ],
+            "amount_rows": [
+                [
+                    5246189,
+                    38950000,
+                    44196189,
+                    44196189
+                ],
+                [
+                    3921241,
+                    50902534,
+                    480,
+                    54824255
+                ]
+            ],
+            "extracted_lines": [
+                "5 246 189                            38 950 000                                 44 196 189        44 196 189",
+                "3 921 241                            50 902 534                       480       54 824 255"
+            ],
+            "ae_lfi": 44196189,
+            "ae_consumed": 54824255,
+            "cp_lfi": 44196189,
+            "cp_consumed": 55093099,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                5246189,
+                38950000,
+                44196189,
+                44196189,
+                4395632,
+                50696988,
+                480,
+                55093099
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 2198743067,
+            "ae_consumed": 2883338476,
+            "cp_lfi": 1967939198,
+            "cp_consumed": 2006955016
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 9,
+        "sub_actions": 6
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29627",
+    "pdf_sha256": "393e4f3ecd059d8bf42ce62635aa9da11153079f1793a7a660997459a011ab32",
+    "mission": "Défense"
+}

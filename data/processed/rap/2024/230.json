@@ -1,0 +1,392 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "230",
+        "name": "Vie de l'élève"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Vie scolaire et éducation à la",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1424150962,
+                19933449,
+                1685619502,
+                3129703913,
+                3131203913,
+                1344144453,
+                18927786,
+                1535086080,
+                2898158320
+            ],
+            "amount_rows": [
+                [
+                    1424150962,
+                    19933449,
+                    1685619502,
+                    3129703913,
+                    3131203913
+                ],
+                [
+                    1344144453,
+                    18927786,
+                    1535086080,
+                    2898158320
+                ]
+            ],
+            "extracted_lines": [
+                "1 424 150 962        19 933 449                               1 685 619 502     3 129 703 913     3 131 203 913",
+                "1 344 144 453        18 927 786                               1 535 086 080     2 898 158 320"
+            ],
+            "ae_lfi": 3131203913,
+            "ae_consumed": 2898158320,
+            "cp_lfi": 3131203913,
+            "cp_consumed": 2898097569,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1424150962,
+                19933449,
+                1685619502,
+                3129703913,
+                3131203913,
+                1344144453,
+                18940296,
+                1535012820,
+                2898097569
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Santé scolaire",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                605155592,
+                2727366,
+                3790000,
+                611672958,
+                611672958,
+                672454606,
+                2180329,
+                2930003,
+                677564938
+            ],
+            "amount_rows": [
+                [
+                    605155592,
+                    2727366,
+                    3790000,
+                    611672958,
+                    611672958
+                ],
+                [
+                    672454606,
+                    2180329,
+                    2930003,
+                    677564938
+                ]
+            ],
+            "extracted_lines": [
+                "605 155 592          2 727 366                                    3 790 000     611 672 958        611 672 958",
+                "672 454 606          2 180 329                                    2 930 003     677 564 938"
+            ],
+            "ae_lfi": 611672958,
+            "ae_consumed": 677564938,
+            "cp_lfi": 611672958,
+            "cp_consumed": 677568901,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                605155592,
+                2727366,
+                3790000,
+                611672958,
+                611672958,
+                672454606,
+                2184292,
+                2930003,
+                677568901
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Inclusion scolaire des élèves en",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                2382710671,
+                30794505,
+                536227931,
+                2949733107,
+                2949733107,
+                2563683360,
+                22874665,
+                335648769,
+                2922206794
+            ],
+            "amount_rows": [
+                [
+                    2382710671,
+                    30794505,
+                    536227931,
+                    2949733107,
+                    2949733107
+                ],
+                [
+                    2563683360,
+                    22874665,
+                    335648769,
+                    2922206794
+                ]
+            ],
+            "extracted_lines": [
+                "2 382 710 671        30 794 505                                 536 227 931     2 949 733 107     2 949 733 107",
+                "2 563 683 360        22 874 665                                 335 648 769     2 922 206 794"
+            ],
+            "ae_lfi": 2949733107,
+            "ae_consumed": 2922206794,
+            "cp_lfi": 2949733107,
+            "cp_consumed": 2922136417,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                2382710671,
+                30794505,
+                536227931,
+                2949733107,
+                2949733107,
+                2563683360,
+                22847469,
+                335605588,
+                2922136417
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Action sociale",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                199864502,
+                1341898,
+                809250809,
+                1010457209,
+                1010457209,
+                239917309,
+                9574295,
+                801141314,
+                1050632918
+            ],
+            "amount_rows": [
+                [
+                    199864502,
+                    1341898,
+                    809250809,
+                    1010457209,
+                    1010457209
+                ],
+                [
+                    239917309,
+                    9574295,
+                    801141314,
+                    1050632918
+                ]
+            ],
+            "extracted_lines": [
+                "199 864 502          1 341 898                                 809 250 809     1 010 457 209     1 010 457 209",
+                "239 917 309          9 574 295                                 801 141 314     1 050 632 918"
+            ],
+            "ae_lfi": 1010457209,
+            "ae_consumed": 1050632918,
+            "cp_lfi": 1010457209,
+            "cp_consumed": 1049576912,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                199864502,
+                1341898,
+                809250809,
+                1010457209,
+                1010457209,
+                239917309,
+                8725964,
+                800933639,
+                1049576912
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Politique de l'internat et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                65766253,
+                61126800,
+                126893053,
+                126893053,
+                53062204,
+                873514,
+                2200,
+                22976666,
+                76914584
+            ],
+            "amount_rows": [
+                [
+                    65766253,
+                    61126800,
+                    126893053,
+                    126893053
+                ],
+                [
+                    53062204,
+                    873514,
+                    2200,
+                    22976666,
+                    76914584
+                ]
+            ],
+            "extracted_lines": [
+                "65 766 253                                                    61 126 800      126 893 053        126 893 053",
+                "53 062 204           873 514                   2 200          22 976 666       76 914 584"
+            ],
+            "ae_lfi": 126893053,
+            "ae_consumed": 76914584,
+            "cp_lfi": 96893053,
+            "cp_consumed": 76898662,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                65766253,
+                31126800,
+                96893053,
+                96893053,
+                53062204,
+                878414,
+                22958044,
+                76898662
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Actions éducatives complémentaires",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                56694920,
+                197864923,
+                254559843,
+                255079843,
+                16002907,
+                222487822,
+                238490729
+            ],
+            "amount_rows": [
+                [
+                    56694920,
+                    197864923,
+                    254559843,
+                    255079843
+                ],
+                [
+                    16002907,
+                    222487822,
+                    238490729
+                ]
+            ],
+            "extracted_lines": [
+                "56 694 920                                                   197 864 923      254 559 843        255 079 843",
+                "16 002 907                                  222 487 822      238 490 729"
+            ],
+            "ae_lfi": 255079843,
+            "ae_consumed": 238490729,
+            "cp_lfi": 255079843,
+            "cp_consumed": 240210461,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                56694920,
+                197864923,
+                254559843,
+                255079843,
+                19332764,
+                220877698,
+                240210461
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Scolarisation à 3 ans",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                46001839,
+                46001839,
+                46001839,
+                69384957,
+                69384957
+            ],
+            "amount_rows": [
+                [
+                    46001839,
+                    46001839,
+                    46001839
+                ],
+                [
+                    69384957,
+                    69384957
+                ]
+            ],
+            "extracted_lines": [
+                "46 001 839        46 001 839        46 001 839",
+                "69 384 957        69 384 957"
+            ],
+            "ae_lfi": 46001839,
+            "ae_consumed": 69384957,
+            "cp_lfi": 46001839,
+            "cp_consumed": 69384957,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                46001839,
+                46001839,
+                46001839,
+                69384957,
+                69384957
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 8131041922,
+            "ae_consumed": 7933353240,
+            "cp_lfi": 8101041922,
+            "cp_consumed": 7933873880
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 7,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29795",
+    "pdf_sha256": "bae68812398b69b7ae71398c1df0adcade9fa2317e6933491ac8f23dd66a81f7",
+    "mission": "Enseignement scolaire"
+}

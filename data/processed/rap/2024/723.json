@@ -1,0 +1,234 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "723",
+        "name": "Opérations immobilières et entretien des bâtiments de l'État"
+    },
+    "actions": [
+        {
+            "code": "11",
+            "label": "Opérations structurantes et cessions",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                17000000,
+                123000000,
+                140000000,
+                140000000,
+                41441789,
+                55403389,
+                737844,
+                2598650,
+                100181672
+            ],
+            "amount_rows": [
+                [
+                    17000000,
+                    123000000,
+                    140000000,
+                    140000000
+                ],
+                [
+                    41441789,
+                    55403389,
+                    737844,
+                    2598650,
+                    100181672
+                ]
+            ],
+            "extracted_lines": [
+                "17 000 000       123 000 000                                                140 000 000       140 000 000",
+                "41 441 789        55 403 389              737 844            2 598 650      100 181 672"
+            ],
+            "ae_lfi": 140000000,
+            "ae_consumed": 100181672,
+            "cp_lfi": 140000000,
+            "cp_consumed": 142331122,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                19000000,
+                121000000,
+                140000000,
+                140000000,
+                45437720,
+                89863058,
+                737844,
+                6292500,
+                142331122
+            ]
+        },
+        {
+            "code": "12",
+            "label": "Contrôles règlementaires, audits,",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                14000000,
+                1000000,
+                15000000,
+                15000000,
+                11294465,
+                853010,
+                12147475
+            ],
+            "amount_rows": [
+                [
+                    14000000,
+                    1000000,
+                    15000000,
+                    15000000
+                ],
+                [
+                    11294465,
+                    853010,
+                    12147475
+                ]
+            ],
+            "extracted_lines": [
+                "14 000 000          1 000 000                                                15 000 000        15 000 000",
+                "11 294 465           853 010                                                 12 147 475"
+            ],
+            "ae_lfi": 15000000,
+            "ae_consumed": 12147475,
+            "cp_lfi": 17000000,
+            "cp_consumed": 12325539,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                16000000,
+                1000000,
+                17000000,
+                17000000,
+                10754147,
+                1571392,
+                12325539
+            ]
+        },
+        {
+            "code": "13",
+            "label": "Maintenance à la charge du",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                45000000,
+                3000000,
+                48000000,
+                48000000,
+                64692875,
+                3283497,
+                4810830,
+                72787202
+            ],
+            "amount_rows": [
+                [
+                    45000000,
+                    3000000,
+                    48000000,
+                    48000000
+                ],
+                [
+                    64692875,
+                    3283497,
+                    4810830,
+                    72787202
+                ]
+            ],
+            "extracted_lines": [
+                "45 000 000          3 000 000                                                48 000 000        48 000 000",
+                "64 692 875          3 283 497           4 810 830                            72 787 202"
+            ],
+            "ae_lfi": 48000000,
+            "ae_consumed": 72787202,
+            "cp_lfi": 45000000,
+            "cp_consumed": 62718914,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                42000000,
+                3000000,
+                45000000,
+                45000000,
+                55072166,
+                3014918,
+                4631830,
+                62718914
+            ]
+        },
+        {
+            "code": "14",
+            "label": "Gros entretien, réhabilitation, mise",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                50000000,
+                87000000,
+                137000000,
+                137000000
+            ],
+            "amount_rows": [
+                [
+                    50000000,
+                    87000000,
+                    137000000,
+                    137000000
+                ]
+            ],
+            "extracted_lines": [
+                "50 000 000         87 000 000                                               137 000 000       137 000 000",
+                "18 965 560         62 679 517             118 689             -360 000       81 403 766"
+            ],
+            "ae_lfi": 137000000,
+            "ae_consumed": null,
+            "cp_lfi": 138000000,
+            "cp_consumed": 80845391,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                45000000,
+                93000000,
+                138000000,
+                138000000,
+                25340946,
+                55339301,
+                99497,
+                65648,
+                80845391
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 340000000,
+            "ae_consumed": 266520116,
+            "cp_lfi": 340000000,
+            "cp_consumed": 298220966
+        },
+        "differences": {
+            "ae_consumed": {
+                "actions_sum": 185116349,
+                "programme_total": 266520116,
+                "difference": -81403767
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 4,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29984",
+    "pdf_sha256": "ec3f18aa921dbec8a61e9cc408c3faea6a8fdccdf55655fda0768e2f31ab5258",
+    "mission": null
+}

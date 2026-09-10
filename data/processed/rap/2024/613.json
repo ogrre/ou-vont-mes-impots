@@ -1,0 +1,225 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "613",
+        "name": "Soutien aux prestations de l'aviation civile"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Ressources humaines et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1341130265,
+                17009840,
+                1358140105,
+                1358481905,
+                1316932098,
+                22898372,
+                79500,
+                1339909970
+            ],
+            "amount_rows": [
+                [
+                    1341130265,
+                    17009840,
+                    1358140105,
+                    1358481905
+                ],
+                [
+                    1316932098,
+                    22898372,
+                    79500,
+                    1339909970
+                ]
+            ],
+            "extracted_lines": [
+                "1 341 130 265       17 009 840                                                          1 358 140 105     1 358 481 905",
+                "1 316 932 098      22 898 372                                                 79 500    1 339 909 970"
+            ],
+            "ae_lfi": 1358481905,
+            "ae_consumed": 1339909970,
+            "cp_lfi": 1359862065,
+            "cp_consumed": 1337099032,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1341130265,
+                18390000,
+                1359520265,
+                1359862065,
+                1316932098,
+                20087433,
+                79500,
+                1337099032
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Logistique",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                43700231,
+                40089485,
+                145000,
+                83934716,
+                84164716,
+                69355986,
+                7057950,
+                76413936
+            ],
+            "amount_rows": [
+                [
+                    43700231,
+                    40089485,
+                    145000,
+                    83934716,
+                    84164716
+                ],
+                [
+                    69355986,
+                    7057950,
+                    76413936
+                ]
+            ],
+            "extracted_lines": [
+                "43 700 231                          40 089 485           145 000       83 934 716        84 164 716",
+                "69 355 986                           7 057 950                         76 413 936"
+            ],
+            "ae_lfi": 84164716,
+            "ae_consumed": 76413936,
+            "cp_lfi": 76041728,
+            "cp_consumed": 61754248,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                36577242,
+                39089486,
+                145000,
+                75811728,
+                76041728,
+                55277041,
+                6477206,
+                61754248
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Affaires financières",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                23975163,
+                23975163,
+                23975163,
+                17734305,
+                17734305
+            ],
+            "amount_rows": [
+                [
+                    23975163,
+                    23975163,
+                    23975163
+                ],
+                [
+                    17734305,
+                    17734305
+                ]
+            ],
+            "extracted_lines": [
+                "23 975 163                                             23 975 163        23 975 163",
+                "17 734 305                                             17 734 305"
+            ],
+            "ae_lfi": 23975163,
+            "ae_consumed": 17734305,
+            "cp_lfi": 23975163,
+            "cp_consumed": 17734305,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                23975163,
+                23975163,
+                23975163,
+                17734305,
+                17734305
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Formation aéronautique",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                97470000,
+                3000000,
+                100470000,
+                100470000,
+                97470000,
+                3000000,
+                100470000
+            ],
+            "amount_rows": [
+                [
+                    97470000,
+                    3000000,
+                    100470000,
+                    100470000
+                ],
+                [
+                    97470000,
+                    3000000,
+                    100470000
+                ]
+            ],
+            "extracted_lines": [
+                "97 470 000                           3 000 000                       100 470 000        100 470 000",
+                "97 470 000                           3 000 000                       100 470 000"
+            ],
+            "ae_lfi": 100470000,
+            "ae_consumed": 100470000,
+            "cp_lfi": 100470000,
+            "cp_consumed": 100470000,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                97470000,
+                3000000,
+                100470000,
+                100470000,
+                97470000,
+                3000000,
+                100470000
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 1567091784,
+            "ae_consumed": 1534528212,
+            "cp_lfi": 1560348956,
+            "cp_consumed": 1517057584
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 4,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29333",
+    "pdf_sha256": "8e1df70483bd434d31b8b4876f249baf47bd75322242bc32cecb68979e7742bd",
+    "mission": null
+}

@@ -1,0 +1,204 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "122",
+        "name": "Concours spécifiques et administration"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Aides exceptionnelles aux collectivités territoriales",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                139300000,
+                139300000,
+                139300000,
+                -35208,
+                209126976,
+                209091767
+            ],
+            "amount_rows": [
+                [
+                    139300000,
+                    139300000,
+                    139300000
+                ],
+                [
+                    -35208,
+                    209126976,
+                    209091767
+                ]
+            ],
+            "extracted_lines": [
+                "139 300 000    139 300 000       139 300 000",
+                "-35 208                               209 126 976    209 091 767"
+            ],
+            "ae_lfi": 139300000,
+            "ae_consumed": 209091767,
+            "cp_lfi": 90950303,
+            "cp_consumed": 99801614,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                90950303,
+                90950303,
+                90950303,
+                171006,
+                99630608,
+                99801614
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Administration des relations avec les collectivités",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                600751,
+                7699710,
+                8300461,
+                8535461,
+                2789406,
+                3956746,
+                6746151
+            ],
+            "amount_rows": [
+                [
+                    600751,
+                    7699710,
+                    8300461,
+                    8535461
+                ],
+                [
+                    2789406,
+                    3956746,
+                    6746151
+                ]
+            ],
+            "extracted_lines": [
+                "600 751           7 699 710                            8 300 461          8 535 461",
+                "2 789 406          3 956 746                             6 746 151"
+            ],
+            "ae_lfi": 8535461,
+            "ae_consumed": 6746151,
+            "cp_lfi": 8944913,
+            "cp_consumed": 6919422,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                599751,
+                8110162,
+                8709913,
+                8944913,
+                3054847,
+                3864575,
+                6919422
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Dotations Outre-Mer",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                149940939,
+                149940939,
+                149940939,
+                149928051,
+                149928051
+            ],
+            "amount_rows": [
+                [
+                    149940939,
+                    149940939,
+                    149940939
+                ],
+                [
+                    149928051,
+                    149928051
+                ]
+            ],
+            "extracted_lines": [
+                "149 940 939    149 940 939       149 940 939",
+                "149 928 051    149 928 051"
+            ],
+            "ae_lfi": 149940939,
+            "ae_consumed": 149928051,
+            "cp_lfi": 149940939,
+            "cp_consumed": 149928051,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                149940939,
+                149940939,
+                149940939,
+                149928051,
+                149928051
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Soutien à l’entretien du réseau routier local",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 297776400,
+            "ae_consumed": 365765970,
+            "cp_lfi": 249836155,
+            "cp_consumed": 256649087
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 4,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29576",
+    "pdf_sha256": "3a9ef5df85298f43b7aa6273828d000e7d502e8777f617c9bd74cab6b75c8370",
+    "mission": "Relations avec les collectivités territoriales"
+}

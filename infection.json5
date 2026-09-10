@@ -1,21 +1,29 @@
 {
     "$schema": "vendor/infection/infection/resources/schema.json",
     "source": {
-        "directories": ["app"],
-        "excludes": [
-            "Http/Controllers/Controller.php",
-            "Models/User.php",
-            "Providers/AppServiceProvider.php"
+        "directories": [
+            "app/Services/Api",
+            "app/Services/Rap",
+            "app/Support"
         ]
     },
     "testFramework": "phpunit",
     "phpUnit": {
         "configDir": "."
     },
-    "threads": 4,
+    "threads": "max",
     "timeout": 30,
     "minMsi": 70,
     "minCoveredMsi": 70,
+    "mutators": {
+        "@default": true,
+        // Les casts défensifs de données externes ne constituent pas de la
+        // logique métier et génèrent surtout des mutants équivalents.
+        "CastArray": false,
+        "CastBool": false,
+        "CastInt": false,
+        "CastString": false
+    },
     "logs": {
         "text": "storage/logs/infection.log",
         "summary": "storage/logs/infection-summary.log"

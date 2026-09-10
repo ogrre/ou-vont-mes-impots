@@ -1,0 +1,213 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "209",
+        "name": "Solidarité à l'égard des pays en développement"
+    },
+    "actions": [
+        {
+            "code": "02",
+            "label": "Coopération bilatérale",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                217133,
+                2191078131,
+                2191295264,
+                2191295264,
+                -26496,
+                1685813798,
+                1695559233
+            ],
+            "amount_rows": [
+                [
+                    217133,
+                    2191078131,
+                    2191295264,
+                    2191295264
+                ],
+                [
+                    -26496,
+                    1685813798,
+                    1695559233
+                ]
+            ],
+            "extracted_lines": [
+                "217 133                               2 191 078 131    2 191 295 264     2 191 295 264",
+                "-26 496        1 685 813 798    1 695 559 233"
+            ],
+            "ae_lfi": 2191295264,
+            "ae_consumed": 1695559233,
+            "cp_lfi": 2184362511,
+            "cp_consumed": 1602074134,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                217133,
+                2184145378,
+                2184362511,
+                2184362511,
+                11550465,
+                1590523669,
+                1602074134
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Coopération multilatérale",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                550000,
+                703089279,
+                703639279,
+                703639279,
+                7464668,
+                613799270,
+                621263938
+            ],
+            "amount_rows": [
+                [
+                    550000,
+                    703089279,
+                    703639279,
+                    703639279
+                ],
+                [
+                    7464668,
+                    613799270,
+                    621263938
+                ]
+            ],
+            "extracted_lines": [
+                "550 000                                 703 089 279     703 639 279        703 639 279",
+                "7 464 668                                 613 799 270     621 263 938"
+            ],
+            "ae_lfi": 703639279,
+            "ae_consumed": 621263938,
+            "cp_lfi": 796097862,
+            "cp_consumed": 766148627,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                6465602,
+                789632260,
+                796097862,
+                796097862,
+                13476856,
+                752671771,
+                766148627
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Coopération communautaire",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                285003004,
+                285003004,
+                285003004,
+                265294950,
+                265294950
+            ],
+            "amount_rows": [
+                [
+                    285003004,
+                    285003004,
+                    285003004
+                ],
+                [
+                    265294950,
+                    265294950
+                ]
+            ],
+            "extracted_lines": [
+                "285 003 004     285 003 004        285 003 004",
+                "265 294 950     265 294 950"
+            ],
+            "ae_lfi": 285003004,
+            "ae_consumed": 265294950,
+            "cp_lfi": 285003004,
+            "cp_consumed": 265294950,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                285003004,
+                285003004,
+                285003004,
+                265294950,
+                265294950
+            ]
+        },
+        {
+            "code": "08",
+            "label": "Dépenses de personnels",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                169447597,
+                169447597,
+                169447597,
+                163395195,
+                163395195
+            ],
+            "amount_rows": [
+                [
+                    169447597,
+                    169447597,
+                    169447597
+                ],
+                [
+                    163395195,
+                    163395195
+                ]
+            ],
+            "extracted_lines": [
+                "169 447 597                                                                    169 447 597        169 447 597",
+                "163 395 195                                                                    163 395 195"
+            ],
+            "ae_lfi": 169447597,
+            "ae_consumed": 163395195,
+            "cp_lfi": 169447597,
+            "cp_consumed": 163395195,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                169447597,
+                169447597,
+                169447597,
+                163395195,
+                163395195
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 3349385144,
+            "ae_consumed": 2745513316,
+            "cp_lfi": 3434910974,
+            "cp_consumed": 2796912906
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 4,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29765",
+    "pdf_sha256": "931ba5698bb3bb523e332955ea202e824fc6e6cba4ccc3154c5b125380a240ae",
+    "mission": "Aide publique au développement"
+}

@@ -1,0 +1,258 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "180",
+        "name": "Presse et médias"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Relations financières avec l'AFP",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                22738149,
+                118954068,
+                141692217,
+                141692217,
+                22738148,
+                118954068,
+                141692216
+            ],
+            "amount_rows": [
+                [
+                    22738149,
+                    118954068,
+                    141692217,
+                    141692217
+                ],
+                [
+                    22738148,
+                    118954068,
+                    141692216
+                ]
+            ],
+            "extracted_lines": [
+                "22 738 149         118 954 068    141 692 217        141 692 217",
+                "22 738 148         118 954 068     141 692 216"
+            ],
+            "ae_lfi": 141692217,
+            "ae_consumed": 141692216,
+            "cp_lfi": 141692217,
+            "cp_consumed": 141692217,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                22738149,
+                118954068,
+                141692217,
+                141692217,
+                22738149,
+                118954068,
+                141692217
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Aides à la presse",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                196826383,
+                196826383,
+                196826383,
+                585733,
+                183020210,
+                183605943
+            ],
+            "amount_rows": [
+                [
+                    196826383,
+                    196826383,
+                    196826383
+                ],
+                [
+                    585733,
+                    183020210,
+                    183605943
+                ]
+            ],
+            "extracted_lines": [
+                "196 826 383    196 826 383        196 826 383",
+                "585 733        183 020 210     183 605 943"
+            ],
+            "ae_lfi": 196826383,
+            "ae_consumed": 183605943,
+            "cp_lfi": 195786263,
+            "cp_consumed": 180126390,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                195786263,
+                195786263,
+                195786263,
+                866612,
+                179259778,
+                180126390
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Soutien aux médias de proximité",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1831660,
+                1831660,
+                1831660,
+                1790370,
+                1790370
+            ],
+            "amount_rows": [
+                [
+                    1831660,
+                    1831660,
+                    1831660
+                ],
+                [
+                    1790370,
+                    1790370
+                ]
+            ],
+            "extracted_lines": [
+                "1 831 660     1 831 660          1 831 660",
+                "1 790 370      1 790 370"
+            ],
+            "ae_lfi": 1831660,
+            "ae_consumed": 1790370,
+            "cp_lfi": 1831660,
+            "cp_consumed": 1790370,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1831660,
+                1831660,
+                1831660,
+                1790370,
+                1790370
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Soutien à l'expression radiophonique locale",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                126994,
+                35561645,
+                35688639,
+                35688639,
+                6778,
+                38459092,
+                38465870
+            ],
+            "amount_rows": [
+                [
+                    126994,
+                    35561645,
+                    35688639,
+                    35688639
+                ],
+                [
+                    6778,
+                    38459092,
+                    38465870
+                ]
+            ],
+            "extracted_lines": [
+                "126 994          35 561 645    35 688 639         35 688 639",
+                "6 778          38 459 092     38 465 870"
+            ],
+            "ae_lfi": 35688639,
+            "ae_consumed": 38465870,
+            "cp_lfi": 35688639,
+            "cp_consumed": 38503259,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                126994,
+                35561645,
+                35688639,
+                35688639,
+                53623,
+                38449636,
+                38503259
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Compagnie internationale de radio et télévision (CIRT)",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1666500,
+                1666500,
+                1666500,
+                1666500,
+                1666500
+            ],
+            "amount_rows": [
+                [
+                    1666500,
+                    1666500,
+                    1666500
+                ],
+                [
+                    1666500,
+                    1666500
+                ]
+            ],
+            "extracted_lines": [
+                "1 666 500     1 666 500          1 666 500",
+                "1 666 500      1 666 500"
+            ],
+            "ae_lfi": 1666500,
+            "ae_consumed": 1666500,
+            "cp_lfi": 1666500,
+            "cp_consumed": 1666500,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1666500,
+                1666500,
+                1666500,
+                1666500,
+                1666500
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 377705399,
+            "ae_consumed": 367220899,
+            "cp_lfi": 376665279,
+            "cp_consumed": 363778736
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 5,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29708",
+    "pdf_sha256": "fd7e74d6afeddb3bf62dbd02c1f6727b46c37f40372b7fc534d381d584bbf7bf",
+    "mission": "Médias, livre et industries culturelles"
+}

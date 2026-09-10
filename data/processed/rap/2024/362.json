@@ -1,0 +1,382 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "362",
+        "name": "Écologie"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Rénovation énergétique",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                 0",
+                "6 307 105          -54 620 859              -134 567      -45 686 897"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": null,
+            "cp_lfi": 682607086,
+            "cp_consumed": 476027641,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                271040395,
+                308750000,
+                102816691,
+                682607086,
+                682607086,
+                23664807,
+                179094145,
+                185218818,
+                88049871,
+                476027641
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Biodiversité, lutte contre",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                 0",
+                "-54 573              -143 565          -13 849 322                            -14 047 460"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": null,
+            "cp_lfi": 29332347,
+            "cp_consumed": 245207135,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                29332347,
+                29332347,
+                29332347,
+                470944,
+                3891308,
+                240844884,
+                245207135
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Décarbonation de l'industrie",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                5000000,
+                5000000
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    5000000,
+                    5000000
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "5 000 000                            5 000 000"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 5000000,
+            "cp_lfi": 0,
+            "cp_consumed": 66445150,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                2864056,
+                29100,
+                63551994,
+                66445150
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Économie circulaire et circuits courts",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 72000000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                72000000,
+                72000000
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Transition agricole",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                 0",
+                "-10 766 433                            -10 767 522"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": null,
+            "cp_lfi": 42448788,
+            "cp_consumed": 114276794,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                42448788,
+                42448788,
+                42448788,
+                176128,
+                114100665,
+                114276794
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Mer",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                 0",
+                "-11 369                              -23 073"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": null,
+            "cp_lfi": 35320000,
+            "cp_consumed": 13,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                35320000,
+                35320000,
+                35320000,
+                13,
+                1313781,
+                103080,
+                15000000,
+                16416862
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Infrastructures et mobilité vertes",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "-74 620              -122 399                             -296 020"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": null,
+            "cp_lfi": 246717221,
+            "cp_consumed": 352141303,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                246717221,
+                246717221,
+                246717221,
+                5517681,
+                1140977,
+                345482645,
+                352141303
+            ]
+        },
+        {
+            "code": "08",
+            "label": "Énergies et technologies vertes",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                -19880000
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    -19880000
+                ]
+            ],
+            "extracted_lines": [
+                "0                 0",
+                "-19 880 000"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": -19880000,
+            "cp_lfi": 67200000,
+            "cp_consumed": 355833189,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                67200000,
+                67200000,
+                67200000,
+                354083189,
+                1750000,
+                355833189
+            ]
+        },
+        {
+            "code": "09",
+            "label": "Dotation régionale d'investissement",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                -5460893
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    -5460893
+                ]
+            ],
+            "extracted_lines": [
+                "0                 0",
+                "-5 460 893"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": -5460893,
+            "cp_lfi": 65450000,
+            "cp_consumed": 67890775,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                65450000,
+                65450000,
+                65450000,
+                67890775,
+                67890775
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 0,
+            "ae_consumed": -91161865,
+            "cp_lfi": 1169075442,
+            "cp_consumed": 1766238850
+        },
+        "differences": {
+            "ae_consumed": {
+                "actions_sum": -20340893,
+                "programme_total": -91161865,
+                "difference": 70820972
+            },
+            "cp_consumed": {
+                "actions_sum": 1749822000,
+                "programme_total": 1766238850,
+                "difference": -16416850
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 9,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29864",
+    "pdf_sha256": "3d46bba68ddc6b647f33d6c1e2d5708e7f19f4461f76b7e939395720dda3f24e",
+    "mission": "Plan de relance"
+}

@@ -1,0 +1,131 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "334",
+        "name": "Livre et industries culturelles"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Livre et lecture",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                258310930,
+                46139035,
+                27445899,
+                331895864,
+                331895864
+            ],
+            "amount_rows": [
+                [
+                    258310930,
+                    46139035,
+                    27445899,
+                    331895864,
+                    331895864
+                ]
+            ],
+            "extracted_lines": [
+                "258 310 930          46 139 035         27 445 899                            331 895 864       331 895 864",
+                "37 826 438         19 220 997            -4 770 000      309 974 332"
+            ],
+            "ae_lfi": 331895864,
+            "ae_consumed": null,
+            "cp_lfi": 327008531,
+            "cp_consumed": 317448889,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                258310930,
+                40481702,
+                28215899,
+                327008531,
+                327008531,
+                259110854,
+                39116438,
+                19221597,
+                317448889
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Industries culturelles",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                28285321,
+                3988791,
+                32274112,
+                32274112,
+                27294866,
+                3151460,
+                30446326
+            ],
+            "amount_rows": [
+                [
+                    28285321,
+                    3988791,
+                    32274112,
+                    32274112
+                ],
+                [
+                    27294866,
+                    3151460,
+                    30446326
+                ]
+            ],
+            "extracted_lines": [
+                "28 285 321                              3 988 791                            32 274 112        32 274 112",
+                "27 294 866                              3 151 460                            30 446 326"
+            ],
+            "ae_lfi": 32274112,
+            "ae_consumed": 30446326,
+            "cp_lfi": 32274112,
+            "cp_consumed": 30312295,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                28285321,
+                3988791,
+                32274112,
+                32274112,
+                27160835,
+                3151460,
+                30312295
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 364169976,
+            "ae_consumed": 340420658,
+            "cp_lfi": 359282643,
+            "cp_consumed": 347761184
+        },
+        "differences": {
+            "ae_consumed": {
+                "actions_sum": 30446326,
+                "programme_total": 340420658,
+                "difference": -309974332
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 2,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29822",
+    "pdf_sha256": "3f58bf257a6e3b43a895fd2488c4c31e8c03c751342b24dd14776d1638c47ce3",
+    "mission": "Médias, livre et industries culturelles"
+}

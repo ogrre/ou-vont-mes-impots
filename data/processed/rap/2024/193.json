@@ -1,0 +1,397 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "193",
+        "name": "Recherche spatiale"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Développement de la technologie",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                52662953,
+                17785209,
+                216889333,
+                287337495,
+                287337495,
+                50200900,
+                16807022,
+                165498662,
+                0,
+                232506584
+            ],
+            "amount_rows": [
+                [
+                    52662953,
+                    17785209,
+                    216889333,
+                    287337495,
+                    287337495
+                ],
+                [
+                    50200900,
+                    16807022,
+                    165498662,
+                    0,
+                    232506584
+                ]
+            ],
+            "extracted_lines": [
+                "52 662 953         17 785 209        216 889 333                             287 337 495       287 337 495",
+                "50 200 900         16 807 022        165 498 662                       0     232 506 584"
+            ],
+            "ae_lfi": 287337495,
+            "ae_consumed": 232506584,
+            "cp_lfi": 287337495,
+            "cp_consumed": 232506584,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                52662953,
+                17785209,
+                216889333,
+                287337495,
+                287337495,
+                50200900,
+                16807022,
+                165498662,
+                0,
+                232506584
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Développement de la technologie",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                115304150,
+                35570417,
+                211661799,
+                362536366,
+                362536366,
+                109913549,
+                33614044,
+                161509762,
+                0,
+                305037356
+            ],
+            "amount_rows": [
+                [
+                    115304150,
+                    35570417,
+                    211661799,
+                    362536366,
+                    362536366
+                ],
+                [
+                    109913549,
+                    33614044,
+                    161509762,
+                    0,
+                    305037356
+                ]
+            ],
+            "extracted_lines": [
+                "115 304 150          35 570 417        211 661 799                             362 536 366       362 536 366",
+                "109 913 549          33 614 044        161 509 762                       0     305 037 356"
+            ],
+            "ae_lfi": 362536366,
+            "ae_consumed": 305037356,
+            "cp_lfi": 362536366,
+            "cp_consumed": 305037356,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                115304150,
+                35570417,
+                211661799,
+                362536366,
+                362536366,
+                109913549,
+                33614044,
+                161509762,
+                0,
+                305037356
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Développement de la technologie",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                37834174,
+                75319168,
+                113153342,
+                113153342,
+                36065383,
+                57472728,
+                93538111
+            ],
+            "amount_rows": [
+                [
+                    37834174,
+                    75319168,
+                    113153342,
+                    113153342
+                ],
+                [
+                    36065383,
+                    57472728,
+                    93538111
+                ]
+            ],
+            "extracted_lines": [
+                "37 834 174                            75 319 168                             113 153 342       113 153 342",
+                "36 065 383                            57 472 728                              93 538 111"
+            ],
+            "ae_lfi": 113153342,
+            "ae_consumed": 93538111,
+            "cp_lfi": 113153342,
+            "cp_consumed": 93538111,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                37834174,
+                75319168,
+                113153342,
+                113153342,
+                36065383,
+                57472728,
+                93538111
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Maîtrise de l'accès à l'espace",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                134636997,
+                481253212,
+                615890209,
+                615890209,
+                128342564,
+                367223052,
+                495565616
+            ],
+            "amount_rows": [
+                [
+                    134636997,
+                    481253212,
+                    615890209,
+                    615890209
+                ],
+                [
+                    128342564,
+                    367223052,
+                    495565616
+                ]
+            ],
+            "extracted_lines": [
+                "134 636 997                            481 253 212                             615 890 209       615 890 209",
+                "128 342 564                            367 223 052                             495 565 616"
+            ],
+            "ae_lfi": 615890209,
+            "ae_consumed": 495565616,
+            "cp_lfi": 615890209,
+            "cp_consumed": 495565616,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                134636997,
+                481253212,
+                615890209,
+                615890209,
+                128342564,
+                367223052,
+                495565616
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Maîtrise des technologies orbitales",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                234696608,
+                38726428,
+                273423036,
+                273423036,
+                223724274,
+                29550425,
+                253274699
+            ],
+            "amount_rows": [
+                [
+                    234696608,
+                    38726428,
+                    273423036,
+                    273423036
+                ],
+                [
+                    223724274,
+                    29550425,
+                    253274699
+                ]
+            ],
+            "extracted_lines": [
+                "234 696 608                             38 726 428                             273 423 036       273 423 036",
+                "223 724 274                             29 550 425                             253 274 699"
+            ],
+            "ae_lfi": 273423036,
+            "ae_consumed": 253274699,
+            "cp_lfi": 273423036,
+            "cp_consumed": 253274699,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                234696608,
+                38726428,
+                273423036,
+                273423036,
+                223724274,
+                29550425,
+                253274699
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Moyens généraux et d'appui à la",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                117798711,
+                23470329,
+                42993803,
+                184262843,
+                184262843,
+                103210487,
+                22179461,
+                41887670,
+                0,
+                167277618
+            ],
+            "amount_rows": [
+                [
+                    117798711,
+                    23470329,
+                    42993803,
+                    184262843,
+                    184262843
+                ],
+                [
+                    103210487,
+                    22179461,
+                    41887670,
+                    0,
+                    167277618
+                ]
+            ],
+            "extracted_lines": [
+                "117 798 711          23 470 329         42 993 803                             184 262 843       184 262 843",
+                "103 210 487          22 179 461         41 887 670                       0     167 277 618"
+            ],
+            "ae_lfi": 184262843,
+            "ae_consumed": 167277618,
+            "cp_lfi": 184262843,
+            "cp_consumed": 17,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                117798711,
+                23470329,
+                42993803,
+                184262843,
+                184262843,
+                17,
+                103210487,
+                22179461,
+                41887670,
+                0,
+                167277618
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Développement des satellites de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                63576250,
+                63576250,
+                63576250,
+                60079556,
+                60079556
+            ],
+            "amount_rows": [
+                [
+                    63576250,
+                    63576250,
+                    63576250
+                ],
+                [
+                    60079556,
+                    60079556
+                ]
+            ],
+            "extracted_lines": [
+                "63 576 250                              63 576 250        63 576 250",
+                "60 079 556                              60 079 556"
+            ],
+            "ae_lfi": 63576250,
+            "ae_consumed": 60079556,
+            "cp_lfi": 63576250,
+            "cp_consumed": 60079556,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                63576250,
+                63576250,
+                63576250,
+                60079556,
+                60079556
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 1900179541,
+            "ae_consumed": 1607279541,
+            "cp_lfi": 1900179541,
+            "cp_consumed": 1607279541
+        },
+        "differences": {
+            "cp_consumed": {
+                "actions_sum": 1440001939,
+                "programme_total": 1607279541,
+                "difference": -167277602
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 7,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29732",
+    "pdf_sha256": "bdb1432365f8b289c19f04c1e43f00d8e365e35f27a73fec9fe3d5b4ab265fcc",
+    "mission": "Recherche et enseignement supérieur"
+}

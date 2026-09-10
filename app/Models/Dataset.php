@@ -13,6 +13,12 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
  * @property string $name
  * @property string $slug
  * @property string|null $description
+ * @property string|null $accounting_system
+ * @property string|null $scope
+ * @property string|null $frequency
+ * @property string|null $unit
+ * @property int|null $first_year
+ * @property int|null $last_year
  * @property string|null $source_url
  * @property string|null $download_url
  * @property string|null $publication_title

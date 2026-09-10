@@ -1,0 +1,75 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "862",
+        "name": "Prêts pour le développement économique et social"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Prêts pour le développement économique et social",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                75000000,
+                75000000,
+                75000000,
+                287750000,
+                287750000
+            ],
+            "amount_rows": [
+                [
+                    75000000,
+                    75000000,
+                    75000000
+                ],
+                [
+                    287750000,
+                    287750000
+                ]
+            ],
+            "extracted_lines": [
+                "75 000 000     75 000 000          75 000 000",
+                "287 750 000     287 750 000"
+            ],
+            "ae_lfi": 75000000,
+            "ae_consumed": 287750000,
+            "cp_lfi": 75000000,
+            "cp_consumed": 295000000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                75000000,
+                75000000,
+                75000000,
+                295000000,
+                295000000
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 75000000,
+            "ae_consumed": 287750000,
+            "cp_lfi": 75000000,
+            "cp_consumed": 295000000
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30131",
+    "pdf_sha256": "2772b8a291ef5b5d2e92592157a0a21270578fd87991cabe0dab670168cd359e",
+    "mission": null
+}

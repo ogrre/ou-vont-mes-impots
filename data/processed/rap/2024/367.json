@@ -1,0 +1,69 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "367",
+        "name": "Financement des opérations patrimoniales en 2024 sur le compte d'affectation spéciale « Participations financières de l'État »"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Assurer un niveau de recettes au CAS PFE permettant la réalisation des opérations patrimoniales",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29876",
+    "pdf_sha256": "bcbffad0cf82276e29ac0112ec0a86ac9ccad9eea25675ed2b19159f095e61e5",
+    "mission": "Économie"
+}

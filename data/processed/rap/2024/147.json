@@ -1,0 +1,219 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "147",
+        "name": "Politique de la ville"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Actions territorialisées et Dispositifs spécifiques de la",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1493398,
+                528959004,
+                530452402,
+                530952402,
+                2590,
+                703029,
+                481359274,
+                482064893
+            ],
+            "amount_rows": [
+                [
+                    1493398,
+                    528959004,
+                    530452402,
+                    530952402
+                ],
+                [
+                    2590,
+                    703029,
+                    481359274,
+                    482064893
+                ]
+            ],
+            "extracted_lines": [
+                "1 493 398         528 959 004      530 452 402       530 952 402",
+                "2 590          703 029          481 359 274      482 064 893"
+            ],
+            "ae_lfi": 530952402,
+            "ae_consumed": 482064893,
+            "cp_lfi": 530952402,
+            "cp_consumed": 482385123,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1493398,
+                528959004,
+                530452402,
+                530952402,
+                2590,
+                893039,
+                481489494,
+                482385123
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Revitalisation économique et emploi",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                34422530,
+                5782572,
+                40205102,
+                40205102,
+                33100748,
+                5672067,
+                38772815
+            ],
+            "amount_rows": [
+                [
+                    34422530,
+                    5782572,
+                    40205102,
+                    40205102
+                ],
+                [
+                    33100748,
+                    5672067,
+                    38772815
+                ]
+            ],
+            "extracted_lines": [
+                "34 422 530            5 782 572      40 205 102         40 205 102",
+                "33 100 748             5 672 067      38 772 815"
+            ],
+            "ae_lfi": 40205102,
+            "ae_consumed": 38772815,
+            "cp_lfi": 40205102,
+            "cp_consumed": 38772815,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                34422530,
+                5782572,
+                40205102,
+                40205102,
+                33100748,
+                5672067,
+                38772815
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Stratégie, ressources et évaluation",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                18871649,
+                18871649,
+                18871649,
+                1384812,
+                1567489,
+                92527,
+                3044828
+            ],
+            "amount_rows": [
+                [
+                    18871649,
+                    18871649,
+                    18871649
+                ],
+                [
+                    1384812,
+                    1567489,
+                    92527,
+                    3044828
+                ]
+            ],
+            "extracted_lines": [
+                "18 871 649                                             18 871 649         18 871 649",
+                "1 384 812          1 567 489                92 527      3 044 828"
+            ],
+            "ae_lfi": 18871649,
+            "ae_consumed": 3044828,
+            "cp_lfi": 18871649,
+            "cp_consumed": 2941377,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                18871649,
+                18871649,
+                18871649,
+                1384812,
+                1464038,
+                92527,
+                2941377
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Rénovation urbaine et amélioration du cadre de vie",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                50000000,
+                50000000,
+                50000000,
+                0
+            ],
+            "amount_rows": [
+                [
+                    50000000,
+                    50000000,
+                    50000000
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "50 000 000       50 000 000         50 000 000",
+                "0"
+            ],
+            "ae_lfi": 50000000,
+            "ae_consumed": 0,
+            "cp_lfi": 50000000,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                50000000,
+                50000000,
+                50000000,
+                0
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 640029153,
+            "ae_consumed": 523882536,
+            "cp_lfi": 640029153,
+            "cp_consumed": 524099315
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 4,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29636",
+    "pdf_sha256": "3507dfca02a75dbde1b48e75983cacb74812592db0e2090952f64cbcf09efd1d",
+    "mission": "Cohésion des territoires"
+}

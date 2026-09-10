@@ -1,0 +1,525 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "129",
+        "name": "Coordination du travail gouvernemental"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Coordination du travail",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                77629899,
+                18515303,
+                22201597,
+                118346799,
+                118346799,
+                71767409,
+                14511449,
+                18143498,
+                104422355
+            ],
+            "amount_rows": [
+                [
+                    77629899,
+                    18515303,
+                    22201597,
+                    118346799,
+                    118346799
+                ],
+                [
+                    71767409,
+                    14511449,
+                    18143498,
+                    104422355
+                ]
+            ],
+            "extracted_lines": [
+                "77 629 899         18 515 303                               22 201 597     118 346 799       118 346 799",
+                "71 767 409         14 511 449                               18 143 498     104 422 355"
+            ],
+            "ae_lfi": 118346799,
+            "ae_consumed": 104422355,
+            "cp_lfi": 118346799,
+            "cp_consumed": 106304404,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                77629899,
+                18515303,
+                22201597,
+                118346799,
+                118346799,
+                71767409,
+                16393497,
+                18143498,
+                106304404
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Coordination de la sécurité et de la",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                110572821,
+                193231478,
+                131801642,
+                3858084,
+                439464025,
+                440101025,
+                109821271,
+                232178623,
+                4751341,
+                18129369,
+                364880604
+            ],
+            "amount_rows": [
+                [
+                    110572821,
+                    193231478,
+                    131801642,
+                    3858084,
+                    439464025,
+                    440101025
+                ],
+                [
+                    109821271,
+                    232178623,
+                    4751341,
+                    18129369,
+                    364880604
+                ]
+            ],
+            "extracted_lines": [
+                "110 572 821       193 231 478         131 801 642             3 858 084     439 464 025       440 101 025",
+                "109 821 271       232 178 623           4 751 341            18 129 369     364 880 604"
+            ],
+            "ae_lfi": 440101025,
+            "ae_consumed": 364880604,
+            "cp_lfi": 439524793,
+            "cp_consumed": 370053029,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                110572821,
+                191781285,
+                132675603,
+                3858084,
+                438887793,
+                439524793,
+                109821271,
+                232114468,
+                10181588,
+                17935702,
+                370053029
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Coordination de la politique",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                13766905,
+                3139606,
+                630000,
+                17536511,
+                17536511,
+                13423289,
+                3651466,
+                600000,
+                17674756
+            ],
+            "amount_rows": [
+                [
+                    13766905,
+                    3139606,
+                    630000,
+                    17536511,
+                    17536511
+                ],
+                [
+                    13423289,
+                    3651466,
+                    600000,
+                    17674756
+                ]
+            ],
+            "extracted_lines": [
+                "13 766 905          3 139 606                                   630 000     17 536 511        17 536 511",
+                "13 423 289          3 651 466                                  600 000      17 674 756"
+            ],
+            "ae_lfi": 17536511,
+            "ae_consumed": 17674756,
+            "cp_lfi": 17536511,
+            "cp_consumed": 17699354,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                13766905,
+                3139606,
+                630000,
+                17536511,
+                17536511,
+                13423289,
+                3676065,
+                600000,
+                17699354
+            ]
+        },
+        {
+            "code": "10",
+            "label": "Soutien",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                49705451,
+                51548646,
+                6500000,
+                16153368,
+                123907465,
+                125507465,
+                48989601,
+                45601185,
+                4653023,
+                14078046,
+                113321856
+            ],
+            "amount_rows": [
+                [
+                    49705451,
+                    51548646,
+                    6500000,
+                    16153368,
+                    123907465,
+                    125507465
+                ],
+                [
+                    48989601,
+                    45601185,
+                    4653023,
+                    14078046,
+                    113321856
+                ]
+            ],
+            "extracted_lines": [
+                "49 705 451         51 548 646           6 500 000           16 153 368     123 907 465       125 507 465",
+                "48 989 601         45 601 185           4 653 023           14 078 046     113 321 856"
+            ],
+            "ae_lfi": 125507465,
+            "ae_consumed": 113321856,
+            "cp_lfi": 156361736,
+            "cp_consumed": 153675793,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                49705451,
+                84602917,
+                4300000,
+                16153368,
+                154761736,
+                156361736,
+                48989601,
+                86501159,
+                4119642,
+                14065390,
+                153675793
+            ]
+        },
+        {
+            "code": "11",
+            "label": "Stratégie et prospective",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                14622694,
+                5179825,
+                3294219,
+                23096738,
+                23432135,
+                14332884,
+                4719349,
+                2920343,
+                21972575
+            ],
+            "amount_rows": [
+                [
+                    14622694,
+                    5179825,
+                    3294219,
+                    23096738,
+                    23432135
+                ],
+                [
+                    14332884,
+                    4719349,
+                    2920343,
+                    21972575
+                ]
+            ],
+            "extracted_lines": [
+                "14 622 694          5 179 825                                 3 294 219     23 096 738        23 432 135",
+                "14 332 884          4 719 349                                 2 920 343     21 972 575"
+            ],
+            "ae_lfi": 23432135,
+            "ae_consumed": 21972575,
+            "cp_lfi": 23432135,
+            "cp_consumed": 21976662,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                14622694,
+                5179825,
+                3294219,
+                23096738,
+                23432135,
+                14332884,
+                4611053,
+                3032725,
+                21976662
+            ]
+        },
+        {
+            "code": "13",
+            "label": "Ordre de la Légion d'honneur",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                27800995,
+                3236859,
+                31037854,
+                31037854,
+                27506943,
+                3477911,
+                30984854
+            ],
+            "amount_rows": [
+                [
+                    27800995,
+                    3236859,
+                    31037854,
+                    31037854
+                ],
+                [
+                    27506943,
+                    3477911,
+                    30984854
+                ]
+            ],
+            "extracted_lines": [
+                "27 800 995           3 236 859                           31 037 854        31 037 854",
+                "27 506 943           3 477 911                           30 984 854"
+            ],
+            "ae_lfi": 31037854,
+            "ae_consumed": 30984854,
+            "cp_lfi": 31037854,
+            "cp_consumed": 30984854,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                27800995,
+                3236859,
+                31037854,
+                31037854,
+                27506943,
+                3477911,
+                30984854
+            ]
+        },
+        {
+            "code": "15",
+            "label": "Mission interministérielle de lutte",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                2362492,
+                3406993,
+                10875475,
+                16644960,
+                51644960,
+                2330467,
+                34293510,
+                15385501,
+                18709707,
+                70719186
+            ],
+            "amount_rows": [
+                [
+                    2362492,
+                    3406993,
+                    10875475,
+                    16644960,
+                    51644960
+                ],
+                [
+                    2330467,
+                    34293510,
+                    15385501,
+                    18709707,
+                    70719186
+                ]
+            ],
+            "extracted_lines": [
+                "2 362 492        3 406 993                                10 875 475      16 644 960        51 644 960",
+                "2 330 467       34 293 510          15 385 501            18 709 707      70 719 186"
+            ],
+            "ae_lfi": 51644960,
+            "ae_consumed": 70719186,
+            "cp_lfi": 51644960,
+            "cp_consumed": 60135945,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                2362492,
+                3406993,
+                10875475,
+                16644960,
+                51644960,
+                2330467,
+                28703338,
+                12000262,
+                17101878,
+                60135945
+            ]
+        },
+        {
+            "code": "16",
+            "label": "Coordination de la politique",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                21388864,
+                33409241,
+                6400000,
+                100000,
+                61298105,
+                61298105,
+                20205024,
+                51580037,
+                190000,
+                71975061
+            ],
+            "amount_rows": [
+                [
+                    21388864,
+                    33409241,
+                    6400000,
+                    100000,
+                    61298105,
+                    61298105
+                ],
+                [
+                    20205024,
+                    51580037,
+                    190000,
+                    71975061
+                ]
+            ],
+            "extracted_lines": [
+                "21 388 864         33 409 241           6 400 000               100 000     61 298 105        61 298 105",
+                "20 205 024         51 580 037                                  190 000      71 975 061"
+            ],
+            "ae_lfi": 61298105,
+            "ae_consumed": 71975061,
+            "cp_lfi": 66760105,
+            "cp_consumed": 78585588,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                21388864,
+                35621241,
+                9650000,
+                100000,
+                66760105,
+                66760105,
+                20205024,
+                57983564,
+                397000,
+                78585588
+            ]
+        },
+        {
+            "code": "17",
+            "label": "Coordination de la politique des",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                3281880,
+                47079472,
+                50361352,
+                50361352,
+                3226858,
+                43170015,
+                46396873
+            ],
+            "amount_rows": [
+                [
+                    3281880,
+                    47079472,
+                    50361352,
+                    50361352
+                ],
+                [
+                    3226858,
+                    43170015,
+                    46396873
+                ]
+            ],
+            "extracted_lines": [
+                "3 281 880        47 079 472                                               50 361 352        50 361 352",
+                "3 226 858        43 170 015                                               46 396 873"
+            ],
+            "ae_lfi": 50361352,
+            "ae_consumed": 46396873,
+            "cp_lfi": 50361352,
+            "cp_consumed": 46306543,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                3281880,
+                47079472,
+                50361352,
+                50361352,
+                3226858,
+                43079685,
+                46306543
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 919266206,
+            "ae_consumed": 842348120,
+            "cp_lfi": 955006245,
+            "cp_consumed": 885722172
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 9,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29588",
+    "pdf_sha256": "5a4fde0b69f43e1eea078a588e0b866380d4d85661573e7ba303299836f93b38",
+    "mission": "Direction de l'action du Gouvernement"
+}

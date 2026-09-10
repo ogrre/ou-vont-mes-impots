@@ -1,0 +1,1222 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "345",
+        "name": "Service public de l'énergie"
+    },
+    "actions": [
+        {
+            "code": "09",
+            "label": "Soutien aux énergies renouvelables électriques en métropole",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                1367812498,
+                1367812498
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    1367812498,
+                    1367812498
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "1 367 812 498    1 367 812 498"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 1367812498,
+            "cp_lfi": 0,
+            "cp_consumed": 1367812498,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                1367812498,
+                1367812498
+            ]
+        },
+        {
+            "code": "09.01",
+            "label": "Eolien terrestre",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                165139123,
+                165139123
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    165139123,
+                    165139123
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "165 139 123      165 139 123"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 165139123,
+            "cp_lfi": 0,
+            "cp_consumed": 165139123,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                165139123,
+                165139123
+            ]
+        },
+        {
+            "code": "09.02",
+            "label": "Eolien en mer",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                259176558,
+                259176558
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    259176558,
+                    259176558
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "259 176 558      259 176 558"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 259176558,
+            "cp_lfi": 0,
+            "cp_consumed": 259176558,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                259176558,
+                259176558
+            ]
+        },
+        {
+            "code": "09.03",
+            "label": "Solaire photovoltaïque",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                475814398,
+                475814398
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    475814398,
+                    475814398
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "475 814 398      475 814 398"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 475814398,
+            "cp_lfi": 0,
+            "cp_consumed": 475814398,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                475814398,
+                475814398
+            ]
+        },
+        {
+            "code": "09.04",
+            "label": "Bio-énergies",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                436560589,
+                436560589
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    436560589,
+                    436560589
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "436 560 589      436 560 589"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 436560589,
+            "cp_lfi": 0,
+            "cp_consumed": 436560589,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                436560589,
+                436560589
+            ]
+        },
+        {
+            "code": "09.05",
+            "label": "Autres énergies",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "09",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                31121830,
+                31121830
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    31121830,
+                    31121830
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "31 121 830      31 121 830"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 31121830,
+            "cp_lfi": 0,
+            "cp_consumed": 31121830,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                31121830,
+                31121830
+            ]
+        },
+        {
+            "code": "10",
+            "label": "Soutien à l'injection de biométhane",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                875509601,
+                875509601,
+                875509601,
+                1037631701,
+                1037631701
+            ],
+            "amount_rows": [
+                [
+                    875509601,
+                    875509601,
+                    875509601
+                ],
+                [
+                    1037631701,
+                    1037631701
+                ]
+            ],
+            "extracted_lines": [
+                "875 509 601      875 509 601         875 509 601",
+                "1 037 631 701    1 037 631 701"
+            ],
+            "ae_lfi": 875509601,
+            "ae_consumed": 1037631701,
+            "cp_lfi": 875509601,
+            "cp_consumed": 1037631701,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                875509601,
+                875509601,
+                875509601,
+                1037631701,
+                1037631701
+            ]
+        },
+        {
+            "code": "10.01",
+            "label": "Soutien à l'injection de biométhane",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "10",
+            "contributes_to_program_total": false,
+            "amounts": [
+                875509601,
+                875509601,
+                875509601,
+                1037631701,
+                1037631701
+            ],
+            "amount_rows": [
+                [
+                    875509601,
+                    875509601,
+                    875509601
+                ],
+                [
+                    1037631701,
+                    1037631701
+                ]
+            ],
+            "extracted_lines": [
+                "875 509 601      875 509 601         875 509 601",
+                "1 037 631 701    1 037 631 701"
+            ],
+            "ae_lfi": 875509601,
+            "ae_consumed": 1037631701,
+            "cp_lfi": 875509601,
+            "cp_consumed": 1037631701,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                875509601,
+                875509601,
+                875509601,
+                1037631701,
+                1037631701
+            ]
+        },
+        {
+            "code": "11",
+            "label": "Soutien dans les zones non interconnectées au réseau métropolitain",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                2236439679,
+                2236439679,
+                2236439679,
+                2135803903,
+                2135803903
+            ],
+            "amount_rows": [
+                [
+                    2236439679,
+                    2236439679,
+                    2236439679
+                ],
+                [
+                    2135803903,
+                    2135803903
+                ]
+            ],
+            "extracted_lines": [
+                "2 236 439 679     2 236 439 679      2 236 439 679",
+                "2 135 803 903     2 135 803 903"
+            ],
+            "ae_lfi": 2236439679,
+            "ae_consumed": 2135803903,
+            "cp_lfi": 2236439679,
+            "cp_consumed": 2135803903,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                2236439679,
+                2236439679,
+                2236439679,
+                2135803903,
+                2135803903
+            ]
+        },
+        {
+            "code": "11.01",
+            "label": "Soutien à la transition énergétique dans les ZNI",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "11",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1054139679,
+                1054139679,
+                1054139679,
+                1045375288,
+                1045375288
+            ],
+            "amount_rows": [
+                [
+                    1054139679,
+                    1054139679,
+                    1054139679
+                ],
+                [
+                    1045375288,
+                    1045375288
+                ]
+            ],
+            "extracted_lines": [
+                "1 054 139 679     1 054 139 679      1 054 139 679",
+                "1 045 375 288     1 045 375 288"
+            ],
+            "ae_lfi": 1054139679,
+            "ae_consumed": 1045375288,
+            "cp_lfi": 1054139679,
+            "cp_consumed": 1045375288,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1054139679,
+                1054139679,
+                1054139679,
+                1045375288,
+                1045375288
+            ]
+        },
+        {
+            "code": "11.02",
+            "label": "Mécanismes de solidarité avec les ZNI",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "11",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1182300000,
+                1182300000,
+                1182300000,
+                1090428615,
+                1090428615
+            ],
+            "amount_rows": [
+                [
+                    1182300000,
+                    1182300000,
+                    1182300000
+                ],
+                [
+                    1090428615,
+                    1090428615
+                ]
+            ],
+            "extracted_lines": [
+                "1 182 300 000     1 182 300 000      1 182 300 000",
+                "1 090 428 615     1 090 428 615"
+            ],
+            "ae_lfi": 1182300000,
+            "ae_consumed": 1090428615,
+            "cp_lfi": 1182300000,
+            "cp_consumed": 1090428615,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1182300000,
+                1182300000,
+                1182300000,
+                1090428615,
+                1090428615
+            ]
+        },
+        {
+            "code": "12",
+            "label": "Soutien à la cogénération au gaz naturel et autres moyens thermiques",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                80463808,
+                80463808,
+                80463808,
+                259963407,
+                259963407
+            ],
+            "amount_rows": [
+                [
+                    80463808,
+                    80463808,
+                    80463808
+                ],
+                [
+                    259963407,
+                    259963407
+                ]
+            ],
+            "extracted_lines": [
+                "80 463 808      80 463 808          80 463 808",
+                "259 963 407      259 963 407"
+            ],
+            "ae_lfi": 80463808,
+            "ae_consumed": 259963407,
+            "cp_lfi": 80463808,
+            "cp_consumed": 259963407,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                80463808,
+                80463808,
+                80463808,
+                259963407,
+                259963407
+            ]
+        },
+        {
+            "code": "12.01",
+            "label": "Soutien à la cogénération au gaz naturel et autres moyens",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "12",
+            "contributes_to_program_total": false,
+            "amounts": [
+                80463808,
+                80463808,
+                80463808,
+                259963407,
+                259963407
+            ],
+            "amount_rows": [
+                [
+                    80463808,
+                    80463808,
+                    80463808
+                ],
+                [
+                    259963407,
+                    259963407
+                ]
+            ],
+            "extracted_lines": [
+                "80 463 808      80 463 808          80 463 808",
+                "259 963 407      259 963 407"
+            ],
+            "ae_lfi": 80463808,
+            "ae_consumed": 259963407,
+            "cp_lfi": 80463808,
+            "cp_consumed": 259963407,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                80463808,
+                80463808,
+                80463808,
+                259963407,
+                259963407
+            ]
+        },
+        {
+            "code": "13",
+            "label": "Soutien aux effacements de consommation",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                63000000,
+                63000000,
+                63000000,
+                162333408,
+                162333408
+            ],
+            "amount_rows": [
+                [
+                    63000000,
+                    63000000,
+                    63000000
+                ],
+                [
+                    162333408,
+                    162333408
+                ]
+            ],
+            "extracted_lines": [
+                "63 000 000      63 000 000          63 000 000",
+                "162 333 408      162 333 408"
+            ],
+            "ae_lfi": 63000000,
+            "ae_consumed": 162333408,
+            "cp_lfi": 63000000,
+            "cp_consumed": 162333408,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                63000000,
+                63000000,
+                63000000,
+                162333408,
+                162333408
+            ]
+        },
+        {
+            "code": "13.01",
+            "label": "Soutien aux effacements",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "13",
+            "contributes_to_program_total": false,
+            "amounts": [
+                63000000,
+                63000000,
+                63000000,
+                162333408,
+                162333408
+            ],
+            "amount_rows": [
+                [
+                    63000000,
+                    63000000,
+                    63000000
+                ],
+                [
+                    162333408,
+                    162333408
+                ]
+            ],
+            "extracted_lines": [
+                "63 000 000      63 000 000          63 000 000",
+                "162 333 408      162 333 408"
+            ],
+            "ae_lfi": 63000000,
+            "ae_consumed": 162333408,
+            "cp_lfi": 63000000,
+            "cp_consumed": 17,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                63000000,
+                63000000,
+                63000000,
+                17,
+                162333408,
+                162333408
+            ]
+        },
+        {
+            "code": "14",
+            "label": "Dispositions sociales pour les consommateurs en situation de précarité",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                44923343,
+                44923343,
+                44923343,
+                32949952,
+                32949952
+            ],
+            "amount_rows": [
+                [
+                    44923343,
+                    44923343,
+                    44923343
+                ],
+                [
+                    32949952,
+                    32949952
+                ]
+            ],
+            "extracted_lines": [
+                "44 923 343       44 923 343         44 923 343",
+                "32 949 952        32 949 952"
+            ],
+            "ae_lfi": 44923343,
+            "ae_consumed": 32949952,
+            "cp_lfi": 44923343,
+            "cp_consumed": 32949952,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                44923343,
+                44923343,
+                44923343,
+                32949952,
+                32949952
+            ]
+        },
+        {
+            "code": "14.01",
+            "label": "Compensation des versements au fond de solidarité logement",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "14",
+            "contributes_to_program_total": false,
+            "amounts": [
+                26723343,
+                26723343,
+                26723343,
+                26893075,
+                26893075
+            ],
+            "amount_rows": [
+                [
+                    26723343,
+                    26723343,
+                    26723343
+                ],
+                [
+                    26893075,
+                    26893075
+                ]
+            ],
+            "extracted_lines": [
+                "26 723 343       26 723 343         26 723 343",
+                "26 893 075        26 893 075"
+            ],
+            "ae_lfi": 26723343,
+            "ae_consumed": 26893075,
+            "cp_lfi": 26723343,
+            "cp_consumed": 26893075,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                26723343,
+                26723343,
+                26723343,
+                26893075,
+                26893075
+            ]
+        },
+        {
+            "code": "14.02",
+            "label": "Dispositif d'affichage déporté de la consommation d'énergie",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "14",
+            "contributes_to_program_total": false,
+            "amounts": [
+                11700000,
+                11700000,
+                11700000,
+                2020166,
+                2020166
+            ],
+            "amount_rows": [
+                [
+                    11700000,
+                    11700000,
+                    11700000
+                ],
+                [
+                    2020166,
+                    2020166
+                ]
+            ],
+            "extracted_lines": [
+                "11 700 000       11 700 000         11 700 000",
+                "2 020 166         2 020 166"
+            ],
+            "ae_lfi": 11700000,
+            "ae_consumed": 2020166,
+            "cp_lfi": 11700000,
+            "cp_consumed": 2020166,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                11700000,
+                11700000,
+                11700000,
+                2020166,
+                2020166
+            ]
+        },
+        {
+            "code": "14.03",
+            "label": "Autres dispositifs de lutte contre la précarité énergétique",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "14",
+            "contributes_to_program_total": false,
+            "amounts": [
+                6500000,
+                6500000,
+                6500000,
+                4036711,
+                4036711
+            ],
+            "amount_rows": [
+                [
+                    6500000,
+                    6500000,
+                    6500000
+                ],
+                [
+                    4036711,
+                    4036711
+                ]
+            ],
+            "extracted_lines": [
+                "6 500 000        6 500 000          6 500 000",
+                "4 036 711         4 036 711"
+            ],
+            "ae_lfi": 6500000,
+            "ae_consumed": 4036711,
+            "cp_lfi": 6500000,
+            "cp_consumed": 4036711,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                6500000,
+                6500000,
+                6500000,
+                4036711,
+                4036711
+            ]
+        },
+        {
+            "code": "15",
+            "label": "Frais divers",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                404922,
+                404922,
+                404922,
+                1392237,
+                22708800,
+                24101037
+            ],
+            "amount_rows": [
+                [
+                    404922,
+                    404922,
+                    404922
+                ],
+                [
+                    1392237,
+                    22708800,
+                    24101037
+                ]
+            ],
+            "extracted_lines": [
+                "404 922         404 922             404 922",
+                "1 392 237        22 708 800      24 101 037"
+            ],
+            "ae_lfi": 404922,
+            "ae_consumed": 24101037,
+            "cp_lfi": 404922,
+            "cp_consumed": 24008438,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                404922,
+                404922,
+                404922,
+                1299638,
+                22708800,
+                24008438
+            ]
+        },
+        {
+            "code": "15.01",
+            "label": "Frais financiers et de gestion des contrats",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "15",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                22708800,
+                22708800
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    22708800,
+                    22708800
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "22 708 800      22 708 800"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 22708800,
+            "cp_lfi": 0,
+            "cp_consumed": 22708800,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                22708800,
+                22708800
+            ]
+        },
+        {
+            "code": "15.02",
+            "label": "Frais d'intermédiation",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "15",
+            "contributes_to_program_total": false,
+            "amounts": [
+                404922,
+                404922,
+                404922,
+                1392237,
+                1392237
+            ],
+            "amount_rows": [
+                [
+                    404922,
+                    404922,
+                    404922
+                ],
+                [
+                    1392237,
+                    1392237
+                ]
+            ],
+            "extracted_lines": [
+                "404 922        404 922             404 922",
+                "1 392 237                         1 392 237"
+            ],
+            "ae_lfi": 404922,
+            "ae_consumed": 1392237,
+            "cp_lfi": 404922,
+            "cp_consumed": 1299638,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                404922,
+                404922,
+                404922,
+                1299638,
+                1299638
+            ]
+        },
+        {
+            "code": "15.03",
+            "label": "Compléments de prix liés à l'accès régulé à l'électricité nucléaire",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "15",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "17",
+            "label": "Mesures exceptionnelles de protection des consommateurs",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1558258647,
+                1558258647,
+                1558258647,
+                409927,
+                681116733,
+                681526659
+            ],
+            "amount_rows": [
+                [
+                    1558258647,
+                    1558258647,
+                    1558258647
+                ],
+                [
+                    409927,
+                    681116733,
+                    681526659
+                ]
+            ],
+            "extracted_lines": [
+                "1 558 258 647     1 558 258 647      1 558 258 647",
+                "409 927           681 116 733        681 526 659"
+            ],
+            "ae_lfi": 1558258647,
+            "ae_consumed": 681526659,
+            "cp_lfi": 1558258647,
+            "cp_consumed": 681404117,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1558258647,
+                1558258647,
+                1558258647,
+                287384,
+                681116733,
+                681404117
+            ]
+        },
+        {
+            "code": "17.01",
+            "label": "Mesures à destination des consommateurs d'électricité",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "17",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1258258647,
+                1258258647,
+                1258258647,
+                409927,
+                198111336,
+                198521262
+            ],
+            "amount_rows": [
+                [
+                    1258258647,
+                    1258258647,
+                    1258258647
+                ],
+                [
+                    409927,
+                    198111336,
+                    198521262
+                ]
+            ],
+            "extracted_lines": [
+                "1 258 258 647     1 258 258 647      1 258 258 647",
+                "409 927           198 111 336        198 521 262"
+            ],
+            "ae_lfi": 1258258647,
+            "ae_consumed": 198521262,
+            "cp_lfi": 1258258647,
+            "cp_consumed": 198398720,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1258258647,
+                1258258647,
+                1258258647,
+                287384,
+                198111336,
+                198398720
+            ]
+        },
+        {
+            "code": "17.02",
+            "label": "Mesures à destination des consommateurs de gaz",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "17",
+            "contributes_to_program_total": false,
+            "amounts": [
+                300000000,
+                300000000,
+                300000000,
+                483005397,
+                483005397
+            ],
+            "amount_rows": [
+                [
+                    300000000,
+                    300000000,
+                    300000000
+                ],
+                [
+                    483005397,
+                    483005397
+                ]
+            ],
+            "extracted_lines": [
+                "300 000 000      300 000 000         300 000 000",
+                "483 005 397       483 005 397"
+            ],
+            "ae_lfi": 300000000,
+            "ae_consumed": 483005397,
+            "cp_lfi": 300000000,
+            "cp_consumed": 483005397,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                300000000,
+                300000000,
+                300000000,
+                483005397,
+                483005397
+            ]
+        },
+        {
+            "code": "17.03",
+            "label": "Mesures à destination des consommateurs de carburants",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "17",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "18",
+            "label": "Soutien hydrogène",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                680000000,
+                680000000,
+                680000000,
+                0
+            ],
+            "amount_rows": [
+                [
+                    680000000,
+                    680000000,
+                    680000000
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "680 000 000      680 000 000         680 000 000",
+                "0"
+            ],
+            "ae_lfi": 680000000,
+            "ae_consumed": 0,
+            "cp_lfi": 25000000,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                25000000,
+                25000000,
+                25000000,
+                0
+            ]
+        },
+        {
+            "code": "18.01",
+            "label": "Soutien hydrogène",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "18",
+            "contributes_to_program_total": false,
+            "amounts": [
+                680000000,
+                680000000,
+                680000000,
+                0
+            ],
+            "amount_rows": [
+                [
+                    680000000,
+                    680000000,
+                    680000000
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "680 000 000      680 000 000         680 000 000",
+                "0"
+            ],
+            "ae_lfi": 680000000,
+            "ae_consumed": 0,
+            "cp_lfi": 25000000,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                25000000,
+                25000000,
+                25000000,
+                0
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 5539000000,
+            "ae_consumed": 5702122565,
+            "cp_lfi": 4884000000,
+            "cp_consumed": 5701907423
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 29,
+        "sub_actions": 20
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29840",
+    "pdf_sha256": "487e3879f35fd42bc3d4725157768bc3a93ccbeaa78716b1755c4a9fca940909",
+    "mission": "Écologie, développement et mobilité durables"
+}

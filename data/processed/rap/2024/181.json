@@ -1,0 +1,391 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "181",
+        "name": "Prévention des risques"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Prévention des risques",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                37397709,
+                33124296,
+                70522005,
+                74422005,
+                47044882,
+                8088274,
+                13033567,
+                68166724
+            ],
+            "amount_rows": [
+                [
+                    37397709,
+                    33124296,
+                    70522005,
+                    74422005
+                ],
+                [
+                    47044882,
+                    8088274,
+                    13033567,
+                    68166724
+                ]
+            ],
+            "extracted_lines": [
+                "37 397 709                                  33 124 296       70 522 005        74 422 005",
+                "47 044 882              8 088 274           13 033 567       68 166 724"
+            ],
+            "ae_lfi": 74422005,
+            "ae_consumed": 68166724,
+            "cp_lfi": 76360216,
+            "cp_consumed": 75173482,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                37397709,
+                35062507,
+                72460216,
+                76360216,
+                48460170,
+                7424861,
+                19288451,
+                75173482
+            ]
+        },
+        {
+            "code": "09",
+            "label": "Contrôle de la sûreté nucléaire et de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                57036316,
+                11953740,
+                100000,
+                1400000,
+                70490056,
+                70529056,
+                47633827,
+                18396855,
+                39515,
+                1482070,
+                67552267
+            ],
+            "amount_rows": [
+                [
+                    57036316,
+                    11953740,
+                    100000,
+                    1400000,
+                    70490056,
+                    70529056
+                ],
+                [
+                    47633827,
+                    18396855,
+                    39515,
+                    1482070,
+                    67552267
+                ]
+            ],
+            "extracted_lines": [
+                "57 036 316        11 953 740                100 000             1 400 000      70 490 056        70 529 056",
+                "47 633 827        18 396 855                39 515              1 482 070      67 552 267"
+            ],
+            "ae_lfi": 70529056,
+            "ae_consumed": 67552267,
+            "cp_lfi": 75229056,
+            "cp_consumed": 72322960,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                57036316,
+                16653740,
+                100000,
+                1400000,
+                75190056,
+                75229056,
+                47633827,
+                23117623,
+                85140,
+                1486370,
+                72322960
+            ]
+        },
+        {
+            "code": "10",
+            "label": "Prévention des risques naturels et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                25749037,
+                4020000,
+                8030000,
+                37799037,
+                38239037,
+                26923155,
+                2644774,
+                3044963,
+                32612893
+            ],
+            "amount_rows": [
+                [
+                    25749037,
+                    4020000,
+                    8030000,
+                    37799037,
+                    38239037
+                ],
+                [
+                    26923155,
+                    2644774,
+                    3044963,
+                    32612893
+                ]
+            ],
+            "extracted_lines": [
+                "25 749 037              4 020 000             8 030 000      37 799 037        38 239 037",
+                "26 923 155              2 644 774             3 044 963      32 612 893"
+            ],
+            "ae_lfi": 38239037,
+            "ae_consumed": 32612893,
+            "cp_lfi": 39348637,
+            "cp_consumed": 35342104,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                25749037,
+                4020000,
+                8030000,
+                37799037,
+                39348637,
+                28473485,
+                3511826,
+                3356793,
+                35342104
+            ]
+        },
+        {
+            "code": "11",
+            "label": "Gestion de l'après-mine et travaux",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                39702241,
+                866034,
+                1500000,
+                42068275,
+                42068275,
+                39054149,
+                38148,
+                32430,
+                39124726
+            ],
+            "amount_rows": [
+                [
+                    39702241,
+                    866034,
+                    1500000,
+                    42068275,
+                    42068275
+                ],
+                [
+                    39054149,
+                    38148,
+                    32430,
+                    39124726
+                ]
+            ],
+            "extracted_lines": [
+                "39 702 241                866 034             1 500 000      42 068 275        42 068 275",
+                "39 054 149                38 148                32 430       39 124 726"
+            ],
+            "ae_lfi": 42068275,
+            "ae_consumed": 39124726,
+            "cp_lfi": 42068275,
+            "cp_consumed": 45361527,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                39702241,
+                866034,
+                1500000,
+                42068275,
+                42068275,
+                45196997,
+                8620,
+                155910,
+                45361527
+            ]
+        },
+        {
+            "code": "12",
+            "label": "Agence de l'environnement et de la",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                879000000,
+                879000000,
+                879000000,
+                788503530,
+                788503530
+            ],
+            "amount_rows": [
+                [
+                    879000000,
+                    879000000,
+                    879000000
+                ],
+                [
+                    788503530,
+                    788503530
+                ]
+            ],
+            "extracted_lines": [
+                "879 000 000                                                   879 000 000       879 000 000",
+                "788 503 530                                                   788 503 530"
+            ],
+            "ae_lfi": 879000000,
+            "ae_consumed": 788503530,
+            "cp_lfi": 879000000,
+            "cp_consumed": 788503530,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                879000000,
+                879000000,
+                879000000,
+                788503530,
+                788503530
+            ]
+        },
+        {
+            "code": "13",
+            "label": "Institut national de l'environnement",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                32066117,
+                32066117,
+                32066117,
+                32627848,
+                32627848
+            ],
+            "amount_rows": [
+                [
+                    32066117,
+                    32066117,
+                    32066117
+                ],
+                [
+                    32627848,
+                    32627848
+                ]
+            ],
+            "extracted_lines": [
+                "32 066 117                                                   32 066 117        32 066 117",
+                "32 627 848                                                   32 627 848"
+            ],
+            "ae_lfi": 32066117,
+            "ae_consumed": 32627848,
+            "cp_lfi": 32066117,
+            "cp_consumed": 32627848,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                32066117,
+                32066117,
+                32066117,
+                32627848,
+                32627848
+            ]
+        },
+        {
+            "code": "14",
+            "label": "Fonds de prévention des risques",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                26850000,
+                8250000,
+                189900000,
+                225000000,
+                225000000,
+                26075990,
+                4439450,
+                214025780,
+                244541220
+            ],
+            "amount_rows": [
+                [
+                    26850000,
+                    8250000,
+                    189900000,
+                    225000000,
+                    225000000
+                ],
+                [
+                    26075990,
+                    4439450,
+                    214025780,
+                    244541220
+                ]
+            ],
+            "extracted_lines": [
+                "26 850 000              8 250 000          189 900 000      225 000 000       225 000 000",
+                "26 075 990              4 439 450          214 025 780      244 541 220"
+            ],
+            "ae_lfi": 225000000,
+            "ae_consumed": 244541220,
+            "cp_lfi": 220000000,
+            "cp_consumed": 236586089,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                19900000,
+                10950000,
+                189150000,
+                220000000,
+                220000000,
+                37101626,
+                12495283,
+                186989180,
+                236586089,
+                15
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 1361324490,
+            "ae_consumed": 1273129207,
+            "cp_lfi": 1364072301,
+            "cp_consumed": 1285917539
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 7,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29711",
+    "pdf_sha256": "afa97de12edad3f63fb69855dd6ff50deb30c626673a698fa23334a3612069f2",
+    "mission": "Écologie, développement et mobilité durables"
+}

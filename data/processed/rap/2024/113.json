@@ -1,0 +1,189 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "113",
+        "name": "Paysages, eau et biodiversité"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Sites, paysages, publicité",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                3656601,
+                6478416,
+                10135017,
+                10135017,
+                1915932,
+                6247918,
+                8163850
+            ],
+            "amount_rows": [
+                [
+                    3656601,
+                    6478416,
+                    10135017,
+                    10135017
+                ],
+                [
+                    1915932,
+                    6247918,
+                    8163850
+                ]
+            ],
+            "extracted_lines": [
+                "3 656 601                              6 478 416                        10 135 017        10 135 017",
+                "1 915 932                              6 247 918                         8 163 850"
+            ],
+            "ae_lfi": 10135017,
+            "ae_consumed": 8163850,
+            "cp_lfi": 9344928,
+            "cp_consumed": 8006427,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                2960565,
+                6384363,
+                9344928,
+                9344928,
+                2167613,
+                5838814,
+                8006427
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Innovation, territorialisation et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                8103490,
+                1483443,
+                9586933,
+                9586933,
+                5573966,
+                38789,
+                1094360,
+                6707116
+            ],
+            "amount_rows": [
+                [
+                    8103490,
+                    1483443,
+                    9586933,
+                    9586933
+                ],
+                [
+                    5573966,
+                    38789,
+                    1094360,
+                    6707116
+                ]
+            ],
+            "extracted_lines": [
+                "8 103 490                              1 483 443                         9 586 933          9 586 933",
+                "5 573 966             38 789           1 094 360                         6 707 116"
+            ],
+            "ae_lfi": 9586933,
+            "ae_consumed": 6707116,
+            "cp_lfi": 9585853,
+            "cp_consumed": 7338215,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                8281960,
+                1303893,
+                9585853,
+                9585853,
+                6215945,
+                38789,
+                1083481,
+                7338215
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Gestion des milieux et biodiversité",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                167138775,
+                9430618,
+                381663504,
+                558232897,
+                564205597,
+                158793662,
+                10138989,
+                267259063,
+                3060848,
+                439252562
+            ],
+            "amount_rows": [
+                [
+                    167138775,
+                    9430618,
+                    381663504,
+                    558232897,
+                    564205597
+                ],
+                [
+                    158793662,
+                    10138989,
+                    267259063,
+                    3060848,
+                    439252562
+                ]
+            ],
+            "extracted_lines": [
+                "167 138 775          9 430 618         381 663 504                        558 232 897       564 205 597",
+                "158 793 662         10 138 989         267 259 063         3 060 848      439 252 562"
+            ],
+            "ae_lfi": 564205597,
+            "ae_consumed": 439252562,
+            "cp_lfi": 499014534,
+            "cp_consumed": 363814768,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                159751515,
+                7948329,
+                325341990,
+                493041834,
+                499014534,
+                158052119,
+                9819860,
+                194623152,
+                1319638,
+                363814768
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 583927547,
+            "ae_consumed": 454123529,
+            "cp_lfi": 517945315,
+            "cp_consumed": 379159409
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 3,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29564",
+    "pdf_sha256": "85eeca0ab4d1297729a0e2d4ae58f4c9da6c5b8804f6fc06df2a01cc5bde9222",
+    "mission": "Écologie, développement et mobilité durables"
+}

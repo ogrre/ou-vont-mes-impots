@@ -1,0 +1,258 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "101",
+        "name": "Accès au droit et à la justice"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Aide juridictionnelle",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1600000,
+                656930383,
+                658530383,
+                658530383,
+                59965,
+                657242014,
+                657301978
+            ],
+            "amount_rows": [
+                [
+                    1600000,
+                    656930383,
+                    658530383,
+                    658530383
+                ],
+                [
+                    59965,
+                    657242014,
+                    657301978
+                ]
+            ],
+            "extracted_lines": [
+                "1 600 000         656 930 383    658 530 383        658 530 383",
+                "59 965         657 242 014     657 301 978"
+            ],
+            "ae_lfi": 658530383,
+            "ae_consumed": 657301978,
+            "cp_lfi": 658530383,
+            "cp_consumed": 657318310,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1600000,
+                656930383,
+                658530383,
+                658530383,
+                149298,
+                657169012,
+                657318310
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Développement de l'accès au droit et du réseau judiciaire de proximité",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                300000,
+                15768510,
+                16068510,
+                16068510,
+                445086,
+                12172685,
+                12617771
+            ],
+            "amount_rows": [
+                [
+                    300000,
+                    15768510,
+                    16068510,
+                    16068510
+                ],
+                [
+                    445086,
+                    12172685,
+                    12617771
+                ]
+            ],
+            "extracted_lines": [
+                "300 000          15 768 510    16 068 510         16 068 510",
+                "445 086          12 172 685     12 617 771"
+            ],
+            "ae_lfi": 16068510,
+            "ae_consumed": 12617771,
+            "cp_lfi": 16068510,
+            "cp_consumed": 12569225,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                300000,
+                15768510,
+                16068510,
+                16068510,
+                396540,
+                12172685,
+                12569225
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Aide aux victimes",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                10502585,
+                36000050,
+                46502635,
+                46527635,
+                9143609,
+                34630314,
+                43773923
+            ],
+            "amount_rows": [
+                [
+                    10502585,
+                    36000050,
+                    46502635,
+                    46527635
+                ],
+                [
+                    9143609,
+                    34630314,
+                    43773923
+                ]
+            ],
+            "extracted_lines": [
+                "10 502 585           36 000 050    46 502 635         46 527 635",
+                "9 143 609           34 630 314     43 773 923"
+            ],
+            "ae_lfi": 46527635,
+            "ae_consumed": 43773923,
+            "cp_lfi": 46527635,
+            "cp_consumed": 43948996,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                10502585,
+                36000050,
+                46502635,
+                46527635,
+                9318694,
+                34630302,
+                43948996
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Médiation et espaces de rencontre",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                15132769,
+                15132769,
+                15132769,
+                47520,
+                13086505,
+                13134025
+            ],
+            "amount_rows": [
+                [
+                    15132769,
+                    15132769,
+                    15132769
+                ],
+                [
+                    47520,
+                    13086505,
+                    13134025
+                ]
+            ],
+            "extracted_lines": [
+                "15 132 769    15 132 769         15 132 769",
+                "47 520         13 086 505     13 134 025"
+            ],
+            "ae_lfi": 15132769,
+            "ae_consumed": 13134025,
+            "cp_lfi": 15132769,
+            "cp_consumed": 13134023,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                15132769,
+                15132769,
+                15132769,
+                47520,
+                13086503,
+                13134023
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Indemnisation des avoués",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 736259297,
+            "ae_consumed": 726827698,
+            "cp_lfi": 736259297,
+            "cp_consumed": 726970554
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 5,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29534",
+    "pdf_sha256": "3df618d540ba3dec01f409d643b25aa1e3a68b589765da6426e2bf8e49fd5e61",
+    "mission": "Justice"
+}

@@ -1,0 +1,150 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "142",
+        "name": "Enseignement supérieur et recherche agricoles"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Enseignement supérieur",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                263195416,
+                47314159,
+                20464041,
+                74529593,
+                405503209,
+                405503209,
+                249395746,
+                50202921,
+                16493085,
+                64518632,
+                5505300,
+                386115683
+            ],
+            "amount_rows": [
+                [
+                    263195416,
+                    47314159,
+                    20464041,
+                    74529593,
+                    405503209,
+                    405503209
+                ],
+                [
+                    249395746,
+                    50202921,
+                    16493085,
+                    64518632,
+                    5505300,
+                    386115683
+                ]
+            ],
+            "extracted_lines": [
+                "263 195 416        47 314 159        20 464 041       74 529 593                        405 503 209       405 503 209",
+                "249 395 746       50 202 921         16 493 085       64 518 632       5 505 300        386 115 683"
+            ],
+            "ae_lfi": 405503209,
+            "ae_consumed": 386115683,
+            "cp_lfi": 403410995,
+            "cp_consumed": 384009425,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                263195416,
+                47314159,
+                18371827,
+                74529593,
+                403410995,
+                403410995,
+                249395746,
+                50202921,
+                16493085,
+                64518632,
+                3399042,
+                384009425
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Recherche, développement et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                3194154,
+                32167332,
+                4235523,
+                39597009,
+                39597009,
+                2679248,
+                30513989,
+                3870955,
+                37064192
+            ],
+            "amount_rows": [
+                [
+                    3194154,
+                    32167332,
+                    4235523,
+                    39597009,
+                    39597009
+                ],
+                [
+                    2679248,
+                    30513989,
+                    3870955,
+                    37064192
+                ]
+            ],
+            "extracted_lines": [
+                "3 194 154       32 167 332                           4 235 523                        39 597 009        39 597 009",
+                "2 679 248      30 513 989                            3 870 955                        37 064 192"
+            ],
+            "ae_lfi": 39597009,
+            "ae_consumed": 37064192,
+            "cp_lfi": 39597009,
+            "cp_consumed": 37064192,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                3194154,
+                32167332,
+                4235523,
+                39597009,
+                39597009,
+                2679248,
+                30513989,
+                3870955,
+                37064192
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 445100218,
+            "ae_consumed": 423179875,
+            "cp_lfi": 443008004,
+            "cp_consumed": 421073617
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 2,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29618",
+    "pdf_sha256": "1b239e5603e335418110103eb3f74a33f4d13bc306ea74e8b273d87cef9f65a9",
+    "mission": "Recherche et enseignement supérieur"
+}

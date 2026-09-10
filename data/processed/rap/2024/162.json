@@ -1,0 +1,399 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "162",
+        "name": "Interventions territoriales de l'État"
+    },
+    "actions": [
+        {
+            "code": "02",
+            "label": "Eau - Agriculture en Bretagne",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1271746,
+                613376,
+                1885122,
+                1885122,
+                1824660,
+                15837,
+                4032206,
+                5872702
+            ],
+            "amount_rows": [
+                [
+                    1271746,
+                    613376,
+                    1885122,
+                    1885122
+                ],
+                [
+                    1824660,
+                    15837,
+                    4032206,
+                    5872702
+                ]
+            ],
+            "extracted_lines": [
+                "1 271 746                                   613 376     1 885 122          1 885 122",
+                "1 824 660               15 837             4 032 206     5 872 702"
+            ],
+            "ae_lfi": 1885122,
+            "ae_consumed": 5872702,
+            "cp_lfi": 1866265,
+            "cp_consumed": 6382171,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1472945,
+                393320,
+                1866265,
+                1866265,
+                1868144,
+                15837,
+                4498190,
+                6382171
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Plans d'investissement pour la Corse",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                47907005,
+                47907005,
+                67907005,
+                48161564,
+                48161564
+            ],
+            "amount_rows": [
+                [
+                    47907005,
+                    47907005,
+                    67907005
+                ],
+                [
+                    48161564,
+                    48161564
+                ]
+            ],
+            "extracted_lines": [
+                "47 907 005     47 907 005         67 907 005",
+                "48 161 564     48 161 564"
+            ],
+            "ae_lfi": 67907005,
+            "ae_consumed": 48161564,
+            "cp_lfi": 23787563,
+            "cp_consumed": 69948071,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                3787563,
+                3787563,
+                23787563,
+                69948071,
+                69948071
+            ]
+        },
+        {
+            "code": "08",
+            "label": "Volet territorialisé du plan national d'action chlordécone",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                2284000,
+                1979723,
+                4263723,
+                4263723,
+                1493585,
+                4954704,
+                6448290
+            ],
+            "amount_rows": [
+                [
+                    2284000,
+                    1979723,
+                    4263723,
+                    4263723
+                ],
+                [
+                    1493585,
+                    4954704,
+                    6448290
+                ]
+            ],
+            "extracted_lines": [
+                "2 284 000                                 1 979 723     4 263 723          4 263 723",
+                "1 493 585                                  4 954 704     6 448 290"
+            ],
+            "ae_lfi": 4263723,
+            "ae_consumed": 6448290,
+            "cp_lfi": 4227500,
+            "cp_consumed": 6028720,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                2412200,
+                1815300,
+                4227500,
+                4227500,
+                1379571,
+                4649149,
+                6028720
+            ]
+        },
+        {
+            "code": "09",
+            "label": "Plan littoral 21",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                500000,
+                7500000,
+                8000000,
+                8000000,
+                7246867,
+                7246867
+            ],
+            "amount_rows": [
+                [
+                    500000,
+                    7500000,
+                    8000000,
+                    8000000
+                ],
+                [
+                    7246867,
+                    7246867
+                ]
+            ],
+            "extracted_lines": [
+                "500 000                                 7 500 000     8 000 000          8 000 000",
+                "7 246 867     7 246 867"
+            ],
+            "ae_lfi": 8000000,
+            "ae_consumed": 7246867,
+            "cp_lfi": 4205454,
+            "cp_consumed": 3345744,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                205454,
+                4000000,
+                4205454,
+                4205454,
+                3345744,
+                3345744
+            ]
+        },
+        {
+            "code": "10",
+            "label": "Fonds interministériel pour la transformation de la",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                2178491,
+                9429693,
+                11608184,
+                11608184,
+                1050242,
+                13286130,
+                14963426,
+                29299797
+            ],
+            "amount_rows": [
+                [
+                    2178491,
+                    9429693,
+                    11608184,
+                    11608184
+                ],
+                [
+                    1050242,
+                    13286130,
+                    14963426,
+                    29299797
+                ]
+            ],
+            "extracted_lines": [
+                "2 178 491            9 429 693     11 608 184         11 608 184",
+                "1 050 242         13 286 130            14 963 426     29 299 797"
+            ],
+            "ae_lfi": 11608184,
+            "ae_consumed": 29299797,
+            "cp_lfi": 11539668,
+            "cp_consumed": 49190360,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                2139239,
+                9400429,
+                11539668,
+                11539668,
+                1491994,
+                30783091,
+                16915275,
+                49190360
+            ]
+        },
+        {
+            "code": "11",
+            "label": "Reconquête de la qualité des cours d'eau en Pays de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                57002,
+                57002,
+                57002,
+                53867,
+                53867
+            ],
+            "amount_rows": [
+                [
+                    57002,
+                    57002,
+                    57002
+                ],
+                [
+                    53867,
+                    53867
+                ]
+            ],
+            "extracted_lines": [
+                "57 002       57 002             57 002",
+                "53 867       53 867"
+            ],
+            "ae_lfi": 57002,
+            "ae_consumed": 53867,
+            "cp_lfi": 658732,
+            "cp_consumed": 622502,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                658732,
+                658732,
+                658732,
+                622502,
+                622502
+            ]
+        },
+        {
+            "code": "12",
+            "label": "Service d'incendie et de secours à Wallis-et-Futuna",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                2067544,
+                2067544,
+                2067544,
+                1931385,
+                1931385
+            ],
+            "amount_rows": [
+                [
+                    2067544,
+                    2067544,
+                    2067544
+                ],
+                [
+                    1931385,
+                    1931385
+                ]
+            ],
+            "extracted_lines": [
+                "2 067 544     2 067 544          2 067 544",
+                "1 931 385     1 931 385"
+            ],
+            "ae_lfi": 2067544,
+            "ae_consumed": 1931385,
+            "cp_lfi": 2049874,
+            "cp_consumed": 1882998,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                2049874,
+                2049874,
+                2049874,
+                1882998,
+                1882998
+            ]
+        },
+        {
+            "code": "13",
+            "label": "Plan Sargasses II",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                4857770,
+                4857770,
+                4857770,
+                1178957,
+                3311519,
+                4490476
+            ],
+            "amount_rows": [
+                [
+                    4857770,
+                    4857770,
+                    4857770
+                ],
+                [
+                    1178957,
+                    3311519,
+                    4490476
+                ]
+            ],
+            "extracted_lines": [
+                "4 857 770     4 857 770          4 857 770",
+                "1 178 957                                 3 311 519     4 490 476"
+            ],
+            "ae_lfi": 4857770,
+            "ae_consumed": 4490476,
+            "cp_lfi": 4816500,
+            "cp_consumed": 4493690,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                4816500,
+                4816500,
+                4816500,
+                1735357,
+                2758333,
+                4493690
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 100646350,
+            "ae_consumed": 103504948,
+            "cp_lfi": 53151556,
+            "cp_consumed": 141894258
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 8,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29672",
+    "pdf_sha256": "82fdbb336b3b857fcc4ec3f0d377bee03f37206be9ca4c73edb8111b318ba9fc",
+    "mission": "Cohésion des territoires"
+}

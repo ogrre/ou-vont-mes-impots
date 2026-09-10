@@ -1,0 +1,255 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "111",
+        "name": "Amélioration de la qualité de l'emploi et des relations du travail"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Santé et sécurité au travail",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                19500000,
+                7550000,
+                27050000,
+                27050000,
+                21336986,
+                3348919,
+                24685904
+            ],
+            "amount_rows": [
+                [
+                    19500000,
+                    7550000,
+                    27050000,
+                    27050000
+                ],
+                [
+                    21336986,
+                    3348919,
+                    24685904
+                ]
+            ],
+            "extracted_lines": [
+                "19 500 000            7 550 000       27 050 000            27 050 000",
+                "21 336 986            3 348 919        24 685 904"
+            ],
+            "ae_lfi": 27050000,
+            "ae_consumed": 24685904,
+            "cp_lfi": 26750000,
+            "cp_consumed": 24653141,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                19500000,
+                7250000,
+                26750000,
+                26750000,
+                21204912,
+                3448229,
+                24653141
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Qualité et effectivité du droit",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                242101,
+                16330142,
+                16572243,
+                16572243,
+                733874,
+                10841482,
+                11575356
+            ],
+            "amount_rows": [
+                [
+                    242101,
+                    16330142,
+                    16572243,
+                    16572243
+                ],
+                [
+                    733874,
+                    10841482,
+                    11575356
+                ]
+            ],
+            "extracted_lines": [
+                "242 101          16 330 142       16 572 243            16 572 243",
+                "733 874          10 841 482        11 575 356"
+            ],
+            "ae_lfi": 16572243,
+            "ae_consumed": 11575356,
+            "cp_lfi": 16572243,
+            "cp_consumed": 9817923,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                242101,
+                16330142,
+                16572243,
+                16572243,
+                545570,
+                9272353,
+                9817923
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Dialogue social et démocratie sociale",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                30481547,
+                110514050,
+                140995597,
+                140995597,
+                26851386,
+                109396188,
+                136247574
+            ],
+            "amount_rows": [
+                [
+                    30481547,
+                    110514050,
+                    140995597,
+                    140995597
+                ],
+                [
+                    26851386,
+                    109396188,
+                    136247574
+                ]
+            ],
+            "extracted_lines": [
+                "30 481 547         110 514 050       140 995 597           140 995 597",
+                "26 851 386         109 396 188        136 247 574"
+            ],
+            "ae_lfi": 140995597,
+            "ae_consumed": 136247574,
+            "cp_lfi": 66714050,
+            "cp_consumed": 63581395,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                28540000,
+                38174050,
+                66714050,
+                66714050,
+                24964064,
+                38617331,
+                63581395
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Lutte contre le travail illégal",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Renforcement de la prévention en santé au travail",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                39782,
+                9000,
+                48782
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    39782,
+                    9000,
+                    48782
+                ]
+            ],
+            "extracted_lines": [
+                "0                     0",
+                "39 782                 9 000            48 782"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 48782,
+            "cp_lfi": 0,
+            "cp_consumed": 462933,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                438933,
+                24000,
+                462933
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 184617840,
+            "ae_consumed": 172557617,
+            "cp_lfi": 110036293,
+            "cp_consumed": 98515391
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 5,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29558",
+    "pdf_sha256": "287d586ef79c98e72a5c68cab8a1c0d66f56af6b7b3a28789a894048e6b70fdc",
+    "mission": "Travail et emploi"
+}

@@ -1,0 +1,123 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "352",
+        "name": "Innovation et transformation numériques"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Fonds pour l'accélération du",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                70800000,
+                70800000,
+                71550000,
+                31102289,
+                2308726,
+                1636961,
+                35047975
+            ],
+            "amount_rows": [
+                [
+                    70800000,
+                    70800000,
+                    71550000
+                ],
+                [
+                    31102289,
+                    2308726,
+                    1636961,
+                    35047975
+                ]
+            ],
+            "extracted_lines": [
+                "70 800 000                                                    70 800 000        71 550 000",
+                "31 102 289              2 308 726             1 636 961       35 047 975"
+            ],
+            "ae_lfi": 71550000,
+            "ae_consumed": 35047975,
+            "cp_lfi": 71550000,
+            "cp_consumed": 32092601,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                70800000,
+                70800000,
+                71550000,
+                28249616,
+                2197381,
+                1645605,
+                32092601
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Soutien au recrutement de profils",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                3000000,
+                300000,
+                3300000,
+                3300000,
+                0
+            ],
+            "amount_rows": [
+                [
+                    3000000,
+                    300000,
+                    3300000,
+                    3300000
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "3 000 000            300 000                                                     3 300 000          3 300 000",
+                "0"
+            ],
+            "ae_lfi": 3300000,
+            "ae_consumed": 0,
+            "cp_lfi": 3300000,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                3000000,
+                300000,
+                3300000,
+                3300000,
+                0
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 74850000,
+            "ae_consumed": 35047975,
+            "cp_lfi": 74850000,
+            "cp_consumed": 32092601
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 2,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29852",
+    "pdf_sha256": "d0cb6ab5488d3c9026fb7ef92482be67dbb87318b1553795159a12397e25d0fb",
+    "mission": "Transformation et fonction publiques"
+}

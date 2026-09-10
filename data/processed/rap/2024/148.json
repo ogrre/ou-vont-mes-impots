@@ -1,0 +1,192 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "148",
+        "name": "Fonction publique"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Formation des fonctionnaires",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                290000,
+                49748275,
+                38745375,
+                88783650,
+                88783650,
+                126098,
+                58405902,
+                21287665,
+                79819664
+            ],
+            "amount_rows": [
+                [
+                    290000,
+                    49748275,
+                    38745375,
+                    88783650,
+                    88783650
+                ],
+                [
+                    126098,
+                    58405902,
+                    21287665,
+                    79819664
+                ]
+            ],
+            "extracted_lines": [
+                "290 000       49 748 275                                  38 745 375      88 783 650        88 783 650",
+                "126 098        58 405 902                                  21 287 665      79 819 664"
+            ],
+            "ae_lfi": 88783650,
+            "ae_consumed": 79819664,
+            "cp_lfi": 88782248,
+            "cp_consumed": 94222377,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                290000,
+                49746918,
+                38745330,
+                88782248,
+                88782248,
+                126098,
+                58575364,
+                35520915,
+                94222377
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Action sociale interministérielle",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                124575658,
+                26673660,
+                6850230,
+                158099548,
+                164134548,
+                119703585,
+                2794542,
+                14008977,
+                136507104
+            ],
+            "amount_rows": [
+                [
+                    124575658,
+                    26673660,
+                    6850230,
+                    158099548,
+                    164134548
+                ],
+                [
+                    119703585,
+                    2794542,
+                    14008977,
+                    136507104
+                ]
+            ],
+            "extracted_lines": [
+                "124 575 658              26 673 660            6 850 230     158 099 548       164 134 548",
+                "119 703 585               2 794 542           14 008 977     136 507 104"
+            ],
+            "ae_lfi": 164134548,
+            "ae_consumed": 136507104,
+            "cp_lfi": 170802245,
+            "cp_consumed": 141542107,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                124741594,
+                33175420,
+                6850231,
+                164767245,
+                170802245,
+                119943997,
+                5755856,
+                15842254,
+                141542107
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Appui et innovation des ressources",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                26623341,
+                2269290,
+                28892631,
+                28892631,
+                26194516,
+                1255553,
+                730418,
+                28180487
+            ],
+            "amount_rows": [
+                [
+                    26623341,
+                    2269290,
+                    28892631,
+                    28892631
+                ],
+                [
+                    26194516,
+                    1255553,
+                    730418,
+                    28180487
+                ]
+            ],
+            "extracted_lines": [
+                "26 623 341              2 269 290                           28 892 631        28 892 631",
+                "26 194 516              1 255 553               730 418     28 180 487"
+            ],
+            "ae_lfi": 28892631,
+            "ae_consumed": 28180487,
+            "cp_lfi": 29014502,
+            "cp_consumed": 29321857,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                26735599,
+                2278903,
+                29014502,
+                29014502,
+                27334203,
+                1409188,
+                578466,
+                29321857
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 281810829,
+            "ae_consumed": 244507256,
+            "cp_lfi": 288598995,
+            "cp_consumed": 265086341
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 3,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29639",
+    "pdf_sha256": "b326e4b44d2d0e997ae42e9da0af288bf046dbc5db40e2bfa67ad434901528bd",
+    "mission": "Transformation et fonction publiques"
+}

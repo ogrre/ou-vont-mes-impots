@@ -1,0 +1,273 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "848",
+        "name": "Programme incitatif de transformation"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "France Télévisions",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                45000000,
+                45000000,
+                45000000,
+                12391306,
+                12391306
+            ],
+            "amount_rows": [
+                [
+                    45000000,
+                    45000000,
+                    45000000
+                ],
+                [
+                    12391306,
+                    12391306
+                ]
+            ],
+            "extracted_lines": [
+                "45 000 000      45 000 000          45 000 000",
+                "12 391 306       12 391 306"
+            ],
+            "ae_lfi": 45000000,
+            "ae_consumed": 12391306,
+            "cp_lfi": 45000000,
+            "cp_consumed": 12391306,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                45000000,
+                45000000,
+                45000000,
+                12391306,
+                12391306
+            ]
+        },
+        {
+            "code": "02",
+            "label": "ARTE France",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                       0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Radio France",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                15000000,
+                15000000,
+                15000000,
+                4130436,
+                4130436
+            ],
+            "amount_rows": [
+                [
+                    15000000,
+                    15000000,
+                    15000000
+                ],
+                [
+                    4130436,
+                    4130436
+                ]
+            ],
+            "extracted_lines": [
+                "15 000 000      15 000 000          15 000 000",
+                "4 130 436        4 130 436"
+            ],
+            "ae_lfi": 15000000,
+            "ae_consumed": 4130436,
+            "cp_lfi": 15000000,
+            "cp_consumed": 4130436,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                15000000,
+                15000000,
+                15000000,
+                4130436,
+                4130436
+            ]
+        },
+        {
+            "code": "04",
+            "label": "France Médias Monde",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                5000000,
+                5000000,
+                5000000,
+                1376814,
+                1376814
+            ],
+            "amount_rows": [
+                [
+                    5000000,
+                    5000000,
+                    5000000
+                ],
+                [
+                    1376814,
+                    1376814
+                ]
+            ],
+            "extracted_lines": [
+                "5 000 000      5 000 000           5 000 000",
+                "1 376 814       1 376 814"
+            ],
+            "ae_lfi": 5000000,
+            "ae_consumed": 1376814,
+            "cp_lfi": 5000000,
+            "cp_consumed": 1376814,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                5000000,
+                5000000,
+                5000000,
+                1376814,
+                1376814
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Institut national de l'audiovisuel",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                4000000,
+                4000000,
+                4000000,
+                1101452,
+                1101452
+            ],
+            "amount_rows": [
+                [
+                    4000000,
+                    4000000,
+                    4000000
+                ],
+                [
+                    1101452,
+                    1101452
+                ]
+            ],
+            "extracted_lines": [
+                "4 000 000      4 000 000           4 000 000",
+                "1 101 452       1 101 452"
+            ],
+            "ae_lfi": 4000000,
+            "ae_consumed": 1101452,
+            "cp_lfi": 4000000,
+            "cp_consumed": 1101452,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                4000000,
+                4000000,
+                4000000,
+                1101452,
+                1101452
+            ]
+        },
+        {
+            "code": "06",
+            "label": "TV5 Monde",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                       0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 69000000,
+            "ae_consumed": 19000008,
+            "cp_lfi": 69000000,
+            "cp_consumed": 19000008
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 6,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30113",
+    "pdf_sha256": "e9f872c126248f8fe704d30857689966c63ae3794900732b1abeea8245c418f2",
+    "mission": null
+}

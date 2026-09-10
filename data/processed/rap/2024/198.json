@@ -1,0 +1,159 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "198",
+        "name": "Régimes sociaux et de retraite des transports terrestres"
+    },
+    "actions": [
+        {
+            "code": "03",
+            "label": "Régime de retraite du personnel de la SNCF",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                3464399821,
+                3464399821,
+                3464399821,
+                3316564362,
+                3316564362
+            ],
+            "amount_rows": [
+                [
+                    3464399821,
+                    3464399821,
+                    3464399821
+                ],
+                [
+                    3316564362,
+                    3316564362
+                ]
+            ],
+            "extracted_lines": [
+                "3 464 399 821       3 464 399 821       3 464 399 821",
+                "3 316 564 362       3 316 564 362"
+            ],
+            "ae_lfi": 3464399821,
+            "ae_consumed": 3316564362,
+            "cp_lfi": 3464399821,
+            "cp_consumed": 3316564362,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                3464399821,
+                3464399821,
+                3464399821,
+                3316564362,
+                3316564362
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Régime de retraite du personnel de la RATP",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                886500000,
+                886500000,
+                886500000,
+                874750000,
+                874750000
+            ],
+            "amount_rows": [
+                [
+                    886500000,
+                    886500000,
+                    886500000
+                ],
+                [
+                    874750000,
+                    874750000
+                ]
+            ],
+            "extracted_lines": [
+                "886 500 000       886 500 000          886 500 000",
+                "874 750 000        874 750 000"
+            ],
+            "ae_lfi": 886500000,
+            "ae_consumed": 874750000,
+            "cp_lfi": 886500000,
+            "cp_consumed": 874750000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                886500000,
+                886500000,
+                886500000,
+                874750000,
+                874750000
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Autres régimes",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                14795997,
+                14795997,
+                14795997,
+                14819152,
+                14819152
+            ],
+            "amount_rows": [
+                [
+                    14795997,
+                    14795997,
+                    14795997
+                ],
+                [
+                    14819152,
+                    14819152
+                ]
+            ],
+            "extracted_lines": [
+                "14 795 997         14 795 997          14 795 997",
+                "14 819 152          14 819 152"
+            ],
+            "ae_lfi": 14795997,
+            "ae_consumed": 14819152,
+            "cp_lfi": 14795997,
+            "cp_consumed": 14819152,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                14795997,
+                14795997,
+                14795997,
+                14819152,
+                14819152
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 4365695818,
+            "ae_consumed": 4206133514,
+            "cp_lfi": 4365695818,
+            "cp_consumed": 4206133514
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 3,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29741",
+    "pdf_sha256": "c555d68c3479a13cbd4b3a374d6f972ea52b74d00d0d4f03f7c72cfa9e4b923c",
+    "mission": "Régimes sociaux et de retraite"
+}

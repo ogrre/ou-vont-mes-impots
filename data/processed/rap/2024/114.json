@@ -1,0 +1,540 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "114",
+        "name": "Appels en garantie de l'État (crédits évaluatifs)"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Agriculture et environnement",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                100000,
+                100000,
+                100000,
+                0
+            ],
+            "amount_rows": [
+                [
+                    100000,
+                    100000,
+                    100000
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "100 000         100 000            100 000",
+                "0"
+            ],
+            "ae_lfi": 100000,
+            "ae_consumed": 0,
+            "cp_lfi": 100000,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                100000,
+                100000,
+                100000,
+                0
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Soutien au domaine social, logement, santé",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                34500000,
+                34500000,
+                34500000,
+                5000000,
+                5000000
+            ],
+            "amount_rows": [
+                [
+                    34500000,
+                    34500000,
+                    34500000
+                ],
+                [
+                    5000000,
+                    5000000
+                ]
+            ],
+            "extracted_lines": [
+                "34 500 000       34 500 000         34 500 000",
+                "5 000 000         5 000 000"
+            ],
+            "ae_lfi": 34500000,
+            "ae_consumed": 5000000,
+            "cp_lfi": 34500000,
+            "cp_consumed": 5000000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                34500000,
+                34500000,
+                34500000,
+                5000000,
+                5000000
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Financement des entreprises et industrie",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1563100000,
+                1563100000,
+                1563100000,
+                1751417772,
+                1751417772
+            ],
+            "amount_rows": [
+                [
+                    1563100000,
+                    1563100000,
+                    1563100000
+                ],
+                [
+                    1751417772,
+                    1751417772
+                ]
+            ],
+            "extracted_lines": [
+                "1 563 100 000     1 563 100 000      1 563 100 000",
+                "1 751 417 772     1 751 417 772"
+            ],
+            "ae_lfi": 1563100000,
+            "ae_consumed": 1751417772,
+            "cp_lfi": 1563100000,
+            "cp_consumed": 1751417772,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1563100000,
+                1563100000,
+                1563100000,
+                1751417772,
+                1751417772
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Développement international de l'économie française",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                111500000,
+                111500000,
+                111500000,
+                74671277,
+                74671277
+            ],
+            "amount_rows": [
+                [
+                    111500000,
+                    111500000,
+                    111500000
+                ],
+                [
+                    74671277,
+                    74671277
+                ]
+            ],
+            "extracted_lines": [
+                "111 500 000      111 500 000         111 500 000",
+                "74 671 277                           74 671 277"
+            ],
+            "ae_lfi": 111500000,
+            "ae_consumed": 74671277,
+            "cp_lfi": 111500000,
+            "cp_consumed": 74671277,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                111500000,
+                111500000,
+                111500000,
+                74671277,
+                74671277
+            ]
+        },
+        {
+            "code": "04.01",
+            "label": "Assurance-crédit",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "04",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "04.02",
+            "label": "Assurance-prospection",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "04",
+            "contributes_to_program_total": false,
+            "amounts": [
+                89500000,
+                89500000,
+                89500000,
+                72430451,
+                72430451
+            ],
+            "amount_rows": [
+                [
+                    89500000,
+                    89500000,
+                    89500000
+                ],
+                [
+                    72430451,
+                    72430451
+                ]
+            ],
+            "extracted_lines": [
+                "89 500 000       89 500 000         89 500 000",
+                "72 430 451                            72 430 451"
+            ],
+            "ae_lfi": 89500000,
+            "ae_consumed": 72430451,
+            "cp_lfi": 89500000,
+            "cp_consumed": 72430451,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                89500000,
+                89500000,
+                89500000,
+                72430451,
+                72430451
+            ]
+        },
+        {
+            "code": "04.03",
+            "label": "Garantie de change",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "04",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "04.04",
+            "label": "Garantie du risque économique",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "04",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "04.05",
+            "label": "Garanties de taux d'intérêt Natixis",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "04",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "04.06",
+            "label": "Garantie du risque exportateur",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "04",
+            "contributes_to_program_total": false,
+            "amounts": [
+                22000000,
+                22000000,
+                22000000,
+                2240826,
+                2240826
+            ],
+            "amount_rows": [
+                [
+                    22000000,
+                    22000000,
+                    22000000
+                ],
+                [
+                    2240826,
+                    2240826
+                ]
+            ],
+            "extracted_lines": [
+                "22 000 000       22 000 000         22 000 000",
+                "2 240 826                             2 240 826"
+            ],
+            "ae_lfi": 22000000,
+            "ae_consumed": 2240826,
+            "cp_lfi": 22000000,
+            "cp_consumed": 2240826,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                22000000,
+                22000000,
+                22000000,
+                2240826,
+                2240826
+            ]
+        },
+        {
+            "code": "04.07",
+            "label": "CAP Francexport et CAP Francexport +",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "04",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "04.08",
+            "label": "Stabilisation de taux",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "04",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Autres garanties",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                193236463,
+                193236463,
+                193236463,
+                90456037,
+                90456037
+            ],
+            "amount_rows": [
+                [
+                    193236463,
+                    193236463,
+                    193236463
+                ],
+                [
+                    90456037,
+                    90456037
+                ]
+            ],
+            "extracted_lines": [
+                "193 236 463      193 236 463         193 236 463",
+                "90 456 037        90 456 037"
+            ],
+            "ae_lfi": 193236463,
+            "ae_consumed": 90456037,
+            "cp_lfi": 193236463,
+            "cp_consumed": 90456037,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                193236463,
+                193236463,
+                193236463,
+                90456037,
+                90456037
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 1902436463,
+            "ae_consumed": 1921545086,
+            "cp_lfi": 1902436463,
+            "cp_consumed": 1921545086
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 13,
+        "sub_actions": 8
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29567",
+    "pdf_sha256": "fadb4453ce968431a20d7f18a90ec62861dac54db5e64288019ff85c72750b01",
+    "mission": "Engagements financiers de l'État"
+}

@@ -1,0 +1,456 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "134",
+        "name": "Développement des entreprises et régulations"
+    },
+    "actions": [
+        {
+            "code": "04",
+            "label": "Développement des postes,",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                54100000,
+                3200000,
+                708211840,
+                765511840,
+                765511840,
+                56378521,
+                2992000,
+                714425098,
+                773795619
+            ],
+            "amount_rows": [
+                [
+                    54100000,
+                    3200000,
+                    708211840,
+                    765511840,
+                    765511840
+                ],
+                [
+                    56378521,
+                    2992000,
+                    714425098,
+                    773795619
+                ]
+            ],
+            "extracted_lines": [
+                "54 100 000         3 200 000      708 211 840                       765 511 840       765 511 840",
+                "56 378 521         2 992 000      714 425 098                       773 795 619"
+            ],
+            "ae_lfi": 765511840,
+            "ae_consumed": 773795619,
+            "cp_lfi": 763293840,
+            "cp_consumed": 761500011,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                54082000,
+                3200000,
+                706011840,
+                763293840,
+                763293840,
+                54961559,
+                2992000,
+                703546452,
+                761500011
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Développement international",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                425417322,
+                3800000,
+                429217322,
+                429217322,
+                421432149,
+                5107045,
+                426539194
+            ],
+            "amount_rows": [
+                [
+                    425417322,
+                    3800000,
+                    429217322,
+                    429217322
+                ],
+                [
+                    421432149,
+                    5107045,
+                    426539194
+                ]
+            ],
+            "extracted_lines": [
+                "425 417 322                            3 800 000                      429 217 322       429 217 322",
+                "421 432 149                            5 107 045                      426 539 194"
+            ],
+            "ae_lfi": 429217322,
+            "ae_consumed": 426539194,
+            "cp_lfi": 185117758,
+            "cp_consumed": 181862962,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                181317758,
+                3800000,
+                185117758,
+                185117758,
+                176755917,
+                5107045,
+                181862962
+            ]
+        },
+        {
+            "code": "08",
+            "label": "Expertise, conseil et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                15828416,
+                89409,
+                15917825,
+                15917825,
+                15097139,
+                618,
+                15097756
+            ],
+            "amount_rows": [
+                [
+                    15828416,
+                    89409,
+                    15917825,
+                    15917825
+                ],
+                [
+                    15097139,
+                    618,
+                    15097756
+                ]
+            ],
+            "extracted_lines": [
+                "15 828 416            89 409                                                          15 917 825        15 917 825",
+                "15 097 139               618                                                          15 097 756"
+            ],
+            "ae_lfi": 15917825,
+            "ae_consumed": 15097756,
+            "cp_lfi": 15917825,
+            "cp_consumed": 17,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                15828416,
+                89409,
+                15917825,
+                15917825,
+                17,
+                15097139,
+                15097139
+            ]
+        },
+        {
+            "code": "13",
+            "label": "Régulation des",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                17025817,
+                5501514,
+                200000,
+                24000,
+                22751331,
+                22751331,
+                17160565,
+                5239462,
+                136899,
+                30465,
+                22567391
+            ],
+            "amount_rows": [
+                [
+                    17025817,
+                    5501514,
+                    200000,
+                    24000,
+                    22751331,
+                    22751331
+                ],
+                [
+                    17160565,
+                    5239462,
+                    136899,
+                    30465,
+                    22567391
+                ]
+            ],
+            "extracted_lines": [
+                "17 025 817        5 501 514           200 000                            24 000       22 751 331        22 751 331",
+                "17 160 565        5 239 462           136 899                            30 465       22 567 391"
+            ],
+            "ae_lfi": 22751331,
+            "ae_consumed": 22567391,
+            "cp_lfi": 24788884,
+            "cp_consumed": 23949590,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                17025817,
+                7539067,
+                200000,
+                24000,
+                24788884,
+                24788884,
+                17160565,
+                6380539,
+                378021,
+                30465,
+                23949590
+            ]
+        },
+        {
+            "code": "15",
+            "label": "Mise en oeuvre du droit de la",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                19573716,
+                21350000,
+                550000,
+                41473716,
+                41478716,
+                18831376,
+                19536400,
+                502897,
+                38870673
+            ],
+            "amount_rows": [
+                [
+                    19573716,
+                    21350000,
+                    550000,
+                    41473716,
+                    41478716
+                ],
+                [
+                    18831376,
+                    19536400,
+                    502897,
+                    38870673
+                ]
+            ],
+            "extracted_lines": [
+                "19 573 716       21 350 000           550 000                                         41 473 716        41 478 716",
+                "18 831 376       19 536 400           502 897                                         38 870 673"
+            ],
+            "ae_lfi": 41478716,
+            "ae_consumed": 38870673,
+            "cp_lfi": 25188646,
+            "cp_consumed": 25315995,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                19573716,
+                5059930,
+                550000,
+                25183646,
+                25188646,
+                18831376,
+                5968511,
+                516108,
+                25315995
+            ]
+        },
+        {
+            "code": "23",
+            "label": "Industrie et services",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                119321500,
+                36941176,
+                1258491561,
+                1414754237,
+                1414754237,
+                115693410,
+                42694910,
+                2236652976,
+                2395041296
+            ],
+            "amount_rows": [
+                [
+                    119321500,
+                    36941176,
+                    1258491561,
+                    1414754237,
+                    1414754237
+                ],
+                [
+                    115693410,
+                    42694910,
+                    2236652976,
+                    2395041296
+                ]
+            ],
+            "extracted_lines": [
+                "119 321 500        36 941 176                       1 258 491 561                    1 414 754 237     1 414 754 237",
+                "115 693 410        42 694 910                        2 236 652 976                    2 395 041 296"
+            ],
+            "ae_lfi": 1414754237,
+            "ae_consumed": 2395041296,
+            "cp_lfi": 1384769237,
+            "cp_consumed": 2419161946,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                119321500,
+                36941176,
+                1228506561,
+                1384769237,
+                1384769237,
+                115693410,
+                43988588,
+                2259479948,
+                2419161946
+            ]
+        },
+        {
+            "code": "24",
+            "label": "Régulation concurrentielle",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                241979163,
+                9456762,
+                5885369,
+                257321294,
+                257408142,
+                236655108,
+                8490163,
+                293548,
+                6161002,
+                251599820
+            ],
+            "amount_rows": [
+                [
+                    241979163,
+                    9456762,
+                    5885369,
+                    257321294,
+                    257408142
+                ],
+                [
+                    236655108,
+                    8490163,
+                    293548,
+                    6161002,
+                    251599820
+                ]
+            ],
+            "extracted_lines": [
+                "241 979 163         9 456 762                           5 885 369                      257 321 294       257 408 142",
+                "236 655 108         8 490 163            293 548        6 161 002                      251 599 820"
+            ],
+            "ae_lfi": 257408142,
+            "ae_consumed": 251599820,
+            "cp_lfi": 257745319,
+            "cp_consumed": 252355164,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                241979163,
+                9793939,
+                5885369,
+                257658471,
+                257745319,
+                236655108,
+                9251742,
+                292313,
+                6156002,
+                252355164
+            ]
+        },
+        {
+            "code": "25",
+            "label": "Mesures exceptionnelles",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                158140,
+                12323600,
+                12481740
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    158140,
+                    12323600,
+                    12481740
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "158 140                         12 323 600                       12 481 740"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 12481740,
+            "cp_lfi": 0,
+            "cp_consumed": 12483740,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                158140,
+                12325600,
+                12483740
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 2947039413,
+            "ae_consumed": 3935993489,
+            "cp_lfi": 2656821509,
+            "cp_consumed": 3691726548
+        },
+        "differences": {
+            "cp_consumed": {
+                "actions_sum": 3676629425,
+                "programme_total": 3691726548,
+                "difference": -15097123
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 8,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29597",
+    "pdf_sha256": "4fd8df4c9ecedd4d1934d260e806a887aee243ccfec7fb28ad02a765fe88fba4",
+    "mission": "Économie"
+}

@@ -1,0 +1,1188 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "200",
+        "name": "Remboursements et dégrèvements d'impôts d'État (crédits évaluatifs)"
+    },
+    "actions": [
+        {
+            "code": "11",
+            "label": "Remboursements et restitutions liés à la mécanique de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                9223372036854775807,
+                9223372036854775807
+            ],
+            "amount_rows": [
+                [
+                    9223372036854775807
+                ],
+                [
+                    9223372036854775807
+                ]
+            ],
+            "extracted_lines": [
+                "103 358 158 375 103 358 158 375 103 358 158 375",
+                "107 982 187 077 107 982 187 077"
+            ],
+            "ae_lfi": 9223372036854775807,
+            "ae_consumed": 9223372036854775807,
+            "cp_lfi": 9223372036854775807,
+            "cp_consumed": 9223372036854775807,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                9223372036854775807,
+                9223372036854775807
+            ]
+        },
+        {
+            "code": "11.01",
+            "label": "Impôts sur les sociétés",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "11",
+            "contributes_to_program_total": false,
+            "amounts": [
+                11382168515,
+                11382168515,
+                11382168515,
+                18006355053,
+                18006355053
+            ],
+            "amount_rows": [
+                [
+                    11382168515,
+                    11382168515,
+                    11382168515
+                ],
+                [
+                    18006355053,
+                    18006355053
+                ]
+            ],
+            "extracted_lines": [
+                "11 382 168 515      11 382 168 515    11 382 168 515",
+                "18 006 355 053      18 006 355 053"
+            ],
+            "ae_lfi": 11382168515,
+            "ae_consumed": 18006355053,
+            "cp_lfi": 11382168515,
+            "cp_consumed": 18006381774,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                11382168515,
+                11382168515,
+                11382168515,
+                18006381774,
+                18006381774
+            ]
+        },
+        {
+            "code": "11.02",
+            "label": "Taxe sur la valeur ajoutée",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "11",
+            "contributes_to_program_total": false,
+            "amounts": [
+                79326599860,
+                79326599860,
+                79326599860,
+                75249706635,
+                75249706635
+            ],
+            "amount_rows": [
+                [
+                    79326599860,
+                    79326599860,
+                    79326599860
+                ],
+                [
+                    75249706635,
+                    75249706635
+                ]
+            ],
+            "extracted_lines": [
+                "79 326 599 860      79 326 599 860    79 326 599 860",
+                "75 249 706 635      75 249 706 635"
+            ],
+            "ae_lfi": 79326599860,
+            "ae_consumed": 75249706635,
+            "cp_lfi": 79326599860,
+            "cp_consumed": 75249780741,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                79326599860,
+                79326599860,
+                79326599860,
+                75249780741,
+                75249780741
+            ]
+        },
+        {
+            "code": "11.03",
+            "label": "Plafonnement des impositions directes",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "11",
+            "contributes_to_program_total": false,
+            "amounts": [
+                390000,
+                390000,
+                390000,
+                0
+            ],
+            "amount_rows": [
+                [
+                    390000,
+                    390000,
+                    390000
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "390 000           390 000            390 000",
+                "0"
+            ],
+            "ae_lfi": 390000,
+            "ae_consumed": 0,
+            "cp_lfi": 390000,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                390000,
+                390000,
+                390000,
+                0
+            ]
+        },
+        {
+            "code": "11.04",
+            "label": "Autres remboursements et dégrèvements liés à la",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "11",
+            "contributes_to_program_total": false,
+            "amounts": [
+                200000000,
+                200000000,
+                200000000,
+                682971965,
+                682971965
+            ],
+            "amount_rows": [
+                [
+                    200000000,
+                    200000000,
+                    200000000
+                ],
+                [
+                    682971965,
+                    682971965
+                ]
+            ],
+            "extracted_lines": [
+                "200 000 000         200 000 000       200 000 000",
+                "682 971 965         682 971 965"
+            ],
+            "ae_lfi": 200000000,
+            "ae_consumed": 682971965,
+            "cp_lfi": 200000000,
+            "cp_consumed": 682971965,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                200000000,
+                200000000,
+                200000000,
+                682971965,
+                682971965
+            ]
+        },
+        {
+            "code": "11.05",
+            "label": "Impôt sur le revenu",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "11",
+            "contributes_to_program_total": false,
+            "amounts": [
+                11949000000,
+                11949000000,
+                11949000000,
+                13527447017,
+                13527447017
+            ],
+            "amount_rows": [
+                [
+                    11949000000,
+                    11949000000,
+                    11949000000
+                ],
+                [
+                    13527447017,
+                    13527447017
+                ]
+            ],
+            "extracted_lines": [
+                "11 949 000 000      11 949 000 000    11 949 000 000",
+                "13 527 447 017      13 527 447 017"
+            ],
+            "ae_lfi": 11949000000,
+            "ae_consumed": 13527447017,
+            "cp_lfi": 11949000000,
+            "cp_consumed": 13527447017,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                11949000000,
+                11949000000,
+                11949000000,
+                13527447017,
+                13527447017
+            ]
+        },
+        {
+            "code": "11.06",
+            "label": "Restitutions de prélèvement de solidarité",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "11",
+            "contributes_to_program_total": false,
+            "amounts": [
+                500000000,
+                500000000,
+                500000000,
+                515706408,
+                515706408
+            ],
+            "amount_rows": [
+                [
+                    500000000,
+                    500000000,
+                    500000000
+                ],
+                [
+                    515706408,
+                    515706408
+                ]
+            ],
+            "extracted_lines": [
+                "500 000 000         500 000 000       500 000 000",
+                "515 706 408         515 706 408"
+            ],
+            "ae_lfi": 500000000,
+            "ae_consumed": 515706408,
+            "cp_lfi": 500000000,
+            "cp_consumed": 515706408,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                500000000,
+                500000000,
+                500000000,
+                515706408,
+                515706408
+            ]
+        },
+        {
+            "code": "12",
+            "label": "Remboursements et dégrèvements liées à des",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                17803815042,
+                17803815042,
+                17803815042,
+                17934249364,
+                17934249364
+            ],
+            "amount_rows": [
+                [
+                    17803815042,
+                    17803815042,
+                    17803815042
+                ],
+                [
+                    17934249364,
+                    17934249364
+                ]
+            ],
+            "extracted_lines": [
+                "17 803 815 042      17 803 815 042    17 803 815 042",
+                "17 934 249 364      17 934 249 364"
+            ],
+            "ae_lfi": 17803815042,
+            "ae_consumed": 17934249364,
+            "cp_lfi": 17803815042,
+            "cp_consumed": 17935063942,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                17803815042,
+                17803815042,
+                17803815042,
+                17935063942,
+                17935063942
+            ]
+        },
+        {
+            "code": "12.02",
+            "label": "Impôt sur le revenu",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "12",
+            "contributes_to_program_total": false,
+            "amounts": [
+                2103000000,
+                2103000000,
+                2103000000,
+                2163103823,
+                2163103823
+            ],
+            "amount_rows": [
+                [
+                    2103000000,
+                    2103000000,
+                    2103000000
+                ],
+                [
+                    2163103823,
+                    2163103823
+                ]
+            ],
+            "extracted_lines": [
+                "2 103 000 000       2 103 000 000     2 103 000 000",
+                "2 163 103 823       2 163 103 823"
+            ],
+            "ae_lfi": 2103000000,
+            "ae_consumed": 2163103823,
+            "cp_lfi": 2103000000,
+            "cp_consumed": 2163103823,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                2103000000,
+                2103000000,
+                2103000000,
+                2163103823,
+                2163103823
+            ]
+        },
+        {
+            "code": "12.03",
+            "label": "Impôt sur les sociétés",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "12",
+            "contributes_to_program_total": false,
+            "amounts": [
+                6337938267,
+                6337938267,
+                6337938267,
+                6592549432,
+                6592549432
+            ],
+            "amount_rows": [
+                [
+                    6337938267,
+                    6337938267,
+                    6337938267
+                ],
+                [
+                    6592549432,
+                    6592549432
+                ]
+            ],
+            "extracted_lines": [
+                "6 337 938 267       6 337 938 267     6 337 938 267",
+                "6 592 549 432       6 592 549 432"
+            ],
+            "ae_lfi": 6337938267,
+            "ae_consumed": 6592549432,
+            "cp_lfi": 6337938267,
+            "cp_consumed": 6592549432,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                6337938267,
+                6337938267,
+                6337938267,
+                6592549432,
+                6592549432
+            ]
+        },
+        {
+            "code": "12.04",
+            "label": "Taxe intérieure de consommation sur les produits",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "12",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1989754450,
+                1989754450,
+                1989754450,
+                2007954896,
+                2007954896
+            ],
+            "amount_rows": [
+                [
+                    1989754450,
+                    1989754450,
+                    1989754450
+                ],
+                [
+                    2007954896,
+                    2007954896
+                ]
+            ],
+            "extracted_lines": [
+                "1 989 754 450       1 989 754 450     1 989 754 450",
+                "2 007 954 896       2 007 954 896"
+            ],
+            "ae_lfi": 1989754450,
+            "ae_consumed": 2007954896,
+            "cp_lfi": 1989754450,
+            "cp_consumed": 2008331769,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1989754450,
+                1989754450,
+                1989754450,
+                2008331769,
+                2008331769
+            ]
+        },
+        {
+            "code": "12.05",
+            "label": "Taxe intérieure de consommation sur le gaz naturel",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "12",
+            "contributes_to_program_total": false,
+            "amounts": [
+                15000000,
+                15000000,
+                15000000,
+                63811957,
+                63811957
+            ],
+            "amount_rows": [
+                [
+                    15000000,
+                    15000000,
+                    15000000
+                ],
+                [
+                    63811957,
+                    63811957
+                ]
+            ],
+            "extracted_lines": [
+                "15 000 000          15 000 000         15 000 000",
+                "63 811 957          63 811 957"
+            ],
+            "ae_lfi": 15000000,
+            "ae_consumed": 63811957,
+            "cp_lfi": 15000000,
+            "cp_consumed": 63794649,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                15000000,
+                15000000,
+                15000000,
+                63794649,
+                63794649
+            ]
+        },
+        {
+            "code": "12.06",
+            "label": "Contribution pour l'audiovisuel public",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "12",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                138,
+                138
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    138,
+                    138
+                ]
+            ],
+            "extracted_lines": [
+                "0                 0",
+                "138               138"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 138,
+            "cp_lfi": 0,
+            "cp_consumed": 138,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                138,
+                138
+            ]
+        },
+        {
+            "code": "12.07",
+            "label": "Prélèvement sur le produit des jeux",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "12",
+            "contributes_to_program_total": false,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "12.08",
+            "label": "Acomptes de crédits et de réductions d'impôts sur le",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "12",
+            "contributes_to_program_total": false,
+            "amounts": [
+                5370000000,
+                5370000000,
+                5370000000,
+                5762297968,
+                5762297968
+            ],
+            "amount_rows": [
+                [
+                    5370000000,
+                    5370000000,
+                    5370000000
+                ],
+                [
+                    5762297968,
+                    5762297968
+                ]
+            ],
+            "extracted_lines": [
+                "5 370 000 000       5 370 000 000     5 370 000 000",
+                "5 762 297 968       5 762 297 968"
+            ],
+            "ae_lfi": 5370000000,
+            "ae_consumed": 5762297968,
+            "cp_lfi": 5370000000,
+            "cp_consumed": 5762297968,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                5370000000,
+                5370000000,
+                5370000000,
+                5762297968,
+                5762297968
+            ]
+        },
+        {
+            "code": "12.09",
+            "label": "Taxe intérieure sur la consommation finale",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "12",
+            "contributes_to_program_total": false,
+            "amounts": [
+                100000000,
+                100000000,
+                100000000,
+                77916626,
+                77916626
+            ],
+            "amount_rows": [
+                [
+                    100000000,
+                    100000000,
+                    100000000
+                ],
+                [
+                    77916626,
+                    77916626
+                ]
+            ],
+            "extracted_lines": [
+                "100 000 000         100 000 000       100 000 000",
+                "77 916 626          77 916 626"
+            ],
+            "ae_lfi": 100000000,
+            "ae_consumed": 77916626,
+            "cp_lfi": 100000000,
+            "cp_consumed": 78371638,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                100000000,
+                100000000,
+                100000000,
+                78371638,
+                78371638,
+                11
+            ]
+        },
+        {
+            "code": "12.10",
+            "label": "Crédit d'impôt contemporain - Services aux",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "12",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1888122325,
+                1888122325,
+                1888122325,
+                1266614525,
+                1266614525
+            ],
+            "amount_rows": [
+                [
+                    1888122325,
+                    1888122325,
+                    1888122325
+                ],
+                [
+                    1266614525,
+                    1266614525
+                ]
+            ],
+            "extracted_lines": [
+                "1 888 122 325       1 888 122 325     1 888 122 325",
+                "1 266 614 525       1 266 614 525"
+            ],
+            "ae_lfi": 1888122325,
+            "ae_consumed": 1266614525,
+            "cp_lfi": 1888122325,
+            "cp_consumed": 1266614525,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1888122325,
+                1888122325,
+                1888122325,
+                1266614525,
+                1266614525
+            ]
+        },
+        {
+            "code": "13",
+            "label": "Remboursements et dégrèvements liés à la gestion",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                3313799369,
+                11713373236,
+                15027172605,
+                15027172605,
+                3526039944,
+                12131114504,
+                15657154448
+            ],
+            "amount_rows": [
+                [
+                    3313799369,
+                    11713373236,
+                    15027172605,
+                    15027172605
+                ],
+                [
+                    3526039944,
+                    12131114504,
+                    15657154448
+                ]
+            ],
+            "extracted_lines": [
+                "3 313 799 369       11 713 373 236      15 027 172 605    15 027 172 605",
+                "3 526 039 944       12 131 114 504      15 657 154 448"
+            ],
+            "ae_lfi": 15027172605,
+            "ae_consumed": 15657154448,
+            "cp_lfi": 15027172605,
+            "cp_consumed": 15650978734,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                3313799369,
+                11713373236,
+                15027172605,
+                15027172605,
+                1690,
+                3520004008,
+                12130973036,
+                15650978734
+            ]
+        },
+        {
+            "code": "13.01",
+            "label": "Impôts sur le revenu - Dégrèvements et restitution",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "13",
+            "contributes_to_program_total": false,
+            "amounts": [
+                2300000000,
+                2300000000,
+                2300000000,
+                5093,
+                3668826492,
+                3668831585
+            ],
+            "amount_rows": [
+                [
+                    2300000000,
+                    2300000000,
+                    2300000000
+                ],
+                [
+                    5093,
+                    3668826492,
+                    3668831585
+                ]
+            ],
+            "extracted_lines": [
+                "2 300 000 000       2 300 000 000     2 300 000 000",
+                "5 093      3 668 826 492       3 668 831 585"
+            ],
+            "ae_lfi": 2300000000,
+            "ae_consumed": 3668831585,
+            "cp_lfi": 2300000000,
+            "cp_consumed": 3668832257,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                2300000000,
+                2300000000,
+                2300000000,
+                5093,
+                3668827164,
+                3668832257
+            ]
+        },
+        {
+            "code": "13.02",
+            "label": "Impôts sur les sociétés - Dégrèvements et",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "13",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1524423588,
+                1524423588,
+                1524423588,
+                1233948030,
+                1233948030
+            ],
+            "amount_rows": [
+                [
+                    1524423588,
+                    1524423588,
+                    1524423588
+                ],
+                [
+                    1233948030,
+                    1233948030
+                ]
+            ],
+            "extracted_lines": [
+                "1 524 423 588       1 524 423 588     1 524 423 588",
+                "1 233 948 030       1 233 948 030"
+            ],
+            "ae_lfi": 1524423588,
+            "ae_consumed": 1233948030,
+            "cp_lfi": 1524423588,
+            "cp_consumed": 1233948030,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1524423588,
+                1524423588,
+                1524423588,
+                1233948030,
+                1233948030
+            ]
+        },
+        {
+            "code": "13.03",
+            "label": "Autres impôts directs et taxes assimilées -",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "13",
+            "contributes_to_program_total": false,
+            "amounts": [
+                2982719649,
+                2982719649,
+                2982719649,
+                66935777,
+                2326241979,
+                2393177756
+            ],
+            "amount_rows": [
+                [
+                    2982719649,
+                    2982719649,
+                    2982719649
+                ],
+                [
+                    66935777,
+                    2326241979,
+                    2393177756
+                ]
+            ],
+            "extracted_lines": [
+                "2 982 719 649       2 982 719 649     2 982 719 649",
+                "66 935 777       2 326 241 979       2 393 177 756"
+            ],
+            "ae_lfi": 2982719649,
+            "ae_consumed": 2393177756,
+            "cp_lfi": 2982719649,
+            "cp_consumed": 2393167805,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                2982719649,
+                2982719649,
+                2982719649,
+                66935777,
+                2326232028,
+                2393167805
+            ]
+        },
+        {
+            "code": "13.04",
+            "label": "Taxe sur la valeur ajoutée - Dégrèvements et",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "13",
+            "contributes_to_program_total": false,
+            "amounts": [
+                4126229999,
+                4126229999,
+                4126229999,
+                3297255390,
+                3297255390
+            ],
+            "amount_rows": [
+                [
+                    4126229999,
+                    4126229999,
+                    4126229999
+                ],
+                [
+                    3297255390,
+                    3297255390
+                ]
+            ],
+            "extracted_lines": [
+                "4 126 229 999       4 126 229 999     4 126 229 999",
+                "3 297 255 390       3 297 255 390"
+            ],
+            "ae_lfi": 4126229999,
+            "ae_consumed": 3297255390,
+            "cp_lfi": 4126229999,
+            "cp_consumed": 3297254807,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                4126229999,
+                4126229999,
+                4126229999,
+                3297254807,
+                3297254807
+            ]
+        },
+        {
+            "code": "13.05",
+            "label": "Enregistrement, timbre, autres contributions et taxes",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "13",
+            "contributes_to_program_total": false,
+            "amounts": [
+                680000000,
+                680000000,
+                680000000,
+                992919003,
+                992919003
+            ],
+            "amount_rows": [
+                [
+                    680000000,
+                    680000000,
+                    680000000
+                ],
+                [
+                    992919003,
+                    992919003
+                ]
+            ],
+            "extracted_lines": [
+                "680 000 000         680 000 000       680 000 000",
+                "992 919 003         992 919 003"
+            ],
+            "ae_lfi": 680000000,
+            "ae_consumed": 992919003,
+            "cp_lfi": 680000000,
+            "cp_consumed": 992907934,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                680000000,
+                680000000,
+                680000000,
+                992907934,
+                992907934
+            ]
+        },
+        {
+            "code": "13.06",
+            "label": "Autres remboursements et dégrèvements liés à la",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "13",
+            "contributes_to_program_total": false,
+            "amounts": [
+                715757000,
+                715757000,
+                715757000,
+                437154454,
+                490527641,
+                927682095
+            ],
+            "amount_rows": [
+                [
+                    715757000,
+                    715757000,
+                    715757000
+                ],
+                [
+                    437154454,
+                    490527641,
+                    927682095
+                ]
+            ],
+            "extracted_lines": [
+                "715 757 000                             715 757 000       715 757 000",
+                "437 154 454          490 527 641         927 682 095"
+            ],
+            "ae_lfi": 715757000,
+            "ae_consumed": 927682095,
+            "cp_lfi": 715757000,
+            "cp_consumed": 927551724,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                715757000,
+                715757000,
+                715757000,
+                1690,
+                437142732,
+                490407302,
+                927551724
+            ]
+        },
+        {
+            "code": "13.07",
+            "label": "Autres remboursements et dégrèvements liés à la",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "13",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1968042369,
+                1968042369,
+                1968042369,
+                2663611068,
+                2663611068
+            ],
+            "amount_rows": [
+                [
+                    1968042369,
+                    1968042369,
+                    1968042369
+                ],
+                [
+                    2663611068,
+                    2663611068
+                ]
+            ],
+            "extracted_lines": [
+                "1 968 042 369                            1 968 042 369      1 968 042 369",
+                "2 663 611 068                            2 663 611 068"
+            ],
+            "ae_lfi": 1968042369,
+            "ae_consumed": 2663611068,
+            "cp_lfi": 1968042369,
+            "cp_consumed": 2663611068,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1968042369,
+                1968042369,
+                1968042369,
+                2663611068,
+                2663611068
+            ]
+        },
+        {
+            "code": "13.08",
+            "label": "Autres remboursements et dégrèvements liés à la",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "13",
+            "contributes_to_program_total": false,
+            "amounts": [
+                630000000,
+                630000000,
+                630000000,
+                358333552,
+                46155187,
+                404488738
+            ],
+            "amount_rows": [
+                [
+                    630000000,
+                    630000000,
+                    630000000
+                ],
+                [
+                    358333552,
+                    46155187,
+                    404488738
+                ]
+            ],
+            "extracted_lines": [
+                "630 000 000                             630 000 000       630 000 000",
+                "358 333 552           46 155 187         404 488 738"
+            ],
+            "ae_lfi": 630000000,
+            "ae_consumed": 404488738,
+            "cp_lfi": 630000000,
+            "cp_consumed": 398464325,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                630000000,
+                630000000,
+                630000000,
+                352309338,
+                46154987,
+                398464325
+            ]
+        },
+        {
+            "code": "13.09",
+            "label": "Prélèvement à la source (PAS) : dégrèvements et",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "13",
+            "contributes_to_program_total": false,
+            "amounts": [
+                100000000,
+                100000000,
+                100000000,
+                75240783,
+                75240783
+            ],
+            "amount_rows": [
+                [
+                    100000000,
+                    100000000,
+                    100000000
+                ],
+                [
+                    75240783,
+                    75240783
+                ]
+            ],
+            "extracted_lines": [
+                "100 000 000         100 000 000       100 000 000",
+                "75 240 783          75 240 783"
+            ],
+            "ae_lfi": 100000000,
+            "ae_consumed": 75240783,
+            "cp_lfi": 100000000,
+            "cp_consumed": 75240783,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                100000000,
+                100000000,
+                100000000,
+                75240783,
+                75240783
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 136189146022,
+            "ae_consumed": 141573590889,
+            "cp_lfi": 136189146022,
+            "cp_consumed": 141568330580
+        },
+        "differences": {
+            "ae_lfi": {
+                "actions_sum": 9.223372069685764e+18,
+                "programme_total": 136189146022,
+                "difference": 9.223371933496618e+18
+            },
+            "ae_consumed": {
+                "actions_sum": 9.22337207044618e+18,
+                "programme_total": 141573590889,
+                "difference": 9.223371928872589e+18
+            },
+            "cp_lfi": {
+                "actions_sum": 9.223372069685764e+18,
+                "programme_total": 136189146022,
+                "difference": 9.223371933496618e+18
+            },
+            "cp_consumed": {
+                "actions_sum": 9.223372070440817e+18,
+                "programme_total": 141568330580,
+                "difference": 9.223371928872486e+18
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 27,
+        "sub_actions": 24
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29744",
+    "pdf_sha256": "322bfbca7fdb9d4ffaeaccf819466cca0a143b4e44655da1ed7c38bc08ebabcc",
+    "mission": "Remboursements et dégrèvements"
+}

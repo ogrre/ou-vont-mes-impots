@@ -1,0 +1,272 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "363",
+        "name": "Compétitivité"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Financement des entreprises",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                22000000,
+                22000000
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    22000000,
+                    22000000
+                ]
+            ],
+            "extracted_lines": [
+                "0                     0",
+                "22 000 000                                                     22 000 000"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 22000000,
+            "cp_lfi": 0,
+            "cp_consumed": 65640088,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                28139607,
+                481,
+                37500000,
+                65640088
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Souveraineté technologique et résilience",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                    0",
+                "-30 700 000          -30 695 087"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": null,
+            "cp_lfi": 27400000,
+            "cp_consumed": 130823522,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                27400000,
+                27400000,
+                27400000,
+                4913,
+                511684,
+                130306925,
+                130823522
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Plan de soutien à l'export",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                -9611
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    -9611
+                ]
+            ],
+            "extracted_lines": [
+                "0                 0",
+                "-9 611"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": -9611,
+            "cp_lfi": 8000000,
+            "cp_consumed": 6429761,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                8000000,
+                8000000,
+                8000000,
+                1087643,
+                9303,
+                5332816,
+                6429761
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Mise à niveau numérique de l'État, des territoires et des",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                    0",
+                "14 254 680           13 312 125          -206 500 485         -178 933 680"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": null,
+            "cp_lfi": 20585600,
+            "cp_consumed": 147026281,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                231982,
+                18691485,
+                1662133,
+                20585600,
+                20585600,
+                29889416,
+                16485004,
+                100651862,
+                147026281
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Culture",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                     0",
+                "338 644              -217 356            190 485"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": null,
+            "cp_lfi": 0,
+            "cp_consumed": 29964420,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                571602,
+                10939711,
+                18453107,
+                29964420
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Commandes militaires",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                160311,
+                133381,
+                293692
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    160311,
+                    133381,
+                    293692
+                ]
+            ],
+            "extracted_lines": [
+                "0                     0",
+                "160 311               133 381                                  293 692"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 293692,
+            "cp_lfi": 10000000,
+            "cp_consumed": 6903335,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                10000000,
+                10000000,
+                10000000,
+                2187833,
+                4715502,
+                6903335
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 0,
+            "ae_consumed": -187154200,
+            "cp_lfi": 65985600,
+            "cp_consumed": 386787407
+        },
+        "differences": {
+            "ae_consumed": {
+                "actions_sum": 22284081,
+                "programme_total": -187154200,
+                "difference": 209438281
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 6,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29867",
+    "pdf_sha256": "db9c1ee01792517173db89246a5cf53ec0b864016f5e0b22689fe194ddc1911b",
+    "mission": "Plan de relance"
+}

@@ -1,0 +1,234 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "219",
+        "name": "Sport"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Promotion du sport pour le",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                39001800,
+                9400200,
+                301068465,
+                349470465,
+                349485465
+            ],
+            "amount_rows": [
+                [
+                    39001800,
+                    9400200,
+                    301068465,
+                    349470465,
+                    349485465
+                ]
+            ],
+            "extracted_lines": [
+                "39 001 800      9 400 200                         301 068 465                        349 470 465       349 485 465",
+                "130 915 399      24 307 666                -233    204 174 954                         359 397 787"
+            ],
+            "ae_lfi": 349485465,
+            "ae_consumed": null,
+            "cp_lfi": 349396817,
+            "cp_consumed": 323691179,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                39001800,
+                9300200,
+                301079817,
+                349381817,
+                349396817,
+                130915399,
+                26370930,
+                166404849,
+                323691179
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Développement du sport de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                60885281,
+                43349222,
+                4700000,
+                234736320,
+                343670823,
+                343670823
+            ],
+            "amount_rows": [
+                [
+                    60885281,
+                    43349222,
+                    4700000,
+                    234736320,
+                    343670823,
+                    343670823
+                ]
+            ],
+            "extracted_lines": [
+                "60 885 281      43 349 222         4 700 000      234 736 320                        343 670 823       343 670 823",
+                "43 255 749         4 202 345     215 149 344          -460 800       262 146 638"
+            ],
+            "ae_lfi": 343670823,
+            "ae_consumed": null,
+            "cp_lfi": 343579660,
+            "cp_consumed": 268279481,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                60885281,
+                43286722,
+                8160904,
+                230593953,
+                652800,
+                343579660,
+                343579660,
+                43244931,
+                8722750,
+                216119799,
+                192000,
+                268279481
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Prévention par le sport et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                7665692,
+                805169,
+                25344176,
+                33815037,
+                33815037,
+                696698,
+                20950541,
+                21647239
+            ],
+            "amount_rows": [
+                [
+                    7665692,
+                    805169,
+                    25344176,
+                    33815037,
+                    33815037
+                ],
+                [
+                    696698,
+                    20950541,
+                    21647239
+                ]
+            ],
+            "extracted_lines": [
+                "7 665 692         805 169                          25 344 176                        33 815 037        33 815 037",
+                "696 698                          20 950 541                         21 647 239"
+            ],
+            "ae_lfi": 33815037,
+            "ae_consumed": 21647239,
+            "cp_lfi": 33868300,
+            "cp_consumed": 21950890,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                7665692,
+                805169,
+                25397439,
+                33868300,
+                33868300,
+                906249,
+                21044641,
+                21950890
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Promotion des métiers du",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                21935275,
+                22512566,
+                3697836,
+                48145677,
+                48145677,
+                19708734,
+                5229275,
+                24938009
+            ],
+            "amount_rows": [
+                [
+                    21935275,
+                    22512566,
+                    3697836,
+                    48145677,
+                    48145677
+                ],
+                [
+                    19708734,
+                    5229275,
+                    24938009
+                ]
+            ],
+            "extracted_lines": [
+                "21 935 275      22 512 566                           3 697 836                        48 145 677        48 145 677",
+                "19 708 734                          5 229 275                         24 938 009"
+            ],
+            "ae_lfi": 48145677,
+            "ae_consumed": 24938009,
+            "cp_lfi": 48243562,
+            "cp_consumed": 25104839,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                21935275,
+                22512566,
+                3795721,
+                48243562,
+                48243562,
+                19627154,
+                5477685,
+                25104839
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 775117002,
+            "ae_consumed": 668129672,
+            "cp_lfi": 775088339,
+            "cp_consumed": 639026388
+        },
+        "differences": {
+            "ae_consumed": {
+                "actions_sum": 46585248,
+                "programme_total": 668129672,
+                "difference": -621544424
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 4,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29786",
+    "pdf_sha256": "2a3956ba6afc7fe0e378d446bd1d29a73a7d38a29b3b3b67213e009968ee7590",
+    "mission": "Sport, jeunesse et vie associative"
+}

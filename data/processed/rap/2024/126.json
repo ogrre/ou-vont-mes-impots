@@ -1,0 +1,129 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "126",
+        "name": "Conseil économique, social et environnemental"
+    },
+    "actions": [
+        {
+            "code": "04",
+            "label": "Travaux consultatifs",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                25582381,
+                6481340,
+                32063721,
+                32063721,
+                18477699,
+                4364770,
+                22842469
+            ],
+            "amount_rows": [
+                [
+                    25582381,
+                    6481340,
+                    32063721,
+                    32063721
+                ],
+                [
+                    18477699,
+                    4364770,
+                    22842469
+                ]
+            ],
+            "extracted_lines": [
+                "25 582 381          6 481 340    32 063 721         32 063 721",
+                "18 477 699          4 364 770     22 842 469"
+            ],
+            "ae_lfi": 32063721,
+            "ae_consumed": 22842469,
+            "cp_lfi": 32063721,
+            "cp_consumed": 22842469,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                25582381,
+                6481340,
+                32063721,
+                32063721,
+                18477699,
+                4364770,
+                22842469
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Fonctions supports à l'institution",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                10247284,
+                2596167,
+                12843451,
+                14543451,
+                17192129,
+                6183703,
+                23375832
+            ],
+            "amount_rows": [
+                [
+                    10247284,
+                    2596167,
+                    12843451,
+                    14543451
+                ],
+                [
+                    17192129,
+                    6183703,
+                    23375832
+                ]
+            ],
+            "extracted_lines": [
+                "10 247 284          2 596 167    12 843 451         14 543 451",
+                "17 192 129          6 183 703     23 375 832"
+            ],
+            "ae_lfi": 14543451,
+            "ae_consumed": 23375832,
+            "cp_lfi": 14543451,
+            "cp_consumed": 23375832,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                10247284,
+                2596167,
+                12843451,
+                14543451,
+                17192129,
+                6183703,
+                23375832
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 46607172,
+            "ae_consumed": 46218301,
+            "cp_lfi": 46607172,
+            "cp_consumed": 46218301
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 2,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29585",
+    "pdf_sha256": "c2d18fd0872434b0a2ba2cc80733125c2139f5496c71195d1e5b04ebe7068514",
+    "mission": "Conseil et contrôle de l'État"
+}

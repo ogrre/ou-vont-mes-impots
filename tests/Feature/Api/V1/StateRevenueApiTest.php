@@ -36,8 +36,14 @@ class StateRevenueApiTest extends TestCase
             ->assertJsonPath('items.0.label', 'Recettes fiscales brutes')
             ->assertJsonPath('items.0.amount', '495065000000.00')
             ->assertJsonPath('items.0.is_aggregate', true)
+            ->assertJsonPath('items.0.is_deduction', false)
+            ->assertJsonPath('items.0.level', null)
+            ->assertJsonPath('items.0.parent_code', null)
+            ->assertJsonPath('items.0.breadcrumb.0', 'Recettes fiscales brutes')
             ->assertJsonPath('items.11.label', 'À déduire : Remboursements et dégrèvements')
             ->assertJsonPath('items.11.is_deduction', true)
+            ->assertJsonPath('items.11.is_aggregate', false)
+            ->assertJsonPath('items.11.source_row_number', 15)
             ->assertJsonPath('source.file.descriptor', 'state-general-budget-revenue-2025-2026');
     }
 
@@ -56,7 +62,7 @@ class StateRevenueApiTest extends TestCase
 
     public function test_it_validates_filters_returns_not_found_and_is_read_only(): void
     {
-        $this->getJson('/api/v1/state-revenue?year=2200&status=executed')
+        $this->getJson('/api/v1/state-revenue?year=2200&status=invalid_status')
             ->assertUnprocessable()
             ->assertJsonValidationErrors(['year', 'status']);
 
@@ -72,7 +78,7 @@ class StateRevenueApiTest extends TestCase
         $file = DatasetFile::where('slug', 'state-general-budget-revenue-2025-2026')->firstOrFail();
         app(StateBudgetRevenueXlsxImporter::class)->import(
             $file,
-            base_path('data/econ-fin-pub-recettes-budget.xlsx'),
+            base_path('data/2025/budget-etat/econ-fin-pub-recettes-budget.xlsx'),
         );
     }
 }

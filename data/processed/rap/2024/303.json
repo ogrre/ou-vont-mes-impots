@@ -1,0 +1,234 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "303",
+        "name": "Immigration et asile"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Circulation des étrangers et politique des visas",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                520000,
+                520000,
+                520000,
+                90399,
+                90399
+            ],
+            "amount_rows": [
+                [
+                    520000,
+                    520000,
+                    520000
+                ],
+                [
+                    90399,
+                    90399
+                ]
+            ],
+            "extracted_lines": [
+                "520 000                                                     520 000            520 000",
+                "90 399                                                      90 399"
+            ],
+            "ae_lfi": 520000,
+            "ae_consumed": 90399,
+            "cp_lfi": 520000,
+            "cp_consumed": 90399,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                520000,
+                520000,
+                520000,
+                90399,
+                90399
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Garantie de l'exercice du droit d'asile",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                112810442,
+                1875000,
+                860969707,
+                975655149,
+                1010655149,
+                109955165,
+                2177656,
+                1169254110,
+                1281386931
+            ],
+            "amount_rows": [
+                [
+                    112810442,
+                    1875000,
+                    860969707,
+                    975655149,
+                    1010655149
+                ],
+                [
+                    109955165,
+                    2177656,
+                    1169254110,
+                    1281386931
+                ]
+            ],
+            "extracted_lines": [
+                "112 810 442           1 875 000          860 969 707       975 655 149      1 010 655 149",
+                "109 955 165           2 177 656         1 169 254 110     1 281 386 931"
+            ],
+            "ae_lfi": 1010655149,
+            "ae_consumed": 1281386931,
+            "cp_lfi": 1442226744,
+            "cp_consumed": 1597309594,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                112810442,
+                1875000,
+                1292541302,
+                1407226744,
+                1442226744,
+                148259617,
+                2139406,
+                1446910571,
+                1597309594
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Lutte contre l'immigration irrégulière",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                133445633,
+                136613000,
+                29898208,
+                299956841,
+                326203247,
+                114058960,
+                15224794,
+                20909276,
+                150193030
+            ],
+            "amount_rows": [
+                [
+                    133445633,
+                    136613000,
+                    29898208,
+                    299956841,
+                    326203247
+                ],
+                [
+                    114058960,
+                    15224794,
+                    20909276,
+                    150193030
+                ]
+            ],
+            "extracted_lines": [
+                "133 445 633         136 613 000            29 898 208      299 956 841        326 203 247",
+                "114 058 960          15 224 794             20 909 276      150 193 030"
+            ],
+            "ae_lfi": 326203247,
+            "ae_consumed": 150193030,
+            "cp_lfi": 286946019,
+            "cp_consumed": 166465687,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                140898978,
+                89902427,
+                29898208,
+                260699613,
+                286946019,
+                117302372,
+                14249532,
+                34913783,
+                166465687
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Soutien",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                8497040,
+                48797666,
+                57294706,
+                79961960,
+                70772794,
+                17001274,
+                217928,
+                87991996
+            ],
+            "amount_rows": [
+                [
+                    8497040,
+                    48797666,
+                    57294706,
+                    79961960
+                ],
+                [
+                    70772794,
+                    17001274,
+                    217928,
+                    87991996
+                ]
+            ],
+            "extracted_lines": [
+                "8 497 040         48 797 666                              57 294 706         79 961 960",
+                "70 772 794         17 001 274                 217 928       87 991 996"
+            ],
+            "ae_lfi": 79961960,
+            "ae_consumed": 87991996,
+            "cp_lfi": 79364647,
+            "cp_consumed": 71733355,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                8497040,
+                48200353,
+                56697393,
+                79364647,
+                56023396,
+                15517031,
+                192928,
+                71733355
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 1417340356,
+            "ae_consumed": 1519662356,
+            "cp_lfi": 1809057410,
+            "cp_consumed": 1835599036
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 4,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29807",
+    "pdf_sha256": "14a23cd88fe31d941e8554ca6438b90afb7499aa270c74fe1078af157590c64e",
+    "mission": "Immigration, asile et intégration"
+}

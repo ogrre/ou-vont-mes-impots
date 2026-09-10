@@ -1,0 +1,71 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "853",
+        "name": "Prêts à l'Agence française de développement en vue de favoriser le développement économique et social dans des États étrangers"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Prêts à l'Agence française de développement en vue de favoriser le développement",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                       0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 150000000,
+            "cp_consumed": 150000000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                150000000,
+                150000000,
+                150000000,
+                150000000,
+                150000000
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 150000000,
+            "cp_consumed": 150000000
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30122",
+    "pdf_sha256": "c1355ece5bd90c65fba93cfc17cc9cbebcada5abdb1999ac1e14acfd6c9cb9d8",
+    "mission": null
+}

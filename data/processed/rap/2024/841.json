@@ -1,0 +1,75 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "841",
+        "name": "France Télévisions"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "France Télévisions",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                2523106868,
+                2523106868,
+                2523106868,
+                2523106868,
+                2523106868
+            ],
+            "amount_rows": [
+                [
+                    2523106868,
+                    2523106868,
+                    2523106868
+                ],
+                [
+                    2523106868,
+                    2523106868
+                ]
+            ],
+            "extracted_lines": [
+                "2 523 106 868     2 523 106 868       2 523 106 868",
+                "2 523 106 868     2 523 106 868"
+            ],
+            "ae_lfi": 2523106868,
+            "ae_consumed": 2523106868,
+            "cp_lfi": 2523106868,
+            "cp_consumed": 2523106868,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                2523106868,
+                2523106868,
+                2523106868,
+                2523106868,
+                2523106868
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 2523106868,
+            "ae_consumed": 2523106868,
+            "cp_lfi": 2523106868,
+            "cp_consumed": 2523106868
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30095",
+    "pdf_sha256": "c4094e1172b2fa0761a60b19006c08a7d93f9b5f8fbc03cacd44331fb53b8678",
+    "mission": null
+}

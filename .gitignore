@@ -24,3 +24,5 @@ _ide_helper.php
 Homestead.json
 Homestead.yaml
 Thumbs.db
+data/series-historiques/ofgl/ofgl-base-ccas-cias.csv
+tools/rap-browser/node_modules/

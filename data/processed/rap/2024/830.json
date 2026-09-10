@@ -1,0 +1,75 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "830",
+        "name": "Prêts à FranceAgriMer au titre des préfinancements de fonds européens"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Prêts au titre du financement des aides européennes versées à FranceAgriMer",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                70000000,
+                70000000,
+                70000000,
+                70000000,
+                70000000
+            ],
+            "amount_rows": [
+                [
+                    70000000,
+                    70000000,
+                    70000000
+                ],
+                [
+                    70000000,
+                    70000000
+                ]
+            ],
+            "extracted_lines": [
+                "70 000 000      70 000 000          70 000 000",
+                "70 000 000       70 000 000"
+            ],
+            "ae_lfi": 70000000,
+            "ae_consumed": 70000000,
+            "cp_lfi": 70000000,
+            "cp_consumed": 70000000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                70000000,
+                70000000,
+                70000000,
+                70000000,
+                70000000
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 70000000,
+            "ae_consumed": 70000000,
+            "cp_lfi": 70000000,
+            "cp_consumed": 70000000
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30083",
+    "pdf_sha256": "44f43c9f84f098f585a5ec12c490dafd8f331e0004f0429f7482a5d042adabdf",
+    "mission": null
+}

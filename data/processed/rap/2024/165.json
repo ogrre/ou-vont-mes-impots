@@ -1,0 +1,342 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "165",
+        "name": "Conseil d'État et autres juridictions administratives"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Fonction juridictionnelle : Conseil d'État",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                33885089,
+                33885089,
+                33907956,
+                33524318,
+                4601,
+                33528920
+            ],
+            "amount_rows": [
+                [
+                    33885089,
+                    33885089,
+                    33907956
+                ],
+                [
+                    33524318,
+                    4601,
+                    33528920
+                ]
+            ],
+            "extracted_lines": [
+                "33 885 089                                           33 885 089         33 907 956",
+                "33 524 318               4 601                        33 528 920"
+            ],
+            "ae_lfi": 33907956,
+            "ae_consumed": 33528920,
+            "cp_lfi": 33907956,
+            "cp_consumed": 33528920,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                33885089,
+                33885089,
+                33907956,
+                33524318,
+                4601,
+                33528920
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Fonction juridictionnelle : Cours administratives d'appel",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                62838684,
+                62838684,
+                62838684,
+                59270538,
+                59270538
+            ],
+            "amount_rows": [
+                [
+                    62838684,
+                    62838684,
+                    62838684
+                ],
+                [
+                    59270538,
+                    59270538
+                ]
+            ],
+            "extracted_lines": [
+                "62 838 684                                           62 838 684         62 838 684",
+                "59 270 538                                            59 270 538"
+            ],
+            "ae_lfi": 62838684,
+            "ae_consumed": 59270538,
+            "cp_lfi": 62838684,
+            "cp_consumed": 59270538,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                62838684,
+                62838684,
+                62838684,
+                59270538,
+                59270538
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Fonction juridictionnelle : Tribunaux administratifs",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                202187802,
+                202187802,
+                202187802,
+                199431594,
+                199431594
+            ],
+            "amount_rows": [
+                [
+                    202187802,
+                    202187802,
+                    202187802
+                ],
+                [
+                    199431594,
+                    199431594
+                ]
+            ],
+            "extracted_lines": [
+                "202 187 802                                           202 187 802       202 187 802",
+                "199 431 594                                            199 431 594"
+            ],
+            "ae_lfi": 202187802,
+            "ae_consumed": 199431594,
+            "cp_lfi": 202187802,
+            "cp_consumed": 199431594,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                202187802,
+                202187802,
+                202187802,
+                199431594,
+                199431594
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Fonction consultative",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                17511003,
+                17511003,
+                17511003,
+                17164277,
+                17164277
+            ],
+            "amount_rows": [
+                [
+                    17511003,
+                    17511003,
+                    17511003
+                ],
+                [
+                    17164277,
+                    17164277
+                ]
+            ],
+            "extracted_lines": [
+                "17 511 003                                           17 511 003         17 511 003",
+                "17 164 277                                            17 164 277"
+            ],
+            "ae_lfi": 17511003,
+            "ae_consumed": 17164277,
+            "cp_lfi": 17511003,
+            "cp_consumed": 17164277,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                17511003,
+                17511003,
+                17511003,
+                17164277,
+                17164277
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Fonction études, expertise et services rendus aux",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                20140345,
+                20140345,
+                20140345,
+                20658570,
+                20658570
+            ],
+            "amount_rows": [
+                [
+                    20140345,
+                    20140345,
+                    20140345
+                ],
+                [
+                    20658570,
+                    20658570
+                ]
+            ],
+            "extracted_lines": [
+                "20 140 345                                           20 140 345         20 140 345",
+                "20 658 570                                            20 658 570"
+            ],
+            "ae_lfi": 20140345,
+            "ae_consumed": 20658570,
+            "cp_lfi": 20140345,
+            "cp_consumed": 20658570,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                20140345,
+                20140345,
+                20140345,
+                20658570,
+                20658570
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Soutien",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                50542620,
+                69661072,
+                12728463,
+                132932155,
+                133109288,
+                51050710,
+                65360313,
+                29973849,
+                146384871
+            ],
+            "amount_rows": [
+                [
+                    50542620,
+                    69661072,
+                    12728463,
+                    132932155,
+                    133109288
+                ],
+                [
+                    51050710,
+                    65360313,
+                    29973849,
+                    146384871
+                ]
+            ],
+            "extracted_lines": [
+                "50 542 620        69 661 072          12 728 463    132 932 155       133 109 288",
+                "51 050 710        65 360 313           29 973 849    146 384 871"
+            ],
+            "ae_lfi": 133109288,
+            "ae_consumed": 146384871,
+            "cp_lfi": 197378795,
+            "cp_consumed": 187703310,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                50542620,
+                86257961,
+                60401081,
+                197201662,
+                197378795,
+                51050710,
+                81368382,
+                55284218,
+                187703310
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Cour nationale du droit d'asile",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                49638129,
+                49638129,
+                49638129,
+                43197540,
+                43197540
+            ],
+            "amount_rows": [
+                [
+                    49638129,
+                    49638129,
+                    49638129
+                ],
+                [
+                    43197540,
+                    43197540
+                ]
+            ],
+            "extracted_lines": [
+                "49 638 129                                           49 638 129         49 638 129",
+                "43 197 540                                            43 197 540"
+            ],
+            "ae_lfi": 49638129,
+            "ae_consumed": 43197540,
+            "cp_lfi": 49638129,
+            "cp_consumed": 43197540,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                49638129,
+                49638129,
+                49638129,
+                43197540,
+                43197540
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 519333207,
+            "ae_consumed": 519636310,
+            "cp_lfi": 583602714,
+            "cp_consumed": 560954748
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 7,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29681",
+    "pdf_sha256": "1da34a5f480fcf07fc16708990938383e4dad9c1e72581e3f6aaec0b1218ec20",
+    "mission": "Conseil et contrôle de l'État"
+}

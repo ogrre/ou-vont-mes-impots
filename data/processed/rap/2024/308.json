@@ -1,0 +1,585 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "308",
+        "name": "Protection des droits et libertés"
+    },
+    "actions": [
+        {
+            "code": "02",
+            "label": "Commission nationale de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                24243904,
+                4347239,
+                40000,
+                15000,
+                28646143,
+                28646143,
+                23809424,
+                4182215,
+                40608,
+                10250,
+                28042496
+            ],
+            "amount_rows": [
+                [
+                    24243904,
+                    4347239,
+                    40000,
+                    15000,
+                    28646143,
+                    28646143
+                ],
+                [
+                    23809424,
+                    4182215,
+                    40608,
+                    10250,
+                    28042496
+                ]
+            ],
+            "extracted_lines": [
+                "24 243 904          4 347 239                  40 000                15 000     28 646 143        28 646 143",
+                "23 809 424          4 182 215                 40 608                10 250      28 042 496"
+            ],
+            "ae_lfi": 28646143,
+            "ae_consumed": 28042496,
+            "cp_lfi": 28646143,
+            "cp_consumed": 27690276,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                24243904,
+                4347239,
+                40000,
+                15000,
+                28646143,
+                28646143,
+                23809424,
+                3870602,
+                10250,
+                27690276
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Autorité de régulation de la",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                50939100,
+                50939100,
+                50939100,
+                51342646,
+                51342646
+            ],
+            "amount_rows": [
+                [
+                    50939100,
+                    50939100,
+                    50939100
+                ],
+                [
+                    51342646,
+                    51342646
+                ]
+            ],
+            "extracted_lines": [
+                "50 939 100       50 939 100        50 939 100",
+                "51 342 646       51 342 646"
+            ],
+            "ae_lfi": 50939100,
+            "ae_consumed": 51342646,
+            "cp_lfi": 50939100,
+            "cp_consumed": 51342646,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                50939100,
+                50939100,
+                50939100,
+                51342646,
+                51342646,
+                35
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Contrôleur général des lieux de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                4930591,
+                5377918,
+                10308509,
+                10308509,
+                4196850,
+                2616212,
+                6813062
+            ],
+            "amount_rows": [
+                [
+                    4930591,
+                    5377918,
+                    10308509,
+                    10308509
+                ],
+                [
+                    4196850,
+                    2616212,
+                    6813062
+                ]
+            ],
+            "extracted_lines": [
+                "4 930 591         5 377 918                                                   10 308 509        10 308 509",
+                "4 196 850         2 616 212                                                    6 813 062"
+            ],
+            "ae_lfi": 10308509,
+            "ae_consumed": 6813062,
+            "cp_lfi": 6259674,
+            "cp_consumed": 5495736,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                4930591,
+                1329083,
+                6259674,
+                6259674,
+                4196850,
+                1298887,
+                5495736
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Autres autorités indépendantes",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                3517878,
+                1446887,
+                70000,
+                5034765,
+                5034765,
+                3289031,
+                740332,
+                56000,
+                4085363
+            ],
+            "amount_rows": [
+                [
+                    3517878,
+                    1446887,
+                    70000,
+                    5034765,
+                    5034765
+                ],
+                [
+                    3289031,
+                    740332,
+                    56000,
+                    4085363
+                ]
+            ],
+            "extracted_lines": [
+                "3 517 878         1 446 887                                        70 000      5 034 765          5 034 765",
+                "3 289 031          740 332                                        56 000       4 085 363"
+            ],
+            "ae_lfi": 5034765,
+            "ae_consumed": 4085363,
+            "cp_lfi": 5034765,
+            "cp_consumed": 4006682,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                3517878,
+                1446887,
+                70000,
+                5034765,
+                5034765,
+                3289031,
+                661651,
+                56000,
+                4006682
+            ]
+        },
+        {
+            "code": "06.01",
+            "label": "Commission d'accès aux",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "06",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1641765,
+                253585,
+                1895350,
+                1895350,
+                1678823,
+                74092,
+                1752915
+            ],
+            "amount_rows": [
+                [
+                    1641765,
+                    253585,
+                    1895350,
+                    1895350
+                ],
+                [
+                    1678823,
+                    74092,
+                    1752915
+                ]
+            ],
+            "extracted_lines": [
+                "1 641 765           253 585                                                    1 895 350          1 895 350",
+                "1 678 823           74 092                                                     1 752 915"
+            ],
+            "ae_lfi": 1895350,
+            "ae_consumed": 1752915,
+            "cp_lfi": 1895350,
+            "cp_consumed": 1687699,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1641765,
+                253585,
+                1895350,
+                1895350,
+                1678823,
+                8876,
+                1687699
+            ]
+        },
+        {
+            "code": "06.02",
+            "label": "Comité consultatif national",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "06",
+            "contributes_to_program_total": false,
+            "amounts": [
+                751705,
+                823128,
+                1574833,
+                1574833,
+                650000,
+                493012,
+                1143012
+            ],
+            "amount_rows": [
+                [
+                    751705,
+                    823128,
+                    1574833,
+                    1574833
+                ],
+                [
+                    650000,
+                    493012,
+                    1143012
+                ]
+            ],
+            "extracted_lines": [
+                "751 705           823 128                                                    1 574 833          1 574 833",
+                "650 000           493 012                                                     1 143 012"
+            ],
+            "ae_lfi": 1574833,
+            "ae_consumed": 1143012,
+            "cp_lfi": 1574833,
+            "cp_consumed": 1122055,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                751705,
+                823128,
+                1574833,
+                1574833,
+                650000,
+                472056,
+                1122055
+            ]
+        },
+        {
+            "code": "06.03",
+            "label": "Commission nationale",
+            "hierarchy_level": "sub_action",
+            "parent_action_code": "06",
+            "contributes_to_program_total": false,
+            "amounts": [
+                1124408,
+                370174,
+                70000,
+                1564582,
+                1564582,
+                960209,
+                173227,
+                56000,
+                1189436
+            ],
+            "amount_rows": [
+                [
+                    1124408,
+                    370174,
+                    70000,
+                    1564582,
+                    1564582
+                ],
+                [
+                    960209,
+                    173227,
+                    56000,
+                    1189436
+                ]
+            ],
+            "extracted_lines": [
+                "1 124 408           370 174                                        70 000      1 564 582          1 564 582",
+                "960 209           173 227                                        56 000       1 189 436"
+            ],
+            "ae_lfi": 1564582,
+            "ae_consumed": 1189436,
+            "cp_lfi": 1564582,
+            "cp_consumed": 1196928,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1124408,
+                370174,
+                70000,
+                1564582,
+                1564582,
+                960209,
+                180719,
+                56000,
+                1196928
+            ]
+        },
+        {
+            "code": "09",
+            "label": "Défenseur des droits",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                20772177,
+                9335222,
+                30107399,
+                30107399,
+                20370617,
+                8922855,
+                29293472
+            ],
+            "amount_rows": [
+                [
+                    20772177,
+                    9335222,
+                    30107399,
+                    30107399
+                ],
+                [
+                    20370617,
+                    8922855,
+                    29293472
+                ]
+            ],
+            "extracted_lines": [
+                "20 772 177          9 335 222                                                   30 107 399        30 107 399",
+                "20 370 617          8 922 855                                                   29 293 472"
+            ],
+            "ae_lfi": 30107399,
+            "ae_consumed": 29293472,
+            "cp_lfi": 30107399,
+            "cp_consumed": 28855217,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                20772177,
+                9335222,
+                30107399,
+                30107399,
+                20370617,
+                8484600,
+                28855217
+            ]
+        },
+        {
+            "code": "10",
+            "label": "Haute autorité pour la transparence",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                6647451,
+                3294187,
+                300000,
+                10241638,
+                10241638,
+                6358233,
+                3279496,
+                4267,
+                9641995
+            ],
+            "amount_rows": [
+                [
+                    6647451,
+                    3294187,
+                    300000,
+                    10241638,
+                    10241638
+                ],
+                [
+                    6358233,
+                    3279496,
+                    4267,
+                    9641995
+                ]
+            ],
+            "extracted_lines": [
+                "6 647 451         3 294 187                300 000                            10 241 638        10 241 638",
+                "6 358 233         3 279 496                                         4 267      9 641 995"
+            ],
+            "ae_lfi": 10241638,
+            "ae_consumed": 9641995,
+            "cp_lfi": 10241638,
+            "cp_consumed": 9682339,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                6647451,
+                3294187,
+                300000,
+                10241638,
+                10241638,
+                6358233,
+                3319840,
+                4267,
+                9682339
+            ]
+        },
+        {
+            "code": "12",
+            "label": "Commission nationale de contrôle",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                3035601,
+                484587,
+                3520188,
+                3520188,
+                2848545,
+                445430,
+                3293974
+            ],
+            "amount_rows": [
+                [
+                    3035601,
+                    484587,
+                    3520188,
+                    3520188
+                ],
+                [
+                    2848545,
+                    445430,
+                    3293974
+                ]
+            ],
+            "extracted_lines": [
+                "3 035 601           484 587                                                    3 520 188          3 520 188",
+                "2 848 545          445 430                                                     3 293 974"
+            ],
+            "ae_lfi": 3520188,
+            "ae_consumed": 3293974,
+            "cp_lfi": 3520188,
+            "cp_consumed": 3256126,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                3035601,
+                484587,
+                3520188,
+                3520188,
+                2848545,
+                407582,
+                3256126
+            ]
+        },
+        {
+            "code": "13",
+            "label": "Commission du secret de la",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                582265,
+                71694,
+                653959,
+                653959,
+                596126,
+                47533,
+                643659
+            ],
+            "amount_rows": [
+                [
+                    582265,
+                    71694,
+                    653959,
+                    653959
+                ],
+                [
+                    596126,
+                    47533,
+                    643659
+                ]
+            ],
+            "extracted_lines": [
+                "582 265             71 694                                                     653 959            653 959",
+                "596 126             47 533                                                     643 659"
+            ],
+            "ae_lfi": 653959,
+            "ae_consumed": 643659,
+            "cp_lfi": 653959,
+            "cp_consumed": 647404,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                582265,
+                71694,
+                653959,
+                653959,
+                596126,
+                51278,
+                647404
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 139451701,
+            "ae_consumed": 133156667,
+            "cp_lfi": 135402866,
+            "cp_consumed": 130976427
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 11,
+        "sub_actions": 3
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29816",
+    "pdf_sha256": "90ef9932519c6a8b768fb1f8f17774ea0f2fded371ab2601e823cb1885cbb78f",
+    "mission": "Direction de l'action du Gouvernement"
+}

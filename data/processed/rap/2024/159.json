@@ -1,0 +1,210 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "159",
+        "name": "Expertise, information géographique et météorologie"
+    },
+    "actions": [
+        {
+            "code": "10",
+            "label": "Gouvernance, évaluation, études et prospective en",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                12891620,
+                6066646,
+                18958266,
+                18998266,
+                10600811,
+                845372,
+                6557625,
+                18003808
+            ],
+            "amount_rows": [
+                [
+                    12891620,
+                    6066646,
+                    18958266,
+                    18998266
+                ],
+                [
+                    10600811,
+                    845372,
+                    6557625,
+                    18003808
+                ]
+            ],
+            "extracted_lines": [
+                "12 891 620                                     6 066 646     18 958 266         18 998 266",
+                "10 600 811                  845 372             6 557 625     18 003 808"
+            ],
+            "ae_lfi": 18998266,
+            "ae_consumed": 18003808,
+            "cp_lfi": 18998266,
+            "cp_consumed": 16916549,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                12891620,
+                6066646,
+                18958266,
+                18998266,
+                10380054,
+                3443,
+                6533052,
+                16916549
+            ]
+        },
+        {
+            "code": "11",
+            "label": "Etudes et expertise en matière de développement",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                197038548,
+                197038548,
+                197038548,
+                193238605,
+                193238605
+            ],
+            "amount_rows": [
+                [
+                    197038548,
+                    197038548,
+                    197038548
+                ],
+                [
+                    193238605,
+                    193238605
+                ]
+            ],
+            "extracted_lines": [
+                "197 038 548                                                  197 038 548       197 038 548",
+                "193 238 605                                                   193 238 605"
+            ],
+            "ae_lfi": 197038548,
+            "ae_consumed": 193238605,
+            "cp_lfi": 197038548,
+            "cp_consumed": 193238605,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                197038548,
+                197038548,
+                197038548,
+                193238605,
+                193238605
+            ]
+        },
+        {
+            "code": "12",
+            "label": "Information géographique et cartographique",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                92292685,
+                92292685,
+                92292685,
+                90730060,
+                90730060
+            ],
+            "amount_rows": [
+                [
+                    92292685,
+                    92292685,
+                    92292685
+                ],
+                [
+                    90730060,
+                    90730060
+                ]
+            ],
+            "extracted_lines": [
+                "92 292 685                                                   92 292 685         92 292 685",
+                "90 730 060                                                    90 730 060"
+            ],
+            "ae_lfi": 92292685,
+            "ae_consumed": 90730060,
+            "cp_lfi": 92292685,
+            "cp_consumed": 90730060,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                92292685,
+                92292685,
+                92292685,
+                90730060,
+                90730060
+            ]
+        },
+        {
+            "code": "13",
+            "label": "Météorologie",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                207259390,
+                207259390,
+                207259390,
+                202741398,
+                202741398
+            ],
+            "amount_rows": [
+                [
+                    207259390,
+                    207259390,
+                    207259390
+                ],
+                [
+                    202741398,
+                    202741398
+                ]
+            ],
+            "extracted_lines": [
+                "207 259 390                                                  207 259 390       207 259 390",
+                "202 741 398                                                   202 741 398"
+            ],
+            "ae_lfi": 207259390,
+            "ae_consumed": 202741398,
+            "cp_lfi": 207259390,
+            "cp_consumed": 202741398,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                207259390,
+                207259390,
+                207259390,
+                202741398,
+                202741398
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 515588889,
+            "ae_consumed": 504713871,
+            "cp_lfi": 515588889,
+            "cp_consumed": 503626612
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 4,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29666",
+    "pdf_sha256": "87a541dd187e4d348704a6bf313ea6f1ff9032a24b0ccedbab248f457beba3b2",
+    "mission": "Écologie, développement et mobilité durables"
+}

@@ -52,5 +52,9 @@ class StateRevenueDatasetSeeder extends Seeder
                 ],
             ],
         );
+
+        $source2024 = Source::query()->updateOrCreate(['slug' => 'direction-budget-plrg-2024'], ['name' => 'PLRG 2024', 'publisher' => 'Direction du Budget', 'homepage_url' => 'https://www.budget.gouv.fr/documentation/documents-budgetaires/exercice-2024/plrg-2024', 'is_official' => true]);
+        $dataset2024 = Dataset::query()->updateOrCreate(['slug' => 'state-budget-revenue-execution-2024'], ['source_id' => $source2024->id, 'name' => 'Recettes du budget de l’État — exécution 2024', 'description' => 'Hiérarchie des recettes exécutées et prévisionnelles du PLRG 2024.', 'accounting_system' => 'budgetary', 'scope' => 'state_budget', 'frequency' => 'annual', 'unit' => 'EUR', 'year' => 2024, 'metadata' => ['accounting_scope' => 'state_budget', 'reporting_period' => '2024', 'status' => 'executed', 'unit' => 'EUR']]);
+        DatasetFile::query()->updateOrCreate(['slug' => 'state-budget-revenue-execution-2024'], ['dataset_id' => $dataset2024->id, 'expected_filename' => 'Annexe1-Etat_Recettes.csv', 'metadata' => ['importer' => 'state_budget_revenue_csv', 'accounting_scope' => 'french_state_budget', 'classification' => 'revenue', 'flow_type' => 'revenue']]);
     }
 }

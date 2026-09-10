@@ -1,0 +1,132 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "612",
+        "name": "Navigation aérienne"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Soutien et prestations externes de la Navigation",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                261082001,
+                250000,
+                36000,
+                261368001,
+                266968001,
+                311029342,
+                36000,
+                311065342
+            ],
+            "amount_rows": [
+                [
+                    261082001,
+                    250000,
+                    36000,
+                    261368001,
+                    266968001
+                ],
+                [
+                    311029342,
+                    36000,
+                    311065342
+                ]
+            ],
+            "extracted_lines": [
+                "261 082 001                250 000                 36 000    261 368 001       266 968 001",
+                "311 029 342                                        36 000     311 065 342"
+            ],
+            "ae_lfi": 266968001,
+            "ae_consumed": 311065342,
+            "cp_lfi": 266998001,
+            "cp_consumed": 301436602,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                261082001,
+                250000,
+                66000,
+                261398001,
+                266998001,
+                301370602,
+                66000,
+                301436602
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Exploitation et innovation de la Navigation aérienne",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                181718161,
+                393092000,
+                574810161,
+                584210161,
+                180402861,
+                237803926,
+                418206788
+            ],
+            "amount_rows": [
+                [
+                    181718161,
+                    393092000,
+                    574810161,
+                    584210161
+                ],
+                [
+                    180402861,
+                    237803926,
+                    418206788
+                ]
+            ],
+            "extracted_lines": [
+                "181 718 161           393 092 000                            574 810 161       584 210 161",
+                "180 402 861           237 803 926                             418 206 788"
+            ],
+            "ae_lfi": 584210161,
+            "ae_consumed": 418206788,
+            "cp_lfi": 400925814,
+            "cp_consumed": 349245607,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                158670814,
+                232855000,
+                391525814,
+                400925814,
+                139498861,
+                209746746,
+                349245607
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 851178162,
+            "ae_consumed": 729272130,
+            "cp_lfi": 667923815,
+            "cp_consumed": 650682208
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 2,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29330",
+    "pdf_sha256": "c42403d9bea0cfa4ec1f00228ee0c7916fb92ac463b7434eace51ce31ceb7a99",
+    "mission": null
+}

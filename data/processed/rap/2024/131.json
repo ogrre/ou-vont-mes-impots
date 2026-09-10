@@ -1,0 +1,185 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "131",
+        "name": "Création"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Soutien à la création, à la production",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                278807942,
+                41734001,
+                495474702,
+                816016645,
+                816016645
+            ],
+            "amount_rows": [
+                [
+                    278807942,
+                    41734001,
+                    495474702,
+                    816016645,
+                    816016645
+                ]
+            ],
+            "extracted_lines": [
+                "278 807 942          41 734 001        495 474 702                             816 016 645       816 016 645",
+                "264 404 325          36 079 287        456 367 906          -20 690 000        736 161 519"
+            ],
+            "ae_lfi": 816016645,
+            "ae_consumed": null,
+            "cp_lfi": 820038641,
+            "cp_consumed": 757025225,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                278807942,
+                47756000,
+                493474699,
+                820038641,
+                820038641,
+                264265755,
+                37371617,
+                455387852,
+                757025225
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Soutien à la création, à la production",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                49115257,
+                26903891,
+                69125176,
+                145144324,
+                145144324,
+                48509302,
+                27127380,
+                59635839,
+                754250,
+                136026771
+            ],
+            "amount_rows": [
+                [
+                    49115257,
+                    26903891,
+                    69125176,
+                    145144324,
+                    145144324
+                ],
+                [
+                    48509302,
+                    27127380,
+                    59635839,
+                    754250,
+                    136026771
+                ]
+            ],
+            "extracted_lines": [
+                "49 115 257         26 903 891         69 125 176                             145 144 324       145 144 324",
+                "48 509 302         27 127 380         59 635 839               754 250       136 026 771"
+            ],
+            "ae_lfi": 145144324,
+            "ae_consumed": 136026771,
+            "cp_lfi": 150895215,
+            "cp_consumed": 140547856,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                49115257,
+                34554781,
+                67225177,
+                150895215,
+                150895215,
+                48831283,
+                29222979,
+                61739344,
+                754250,
+                140547856
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Soutien à l'emploi et structurations",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                71719160,
+                71719160,
+                71719160,
+                1889786,
+                74096807,
+                75986593
+            ],
+            "amount_rows": [
+                [
+                    71719160,
+                    71719160,
+                    71719160
+                ],
+                [
+                    1889786,
+                    74096807,
+                    75986593
+                ]
+            ],
+            "extracted_lines": [
+                "71 719 160                              71 719 160        71 719 160",
+                "1 889 786                            74 096 807                              75 986 593"
+            ],
+            "ae_lfi": 71719160,
+            "ae_consumed": 75986593,
+            "cp_lfi": 71719160,
+            "cp_consumed": 76364546,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                71719160,
+                71719160,
+                71719160,
+                2144829,
+                74219717,
+                76364546
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 1032880129,
+            "ae_consumed": 948174882,
+            "cp_lfi": 1042653016,
+            "cp_consumed": 973937627
+        },
+        "differences": {
+            "ae_consumed": {
+                "actions_sum": 212013364,
+                "programme_total": 948174882,
+                "difference": -736161518
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 3,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29594",
+    "pdf_sha256": "f21d4277c9af992be43db0de826f1e5d3f69dbba7c68477dec95f4f59d78d4ad",
+    "mission": "Culture"
+}

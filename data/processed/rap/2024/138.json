@@ -1,0 +1,224 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "138",
+        "name": "Emploi outre-mer"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Soutien aux entreprises",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1539184352,
+                1539184352,
+                1539184352,
+                1628649707,
+                1628649707
+            ],
+            "amount_rows": [
+                [
+                    1539184352,
+                    1539184352,
+                    1539184352
+                ],
+                [
+                    1628649707,
+                    1628649707
+                ]
+            ],
+            "extracted_lines": [
+                "1 539 184 352      1 539 184 352     1 539 184 352",
+                "1 628 649 707      1 628 649 707"
+            ],
+            "ae_lfi": 1539184352,
+            "ae_consumed": 1628649707,
+            "cp_lfi": 1539184352,
+            "cp_consumed": 1628649707,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1539184352,
+                1539184352,
+                1539184352,
+                1628649707,
+                1628649707
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Aide à l'insertion et à la qualification",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                210822902,
+                53902073,
+                29020100,
+                27826000,
+                321571075,
+                361571075,
+                200532001,
+                90211005,
+                44449727,
+                21486860,
+                356679593
+            ],
+            "amount_rows": [
+                [
+                    210822902,
+                    53902073,
+                    29020100,
+                    27826000,
+                    321571075,
+                    361571075
+                ],
+                [
+                    200532001,
+                    90211005,
+                    44449727,
+                    21486860,
+                    356679593
+                ]
+            ],
+            "extracted_lines": [
+                "210 822 902         53 902 073          29 020 100            27 826 000       321 571 075        361 571 075",
+                "200 532 001         90 211 005          44 449 727            21 486 860       356 679 593"
+            ],
+            "ae_lfi": 361571075,
+            "ae_consumed": 356679593,
+            "cp_lfi": 349137268,
+            "cp_consumed": 331256111,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                210822902,
+                53022801,
+                25681302,
+                19610263,
+                309137268,
+                349137268,
+                200532001,
+                89243515,
+                26000853,
+                15479742,
+                331256111
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Pilotage des politiques des outre-",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                3610000,
+                3610000,
+                3610000
+            ],
+            "amount_rows": [
+                [
+                    3610000,
+                    3610000,
+                    3610000
+                ]
+            ],
+            "extracted_lines": [
+                "3 610 000                                                    3 610 000          3 610 000",
+                "2 825 891              90 557                  -2 351        2 914 098"
+            ],
+            "ae_lfi": 3610000,
+            "ae_consumed": null,
+            "cp_lfi": 3373101,
+            "cp_consumed": 3043892,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                3373101,
+                3373101,
+                3373101,
+                2961809,
+                80622,
+                1461,
+                3043892
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Financement de l'économie",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                35087447,
+                35087447,
+                35087447,
+                51555,
+                9149099,
+                9200653
+            ],
+            "amount_rows": [
+                [
+                    35087447,
+                    35087447,
+                    35087447
+                ],
+                [
+                    51555,
+                    9149099,
+                    9200653
+                ]
+            ],
+            "extracted_lines": [
+                "35 087 447         35 087 447        35 087 447",
+                "51 555                                 9 149 099          9 200 653"
+            ],
+            "ae_lfi": 35087447,
+            "ae_consumed": 9200653,
+            "cp_lfi": 32995298,
+            "cp_consumed": 16434626,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                32995298,
+                32995298,
+                32995298,
+                51555,
+                16383071,
+                16434626
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 1939452874,
+            "ae_consumed": 1997444051,
+            "cp_lfi": 1924690019,
+            "cp_consumed": 1979384335
+        },
+        "differences": {
+            "ae_consumed": {
+                "actions_sum": 1994529953,
+                "programme_total": 1997444051,
+                "difference": -2914098
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 4,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29606",
+    "pdf_sha256": "1fbc4651cfde30cec62e8df9201bdefd9f77eba7d05fa25684f7c1d66c882e15",
+    "mission": "Outre-Mer"
+}

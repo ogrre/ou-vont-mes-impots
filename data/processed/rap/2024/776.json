@@ -1,0 +1,123 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "776",
+        "name": "Recherche appliquée et innovation en agriculture"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Recherche appliquée et innovation",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                77570000,
+                77570000,
+                77570000,
+                -14971,
+                89761458,
+                89746487
+            ],
+            "amount_rows": [
+                [
+                    77570000,
+                    77570000,
+                    77570000
+                ],
+                [
+                    -14971,
+                    89761458,
+                    89746487
+                ]
+            ],
+            "extracted_lines": [
+                "77 570 000      77 570 000         77 570 000",
+                "-14 971         89 761 458       89 746 487"
+            ],
+            "ae_lfi": 77570000,
+            "ae_consumed": 89746487,
+            "cp_lfi": 77570000,
+            "cp_consumed": 78443755,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                77570000,
+                77570000,
+                77570000,
+                106982,
+                78336773,
+                78443755
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Fonction support",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                500000,
+                500000,
+                500000,
+                47916,
+                52219,
+                100135
+            ],
+            "amount_rows": [
+                [
+                    500000,
+                    500000,
+                    500000
+                ],
+                [
+                    47916,
+                    52219,
+                    100135
+                ]
+            ],
+            "extracted_lines": [
+                "500 000                             500 000            500 000",
+                "47 916                 52 219      100 135"
+            ],
+            "ae_lfi": 500000,
+            "ae_consumed": 100135,
+            "cp_lfi": 500000,
+            "cp_consumed": 72430,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                500000,
+                500000,
+                500000,
+                20725,
+                51706,
+                72430
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 78070000,
+            "ae_consumed": 89846622,
+            "cp_lfi": 78070000,
+            "cp_consumed": 78516186
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 2,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30017",
+    "pdf_sha256": "55ac0e84639b818e836457c737bfe5e78abc1f8cb1126d223fea771983ad19a0",
+    "mission": null
+}

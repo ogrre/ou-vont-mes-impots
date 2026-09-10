@@ -1,0 +1,72 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "877",
+        "name": "Avances remboursables et prêts bonifiés aux entreprises touchées par la crise de la covid-19 ou par le conflit en Ukraine"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Avances remboursables et prêts bonifiés aux entreprises touchées par la crise du",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                3400000,
+                3400000
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    3400000,
+                    3400000
+                ]
+            ],
+            "extracted_lines": [
+                "0                     0",
+                "3 400 000       3 400 000"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 3400000,
+            "cp_lfi": 0,
+            "cp_consumed": 3400000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                3400000,
+                3400000
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 0,
+            "ae_consumed": 3400000,
+            "cp_lfi": 0,
+            "cp_consumed": 3400000
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30140",
+    "pdf_sha256": "6b79bbf393b8617fbb70c73afed2e6bb93b8340b8180b9eb0ba9a05df566662d",
+    "mission": null
+}

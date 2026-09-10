@@ -2,8 +2,11 @@
 
 namespace App\Services\Imports;
 
+use App\Enums\AccountingBasis;
+use App\Enums\BudgetStage;
 use App\Enums\FlowType;
 use App\Enums\ImportStatus;
+use App\Enums\MeasurementType;
 use App\Enums\ObservationStatus;
 use App\Models\AccountingScope;
 use App\Models\BudgetComponent;
@@ -122,9 +125,19 @@ class StateBudgetRevenueXlsxImporter implements DatasetImporter
                                     'import_batch_id' => $batch->id,
                                     'year' => $semantics['year'],
                                     'accounting_scope_id' => $scope->id,
+                                    'institution_scope_id' => $scope->id,
                                     'budget_component_id' => $component->id,
                                     'classification_item_id' => $item->id,
+                                    'category_id' => $item->id,
                                     'status' => $semantics['status'],
+                                    'measurement_type' => MeasurementType::Revenue,
+                                    'accounting_basis' => AccountingBasis::Budgetary,
+                                    'budget_stage' => match ($semantics['status']) {
+                                        ObservationStatus::InitialEstimate => BudgetStage::InitialBudget,
+                                        ObservationStatus::RevisedEstimate => BudgetStage::AmendedBudget,
+                                        ObservationStatus::BudgetBill => BudgetStage::Forecast,
+                                    },
+                                    'is_consolidated' => false,
                                     'measure' => null,
                                     'flow_type' => FlowType::Revenue,
                                     'amount' => $this->normalizer->billionEurToEur($originalValue),

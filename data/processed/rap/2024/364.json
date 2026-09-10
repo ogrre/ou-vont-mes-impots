@@ -1,0 +1,336 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "364",
+        "name": "Cohésion"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Sauvegarde de l'emploi",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                58059577,
+                58059577
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    58059577,
+                    58059577
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "58 059 577         58 059 577"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 58059577,
+            "cp_lfi": 0,
+            "cp_consumed": 58059577,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                58059577,
+                58059577
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Jeunes",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                -1014717507
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    -1014717507
+                ]
+            ],
+            "extracted_lines": [
+                "0                     0",
+                "-1 014 717 507"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": -1014717507,
+            "cp_lfi": 0,
+            "cp_consumed": null,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Handicap",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                -17717256
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    -17717256
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "-17 717 256"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": -17717256,
+            "cp_lfi": 0,
+            "cp_consumed": 1401907,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                1401907,
+                1401907
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Formation professionnelle",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Recherche",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Coopération sanitaire",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Cohésion territoriale",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "-18 930 565        -19 364 606"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": null,
+            "cp_lfi": 178900000,
+            "cp_consumed": 156194997,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                178900000,
+                178900000,
+                178900000,
+                302865,
+                155892132,
+                156194997,
+                13
+            ]
+        },
+        {
+            "code": "08",
+            "label": "Soutien aux personnes précaires",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                -1338082
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    -1338082
+                ]
+            ],
+            "extracted_lines": [
+                "0                     0",
+                "-1 338 082"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": -1338082,
+            "cp_lfi": 0,
+            "cp_consumed": 4484987,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                4484987,
+                4484987
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 0,
+            "ae_consumed": -995077875,
+            "cp_lfi": 178900000,
+            "cp_consumed": 82627909
+        },
+        "differences": {
+            "ae_consumed": {
+                "actions_sum": -975713268,
+                "programme_total": -995077875,
+                "difference": 19364607
+            },
+            "cp_consumed": {
+                "actions_sum": 220141468,
+                "programme_total": 82627909,
+                "difference": 137513559
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 8,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29870",
+    "pdf_sha256": "39da82b1f57af178662e6e0984df9a698a241c5bfb84b23a042525d6aae7095a",
+    "mission": "Plan de relance"
+}

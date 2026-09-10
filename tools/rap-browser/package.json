@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "discover": "node discover.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}

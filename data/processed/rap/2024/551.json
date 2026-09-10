@@ -1,0 +1,72 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "551",
+        "name": "Provision relative aux rémunérations publiques"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Provision relative aux rémunérations publiques",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                285526298,
+                285526298,
+                285526298,
+                0
+            ],
+            "amount_rows": [
+                [
+                    285526298,
+                    285526298,
+                    285526298
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "285 526 298     285 526 298         285 526 298",
+                "0"
+            ],
+            "ae_lfi": 285526298,
+            "ae_consumed": 0,
+            "cp_lfi": 285526298,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                285526298,
+                285526298,
+                285526298,
+                0
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 285526298,
+            "ae_consumed": 0,
+            "cp_lfi": 285526298,
+            "cp_consumed": 0
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29936",
+    "pdf_sha256": "5153825b3c32c7cdf6faabf520ef76ca5bfff80a5cf62737fd2eec3dc9c73314",
+    "mission": "Crédits non répartis"
+}

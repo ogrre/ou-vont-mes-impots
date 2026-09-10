@@ -1,0 +1,180 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "151",
+        "name": "Français à l'étranger et affaires consulaires"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Offre d'un service public de qualité",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                207374042,
+                20526747,
+                22020000,
+                249920789,
+                249920789,
+                195812819,
+                22612070,
+                1789569,
+                19727367,
+                239941826
+            ],
+            "amount_rows": [
+                [
+                    207374042,
+                    20526747,
+                    22020000,
+                    249920789,
+                    249920789
+                ],
+                [
+                    195812819,
+                    22612070,
+                    1789569,
+                    19727367,
+                    239941826
+                ]
+            ],
+            "extracted_lines": [
+                "207 374 042         20 526 747                                  22 020 000    249 920 789       249 920 789",
+                "195 812 819         22 612 070              1 789 569           19 727 367    239 941 826"
+            ],
+            "ae_lfi": 249920789,
+            "ae_consumed": 239941826,
+            "cp_lfi": 249520789,
+            "cp_consumed": 238620898,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                207374042,
+                20126747,
+                22020000,
+                249520789,
+                249520789,
+                195812819,
+                21467018,
+                1556213,
+                19784848,
+                238620898
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Accès des élèves français au",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                120500000,
+                120500000,
+                120500000,
+                107610000,
+                107610000
+            ],
+            "amount_rows": [
+                [
+                    120500000,
+                    120500000,
+                    120500000
+                ],
+                [
+                    107610000,
+                    107610000
+                ]
+            ],
+            "extracted_lines": [
+                "120 500 000    120 500 000       120 500 000",
+                "107 610 000    107 610 000"
+            ],
+            "ae_lfi": 120500000,
+            "ae_consumed": 107610000,
+            "cp_lfi": 120500000,
+            "cp_consumed": 107610000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                120500000,
+                120500000,
+                120500000,
+                107610000,
+                107610000
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Instruction des demandes de visa",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                64280913,
+                2580000,
+                66860913,
+                66860913,
+                65270940,
+                2424656,
+                67695595
+            ],
+            "amount_rows": [
+                [
+                    64280913,
+                    2580000,
+                    66860913,
+                    66860913
+                ],
+                [
+                    65270940,
+                    2424656,
+                    67695595
+                ]
+            ],
+            "extracted_lines": [
+                "64 280 913          2 580 000                                                 66 860 913        66 860 913",
+                "65 270 940          2 424 656                                                 67 695 595"
+            ],
+            "ae_lfi": 66860913,
+            "ae_consumed": 67695595,
+            "cp_lfi": 66860913,
+            "cp_consumed": 67697825,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                64280913,
+                2580000,
+                66860913,
+                66860913,
+                65270940,
+                2426885,
+                67697825
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 437281702,
+            "ae_consumed": 415247422,
+            "cp_lfi": 436881702,
+            "cp_consumed": 413928723
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 3,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29648",
+    "pdf_sha256": "cd86f7bcf2eb3ddb5eff4cfe92af8fbc2a02d71c22f7205ced3b8694bea027aa",
+    "mission": "Action extérieure de l'État"
+}

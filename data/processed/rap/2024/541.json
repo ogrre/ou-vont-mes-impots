@@ -1,0 +1,79 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "541",
+        "name": "La Chaîne parlementaire"
+    },
+    "format": "institutional_credits",
+    "actions": [
+        {
+            "code": "1",
+            "label": "17",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": false,
+            "amounts": [
+                17597822,
+                17597822,
+                17597822
+            ],
+            "amount_rows": [],
+            "special_measurements": {
+                "allocation": 17597822,
+                "credits_opened": 17597822,
+                "expenditure_recorded": 17597822
+            },
+            "ae_lfi": null,
+            "ae_consumed": null,
+            "cp_lfi": null,
+            "cp_consumed": null,
+            "titles": [],
+            "review_required": false
+        },
+        {
+            "code": "2",
+            "label": "Public Sénat",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": false,
+            "amounts": [
+                17648000,
+                17648000,
+                17648000
+            ],
+            "amount_rows": [],
+            "special_measurements": {
+                "allocation": 17648000,
+                "credits_opened": 17648000,
+                "expenditure_recorded": 17648000
+            },
+            "ae_lfi": null,
+            "ae_consumed": null,
+            "cp_lfi": null,
+            "cp_consumed": null,
+            "titles": [],
+            "review_required": false
+        }
+    ],
+    "parser": {
+        "anchor": "institutional credits table",
+        "amount_mapping": "allocation-opened-recorded-v1"
+    },
+    "review_required": false,
+    "warnings": [
+        "Ces montants ne sont pas des AE\/CP et ne doivent pas être convertis."
+    ],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": [],
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 2,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29930",
+    "pdf_sha256": "ee2b304ee2416429b6a6b02d889a4f400f3bafccf84ef7cef2e432fcbfc246f7",
+    "mission": "Pouvoirs publics"
+}

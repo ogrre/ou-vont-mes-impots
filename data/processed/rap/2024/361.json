@@ -1,0 +1,241 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "361",
+        "name": "Transmission des savoirs et démocratisation de la culture"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Soutien aux établissements",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                154006253,
+                43769347,
+                120699936,
+                318475536,
+                318475536,
+                157644599,
+                32854055,
+                97592372,
+                495418,
+                288586444
+            ],
+            "amount_rows": [
+                [
+                    154006253,
+                    43769347,
+                    120699936,
+                    318475536,
+                    318475536
+                ],
+                [
+                    157644599,
+                    32854055,
+                    97592372,
+                    495418,
+                    288586444
+                ]
+            ],
+            "extracted_lines": [
+                "154 006 253          43 769 347        120 699 936                            318 475 536       318 475 536",
+                "157 644 599          32 854 055         97 592 372               495 418      288 586 444"
+            ],
+            "ae_lfi": 318475536,
+            "ae_consumed": 288586444,
+            "cp_lfi": 315681933,
+            "cp_consumed": null,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                154006253,
+                46813204,
+                114862476,
+                315681933,
+                315681933
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Soutien à la démocratisation et à",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                320000,
+                387074454,
+                387394454,
+                387394454,
+                10838528,
+                57420,
+                401100374,
+                411996322
+            ],
+            "amount_rows": [
+                [
+                    320000,
+                    387074454,
+                    387394454,
+                    387394454
+                ],
+                [
+                    10838528,
+                    57420,
+                    401100374,
+                    411996322
+                ]
+            ],
+            "extracted_lines": [
+                "320 000                            387 074 454                            387 394 454       387 394 454",
+                "10 838 528              57 420        401 100 374                            411 996 322"
+            ],
+            "ae_lfi": 387394454,
+            "ae_consumed": 411996322,
+            "cp_lfi": 385567753,
+            "cp_consumed": 411921724,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                320000,
+                385247753,
+                385567753,
+                385567753,
+                10746284,
+                54971,
+                401120470,
+                411921724
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Langue française et langues de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                4224338,
+                4224338,
+                4224338,
+                983161,
+                4240399,
+                5223560
+            ],
+            "amount_rows": [
+                [
+                    4224338,
+                    4224338,
+                    4224338
+                ],
+                [
+                    983161,
+                    4240399,
+                    5223560
+                ]
+            ],
+            "extracted_lines": [
+                "4 224 338                             4 224 338          4 224 338",
+                "983 161                              4 240 399                             5 223 560"
+            ],
+            "ae_lfi": 4224338,
+            "ae_consumed": 5223560,
+            "cp_lfi": 4224338,
+            "cp_consumed": 5222978,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                4224338,
+                4224338,
+                4224338,
+                982578,
+                4240399,
+                5222978
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Recherche culturelle et culture",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                108671712,
+                6099330,
+                4717426,
+                119488468,
+                119488468,
+                91476921,
+                5669055,
+                4041567,
+                101187543
+            ],
+            "amount_rows": [
+                [
+                    108671712,
+                    6099330,
+                    4717426,
+                    119488468,
+                    119488468
+                ],
+                [
+                    91476921,
+                    5669055,
+                    4041567,
+                    101187543
+                ]
+            ],
+            "extracted_lines": [
+                "108 671 712           6 099 330           4 717 426                           119 488 468       119 488 468",
+                "91 476 921           5 669 055           4 041 567                           101 187 543"
+            ],
+            "ae_lfi": 119488468,
+            "ae_consumed": 101187543,
+            "cp_lfi": 118926490,
+            "cp_consumed": 101279903,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                108109734,
+                6099330,
+                4717426,
+                118926490,
+                118926490,
+                91507456,
+                5730881,
+                4041567,
+                101279903
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 829582796,
+            "ae_consumed": 806993868,
+            "cp_lfi": 824400514,
+            "cp_consumed": 806994986
+        },
+        "differences": {
+            "cp_consumed": {
+                "actions_sum": 518424605,
+                "programme_total": 806994986,
+                "difference": -288570381
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 4,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29861",
+    "pdf_sha256": "eba765e3b5fcf81f3e1f8412655d86b749a3816bdb91b084165f383acad79111",
+    "mission": "Culture"
+}

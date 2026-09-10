@@ -1,0 +1,75 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "355",
+        "name": "Charge de la dette de SNCF Réseau reprise par l'État (crédits évaluatifs)"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Charge de la dette de SNCF Réseau reprise par l'État",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                807000000,
+                807000000,
+                807000000,
+                817130418,
+                817130418
+            ],
+            "amount_rows": [
+                [
+                    807000000,
+                    807000000,
+                    807000000
+                ],
+                [
+                    817130418,
+                    817130418
+                ]
+            ],
+            "extracted_lines": [
+                "807 000 000      807 000 000         807 000 000",
+                "817 130 418       817 130 418"
+            ],
+            "ae_lfi": 807000000,
+            "ae_consumed": 817130418,
+            "cp_lfi": 807000000,
+            "cp_consumed": 817130418,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                807000000,
+                807000000,
+                807000000,
+                817130418,
+                817130418
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 807000000,
+            "ae_consumed": 817130418,
+            "cp_lfi": 807000000,
+            "cp_consumed": 817130418
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29858",
+    "pdf_sha256": "ead8756cdf0192ccac5fee12e51bdf604edc445ec2dfe2c57722e89cddfff41e",
+    "mission": "Engagements financiers de l'État"
+}

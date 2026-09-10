@@ -1,0 +1,296 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "421",
+        "name": "Soutien des progrès de l'enseignement et de la recherche"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Nouveaux cursus à l'université",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 25000000,
+            "cp_consumed": 39000000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                25000000,
+                25000000,
+                25000000,
+                39000000,
+                39000000
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Programmes prioritaires de recherche",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 40000000,
+            "cp_consumed": 66000000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                40000000,
+                40000000,
+                40000000,
+                66000000,
+                66000000
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Équipements structurants de recherche",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 50000000,
+            "cp_consumed": 40975000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                50000000,
+                50000000,
+                50000000,
+                40975000,
+                40975000
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Soutien des grandes universités de recherche",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 90000000,
+            "cp_consumed": 71000000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                90000000,
+                90000000,
+                90000000,
+                71000000,
+                71000000
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Constitution d'écoles universitaires de recherche",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 30000000,
+            "cp_consumed": 24000000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                30000000,
+                30000000,
+                30000000,
+                24000000,
+                24000000
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Créations expérimentales de sociétés universitaires et scientifiques",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Territoires d'innovation pédagogique",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                      0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 20000000,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                20000000,
+                20000000,
+                20000000,
+                0
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 255000000,
+            "cp_consumed": 240975000
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 7,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29897",
+    "pdf_sha256": "d8c0d8dababca3ce51e3367a43077aa0133ae3d123eea600ad416d4281e7837a",
+    "mission": null
+}

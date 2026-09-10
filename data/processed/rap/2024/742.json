@@ -1,0 +1,210 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "742",
+        "name": "Ouvriers des établissements industriels de l'État"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Prestations vieillesse et invalidité",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1986870272,
+                1986870272,
+                1986870272,
+                2021743650,
+                2021743650
+            ],
+            "amount_rows": [
+                [
+                    1986870272,
+                    1986870272,
+                    1986870272
+                ],
+                [
+                    2021743650,
+                    2021743650
+                ]
+            ],
+            "extracted_lines": [
+                "1 986 870 272                       1 986 870 272      1 986 870 272",
+                "2 021 743 650                       2 021 743 650"
+            ],
+            "ae_lfi": 1986870272,
+            "ae_consumed": 2021743650,
+            "cp_lfi": 1986870272,
+            "cp_consumed": 2021743650,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                1986870272,
+                1986870272,
+                1986870272,
+                2021743650,
+                2021743650
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Autres dépenses spécifiques",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1066135,
+                1066135,
+                1066135,
+                756099,
+                10206,
+                766305
+            ],
+            "amount_rows": [
+                [
+                    1066135,
+                    1066135,
+                    1066135
+                ],
+                [
+                    756099,
+                    10206,
+                    766305
+                ]
+            ],
+            "extracted_lines": [
+                "1 066 135                           1 066 135          1 066 135",
+                "756 099              10 206         766 305"
+            ],
+            "ae_lfi": 1066135,
+            "ae_consumed": 766305,
+            "cp_lfi": 1066135,
+            "cp_consumed": 766305,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1066135,
+                1066135,
+                1066135,
+                756099,
+                10206,
+                766305
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Gestion du régime",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                6213000,
+                6213000,
+                6213000,
+                6243171,
+                6243171
+            ],
+            "amount_rows": [
+                [
+                    6213000,
+                    6213000,
+                    6213000
+                ],
+                [
+                    6243171,
+                    6243171
+                ]
+            ],
+            "extracted_lines": [
+                "6 213 000         6 213 000          6 213 000",
+                "6 243 171          6 243 171"
+            ],
+            "ae_lfi": 6213000,
+            "ae_consumed": 6243171,
+            "cp_lfi": 6213000,
+            "cp_consumed": 6243171,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                6213000,
+                6213000,
+                6213000,
+                6243171,
+                6243171
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Rentes accidents du travail des ouvriers civils des établissements",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                57388495,
+                645040,
+                58033535,
+                58033535,
+                53900101,
+                556840,
+                54456941
+            ],
+            "amount_rows": [
+                [
+                    57388495,
+                    645040,
+                    58033535,
+                    58033535
+                ],
+                [
+                    53900101,
+                    556840,
+                    54456941
+                ]
+            ],
+            "extracted_lines": [
+                "57 388 495            645 040       58 033 535         58 033 535",
+                "53 900 101            556 840        54 456 941"
+            ],
+            "ae_lfi": 58033535,
+            "ae_consumed": 54456941,
+            "cp_lfi": 58033535,
+            "cp_consumed": 54456941,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                57388495,
+                645040,
+                58033535,
+                58033535,
+                53900101,
+                556840,
+                54456941
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 2052182942,
+            "ae_consumed": 2083210067,
+            "cp_lfi": 2052182942,
+            "cp_consumed": 2083210067
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 4,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29996",
+    "pdf_sha256": "056a73b28a59bd14f8a05850754a01a0d032269b27aab6de2723b45e6143ce59",
+    "mission": null
+}

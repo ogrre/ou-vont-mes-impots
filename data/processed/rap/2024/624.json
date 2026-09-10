@@ -1,0 +1,207 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "624",
+        "name": "Pilotage et ressources humaines"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Pilotage, modernisation et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                7716509,
+                7296400,
+                15012909,
+                15012909,
+                5161562,
+                5792417,
+                4,
+                56805,
+                11010788
+            ],
+            "amount_rows": [
+                [
+                    7716509,
+                    7296400,
+                    15012909,
+                    15012909
+                ],
+                [
+                    5161562,
+                    5792417,
+                    4,
+                    56805,
+                    11010788
+                ]
+            ],
+            "extracted_lines": [
+                "7 716 509         7 296 400                                              15 012 909        15 012 909",
+                "5 161 562         5 792 417                      4          56 805       11 010 788"
+            ],
+            "ae_lfi": 15012909,
+            "ae_consumed": 11010788,
+            "cp_lfi": 11186509,
+            "cp_consumed": 6651689,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                7706509,
+                3480000,
+                11186509,
+                11186509,
+                5304095,
+                1290786,
+                4,
+                56805,
+                6651689
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Promotion et distribution des",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                0,
+                0
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "extracted_lines": [
+                "0                  0",
+                "0"
+            ],
+            "ae_lfi": 0,
+            "ae_consumed": 0,
+            "cp_lfi": 0,
+            "cp_consumed": 0,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Dépenses de personnel",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                66271937,
+                66271937,
+                66271937,
+                63364013,
+                63364013
+            ],
+            "amount_rows": [
+                [
+                    66271937,
+                    66271937,
+                    66271937
+                ],
+                [
+                    63364013,
+                    63364013
+                ]
+            ],
+            "extracted_lines": [
+                "66 271 937                                                                                 66 271 937        66 271 937",
+                "63 364 013                                                                                 63 364 013"
+            ],
+            "ae_lfi": 66271937,
+            "ae_consumed": 63364013,
+            "cp_lfi": 66271937,
+            "cp_consumed": 63364013,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                66271937,
+                66271937,
+                66271937,
+                63364013,
+                63364013
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Convention Etat - Société",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                30000000,
+                30000000,
+                30000000,
+                27698276,
+                27698276
+            ],
+            "amount_rows": [
+                [
+                    30000000,
+                    30000000,
+                    30000000
+                ],
+                [
+                    27698276,
+                    27698276
+                ]
+            ],
+            "extracted_lines": [
+                "30 000 000                                                                30 000 000        30 000 000",
+                "27 698 276                                                                27 698 276"
+            ],
+            "ae_lfi": 30000000,
+            "ae_consumed": 27698276,
+            "cp_lfi": 30000000,
+            "cp_consumed": 27713234,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                30000000,
+                30000000,
+                30000000,
+                27713234,
+                27713234
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 111284846,
+            "ae_consumed": 102073077,
+            "cp_lfi": 107458446,
+            "cp_consumed": 97728937
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 4,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29342",
+    "pdf_sha256": "d56b6a380a8cb7436edffa5783799fad91a32f24f8a86fbd77151fbbe49afa12",
+    "mission": null
+}

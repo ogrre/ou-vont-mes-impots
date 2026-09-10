@@ -1,0 +1,75 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "843",
+        "name": "Radio France"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Radio France",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                652954400,
+                652954400,
+                652954400,
+                652954400,
+                652954400
+            ],
+            "amount_rows": [
+                [
+                    652954400,
+                    652954400,
+                    652954400
+                ],
+                [
+                    652954400,
+                    652954400
+                ]
+            ],
+            "extracted_lines": [
+                "652 954 400     652 954 400         652 954 400",
+                "652 954 400      652 954 400"
+            ],
+            "ae_lfi": 652954400,
+            "ae_consumed": 652954400,
+            "cp_lfi": 652954400,
+            "cp_consumed": 652954400,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                652954400,
+                652954400,
+                652954400,
+                652954400,
+                652954400
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 652954400,
+            "ae_consumed": 652954400,
+            "cp_lfi": 652954400,
+            "cp_consumed": 652954400
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30101",
+    "pdf_sha256": "f404db60e1a83db435e858d6307f4bcc742bcf54b9d06dc84de1e4d2de04b766",
+    "mission": null
+}

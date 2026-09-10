@@ -1,0 +1,430 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "206",
+        "name": "Sécurité et qualité sanitaires de l'alimentation"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Santé, qualité et protection",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                11955087,
+                29226156,
+                41181243,
+                44005243,
+                9130553,
+                64292,
+                22768141,
+                31962986
+            ],
+            "amount_rows": [
+                [
+                    11955087,
+                    29226156,
+                    41181243,
+                    44005243
+                ],
+                [
+                    9130553,
+                    64292,
+                    22768141,
+                    31962986
+                ]
+            ],
+            "extracted_lines": [
+                "11 955 087                         29 226 156                          41 181 243        44 005 243",
+                "9 130 553            64 292      22 768 141                           31 962 986"
+            ],
+            "ae_lfi": 44005243,
+            "ae_consumed": 31962986,
+            "cp_lfi": 42771383,
+            "cp_consumed": 31039528,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                10681150,
+                29266233,
+                39947383,
+                42771383,
+                8977821,
+                64292,
+                21997415,
+                31039528
+            ]
+        },
+        {
+            "code": "02",
+            "label": "Lutte contre les maladies",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                76286494,
+                6600000,
+                45887125,
+                200000,
+                128973619,
+                132392807,
+                196119699,
+                856214,
+                71457376,
+                268433289
+            ],
+            "amount_rows": [
+                [
+                    76286494,
+                    6600000,
+                    45887125,
+                    200000,
+                    128973619,
+                    132392807
+                ],
+                [
+                    196119699,
+                    856214,
+                    71457376,
+                    268433289
+                ]
+            ],
+            "extracted_lines": [
+                "76 286 494          6 600 000       45 887 125          200 000        128 973 619       132 392 807",
+                "196 119 699           856 214       71 457 376                          268 433 289"
+            ],
+            "ae_lfi": 132392807,
+            "ae_consumed": 268433289,
+            "cp_lfi": 128764854,
+            "cp_consumed": 246022526,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                75997049,
+                6200000,
+                42018617,
+                1130000,
+                125345666,
+                128764854,
+                180963256,
+                153794,
+                64905476,
+                246022526
+            ]
+        },
+        {
+            "code": "03",
+            "label": "Sécurité sanitaire de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                16123736,
+                102598899,
+                118722635,
+                120722635,
+                54718419,
+                36105071,
+                90823490
+            ],
+            "amount_rows": [
+                [
+                    16123736,
+                    102598899,
+                    118722635,
+                    120722635
+                ],
+                [
+                    54718419,
+                    36105071,
+                    90823490
+                ]
+            ],
+            "extracted_lines": [
+                "16 123 736                        102 598 899                         118 722 635       120 722 635",
+                "54 718 419                        36 105 071                           90 823 490"
+            ],
+            "ae_lfi": 120722635,
+            "ae_consumed": 90823490,
+            "cp_lfi": 95171463,
+            "cp_consumed": 66915829,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                15992336,
+                77179127,
+                93171463,
+                95171463,
+                42645277,
+                24270552,
+                66915829
+            ]
+        },
+        {
+            "code": "04",
+            "label": "Actions transversales",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                84606277,
+                7000000,
+                4402280,
+                96008557,
+                96008557,
+                89073859,
+                2551869,
+                3531195,
+                95156923
+            ],
+            "amount_rows": [
+                [
+                    84606277,
+                    7000000,
+                    4402280,
+                    96008557,
+                    96008557
+                ],
+                [
+                    89073859,
+                    2551869,
+                    3531195,
+                    95156923
+                ]
+            ],
+            "extracted_lines": [
+                "84 606 277         7 000 000         4 402 280                         96 008 557        96 008 557",
+                "89 073 859        2 551 869         3 531 195                          95 156 923"
+            ],
+            "ae_lfi": 96008557,
+            "ae_consumed": 95156923,
+            "cp_lfi": 96008557,
+            "cp_consumed": 93917466,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                84606277,
+                7000000,
+                4402280,
+                96008557,
+                96008557,
+                88147229,
+                2253480,
+                3516756,
+                93917466,
+                17
+            ]
+        },
+        {
+            "code": "05",
+            "label": "Elimination des cadavres et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                4000000,
+                4000000,
+                4000000,
+                3800000,
+                3800000
+            ],
+            "amount_rows": [
+                [
+                    4000000,
+                    4000000,
+                    4000000
+                ],
+                [
+                    3800000,
+                    3800000
+                ]
+            ],
+            "extracted_lines": [
+                "4 000 000                          4 000 000         4 000 000",
+                "3 800 000                           3 800 000"
+            ],
+            "ae_lfi": 4000000,
+            "ae_consumed": 3800000,
+            "cp_lfi": 4000000,
+            "cp_consumed": 3800000,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                4000000,
+                4000000,
+                4000000,
+                3800000,
+                3800000
+            ]
+        },
+        {
+            "code": "06",
+            "label": "Mise en oeuvre de la politique",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                390422289,
+                897853,
+                391320142,
+                391320142,
+                358214381,
+                1133254,
+                150530,
+                359498165
+            ],
+            "amount_rows": [
+                [
+                    390422289,
+                    897853,
+                    391320142,
+                    391320142
+                ],
+                [
+                    358214381,
+                    1133254,
+                    150530,
+                    359498165
+                ]
+            ],
+            "extracted_lines": [
+                "390 422 289          897 853                                                            391 320 142       391 320 142",
+                "358 214 381        1 133 254                             150 530                        359 498 165"
+            ],
+            "ae_lfi": 391320142,
+            "ae_consumed": 359498165,
+            "cp_lfi": 391320142,
+            "cp_consumed": 359198074,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                390422289,
+                897853,
+                391320142,
+                391320142,
+                358214381,
+                915662,
+                68030,
+                359198074
+            ]
+        },
+        {
+            "code": "08",
+            "label": "Qualité de l'alimentation et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1072200,
+                4838300,
+                5910500,
+                5910500,
+                1208569,
+                8383346,
+                9591916
+            ],
+            "amount_rows": [
+                [
+                    1072200,
+                    4838300,
+                    5910500,
+                    5910500
+                ],
+                [
+                    1208569,
+                    8383346,
+                    9591916
+                ]
+            ],
+            "extracted_lines": [
+                "1 072 200                           4 838 300                          5 910 500         5 910 500",
+                "1 208 569                          8 383 346                           9 591 916"
+            ],
+            "ae_lfi": 5910500,
+            "ae_consumed": 9591916,
+            "cp_lfi": 5910500,
+            "cp_consumed": 6708225,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1297200,
+                4613300,
+                5910500,
+                5910500,
+                877002,
+                5831223,
+                6708225
+            ]
+        },
+        {
+            "code": "09",
+            "label": "Planification écologique -",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                250000000,
+                250000000,
+                250000000,
+                802698,
+                202935008,
+                203737706
+            ],
+            "amount_rows": [
+                [
+                    250000000,
+                    250000000,
+                    250000000
+                ],
+                [
+                    802698,
+                    202935008,
+                    203737706
+                ]
+            ],
+            "extracted_lines": [
+                "250 000 000                         250 000 000       250 000 000",
+                "802 698                       202 935 008                          203 737 706"
+            ],
+            "ae_lfi": 250000000,
+            "ae_consumed": 203737706,
+            "cp_lfi": 150000000,
+            "cp_consumed": 62245247,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                150000000,
+                150000000,
+                150000000,
+                62775,
+                62182472,
+                62245247
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 1044359884,
+            "ae_consumed": 1063004475,
+            "cp_lfi": 913946899,
+            "cp_consumed": 869846895
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 8,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29759",
+    "pdf_sha256": "8bb6d7d4233c2714e25326d277bf81c9eedc9c5412bbab4abbc2d3fa68093ca1",
+    "mission": "Agriculture, alimentation, forêt et affaires rurales"
+}

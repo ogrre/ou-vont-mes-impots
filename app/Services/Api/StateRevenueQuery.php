@@ -2,6 +2,7 @@
 
 namespace App\Services\Api;
 
+use App\Models\ClassificationItem;
 use App\Models\FinancialObservation;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
@@ -36,6 +37,7 @@ class StateRevenueQuery
                 'accountingScope',
                 'budgetComponent',
                 'classificationItem.classification',
+                'classificationItem.parent.parent.parent',
                 'dataset.source',
                 'datasetFile',
                 'importBatch',
@@ -68,8 +70,12 @@ class StateRevenueQuery
             'currency' => 'EUR',
             'aggregation_warning' => 'Les lignes comprennent des détails, sous-totaux, prélèvements et totaux : elles ne doivent pas être additionnées entre elles.',
             'items' => $observations->map(fn (FinancialObservation $observation) => [
+                'code' => $observation->classificationItem->code,
                 'slug' => $observation->classificationItem->slug,
                 'label' => $observation->classificationItem->official_label,
+                'level' => $observation->classificationItem->metadata['csv_level'] ?? null,
+                'parent_code' => $observation->classificationItem->parent?->code,
+                'breadcrumb' => $this->breadcrumb($observation->classificationItem),
                 'amount' => $observation->amount,
                 'is_aggregate' => $observation->classificationItem->metadata['aggregation_role'] === 'aggregate',
                 'is_deduction' => $observation->metadata['is_deduction'],
@@ -77,5 +83,17 @@ class StateRevenueQuery
             ])->all(),
             'source' => $this->provenance->present($first->dataset, $first->datasetFile, $first->importBatch),
         ];
+    }
+
+    /** @return list<string> */
+    private function breadcrumb(ClassificationItem $item): array
+    {
+        $labels = [];
+        while ($item !== null) {
+            array_unshift($labels, $item->official_label);
+            $item = $item->parent;
+        }
+
+        return $labels;
     }
 }

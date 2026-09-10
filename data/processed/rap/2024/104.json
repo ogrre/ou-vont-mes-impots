@@ -1,0 +1,225 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "104",
+        "name": "Intégration et accès à la nationalité française"
+    },
+    "actions": [
+        {
+            "code": "11",
+            "label": "Accueil des étrangers primo arrivants",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                217985136,
+                10000000,
+                18008444,
+                245993580,
+                245993580,
+                213882838,
+                9450000,
+                17017980,
+                240350818
+            ],
+            "amount_rows": [
+                [
+                    217985136,
+                    10000000,
+                    18008444,
+                    245993580,
+                    245993580
+                ],
+                [
+                    213882838,
+                    9450000,
+                    17017980,
+                    240350818
+                ]
+            ],
+            "extracted_lines": [
+                "217 985 136              10 000 000           18 008 444     245 993 580       245 993 580",
+                "213 882 838               9 450 000            17 017 980     240 350 818"
+            ],
+            "ae_lfi": 245993580,
+            "ae_consumed": 240350818,
+            "cp_lfi": 245993580,
+            "cp_consumed": 240350818,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                217985136,
+                10000000,
+                18008444,
+                245993580,
+                245993580,
+                213882838,
+                9450000,
+                17017980,
+                240350818
+            ]
+        },
+        {
+            "code": "12",
+            "label": "Intégration des étrangers primo-arrivants",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                101661632,
+                73091744,
+                174753376,
+                185429269,
+                50474626,
+                619405,
+                55998948,
+                107092979
+            ],
+            "amount_rows": [
+                [
+                    101661632,
+                    73091744,
+                    174753376,
+                    185429269
+                ],
+                [
+                    50474626,
+                    619405,
+                    55998948,
+                    107092979
+                ]
+            ],
+            "extracted_lines": [
+                "101 661 632                                   73 091 744     174 753 376       185 429 269",
+                "50 474 626                  619 405           55 998 948     107 092 979"
+            ],
+            "ae_lfi": 185429269,
+            "ae_consumed": 107092979,
+            "cp_lfi": 185429269,
+            "cp_consumed": 112680282,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                101661632,
+                73091744,
+                174753376,
+                185429269,
+                56151381,
+                619405,
+                55909495,
+                112680282
+            ]
+        },
+        {
+            "code": "14",
+            "label": "Accès à la nationalité française",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                1364409,
+                1364409,
+                1364409,
+                1156420,
+                23221,
+                1179640
+            ],
+            "amount_rows": [
+                [
+                    1364409,
+                    1364409,
+                    1364409
+                ],
+                [
+                    1156420,
+                    23221,
+                    1179640
+                ]
+            ],
+            "extracted_lines": [
+                "1 364 409                                                    1 364 409          1 364 409",
+                "1 156 420                   23 221                            1 179 640"
+            ],
+            "ae_lfi": 1364409,
+            "ae_consumed": 1179640,
+            "cp_lfi": 1311966,
+            "cp_consumed": 1142882,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                1311966,
+                1311966,
+                1311966,
+                1119661,
+                23221,
+                1142882
+            ]
+        },
+        {
+            "code": "16",
+            "label": "Accompagnement des foyers de travailleurs migrants",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                9300000,
+                9300000,
+                9300000,
+                1013000,
+                1013000
+            ],
+            "amount_rows": [
+                [
+                    9300000,
+                    9300000,
+                    9300000
+                ],
+                [
+                    1013000,
+                    1013000
+                ]
+            ],
+            "extracted_lines": [
+                "9 300 000      9 300 000          9 300 000",
+                "1 013 000      1 013 000"
+            ],
+            "ae_lfi": 9300000,
+            "ae_consumed": 1013000,
+            "cp_lfi": 9300000,
+            "cp_consumed": 951717,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                9300000,
+                9300000,
+                9300000,
+                951717,
+                951717
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 442087258,
+            "ae_consumed": 349636438,
+            "cp_lfi": 442034815,
+            "cp_consumed": 355125699
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 4,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29543",
+    "pdf_sha256": "292658ba3b902cb7731a424d20489a88a147f2365231df7f0f663b9ff91cb8f4",
+    "mission": "Immigration, asile et intégration"
+}

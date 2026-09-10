@@ -1,0 +1,575 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "155",
+        "name": "Conception, gestion et évaluation des politiques de l'emploi et du travail"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "Soutien au plan d'investissement",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                2076335,
+                10640000,
+                12716335,
+                12716335,
+                1210967,
+                9222925,
+                10433892
+            ],
+            "amount_rows": [
+                [
+                    2076335,
+                    10640000,
+                    12716335,
+                    12716335
+                ],
+                [
+                    1210967,
+                    9222925,
+                    10433892
+                ]
+            ],
+            "extracted_lines": [
+                "2 076 335        10 640 000                                                  12 716 335        12 716 335",
+                "1 210 967         9 222 925                                                  10 433 892"
+            ],
+            "ae_lfi": 12716335,
+            "ae_consumed": 10433892,
+            "cp_lfi": 12716335,
+            "cp_consumed": 10023479,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                2076335,
+                10640000,
+                12716335,
+                12716335,
+                1210967,
+                8699061,
+                113451,
+                10023479
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Fonds social européen - Assistance",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                0,
+                11992000,
+                3453050,
+                10028487,
+                13481538
+            ],
+            "amount_rows": [
+                [
+                    0,
+                    11992000
+                ],
+                [
+                    3453050,
+                    10028487,
+                    13481538
+                ]
+            ],
+            "extracted_lines": [
+                "0        11 992 000",
+                "3 453 050        10 028 487                                                  13 481 538"
+            ],
+            "ae_lfi": 11992000,
+            "ae_consumed": 13481538,
+            "cp_lfi": 11992000,
+            "cp_consumed": 13,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                0,
+                11992000,
+                13,
+                3453050,
+                9239788,
+                12692838
+            ]
+        },
+        {
+            "code": "08",
+            "label": "Fonctionnement des services",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                2395687,
+                193306,
+                2588993,
+                2588993,
+                3811637,
+                140936,
+                3952573
+            ],
+            "amount_rows": [
+                [
+                    2395687,
+                    193306,
+                    2588993,
+                    2588993
+                ],
+                [
+                    3811637,
+                    140936,
+                    3952573
+                ]
+            ],
+            "extracted_lines": [
+                "2 395 687                                     193 306       2 588 993          2 588 993",
+                "3 811 637                                    140 936        3 952 573"
+            ],
+            "ae_lfi": 2588993,
+            "ae_consumed": 3952573,
+            "cp_lfi": 2806472,
+            "cp_consumed": 3956455,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                2613192,
+                193280,
+                2806472,
+                2806472,
+                3815519,
+                140936,
+                3956455
+            ]
+        },
+        {
+            "code": "09",
+            "label": "Systèmes d'information",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                41946730,
+                41946730,
+                41946730,
+                43454590,
+                79837,
+                43534427
+            ],
+            "amount_rows": [
+                [
+                    41946730,
+                    41946730,
+                    41946730
+                ],
+                [
+                    43454590,
+                    79837,
+                    43534427
+                ]
+            ],
+            "extracted_lines": [
+                "41 946 730                                                  41 946 730        41 946 730",
+                "43 454 590                                       79 837     43 534 427"
+            ],
+            "ae_lfi": 41946730,
+            "ae_consumed": 43534427,
+            "cp_lfi": 41708243,
+            "cp_consumed": 44883481,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                41708243,
+                41708243,
+                41708243,
+                44859530,
+                23951,
+                44883481
+            ]
+        },
+        {
+            "code": "11",
+            "label": "Communication",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                10269906,
+                10269906,
+                10269906,
+                5654572,
+                7800,
+                5662372
+            ],
+            "amount_rows": [
+                [
+                    10269906,
+                    10269906,
+                    10269906
+                ],
+                [
+                    5654572,
+                    7800,
+                    5662372
+                ]
+            ],
+            "extracted_lines": [
+                "10 269 906                                                  10 269 906        10 269 906",
+                "5 654 572                                        7 800      5 662 372"
+            ],
+            "ae_lfi": 10269906,
+            "ae_consumed": 5662372,
+            "cp_lfi": 10342413,
+            "cp_consumed": 6006363,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                10342413,
+                10342413,
+                10342413,
+                5998563,
+                7800,
+                6006363
+            ]
+        },
+        {
+            "code": "12",
+            "label": "Etudes, statistiques évaluation et",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                8646925,
+                8646925,
+                8646925,
+                5456480,
+                1034660,
+                6491140
+            ],
+            "amount_rows": [
+                [
+                    8646925,
+                    8646925,
+                    8646925
+                ],
+                [
+                    5456480,
+                    1034660,
+                    6491140
+                ]
+            ],
+            "extracted_lines": [
+                "8 646 925                                                   8 646 925          8 646 925",
+                "5 456 480                                   1 034 660       6 491 140"
+            ],
+            "ae_lfi": 8646925,
+            "ae_consumed": 6491140,
+            "cp_lfi": 8252003,
+            "cp_consumed": 5298567,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                8252003,
+                8252003,
+                8252003,
+                4604957,
+                693609,
+                5298567
+            ]
+        },
+        {
+            "code": "13",
+            "label": "Politique des ressources humaines",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                26975790,
+                1610907,
+                28586697,
+                28586697,
+                27639735,
+                655220,
+                28294955
+            ],
+            "amount_rows": [
+                [
+                    26975790,
+                    1610907,
+                    28586697,
+                    28586697
+                ],
+                [
+                    27639735,
+                    655220,
+                    28294955
+                ]
+            ],
+            "extracted_lines": [
+                "26 975 790             1 610 907                            28 586 697        28 586 697",
+                "27 639 735                                     655 220      28 294 955"
+            ],
+            "ae_lfi": 28586697,
+            "ae_consumed": 28294955,
+            "cp_lfi": 27657455,
+            "cp_consumed": 29324489,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                26046548,
+                1610907,
+                27657455,
+                27657455,
+                28717219,
+                607270,
+                29324489
+            ]
+        },
+        {
+            "code": "14",
+            "label": "Personnels mettant en oeuvre les",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                68055815,
+                68055815,
+                68055815,
+                71189771,
+                71189771
+            ],
+            "amount_rows": [
+                [
+                    68055815,
+                    68055815,
+                    68055815
+                ],
+                [
+                    71189771,
+                    71189771
+                ]
+            ],
+            "extracted_lines": [
+                "68 055 815                                                                     68 055 815        68 055 815",
+                "71 189 771                                                                     71 189 771"
+            ],
+            "ae_lfi": 68055815,
+            "ae_consumed": 71189771,
+            "cp_lfi": 68055815,
+            "cp_consumed": 71189771,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                68055815,
+                68055815,
+                68055815,
+                71189771,
+                71189771
+            ]
+        },
+        {
+            "code": "15",
+            "label": "Personnels mettant en oeuvre les",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                102878915,
+                102878915,
+                102878915,
+                103722393,
+                103722393
+            ],
+            "amount_rows": [
+                [
+                    102878915,
+                    102878915,
+                    102878915
+                ],
+                [
+                    103722393,
+                    103722393
+                ]
+            ],
+            "extracted_lines": [
+                "102 878 915                                                                    102 878 915       102 878 915",
+                "103 722 393                                                                    103 722 393"
+            ],
+            "ae_lfi": 102878915,
+            "ae_consumed": 103722393,
+            "cp_lfi": 102878915,
+            "cp_consumed": 103722393,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                102878915,
+                102878915,
+                102878915,
+                103722393,
+                103722393
+            ]
+        },
+        {
+            "code": "16",
+            "label": "Personnels mettant en oeuvre les",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                333290038,
+                333290038,
+                333290038,
+                337891872,
+                337891872
+            ],
+            "amount_rows": [
+                [
+                    333290038,
+                    333290038,
+                    333290038
+                ],
+                [
+                    337891872,
+                    337891872
+                ]
+            ],
+            "extracted_lines": [
+                "333 290 038                                                                    333 290 038       333 290 038",
+                "337 891 872                                                                    337 891 872"
+            ],
+            "ae_lfi": 333290038,
+            "ae_consumed": 337891872,
+            "cp_lfi": 333290038,
+            "cp_consumed": 337891872,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                333290038,
+                333290038,
+                333290038,
+                337891872,
+                337891872
+            ]
+        },
+        {
+            "code": "17",
+            "label": "Personnels de statistiques, études",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                20338706,
+                20338706,
+                20338706,
+                22437925,
+                22437925
+            ],
+            "amount_rows": [
+                [
+                    20338706,
+                    20338706,
+                    20338706
+                ],
+                [
+                    22437925,
+                    22437925
+                ]
+            ],
+            "extracted_lines": [
+                "20 338 706                                                                     20 338 706        20 338 706",
+                "22 437 925                                                                     22 437 925"
+            ],
+            "ae_lfi": 20338706,
+            "ae_consumed": 22437925,
+            "cp_lfi": 20338706,
+            "cp_consumed": 22437925,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                20338706,
+                20338706,
+                20338706,
+                22437925,
+                22437925
+            ]
+        },
+        {
+            "code": "18",
+            "label": "Personnels transversaux et de",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                70994181,
+                70994181,
+                70994181,
+                67269021,
+                600,
+                67269621
+            ],
+            "amount_rows": [
+                [
+                    70994181,
+                    70994181,
+                    70994181
+                ],
+                [
+                    67269021,
+                    600,
+                    67269621
+                ]
+            ],
+            "extracted_lines": [
+                "70 994 181                                                                     70 994 181        70 994 181",
+                "67 269 021                600                                                  67 269 621"
+            ],
+            "ae_lfi": 70994181,
+            "ae_consumed": 67269621,
+            "cp_lfi": 70994181,
+            "cp_consumed": 67269541,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                70994181,
+                70994181,
+                70994181,
+                67269021,
+                520,
+                67269541
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": true,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 712305241,
+            "ae_consumed": 714362479,
+            "cp_lfi": 711032576,
+            "cp_consumed": 714697175
+        },
+        "differences": {
+            "cp_consumed": {
+                "actions_sum": 702004349,
+                "programme_total": 714697175,
+                "difference": -12692826
+            }
+        },
+        "review_required": true
+    },
+    "counts": {
+        "actions": 12,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29654",
+    "pdf_sha256": "1635c4a4113ae15cc077dd3fe827fd96830658dea4d29e30da62d5119af64155",
+    "mission": "Travail et emploi"
+}

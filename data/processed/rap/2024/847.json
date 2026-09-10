@@ -1,0 +1,75 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "847",
+        "name": "TV 5 Monde"
+    },
+    "actions": [
+        {
+            "code": "01",
+            "label": "TV5 Monde",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                83449220,
+                83449220,
+                83449220,
+                83826220,
+                83826220
+            ],
+            "amount_rows": [
+                [
+                    83449220,
+                    83449220,
+                    83449220
+                ],
+                [
+                    83826220,
+                    83826220
+                ]
+            ],
+            "extracted_lines": [
+                "83 449 220      83 449 220          83 449 220",
+                "83 826 220       83 826 220"
+            ],
+            "ae_lfi": 83449220,
+            "ae_consumed": 83826220,
+            "cp_lfi": 83449220,
+            "cp_consumed": 83826220,
+            "titles": [],
+            "review_required": true,
+            "cp_amounts": [
+                83449220,
+                83449220,
+                83449220,
+                83826220,
+                83826220
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 83449220,
+            "ae_consumed": 83826220,
+            "cp_lfi": 83449220,
+            "cp_consumed": 83826220
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 1,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/30110",
+    "pdf_sha256": "21c7fe956cf9f1a594016386b280a2be8ad27fafab0f2801f831348450e8f545",
+    "mission": null
+}

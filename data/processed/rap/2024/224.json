@@ -1,0 +1,138 @@
+{
+    "year": 2024,
+    "program": {
+        "code": "224",
+        "name": "Soutien aux politiques du ministère de la culture"
+    },
+    "actions": [
+        {
+            "code": "06",
+            "label": "Action culturelle internationale",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                9974895,
+                9974895,
+                9974895,
+                701199,
+                8315295,
+                9016494
+            ],
+            "amount_rows": [
+                [
+                    9974895,
+                    9974895,
+                    9974895
+                ],
+                [
+                    701199,
+                    8315295,
+                    9016494
+                ]
+            ],
+            "extracted_lines": [
+                "9 974 895                         9 974 895         9 974 895",
+                "701 199                           8 315 295                         9 016 494"
+            ],
+            "ae_lfi": 9974895,
+            "ae_consumed": 9016494,
+            "cp_lfi": 9974895,
+            "cp_consumed": 9031312,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                9974895,
+                9974895,
+                9974895,
+                716017,
+                8315295,
+                9031312
+            ]
+        },
+        {
+            "code": "07",
+            "label": "Fonctions de soutien du",
+            "hierarchy_level": "action",
+            "parent_action_code": null,
+            "contributes_to_program_total": true,
+            "amounts": [
+                733781426,
+                88676216,
+                13749277,
+                836206919,
+                836206919,
+                730395354,
+                87784069,
+                1782684,
+                5230848,
+                0,
+                825192955
+            ],
+            "amount_rows": [
+                [
+                    733781426,
+                    88676216,
+                    13749277,
+                    836206919,
+                    836206919
+                ],
+                [
+                    730395354,
+                    87784069,
+                    1782684,
+                    5230848,
+                    0,
+                    825192955
+                ]
+            ],
+            "extracted_lines": [
+                "733 781 426        88 676 216        13 749 277                                         836 206 919       836 206 919",
+                "730 395 354       87 784 069          1 782 684        5 230 848                   0    825 192 955"
+            ],
+            "ae_lfi": 836206919,
+            "ae_consumed": 825192955,
+            "cp_lfi": 835280470,
+            "cp_consumed": 824193572,
+            "titles": [],
+            "review_required": false,
+            "cp_amounts": [
+                733781426,
+                86749767,
+                13749277,
+                834280470,
+                835280470,
+                730395354,
+                86944501,
+                1760266,
+                5093451,
+                0,
+                824193572
+            ]
+        }
+    ],
+    "parser": {
+        "anchor": "2024 \/ PRÉSENTATION PAR ACTION ET TITRE DES CRÉDITS",
+        "amount_mapping": "layout-column-order-v1"
+    },
+    "review_required": false,
+    "warnings": [],
+    "validation": {
+        "tolerance_eur": 1000,
+        "totals": {
+            "ae_lfi": 846181814,
+            "ae_consumed": 834209449,
+            "cp_lfi": 845255365,
+            "cp_consumed": 833224884
+        },
+        "differences": [],
+        "review_required": false
+    },
+    "counts": {
+        "actions": 2,
+        "sub_actions": 0
+    },
+    "source_url": "https:\/\/www.budget.gouv.fr\/documentation\/file-download\/29792",
+    "pdf_sha256": "2aa206b768685611f00eb4adba0efe080ee8c1feaf0b5026dcb02527281b78a4",
+    "mission": "Culture"
+}
