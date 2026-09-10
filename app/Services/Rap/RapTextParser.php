@@ -302,6 +302,6 @@ class RapTextParser
             return null;
         }
 
-        return (int) end($row);
+        return end($row);
     }
 }
