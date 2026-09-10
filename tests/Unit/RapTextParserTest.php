@@ -223,7 +223,7 @@ TEXT;
         $this->assertSame(1234, $invoke('amount', "1\u{00a0}234,50"));
         $this->assertSame([1234, -2, 3], $invoke('amountColumns', '+1 234       -2       3'));
         $this->assertNull($invoke('rowTotal', []));
-        $this->assertSame(3, $invoke('rowTotal', [1, 2, 3]));
+        $this->assertSame(3, $invoke('rowTotal', ['1', '2', '3']));
         $this->assertSame(2007, $invoke('totalAfter', ['Total des recettes  6  2007'], 'Total des recettes'));
         $this->assertSame(2007, $invoke('totalAfter', ['Total des recettes', '6  2007'], 'Total des recettes'));
         $this->assertNull($invoke('totalAfter', ['Autre ligne'], 'Total des recettes'));
