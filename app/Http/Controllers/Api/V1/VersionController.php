@@ -7,6 +7,11 @@ use Illuminate\Http\JsonResponse;
 
 class VersionController extends Controller
 {
+    /**
+     * Informations de version
+     *
+     * Retourne le nom public de l’API ainsi que les versions de l’application et du contrat HTTP.
+     */
     public function __invoke(): JsonResponse
     {
         return response()->json([

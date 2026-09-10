@@ -218,6 +218,12 @@ Le serveur natif utilise par défaut `http://127.0.0.1:8000`.
 
 ## Documentation et endpoints de l’API
 
+La documentation interactive OpenAPI est disponible à l’adresse
+[`/docs/api`](http://localhost:8080/docs/api). Le document OpenAPI 3.1 au format
+JSON, utilisable par des générateurs de clients et d’autres outils, est exposé
+sur [`/docs/api.json`](http://localhost:8080/docs/api.json). Ces deux routes sont
+publiques, comme l’API en lecture seule.
+
 L’API v1 est publique, sans authentification et en lecture seule :
 
 | Méthode | Chemin | Rôle |

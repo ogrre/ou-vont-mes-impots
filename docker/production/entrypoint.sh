@@ -10,10 +10,18 @@ php artisan route:cache
 php artisan event:cache
 
 if [ "${RUN_MIGRATIONS:-false}" = "true" ]; then
-    if [ "${RUN_SEEDERS:-false}" = "true" ]; then
-        php artisan migrate --force --seed
-    else
-        php artisan migrate --force
+    php artisan migrate --force
+fi
+
+if [ "${RUN_SEEDERS:-false}" = "true" ]; then
+    if ! php artisan db:seed --force; then
+        echo "Reference seeding failed; the API will start with the existing reference data." >&2
+    fi
+fi
+
+if [ "${RUN_DATA_IMPORTS:-false}" = "true" ]; then
+    if ! php artisan dataset:import-known "${DATA_IMPORT_PATH:-data}"; then
+        echo "Data import failed; the API will start without replacing the last successfully imported data." >&2
     fi
 fi
 

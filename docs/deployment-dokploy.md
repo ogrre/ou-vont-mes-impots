@@ -94,13 +94,31 @@ Associez le domaine public de l’API au port `8080` dans Dokploy et activez le
 certificat TLS. Définissez ensuite la même URL HTTPS dans `APP_URL` et dans la
 variable d’environnement correspondante du frontend.
 
-## Premier import
+## Imports idempotents
 
-Une fois l’application et PostgreSQL démarrés, ouvrez un terminal dans le
-conteneur Dokploy, puis lancez les imports nécessaires avec
-`php artisan dataset:import`. Les fichiers doivent être transférés de manière
-contrôlée dans le conteneur ou dans un volume d’import temporaire. Ne publiez
-pas un dataset tant que sa provenance critique reste incomplète.
+Définissez `RUN_DATA_IMPORTS=true` pour examiner au démarrage les fichiers du
+dossier `data` (ou de `DATA_IMPORT_PATH`). Seuls les fichiers correspondant à
+un descripteur connu sont considérés. Un contenu déjà importé pour ce
+descripteur est reconnu par son checksum SHA-256 et ignoré sans faire échouer
+le déploiement : les observations existantes ne sont ni recréées ni écrasées.
+
+Un fichier modifié possède un nouveau checksum. Il est alors traité comme un
+nouvel import traçable ; toute collision avec les observations normalisées
+existantes provoque une erreur explicite plutôt qu’un écrasement silencieux.
+Les formats différés ou insuffisamment documentés présents dans `data` ne sont
+pas importés.
+
+L’image de production embarque uniquement les six CSV PLRG et le classeur de
+recettes pris en charge. Les sources différées, notamment le PDF, le RAP,
+`donnée.csv` et CCAS/CIAS, restent exclues du contexte de construction Docker.
+
+La même opération peut être lancée manuellement :
+
+```bash
+php artisan dataset:import-known data
+```
+
+Ne publiez pas un dataset tant que sa provenance critique reste incomplète.
 
 Vérifiez ensuite :
 
